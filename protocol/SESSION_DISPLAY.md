@@ -33,3 +33,21 @@ transitions may still be visible.
 
 Native adapters own platform APIs and capability checks. A shared policy enum does
 not imply Linux, Android or older host support.
+
+## Local restoration and connection availability — 2026-09-17
+
+A failed local-layout restoration must not permanently block a new authenticated
+lease. Keep the original recovery journal, cancel idle restoration callbacks when
+the new lease takes over, and independently verify the requested workspace's
+capture target, pixel size and scale. Startup recovery is attempted before serving
+new clients; a pending local restore is not by itself a reason to keep the host
+offline. Never acknowledge an incorrect workspace mode as a successful resize.
+
+When the workspace is verified but native primary/mirror/disable/layout operations
+fail, prioritize the usable remote connection. Record the requested policy, the
+original and observed display layouts, time and reason locally for manual repair.
+Keep recovery pending for the next idle period. This is a local-layout degradation,
+not permission to change the requested policy to another policy or resize an
+unverified capture target. Unsupported policies and invalid requests still fail
+before mutation. Native adapters may implement this recovery independently; older
+adapters can still reject pending recovery until upgraded.
