@@ -1,0 +1,228 @@
+{
+  "requests": [
+    {
+      "name": "legacy",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2
+      },
+      "accepted": true
+    },
+    {
+      "name": "caret-opt-in",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "textCaret": true
+      },
+      "accepted": true
+    },
+    {
+      "name": "unknown-field",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "futureOptional": 1
+      },
+      "accepted": true
+    },
+    {
+      "name": "unaligned",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1922,
+        "height": 1080,
+        "scale": 2
+      },
+      "accepted": false
+    },
+    {
+      "name": "too-small",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 356,
+        "scale": 2
+      },
+      "accepted": false
+    },
+    {
+      "name": "oversized",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 7684,
+        "height": 1080,
+        "scale": 2
+      },
+      "accepted": false
+    },
+    {
+      "name": "invalid-scale",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 3
+      },
+      "accepted": false
+    },
+    {
+      "name": "zero-sequence",
+      "message": {
+        "type": "display-resize",
+        "seq": 0,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2
+      },
+      "accepted": false
+    },
+    {
+      "name": "missing-scale",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080
+      },
+      "accepted": false
+    }
+  ],
+  "results": [
+    {
+      "name": "legacy",
+      "message": {
+        "type": "display-result",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080
+      },
+      "accepted": true
+    },
+    {
+      "name": "unknown-field",
+      "message": {
+        "type": "display-result",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "futureOptional": 1
+      },
+      "accepted": true
+    },
+    {
+      "name": "wrong-sequence",
+      "message": {
+        "type": "display-result",
+        "seq": 2,
+        "width": 1920,
+        "height": 1080
+      },
+      "accepted": false
+    },
+    {
+      "name": "wrong-size",
+      "message": {
+        "type": "display-result",
+        "seq": 1,
+        "width": 1924,
+        "height": 1080
+      },
+      "accepted": false
+    },
+    {
+      "name": "busy",
+      "message": {
+        "type": "display-result",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "error": "busy"
+      },
+      "accepted": false
+    },
+    {
+      "name": "unknown-message",
+      "message": {
+        "type": "future-control",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080
+      },
+      "accepted": false
+    }
+  ],
+  "carets": [
+    {
+      "name": "valid",
+      "message": {
+        "type": "text-caret",
+        "caret": {
+          "valid": true,
+          "x": 0.25,
+          "y": 0.75
+        }
+      },
+      "valid": true
+    },
+    {
+      "name": "upper-bound",
+      "message": {
+        "type": "text-caret",
+        "caret": {
+          "valid": true,
+          "x": 1,
+          "y": 1
+        }
+      },
+      "valid": true
+    },
+    {
+      "name": "invalidated",
+      "message": {
+        "type": "text-caret",
+        "caret": {
+          "valid": false
+        }
+      },
+      "valid": false
+    },
+    {
+      "name": "outside",
+      "message": {
+        "type": "text-caret",
+        "caret": {
+          "valid": true,
+          "x": 1.1,
+          "y": 0.75
+        }
+      },
+      "valid": false
+    },
+    {
+      "name": "wrong-type",
+      "message": {
+        "type": "text-caret",
+        "caret": {
+          "valid": true,
+          "x": "0.5",
+          "y": 0.75
+        }
+      },
+      "valid": false
+    }
+  ]
+}
