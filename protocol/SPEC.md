@@ -95,3 +95,5 @@ Apple tests feed results/carets through the production handler and retain loopba
 TLS tests. These are compatibility baselines, not full old-binary interoperability
 or real-device streaming acceptance. Future capability migrations need explicit
 old-host/new-client and new-host/old-client integration cases.
+
+Optional session topology: [SESSION_DISPLAY.md](SESSION_DISPLAY.md).

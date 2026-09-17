@@ -99,6 +99,114 @@
         "height": 1080
       },
       "accepted": false
+    },
+    {
+      "name": "policy-mirror",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": 0
+      },
+      "accepted": true
+    },
+    {
+      "name": "policy-only",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": 1
+      },
+      "accepted": true
+    },
+    {
+      "name": "policy-extend",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": 2
+      },
+      "accepted": true
+    },
+    {
+      "name": "policy-invalid",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": 3
+      },
+      "accepted": false
+    },
+    {
+      "name": "policy-negative",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": -1
+      },
+      "accepted": false
+    },
+    {
+      "name": "policy-fraction",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": 1.5
+      },
+      "accepted": false
+    },
+    {
+      "name": "policy-string",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": "1"
+      },
+      "accepted": false
+    },
+    {
+      "name": "policy-null",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": null
+      },
+      "accepted": false
+    },
+    {
+      "name": "policy-boolean",
+      "message": {
+        "type": "display-resize",
+        "seq": 1,
+        "width": 1920,
+        "height": 1080,
+        "scale": 2,
+        "displayPolicy": true
+      },
+      "accepted": false
     }
   ],
   "results": [
