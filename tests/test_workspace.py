@@ -46,7 +46,7 @@ def main():
     with tempfile.TemporaryDirectory(prefix='deskport-core-') as tmp:
         work = Path(tmp)
         if adapter == 'qt':
-            (work/'main.cpp').write_text('\n'.join(lines))
+            (work/'main.cpp').write_text('\n'.join(lines) + '\n')
             (work/'test.pro').write_text('QT = core\nCONFIG += console c++17\nCONFIG -= app_bundle\nSOURCES = main.cpp\nTARGET = workspace\n')
             subprocess.run([os.environ.get('DESKPORT_QMAKE', 'qmake'), 'test.pro'],cwd=work,check=True,stdout=subprocess.DEVNULL)
             subprocess.run(['make','-j2'],cwd=work,check=True,stdout=subprocess.DEVNULL)
@@ -56,7 +56,7 @@ def main():
                                                   ('cpp',os.environ.get('CXX','/usr/bin/clang++' if sys.platform=='darwin' else 'c++'),'c++17')]:
                 # Apple adapter contains existing C compound literals; exercise it as C.
                 if adapter == 'apple' and language == 'cpp': continue
-                source=work/f'main.{language}'; source.write_text('\n'.join(lines))
+                source=work/f'main.{language}'; source.write_text('\n'.join(lines) + '\n')
                 binary=work/language
                 subprocess.run([compiler,f'-std={standard}','-Wall','-Wextra','-Werror','-pedantic',
                                 '-fsanitize=undefined,address',str(source),'-lm','-o',str(binary)],check=True)
