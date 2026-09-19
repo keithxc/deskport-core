@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "scenarios": [
+    {
+      "name": "idle-repeat"
+    },
+    {
+      "name": "same-identity"
+    },
+    {
+      "name": "legacy-reservation"
+    },
+    {
+      "name": "cancel"
+    },
+    {
+      "name": "takeover"
+    },
+    {
+      "name": "changed-stream"
+    },
+    {
+      "name": "backend-failure"
+    },
+    {
+      "name": "expired"
+    },
+    {
+      "name": "foreign-challenge"
+    },
+    {
+      "name": "competing-confirmations"
+    },
+    {
+      "name": "invalid-confirmation"
+    },
+    {
+      "name": "unapproved"
+    }
+  ],
+  "wire": {
+    "capability": {
+      "sessionTakeover": 1
+    },
+    "status": {
+      "type": "session-status",
+      "sessionTakeover": 1
+    },
+    "idle": {
+      "type": "session-state",
+      "busy": false,
+      "admitted": true
+    },
+    "occupied": {
+      "type": "session-state",
+      "busy": true,
+      "admitted": false,
+      "challenge": "opaque-token",
+      "expiresInMs": 30000
+    },
+    "confirmation": {
+      "type": "session-takeover",
+      "challenge": "opaque-token"
+    },
+    "accepted": {
+      "type": "session-result",
+      "admitted": true
+    },
+    "ended": {
+      "type": "session-ended",
+      "reason": "taken-over"
+    },
+    "failureCodes": [
+      "stale",
+      "busy",
+      "unavailable",
+      "unauthorized"
+    ]
+  }
+}

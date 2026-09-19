@@ -42,6 +42,31 @@ def main():
     if adapter == 'core':
         for size, valid in [([640,360,1],1),([7680,4320,2],1),([638,360,1],0),([640,362,1],0),([1920,1080,3],0),([7684,4320,2],0),([640,356,1],0)]:
             lines.append(f'{{ DPWorkspace s = {{{",".join(map(str,size))}}}; if (dp_workspace_valid(s) != {valid}) return 2; }}')
+    if adapter != 'qt':
+        for name, pixels, expected in [
+            ('phone-ui-density', (1440,2828,3.5), (824,1616,2)),
+            ('same-dp-lower-resolution', (1080,2121,2.625), (824,1616,2)),
+            ('landscape-ui-density', (2828,1440,3.5), (1616,824,2)),
+            ('mobile-protocol-minimum', (600,1200,4), (640,1280,2)),
+            ('mobile-protocol-maximum', (16000,9000,2), (7680,4320,2)),
+        ]:
+            w,h,d=pixels
+            call=(f'DPWorkspaceForMobileViewport({w}/{d},{h}/{d},{d})' if adapter=='apple'
+                  else f'dp_workspace_from_ui_pixels({w},{h},{d})')
+            checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
+            lines.append(f'{{ DPWorkspace s={call}; if (!({checks})) {{fprintf(stderr,"FAIL {name}\\n"); return 3;}} }}')
+        # Reviewed final-size examples also exercise protocol limits and identity.
+        for base,factor,expected in [
+            ((1920,1080,2),0.5,(960,540,2)),
+            ((1920,1080,2),1.5,(2880,1620,2)),
+            ((824,1616,2),0.5,(640,1256,2)),
+            ((7680,4320,2),1.5,(7680,4320,2)),
+            ((1920,1080,2),1.1,(1920,1080,2)),
+            ((1920,1080,2),'NAN',(1920,1080,2)),
+            ((640,360,1),0.5,(640,360,1)),
+        ]:
+            checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
+            lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_adjust(b,{factor}); if (!({checks})) return 4; }}')
     lines += ['return 0;', '}']
     with tempfile.TemporaryDirectory(prefix='deskport-core-') as tmp:
         work = Path(tmp)

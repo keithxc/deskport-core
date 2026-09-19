@@ -97,3 +97,8 @@ or real-device streaming acceptance. Future capability migrations need explicit
 old-host/new-client and new-host/old-client integration cases.
 
 Optional session topology: [SESSION_DISPLAY.md](SESSION_DISPLAY.md).
+
+## Optional session admission
+
+See [SESSION_TAKEOVER.md](SESSION_TAKEOVER.md) and [session-cases.json](session-cases.json)
+for confirmed, certificate-bound exclusive session admission (2026-09-19).

@@ -10,6 +10,14 @@
 #define DP_MESSAGE_DISPLAY_PING "display-ping"
 #define DP_MESSAGE_DISPLAY_PONG "display-pong"
 #define DP_MESSAGE_TEXT_CARET "text-caret"
+// Optional admission on the long-lived display-control TLS connection.
+#define DP_SESSION_TAKEOVER_VERSION 1
+#define DP_SESSION_CONFIRMATION_TTL_MS 30000
+#define DP_MESSAGE_SESSION_STATUS "session-status"
+#define DP_MESSAGE_SESSION_STATE "session-state"
+#define DP_MESSAGE_SESSION_TAKEOVER "session-takeover"
+#define DP_MESSAGE_SESSION_RESULT "session-result"
+#define DP_MESSAGE_SESSION_ENDED "session-ended"
 // Optional, explicitly advertised per-session topology policy.
 #define DP_DISPLAY_POLICY_VERSION 1
 typedef enum DPDisplayPolicy {

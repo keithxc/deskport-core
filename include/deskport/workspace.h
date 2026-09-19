@@ -31,4 +31,39 @@ static inline DPWorkspace dp_workspace_from_pixels(double width, double height, 
     result.scale = scale;
     return result;
 }
+
+// Mobile UI density expresses the user's logical dp/point scale, not hardware
+// PPI. Preserve that logical workspace while encoding at the host's 1x/2x scale.
+// Desktop minimum logical dimensions intentionally do not apply to this policy.
+static inline DPWorkspace dp_workspace_from_ui_pixels(double width, double height, double density) {
+    DPWorkspace result = {0, 0, 0};
+    if (!isfinite(width) || !isfinite(height) || !isfinite(density) ||
+        width <= 0 || height <= 0 || density < 0.5 || density > 8) return result;
+    const int scale = density > 1 ? 2 : 1;
+    const double preferred = scale / density;
+    const double minimum = fmax(640.0 / width, 360.0 / height);
+    const double maximum = fmin(DP_WORKSPACE_MAX_WIDTH / width, DP_WORKSPACE_MAX_HEIGHT / height);
+    const double factor = fmin(fmax(preferred, minimum), maximum);
+    result.width = (int)fmin(DP_WORKSPACE_MAX_WIDTH, ceil(width * factor / 4) * 4);
+    result.height = (int)fmin(DP_WORKSPACE_MAX_HEIGHT, ceil(height * factor / 4) * 4);
+    result.scale = scale;
+    const DPWorkspace empty = {0, 0, 0};
+    return dp_workspace_valid(result) ? result : empty;
+}
+// Apply the user's final workspace multiplier without changing host pixel scale.
+// Clamp both axes by one factor so protocol bounds retain the aspect ratio.
+static inline DPWorkspace dp_workspace_adjust(DPWorkspace base, double factor) {
+    const DPWorkspace empty = {0, 0, 0};
+    if (!dp_workspace_valid(base)) return empty;
+    const double choices[] = {0.5,0.6,0.7,0.8,0.9,1.0,1.2,1.3,1.4,1.5};
+    int allowed = 0;
+    for (unsigned i=0; i<sizeof(choices)/sizeof(choices[0]); ++i)
+        if (fabs(factor-choices[i]) < 0.000001) allowed = 1;
+    if (!allowed) factor = 1.0;
+    factor = fmin(fmax(factor, fmax(640.0/base.width,360.0/base.height)),
+                  fmin((double)DP_WORKSPACE_MAX_WIDTH/base.width,(double)DP_WORKSPACE_MAX_HEIGHT/base.height));
+    const DPWorkspace result = {(int)(ceil(base.width*factor/4)*4),
+                         (int)(ceil(base.height*factor/4)*4),base.scale};
+    return result;
+}
 #endif
