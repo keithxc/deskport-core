@@ -67,6 +67,12 @@ def main():
         ]:
             checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
             lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_adjust(b,{factor}); if (!({checks})) return 4; }}')
+    for base,expected in [((824,1616,2),(1200,2356,2)),((1616,824,2),(2356,1200,2)),
+                          ((960,540,2),(2136,1200,2)),((2548,1380,2),(2548,1380,2)),
+                          ((640,360,1),(1068,600,1)),((0,0,0),(0,0,0)),
+                          ((640,4320,2),(0,0,0))]:
+        checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
+        lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_macos(b); if (!({checks})) return 5; }}')
     lines += ['return 0;', '}']
     with tempfile.TemporaryDirectory(prefix='deskport-core-') as tmp:
         work = Path(tmp)

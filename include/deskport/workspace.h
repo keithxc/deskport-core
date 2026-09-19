@@ -66,4 +66,20 @@ static inline DPWorkspace dp_workspace_adjust(DPWorkspace base, double factor) {
                          (int)(ceil(base.height*factor/4)*4),base.scale};
     return result;
 }
+// Conservative macOS desktop floor, verified in both orientations. WindowServer
+// can enumerate smaller HiDPI modes but reject selecting them. Apply after user
+// tuning, retaining backing scale and aspect ratio; other hosts keep their policy.
+static inline DPWorkspace dp_workspace_for_macos(DPWorkspace base) {
+    const DPWorkspace empty = {0, 0, 0};
+    if (!dp_workspace_valid(base)) return empty;
+    const int portrait = base.height > base.width;
+    const double minimumWidth = (portrait ? 600.0 : 800.0) * base.scale;
+    const double minimumHeight = (portrait ? 800.0 : 600.0) * base.scale;
+    const double factor = fmax(1.0, fmax(minimumWidth/base.width, minimumHeight/base.height));
+    if (base.width*factor > DP_WORKSPACE_MAX_WIDTH || base.height*factor > DP_WORKSPACE_MAX_HEIGHT)
+        return empty;
+    const DPWorkspace result = {(int)(ceil(base.width*factor/4)*4),
+                               (int)(ceil(base.height*factor/4)*4),base.scale};
+    return result;
+}
 #endif
