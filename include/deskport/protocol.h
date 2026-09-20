@@ -18,6 +18,10 @@
 #define DP_MESSAGE_SESSION_TAKEOVER "session-takeover"
 #define DP_MESSAGE_SESSION_RESULT "session-result"
 #define DP_MESSAGE_SESSION_ENDED "session-ended"
+#define DP_CLIENT_WINDOW_VERSION 1
+#define DP_MESSAGE_CLIENT_WINDOW "client-window"
+#define DP_SESSION_LIFECYCLE_VERSION 1
+#define DP_MESSAGE_SESSION_RELEASE "session-release"
 // Optional, explicitly advertised per-session topology policy.
 #define DP_DISPLAY_POLICY_VERSION 1
 typedef enum DPDisplayPolicy {
