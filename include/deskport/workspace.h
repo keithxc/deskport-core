@@ -3,6 +3,7 @@
 #ifndef DESKPORT_WORKSPACE_H
 #define DESKPORT_WORKSPACE_H
 #include <math.h>
+#include "../../portable/include/deskport/catalog.h"
 
 enum { DP_WORKSPACE_MAX_WIDTH = 7680, DP_WORKSPACE_MAX_HEIGHT = 4320 };
 typedef struct { int width, height, scale; } DPWorkspace;
@@ -55,10 +56,9 @@ static inline DPWorkspace dp_workspace_from_ui_pixels(double width, double heigh
 static inline DPWorkspace dp_workspace_adjust(DPWorkspace base, double factor) {
     const DPWorkspace empty = {0, 0, 0};
     if (!dp_workspace_valid(base)) return empty;
-    const double choices[] = {0.5,0.6,0.7,0.8,0.9,1.0,1.2,1.3,1.4,1.5};
     int allowed = 0;
-    for (unsigned i=0; i<sizeof(choices)/sizeof(choices[0]); ++i)
-        if (fabs(factor-choices[i]) < 0.000001) allowed = 1;
+    for (unsigned i=0; i<DP_CATALOG_TUNING_COUNT; ++i)
+        if (fabs(factor-dp_catalog_tuning_values[i]) < 0.000001) allowed = 1;
     if (!allowed) factor = 1.0;
     factor = fmin(fmax(factor, fmax(640.0/base.width,360.0/base.height)),
                   fmin((double)DP_WORKSPACE_MAX_WIDTH/base.width,(double)DP_WORKSPACE_MAX_HEIGHT/base.height));

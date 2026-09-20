@@ -1,7 +1,8 @@
 # DeskPort Core
 
 Small, platform-independent contracts and workspace policy shared by DeskPort's
-desktop and native clients. GPL-3.0-or-later; see LICENSE and NOTICE.md.
+desktop and native clients. Legacy modules are GPL-3.0-or-later; the standalone
+`portable/` catalog is MIT. See LICENSE, portable/LICENSE and NOTICE.md.
 
 The initial implementation is header-only C11, also consumable by C++ and
 Objective-C. Keeping this small arithmetic policy inline avoids adding a library
@@ -25,3 +26,11 @@ Consumers pin commits rather than following a branch. A core fix is implemented
 and tested here first, then each consumer updates its pin and runs its adapter,
 transport and platform tests. Library revision and on-wire version are independent.
 New protocol functionality needs old/new peer cases before either consumer opts in.
+
+## Public rules for independent consumers
+
+The new [portable catalog](portable/README.md) is separately MIT-licensed and
+contains generated C/Java definitions for ports, tuning and display policy. The
+existing workspace implementation and protocol headers remain GPL-3.0-or-later.
+Consumers planning proprietary distribution must use only appropriately licensed
+components; the catalog does not change the licenses of their other dependencies.

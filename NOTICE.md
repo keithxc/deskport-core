@@ -8,3 +8,11 @@ Moonlight implementation, media SDK, credentials or platform assets are included
 
 The protocol documentation and fixtures describe DeskPort's existing extensions;
 they do not replace upstream Moonlight/GameStream specifications.
+
+## Independently authored portable catalog — 2026-09-20
+
+`portable/` is a new MIT-licensed product-data and code-generation module. Its
+license covers that directory only, including generated C/Java output. It does not
+relicense `include/deskport/workspace.h`, `include/deskport/protocol.h`, their source
+provenance, or any third-party code. The GPL headers may consume the MIT catalog;
+the portable catalog never includes or imports those GPL headers.

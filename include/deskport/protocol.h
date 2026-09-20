@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 #ifndef DESKPORT_PROTOCOL_H
 #define DESKPORT_PROTOCOL_H
+#include "../../portable/include/deskport/catalog.h"
 // Existing wire names only. This header does not introduce a new protocol version.
 #define DP_PROTOCOL_BINDING_VERSION 1
-#define DP_PROTOCOL_DEFAULT_BINDING_PORT 48991
+#define DP_PROTOCOL_DEFAULT_BINDING_PORT (DP_CATALOG_BASE_PORT + DP_CATALOG_CONTROL_OFFSET)
 #define DP_PROTOCOL_CONTROL_BUFFER_LIMIT 32768
 #define DP_MESSAGE_DISPLAY_RESIZE "display-resize"
 #define DP_MESSAGE_DISPLAY_RESULT "display-result"
@@ -23,13 +24,13 @@
 #define DP_SESSION_LIFECYCLE_VERSION 1
 #define DP_MESSAGE_SESSION_RELEASE "session-release"
 // Optional, explicitly advertised per-session topology policy.
-#define DP_DISPLAY_POLICY_VERSION 1
+#define DP_DISPLAY_POLICY_VERSION DP_CATALOG_DISPLAY_POLICY_VERSION
 typedef enum DPDisplayPolicy {
-    DP_DISPLAY_PRIMARY_MIRROR = 0,
-    DP_DISPLAY_PRIMARY_ONLY = 1,
-    DP_DISPLAY_EXTEND = 2
+    DP_DISPLAY_PRIMARY_MIRROR = DP_CATALOG_POLICY_PRIMARY_MIRROR,
+    DP_DISPLAY_PRIMARY_ONLY = DP_CATALOG_POLICY_PRIMARY_ONLY,
+    DP_DISPLAY_EXTEND = DP_CATALOG_POLICY_EXTEND
 } DPDisplayPolicy;
 static inline int DPDisplayPolicyValid(int policy) {
-    return policy >= DP_DISPLAY_PRIMARY_MIRROR && policy <= DP_DISPLAY_EXTEND;
+    return dp_catalog_display_policy_valid(policy);
 }
 #endif

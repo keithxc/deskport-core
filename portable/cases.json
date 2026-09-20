@@ -1,0 +1,13 @@
+{
+  "ports": [
+    {"base": -2147483648, "control": 0}, {"base": 0, "control": 0},
+    {"base": 47989, "control": 0}, {"base": 48988, "control": 0},
+    {"base": 48989, "control": 48991}, {"base": 48990, "control": 0},
+    {"base": 49089, "control": 49091}, {"base": 50889, "control": 50891},
+    {"base": 50890, "control": 0}, {"base": 50989, "control": 0},
+    {"base": 65535, "control": 0}, {"base": 2147483647, "control": 0}
+  ],
+  "policies": [{"value": -1, "valid": false}, {"value": 0, "valid": true}, {"value": 1, "valid": true}, {"value": 2, "valid": true}, {"value": 3, "valid": false}],
+  "tuningLabels": ["0.5", "0.6", "0.7", "0.8", "0.9", "1.0", "1.2", "1.3", "1.4", "1.5"],
+  "defaultTuningIndex": 5
+}
