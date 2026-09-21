@@ -8,6 +8,7 @@ public final class DPCatalog {
     public static final int PORT_STEP = 100;
     public static final int PORT_COUNT = 20;
     public static final int CONTROL_OFFSET = 2;
+    public static final int BINDING_PORT = 48991;
     public static final int TUNING_COUNT = 10;
     public static final int TUNING_DEFAULT_INDEX = 5;
     public static final int DISPLAY_POLICY_VERSION = 1;

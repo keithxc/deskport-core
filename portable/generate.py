@@ -23,7 +23,7 @@ def outputs():
     numbers = ', '.join(f'{v:.1f}' for v in tuning['values'])
     labels = ', '.join(json.dumps(f'{v:.1f}') for v in tuning['values'])
     constants = {'BASE_PORT': net['basePort'], 'PORT_STEP': net['portStep'], 'PORT_COUNT': net['portCount'],
-                 'CONTROL_OFFSET': net['controlOffset'], 'TUNING_COUNT': len(tuning['values']),
+                 'CONTROL_OFFSET': net['controlOffset'], 'BINDING_PORT': net['bindingPort'], 'TUNING_COUNT': len(tuning['values']),
                  'TUNING_DEFAULT_INDEX': tuning['values'].index(tuning['default']),
                  'DISPLAY_POLICY_VERSION': policy['version']}
     constants.update({'POLICY_' + k: v for k, v in policy['values'].items()})
