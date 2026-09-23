@@ -42,6 +42,24 @@ def main():
     if adapter == 'core':
         for size, valid in [([640,360,1],1),([7680,4320,2],1),([638,360,1],0),([640,362,1],0),([1920,1080,3],0),([7684,4320,2],0),([640,356,1],0)]:
             lines.append(f'{{ DPWorkspace s = {{{",".join(map(str,size))}}}; if (dp_workspace_valid(s) != {valid}) return 2; }}')
+    if adapter == 'core':
+        lines.append("""
+        { const DPWorkspace request={1300,748,2};
+          const DPWorkspace modes[]={{1920,1080,1},{1280,720,1},{1080,1920,1}};
+          DPWorkspace s=dp_workspace_select_mode(request,NULL,0);
+          if(s.width!=1300 || s.height!=748 || s.scale!=2) return 20;
+          s=dp_workspace_select_mode(request,modes,3);
+          if(s.width!=1280 || s.height!=720 || s.scale!=1) return 21;
+          const DPWorkspace portrait={1080,1920,2};
+          s=dp_workspace_select_mode(portrait,modes,3);
+          if(s.width!=1080 || s.height!=1920) return 22;
+          if(dp_workspace_valid(dp_workspace_select_mode(request,NULL,1)) ||
+             dp_workspace_valid(dp_workspace_select_mode(request,modes,-1)) ||
+             dp_workspace_valid(dp_workspace_select_mode(request,modes,97))) return 23;
+          const DPWorkspace invalid[]={{1280,720,1},{639,360,1}};
+          if(dp_workspace_valid(dp_workspace_select_mode(request,invalid,2))) return 24;
+        }
+        """)
     if adapter != 'qt':
         for name, pixels, expected in [
             ('phone-ui-density', (1440,2828,3.5), (824,1616,2)),
