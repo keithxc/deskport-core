@@ -20,7 +20,9 @@ runtime, so the manual always matches the installed version.
 
 - `id` is stable and never translated; clients may use it to link to a chapter.
 - `title` and `step.text` hold one entry per language. A missing language falls
-  back to `en`, so a partially translated manual still renders.
+  back to another variant of the same language first (Traditional Chinese uses
+  Simplified before English) and then to `en`, so a partially translated manual
+  still renders in a related language.
 - `image` is optional and relative to this directory. Images are bundled with the
   manual; they must not contain personal device names, addresses or private
   screen content.
