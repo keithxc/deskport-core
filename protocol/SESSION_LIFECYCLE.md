@@ -4,8 +4,15 @@ Version 1 is negotiated independently of binding and display policy.
 
 - `hello.meta.clientWindow = 1`: host can send `client-window` with
   `action: leave-fullscreen` only after the approved display controller opts in
-  using `display-resize.clientWindow = 1`. This exits desktop fullscreen and
-  releases input without disconnecting. Old/mobile clients receive no new event.
+  using `display-resize.clientWindow = 1`. This exits full screen and releases
+  input without disconnecting; a client that has not opted in receives no event.
+  An opted-in client also sends `display-resize.clientFullScreen` (boolean) with
+  every resize. Entering or leaving full screen changes the window, so each change
+  is followed by a resize and the host always knows the current state. The host
+  offers the request only while the last report is `true`; a request without the
+  field (older clients) keeps it available. Hosts never ask a client to enter
+  full screen. Desktop clients leave window full screen; mobile clients show their
+  session bar again and renegotiate the smaller area.
 - `hello.meta.sessionLifecycle = 1`: a client opts in with
   `session-status.sessionLifecycle = 1`. Admission returns `resumeToken`, a
   random, session-scoped secret. It must not be logged or persisted.

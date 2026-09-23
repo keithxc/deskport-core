@@ -14,6 +14,7 @@ copies. A compiled library can be introduced when there is enough code to need i
 - `protocol/SPEC.md`: scoped v1 contract and known implementation differences.
 - `fixtures/workspace.json`: explicit results for core and platform adapters.
 - `protocol/display-cases.json`: old/new display requests and error cases.
+- `manual/manual.json`: the user manual bundled in every package; see `manual/README.md`.
 
 No TLS, UI, Moonlight, persistent settings, input ownership or media pipeline lives
 here. Window geometry, safe areas, keyboard avoidance and gestures remain native.

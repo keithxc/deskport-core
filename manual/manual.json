@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "languages": ["en", "zh-Hans", "zh-Hant", "ja", "ko", "de", "fr", "es"],
+  "chapters": [
+    {
+      "id": "about",
+      "title": {
+        "en": "What DeskPort is",
+        "zh-Hans": "DeskPort 是什么"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "DeskPort shares one computer and lets your other devices use its desktop.",
+            "zh-Hans": "DeskPort 把一台电脑共享出来，让你的其他设备使用它的桌面。"
+          }
+        },
+        {
+          "text": {
+            "en": "The computer being used is the host; the device you sit at is the client. A computer can be both.",
+            "zh-Hans": "被使用的电脑是主机，你面前操作的设备是客户端。一台电脑可以同时是两者。"
+          }
+        },
+        {
+          "text": {
+            "en": "Devices are bound to each other once. Access is approved on the host and can be withdrawn there.",
+            "zh-Hans": "设备之间只需绑定一次。访问权限在主机上批准，也可以在主机上收回。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "share",
+      "title": {
+        "en": "Share this computer",
+        "zh-Hans": "共享这台电脑"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "Open Sharing in the top bar and choose Start sharing.",
+            "zh-Hans": "点顶栏的共享，选择开始共享。"
+          }
+        },
+        {
+          "text": {
+            "en": "Grant screen recording and accessibility access when asked. Sharing runs without them, but the picture or input will not work.",
+            "zh-Hans": "按提示授予屏幕录制和辅助功能权限。不授予也能启动共享，但画面或输入无法工作。"
+          }
+        },
+        {
+          "text": {
+            "en": "A dot under the sharing icon means this computer is currently shared.",
+            "zh-Hans": "共享图标下面有圆点，表示这台电脑正在被共享。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "connect",
+      "title": {
+        "en": "Connect to a computer",
+        "zh-Hans": "连接到电脑"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "Devices on the same network appear on the device list by themselves.",
+            "zh-Hans": "同一网络里的设备会自己出现在设备列表上。"
+          }
+        },
+        {
+          "text": {
+            "en": "Use Add device on the add card for a computer on another network, and enter its address.",
+            "zh-Hans": "不同网络的电脑，用添加卡片上的添加设备，输入它的地址。"
+          }
+        },
+        {
+          "text": {
+            "en": "Selecting a device the first time asks the host for access; approve the request there.",
+            "zh-Hans": "第一次选择某台设备时会向主机申请访问，在主机上批准即可。"
+          }
+        },
+        {
+          "text": {
+            "en": "If another device is already connected, you are asked whether to take over. Taking over disconnects that device.",
+            "zh-Hans": "如果已经有其他设备在连接，会询问是否接管。接管会断开那台设备。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "organize",
+      "title": {
+        "en": "Organize the device list",
+        "zh-Hans": "整理设备列表"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "Edit in the top bar starts edit mode; drag cards to reorder them.",
+            "zh-Hans": "顶栏的编辑进入编辑模式，拖动卡片可以排序。"
+          }
+        },
+        {
+          "text": {
+            "en": "Drop one device onto another to group them, like folders on a phone home screen.",
+            "zh-Hans": "把一台设备拖到另一台上就会成组，和手机桌面的文件夹一样。"
+          }
+        },
+        {
+          "text": {
+            "en": "Set alias in the card's menu renames a device for this device only.",
+            "zh-Hans": "卡片菜单里的自定义名称只在本机生效。"
+          }
+        },
+        {
+          "text": {
+            "en": "Refresh checks saved devices again and looks for new ones.",
+            "zh-Hans": "刷新会重新检查已保存的设备，并探测新设备。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fullscreen",
+      "title": {
+        "en": "Full screen",
+        "zh-Hans": "全屏"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "Full screen in the device's settings decides how a connection to that device opens.",
+            "zh-Hans": "设备设置里的全屏，决定连接这台设备时以什么方式打开。"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+Alt+Shift+X switches full screen on and off during a connection.",
+            "zh-Hans": "连接过程中按 Ctrl+Alt+Shift+X 可以切换全屏。"
+          }
+        },
+        {
+          "text": {
+            "en": "On phones and tablets full screen also hides the bottom bar, so the remote desktop gets the whole screen.",
+            "zh-Hans": "手机和平板上，全屏还会隐藏底部按键栏，远程桌面占满整个屏幕。"
+          }
+        },
+        {
+          "text": {
+            "en": "The host can ask a connected device to leave full screen; it never forces it into full screen.",
+            "zh-Hans": "主机可以请求已连接的设备退出全屏，但不会强制它进入全屏。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "picture",
+      "title": {
+        "en": "Picture and virtual screen",
+        "zh-Hans": "画质与虚拟屏"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "The remote desktop follows your window size, so resizing the window resizes the remote desktop.",
+            "zh-Hans": "远程桌面跟随你的窗口大小，改变窗口尺寸就会调整远程桌面。"
+          }
+        },
+        {
+          "text": {
+            "en": "Virtual screen decides what happens to the host's own screens while you are connected.",
+            "zh-Hans": "虚拟屏决定连接期间主机自己的屏幕如何处理。"
+          }
+        },
+        {
+          "text": {
+            "en": "Desktop fine tuning makes everything on the remote desktop larger or smaller.",
+            "zh-Hans": "桌面微调让远程桌面上的内容整体变大或变小。"
+          }
+        },
+        {
+          "text": {
+            "en": "These settings are saved per device.",
+            "zh-Hans": "这些设置按设备分别保存。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "title": {
+        "en": "When something goes wrong",
+        "zh-Hans": "出问题怎么办"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "A device shown as offline is usually asleep, on another network, or not sharing.",
+            "zh-Hans": "显示离线的设备，通常是睡眠了、在另一个网络，或者没有开启共享。"
+          }
+        },
+        {
+          "text": {
+            "en": "Refresh in the top bar re-checks every saved device.",
+            "zh-Hans": "顶栏的刷新会重新检查每一台已保存的设备。"
+          }
+        },
+        {
+          "text": {
+            "en": "Report a problem in Settings collects a log archive you can attach to an issue. Review it before sharing it.",
+            "zh-Hans": "设置里的报告问题会生成日志压缩包，可以附在 issue 上。发出前请先检查内容。"
+          }
+        }
+      ]
+    }
+  ]
+}
