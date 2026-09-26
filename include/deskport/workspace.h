@@ -15,6 +15,24 @@ static inline int dp_workspace_valid(DPWorkspace size) {
         (size.scale == 1 || size.scale == 2);
 }
 
+// Select a finite host mode using relative size and aspect error. Empty lists
+// preserve continuous sizing. Invalid lists fail closed rather than dropping
+// a host constraint. Listed modes are physical pixels at scale 1.
+static inline DPWorkspace dp_workspace_select_mode(DPWorkspace requested, const DPWorkspace *modes, int count) {
+    const DPWorkspace empty = {0,0,0};
+    if (!dp_workspace_valid(requested) || count < 0 || count > 96 || (count && !modes)) return empty;
+    if (!count) return requested;
+    DPWorkspace best=empty; double score=INFINITY;
+    for (int i=0;i<count;++i) {
+        if (!dp_workspace_valid(modes[i])) return empty;
+        const double x=log((double)modes[i].width/requested.width);
+        const double y=log((double)modes[i].height/requested.height);
+        const double candidate=x*x+y*y+4*(x-y)*(x-y);
+        if(candidate<score){score=candidate;best=modes[i];best.scale=1;}
+    }
+    return best;
+}
+
 // Input is drawable pixels, NOT logical points. Scale is the client output density.
 // This computes a proposal; callers must separately validate protocol eligibility.
 // Extremely narrow aspect ratios can produce an ineligible proposal under the cap.
