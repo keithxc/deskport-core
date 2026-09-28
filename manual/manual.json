@@ -6,25 +6,49 @@
       "id": "about",
       "title": {
         "en": "What DeskPort is",
-        "zh-Hans": "DeskPort 是什么"
+        "zh-Hans": "DeskPort 是什么",
+        "zh-Hant": "DeskPort 是什麼",
+        "ja": "DeskPort とは",
+        "ko": "DeskPort란",
+        "de": "Was DeskPort ist",
+        "fr": "Qu'est-ce que DeskPort",
+        "es": "Qué es DeskPort"
       },
       "steps": [
         {
           "text": {
             "en": "DeskPort shares one computer and lets your other devices use its desktop.",
-            "zh-Hans": "DeskPort 把一台电脑共享出来，让你的其他设备使用它的桌面。"
+            "zh-Hans": "DeskPort 把一台电脑共享出来，让你的其他设备使用它的桌面。",
+            "zh-Hant": "DeskPort 把一台電腦共享出來，讓你的其他裝置使用它的桌面。",
+            "ja": "DeskPort は 1 台のコンピュータを共有し、ほかのデバイスからそのデスクトップを使えるようにします。",
+            "ko": "DeskPort는 컴퓨터 한 대를 공유해 다른 기기에서 그 데스크톱을 사용할 수 있게 합니다.",
+            "de": "DeskPort gibt einen Computer frei, damit Ihre anderen Geräte seinen Desktop verwenden können.",
+            "fr": "DeskPort partage un ordinateur pour que vos autres appareils puissent utiliser son bureau.",
+            "es": "DeskPort comparte un ordenador para que tus otros dispositivos puedan usar su escritorio."
           }
         },
         {
           "text": {
             "en": "The computer being used is the host; the device you sit at is the client. A computer can be both.",
-            "zh-Hans": "被使用的电脑是主机，你面前操作的设备是客户端。一台电脑可以同时是两者。"
+            "zh-Hans": "被使用的电脑是主机，你面前操作的设备是客户端。一台电脑可以同时是两者。",
+            "zh-Hant": "被使用的電腦是主機，你面前操作的裝置是用戶端。一台電腦可以同時是兩者。",
+            "ja": "使われる側のコンピュータがホスト、手元で操作するデバイスがクライアントです。1 台で両方を兼ねることもできます。",
+            "ko": "사용되는 컴퓨터가 호스트, 앞에서 조작하는 기기가 클라이언트입니다. 한 컴퓨터가 둘 다일 수도 있습니다.",
+            "de": "Der verwendete Computer ist der Host, das Gerät vor Ihnen der Client. Ein Computer kann beides sein.",
+            "fr": "L'ordinateur utilisé est l'hôte, l'appareil devant vous est le client. Un ordinateur peut être les deux.",
+            "es": "El ordenador que se usa es el host y el dispositivo que tienes delante es el cliente. Un ordenador puede ser ambos."
           }
         },
         {
           "text": {
             "en": "Devices are bound to each other once. Access is approved on the host and can be withdrawn there.",
-            "zh-Hans": "设备之间只需绑定一次。访问权限在主机上批准，也可以在主机上收回。"
+            "zh-Hans": "设备之间只需绑定一次。访问权限在主机上批准，也可以在主机上收回。",
+            "zh-Hant": "裝置之間只需綁定一次。存取權限在主機上核准，也可以在主機上收回。",
+            "ja": "デバイス同士の連携は一度だけです。アクセスはホストで許可し、ホストで取り消せます。",
+            "ko": "기기끼리는 한 번만 연결하면 됩니다. 접근 권한은 호스트에서 승인하고 호스트에서 철회할 수 있습니다.",
+            "de": "Geräte werden einmal miteinander verbunden. Der Zugriff wird auf dem Host genehmigt und kann dort widerrufen werden.",
+            "fr": "Les appareils sont associés une seule fois. L'accès est approuvé sur l'hôte et peut y être retiré.",
+            "es": "Los dispositivos se vinculan una sola vez. El acceso se aprueba en el host y se puede retirar allí."
           }
         }
       ]
@@ -33,25 +57,49 @@
       "id": "share",
       "title": {
         "en": "Share this computer",
-        "zh-Hans": "共享这台电脑"
+        "zh-Hans": "共享这台电脑",
+        "zh-Hant": "共享這台電腦",
+        "ja": "このコンピュータを共有する",
+        "ko": "이 컴퓨터 공유하기",
+        "de": "Diesen Computer freigeben",
+        "fr": "Partager cet ordinateur",
+        "es": "Compartir este ordenador"
       },
       "steps": [
         {
           "text": {
             "en": "Open Sharing in the top bar and choose Start sharing.",
-            "zh-Hans": "点顶栏的共享，选择开始共享。"
+            "zh-Hans": "点顶栏的共享，选择开始共享。",
+            "zh-Hant": "點頂欄的共享，選擇開始共享。",
+            "ja": "上部バーの「共有」を開き、「共有を開始」を選びます。",
+            "ko": "상단 바에서 공유를 열고 공유 시작을 선택합니다.",
+            "de": "Öffnen Sie „Freigabe“ in der oberen Leiste und wählen Sie „Freigabe starten“.",
+            "fr": "Ouvrez Partage dans la barre supérieure et choisissez Démarrer le partage.",
+            "es": "Abre Compartir en la barra superior y elige Empezar a compartir."
           }
         },
         {
           "text": {
             "en": "Grant screen recording and accessibility access when asked. Sharing runs without them, but the picture or input will not work.",
-            "zh-Hans": "按提示授予屏幕录制和辅助功能权限。不授予也能启动共享，但画面或输入无法工作。"
+            "zh-Hans": "按提示授予屏幕录制和辅助功能权限。不授予也能启动共享，但画面或输入无法工作。",
+            "zh-Hant": "依提示授予螢幕錄製和輔助使用權限。不授予也能啟動共享，但畫面或輸入無法運作。",
+            "ja": "求められたら画面収録とアクセシビリティの権限を許可します。許可しなくても共有は始まりますが、画面や入力が動作しません。",
+            "ko": "요청되면 화면 기록과 손쉬운 사용 권한을 허용합니다. 허용하지 않아도 공유는 시작되지만 화면이나 입력이 작동하지 않습니다.",
+            "de": "Erlauben Sie Bildschirmaufnahme und Bedienungshilfen, wenn Sie gefragt werden. Die Freigabe startet auch ohne, aber Bild oder Eingabe funktionieren dann nicht.",
+            "fr": "Accordez l'enregistrement de l'écran et l'accessibilité lorsque c'est demandé. Le partage démarre sans, mais l'image ou la saisie ne fonctionneront pas.",
+            "es": "Concede la grabación de pantalla y la accesibilidad cuando se pidan. Se puede compartir sin ellos, pero la imagen o la entrada no funcionarán."
           }
         },
         {
           "text": {
             "en": "A dot under the sharing icon means this computer is currently shared.",
-            "zh-Hans": "共享图标下面有圆点，表示这台电脑正在被共享。"
+            "zh-Hans": "共享图标下面有圆点，表示这台电脑正在被共享。",
+            "zh-Hant": "共享圖示下方有圓點，表示這台電腦正在被共享。",
+            "ja": "共有アイコンの下の点は、このコンピュータが共有中であることを示します。",
+            "ko": "공유 아이콘 아래의 점은 이 컴퓨터가 공유 중이라는 뜻입니다.",
+            "de": "Ein Punkt unter dem Freigabesymbol zeigt, dass dieser Computer gerade freigegeben ist.",
+            "fr": "Un point sous l'icône de partage indique que cet ordinateur est actuellement partagé.",
+            "es": "Un punto bajo el icono de compartir indica que este ordenador se está compartiendo."
           }
         }
       ]
@@ -60,31 +108,61 @@
       "id": "connect",
       "title": {
         "en": "Connect to a computer",
-        "zh-Hans": "连接到电脑"
+        "zh-Hans": "连接到电脑",
+        "zh-Hant": "連線到電腦",
+        "ja": "コンピュータに接続する",
+        "ko": "컴퓨터에 연결하기",
+        "de": "Mit einem Computer verbinden",
+        "fr": "Se connecter à un ordinateur",
+        "es": "Conectarse a un ordenador"
       },
       "steps": [
         {
           "text": {
             "en": "Devices on the same network appear on the device list by themselves.",
-            "zh-Hans": "同一网络里的设备会自己出现在设备列表上。"
+            "zh-Hans": "同一网络里的设备会自己出现在设备列表上。",
+            "zh-Hant": "同一網路裡的裝置會自己出現在裝置清單上。",
+            "ja": "同じネットワークのデバイスは自動的に一覧に表示されます。",
+            "ko": "같은 네트워크의 기기는 기기 목록에 자동으로 나타납니다.",
+            "de": "Geräte im selben Netzwerk erscheinen von selbst in der Geräteliste.",
+            "fr": "Les appareils du même réseau apparaissent d'eux-mêmes dans la liste.",
+            "es": "Los dispositivos de la misma red aparecen solos en la lista."
           }
         },
         {
           "text": {
             "en": "Use Add device on the add card for a computer on another network, and enter its address.",
-            "zh-Hans": "不同网络的电脑，用添加卡片上的添加设备，输入它的地址。"
+            "zh-Hans": "不同网络的电脑，用添加卡片上的添加设备，输入它的地址。",
+            "zh-Hant": "不同網路的電腦，用新增卡片上的新增裝置，輸入它的位址。",
+            "ja": "別のネットワークのコンピュータは、追加カードの「デバイスを追加」からアドレスを入力します。",
+            "ko": "다른 네트워크의 컴퓨터는 추가 카드에서 기기 추가를 눌러 주소를 입력합니다.",
+            "de": "Für einen Computer in einem anderen Netzwerk tippen Sie auf der Hinzufügen-Karte auf „Gerät hinzufügen“ und geben seine Adresse ein.",
+            "fr": "Pour un ordinateur sur un autre réseau, utilisez Ajouter un appareil sur la carte d'ajout et saisissez son adresse.",
+            "es": "Para un ordenador de otra red, usa Añadir dispositivo en la tarjeta de añadir e introduce su dirección."
           }
         },
         {
           "text": {
             "en": "Selecting a device the first time asks the host for access; approve the request there.",
-            "zh-Hans": "第一次选择某台设备时会向主机申请访问，在主机上批准即可。"
+            "zh-Hans": "第一次选择某台设备时会向主机申请访问，在主机上批准即可。",
+            "zh-Hant": "第一次選擇某台裝置時會向主機申請存取，在主機上核准即可。",
+            "ja": "初めてデバイスを選ぶとホストにアクセスを申請します。ホスト側で許可してください。",
+            "ko": "기기를 처음 선택하면 호스트에 접근을 요청합니다. 호스트에서 승인하세요.",
+            "de": "Beim ersten Auswählen eines Geräts wird der Host um Zugriff gebeten; genehmigen Sie die Anfrage dort.",
+            "fr": "La première sélection d'un appareil demande l'accès à l'hôte ; approuvez-la là-bas.",
+            "es": "La primera vez que eliges un dispositivo se pide acceso al host; apruébalo allí."
           }
         },
         {
           "text": {
             "en": "If another device is already connected, you are asked whether to take over. Taking over disconnects that device.",
-            "zh-Hans": "如果已经有其他设备在连接，会询问是否接管。接管会断开那台设备。"
+            "zh-Hans": "如果已经有其他设备在连接，会询问是否接管。接管会断开那台设备。",
+            "zh-Hant": "如果已經有其他裝置在連線，會詢問是否接管。接管會中斷那台裝置。",
+            "ja": "すでに別のデバイスが接続中なら、引き継ぐか確認されます。引き継ぐとそのデバイスは切断されます。",
+            "ko": "다른 기기가 이미 연결되어 있으면 이어받을지 묻습니다. 이어받으면 그 기기의 연결이 끊어집니다.",
+            "de": "Ist bereits ein anderes Gerät verbunden, werden Sie gefragt, ob Sie übernehmen möchten. Die Übernahme trennt dieses Gerät.",
+            "fr": "Si un autre appareil est déjà connecté, il vous est proposé de prendre le relais, ce qui déconnecte cet appareil.",
+            "es": "Si ya hay otro dispositivo conectado, se te pregunta si quieres tomar el control. Hacerlo desconecta ese dispositivo."
           }
         }
       ]
@@ -93,31 +171,61 @@
       "id": "organize",
       "title": {
         "en": "Organize the device list",
-        "zh-Hans": "整理设备列表"
+        "zh-Hans": "整理设备列表",
+        "zh-Hant": "整理裝置清單",
+        "ja": "デバイス一覧を整理する",
+        "ko": "기기 목록 정리하기",
+        "de": "Die Geräteliste ordnen",
+        "fr": "Organiser la liste des appareils",
+        "es": "Organizar la lista de dispositivos"
       },
       "steps": [
         {
           "text": {
             "en": "Edit in the top bar starts edit mode; drag cards to reorder them.",
-            "zh-Hans": "顶栏的编辑进入编辑模式，拖动卡片可以排序。"
+            "zh-Hans": "顶栏的编辑进入编辑模式，拖动卡片可以排序。",
+            "zh-Hant": "頂欄的編輯進入編輯模式，拖動卡片可以排序。",
+            "ja": "上部バーの「編集」で編集モードに入り、カードをドラッグして並べ替えます。",
+            "ko": "상단 바의 편집으로 편집 모드에 들어가고 카드를 끌어 순서를 바꿉니다.",
+            "de": "„Bearbeiten“ in der oberen Leiste startet den Bearbeitungsmodus; ziehen Sie Karten, um sie neu anzuordnen.",
+            "fr": "Modifier dans la barre supérieure active le mode édition ; faites glisser les cartes pour les réordonner.",
+            "es": "Editar en la barra superior activa el modo de edición; arrastra las tarjetas para reordenarlas."
           }
         },
         {
           "text": {
             "en": "Drop one device onto another to group them, like folders on a phone home screen.",
-            "zh-Hans": "把一台设备拖到另一台上就会成组，和手机桌面的文件夹一样。"
+            "zh-Hans": "把一台设备拖到另一台上就会成组，和手机桌面的文件夹一样。",
+            "zh-Hant": "把一台裝置拖到另一台上就會成組，和手機桌面的資料夾一樣。",
+            "ja": "デバイスを別のデバイスに重ねるとグループになります。スマートフォンのホーム画面のフォルダと同じです。",
+            "ko": "기기를 다른 기기 위에 놓으면 그룹이 됩니다. 휴대폰 홈 화면의 폴더와 같습니다.",
+            "de": "Ziehen Sie ein Gerät auf ein anderes, um sie zu gruppieren – wie Ordner auf dem Startbildschirm eines Telefons.",
+            "fr": "Déposez un appareil sur un autre pour les regrouper, comme des dossiers sur l'écran d'accueil d'un téléphone.",
+            "es": "Suelta un dispositivo sobre otro para agruparlos, como las carpetas en la pantalla de inicio de un móvil."
           }
         },
         {
           "text": {
             "en": "Set alias in the card's menu renames a device for this device only.",
-            "zh-Hans": "卡片菜单里的自定义名称只在本机生效。"
+            "zh-Hans": "卡片菜单里的自定义名称只在本机生效。",
+            "zh-Hant": "卡片選單裡的設定別名只在本機生效。",
+            "ja": "カードのメニューの「別名を設定」は、この端末でだけ名前を変えます。",
+            "ko": "카드 메뉴의 별칭 설정은 이 기기에서만 이름을 바꿉니다.",
+            "de": "„Alias festlegen“ im Kartenmenü benennt ein Gerät nur auf diesem Gerät um.",
+            "fr": "Définir un alias dans le menu de la carte renomme un appareil sur cet appareil uniquement.",
+            "es": "Establecer alias en el menú de la tarjeta cambia el nombre solo en este dispositivo."
           }
         },
         {
           "text": {
             "en": "Refresh checks saved devices again and looks for new ones.",
-            "zh-Hans": "刷新会重新检查已保存的设备，并探测新设备。"
+            "zh-Hans": "刷新会重新检查已保存的设备，并探测新设备。",
+            "zh-Hant": "重新整理會重新檢查已儲存的裝置，並探測新裝置。",
+            "ja": "更新すると保存済みのデバイスを確認し直し、新しいデバイスを探します。",
+            "ko": "새로 고침은 저장된 기기를 다시 확인하고 새 기기를 찾습니다.",
+            "de": "Aktualisieren prüft gespeicherte Geräte erneut und sucht nach neuen.",
+            "fr": "Actualiser revérifie les appareils enregistrés et en recherche de nouveaux.",
+            "es": "Actualizar vuelve a comprobar los dispositivos guardados y busca otros nuevos."
           }
         }
       ]
@@ -126,31 +234,61 @@
       "id": "fullscreen",
       "title": {
         "en": "Full screen",
-        "zh-Hans": "全屏"
+        "zh-Hans": "全屏",
+        "zh-Hant": "全螢幕",
+        "ja": "全画面",
+        "ko": "전체 화면",
+        "de": "Vollbild",
+        "fr": "Plein écran",
+        "es": "Pantalla completa"
       },
       "steps": [
         {
           "text": {
-            "en": "Full screen in the device's settings decides how a connection to that device opens.",
-            "zh-Hans": "设备设置里的全屏，决定连接这台设备时以什么方式打开。"
+            "en": "On a computer, Full screen in the device's settings decides how a connection to that device opens.",
+            "zh-Hans": "在电脑上，设备设置里的全屏决定连接这台设备时以什么方式打开。",
+            "zh-Hant": "在電腦上，裝置設定裡的全螢幕決定連線這台裝置時以什麼方式開啟。",
+            "ja": "コンピュータでは、デバイス設定の「全画面」で、そのデバイスに接続したときの表示方法を決めます。",
+            "ko": "컴퓨터에서는 기기 설정의 전체 화면이 그 기기에 연결할 때 어떻게 열지 정합니다.",
+            "de": "Auf einem Computer legt „Vollbild“ in den Geräteeinstellungen fest, wie eine Verbindung zu diesem Gerät geöffnet wird.",
+            "fr": "Sur un ordinateur, Plein écran, dans les réglages de l'appareil, détermine comment s'ouvre une connexion à cet appareil.",
+            "es": "En un ordenador, Pantalla completa, en los ajustes del dispositivo, decide cómo se abre una conexión con él."
           }
         },
         {
           "text": {
-            "en": "Ctrl+Alt+Shift+X switches full screen on and off during a connection.",
-            "zh-Hans": "连接过程中按 Ctrl+Alt+Shift+X 可以切换全屏。"
+            "en": "On a computer, Ctrl+Alt+Shift+X switches full screen on and off during a connection; on a phone or tablet it brings back the floating button.",
+            "zh-Hans": "在电脑上，连接过程中按 Ctrl+Alt+Shift+X 可以切换全屏；在手机或平板上，它会让悬浮按钮回到屏幕上。",
+            "zh-Hant": "在電腦上，連線過程中按 Ctrl+Alt+Shift+X 可以切換全螢幕；在手機或平板上，它會讓懸浮按鈕回到螢幕上。",
+            "ja": "コンピュータでは接続中に Ctrl+Alt+Shift+X で全画面を切り替えます。スマートフォンやタブレットではフローティングボタンが戻ります。",
+            "ko": "컴퓨터에서는 연결 중 Ctrl+Alt+Shift+X로 전체 화면을 켜고 끄며, 휴대폰이나 태블릿에서는 떠 있는 버튼을 다시 불러옵니다.",
+            "de": "Auf einem Computer schaltet Strg+Alt+Umschalt+X während einer Verbindung das Vollbild ein und aus; auf Telefon oder Tablet holt es die schwebende Taste zurück.",
+            "fr": "Sur un ordinateur, Ctrl+Alt+Maj+X active ou désactive le plein écran pendant une connexion ; sur téléphone ou tablette, il fait revenir le bouton flottant.",
+            "es": "En un ordenador, Ctrl+Alt+Mayús+X activa y desactiva la pantalla completa durante una conexión; en un móvil o tableta, recupera el botón flotante."
           }
         },
         {
           "text": {
-            "en": "On phones and tablets full screen also hides the bottom bar, so the remote desktop gets the whole screen.",
-            "zh-Hans": "手机和平板上，全屏还会隐藏底部按键栏，远程桌面占满整个屏幕。"
+            "en": "Phones and tablets always show the remote desktop on the whole screen. Tap the floating button for the keyboard; hold it for the menu.",
+            "zh-Hans": "手机和平板上，远程桌面始终占满整个屏幕。点按悬浮按钮打开键盘，按住它打开菜单。",
+            "zh-Hant": "手機和平板上，遠端桌面一律佔滿整個螢幕。點一下懸浮按鈕開啟鍵盤，按住它開啟選單。",
+            "ja": "スマートフォンやタブレットでは、リモートデスクトップは常に画面全体に表示されます。フローティングボタンをタップするとキーボード、長押しするとメニューが開きます。",
+            "ko": "휴대폰과 태블릿에서는 원격 데스크톱이 항상 화면 전체를 씁니다. 떠 있는 버튼을 탭하면 키보드, 길게 누르면 메뉴가 열립니다.",
+            "de": "Auf Telefonen und Tablets nutzt der entfernte Desktop immer den ganzen Bildschirm. Tippen Sie auf die schwebende Taste für die Tastatur, halten Sie sie für das Menü.",
+            "fr": "Sur téléphone et tablette, le bureau distant occupe toujours tout l'écran. Touchez le bouton flottant pour le clavier, maintenez-le pour le menu.",
+            "es": "En móviles y tabletas, el escritorio remoto ocupa siempre toda la pantalla. Toca el botón flotante para el teclado y mantenlo pulsado para el menú."
           }
         },
         {
           "text": {
             "en": "The host can ask a connected device to leave full screen; it never forces it into full screen.",
-            "zh-Hans": "主机可以请求已连接的设备退出全屏，但不会强制它进入全屏。"
+            "zh-Hans": "主机可以请求已连接的设备退出全屏，但不会强制它进入全屏。",
+            "zh-Hant": "主機可以請求已連線的裝置退出全螢幕，但不會強制它進入全螢幕。",
+            "ja": "ホストは接続中のデバイスに全画面の解除を求められますが、全画面を強制することはありません。",
+            "ko": "호스트는 연결된 기기에 전체 화면 해제를 요청할 수 있지만 전체 화면을 강제하지는 않습니다.",
+            "de": "Der Host kann ein verbundenes Gerät bitten, das Vollbild zu verlassen, erzwingt es aber nie.",
+            "fr": "L'hôte peut demander à un appareil connecté de quitter le plein écran ; il ne l'y force jamais.",
+            "es": "El host puede pedir a un dispositivo conectado que salga de la pantalla completa, pero nunca la impone."
           }
         }
       ]
@@ -159,31 +297,61 @@
       "id": "picture",
       "title": {
         "en": "Picture and virtual screen",
-        "zh-Hans": "画质与虚拟屏"
+        "zh-Hans": "画质与虚拟屏",
+        "zh-Hant": "畫質與虛擬螢幕",
+        "ja": "画質と仮想ディスプレイ",
+        "ko": "화질과 가상 화면",
+        "de": "Bild und virtueller Bildschirm",
+        "fr": "Image et écran virtuel",
+        "es": "Imagen y pantalla virtual"
       },
       "steps": [
         {
           "text": {
             "en": "The remote desktop follows your window size, so resizing the window resizes the remote desktop.",
-            "zh-Hans": "远程桌面跟随你的窗口大小，改变窗口尺寸就会调整远程桌面。"
+            "zh-Hans": "远程桌面跟随你的窗口大小，改变窗口尺寸就会调整远程桌面。",
+            "zh-Hant": "遠端桌面跟隨你的視窗大小，改變視窗尺寸就會調整遠端桌面。",
+            "ja": "リモートデスクトップはウィンドウの大きさに合わせるので、ウィンドウを変えるとリモート側も変わります。",
+            "ko": "원격 데스크톱은 창 크기를 따르므로 창 크기를 바꾸면 원격 데스크톱도 바뀝니다.",
+            "de": "Der entfernte Desktop folgt Ihrer Fenstergröße; wenn Sie das Fenster ändern, ändert sich auch der Desktop.",
+            "fr": "Le bureau distant suit la taille de votre fenêtre : la redimensionner redimensionne le bureau distant.",
+            "es": "El escritorio remoto sigue el tamaño de tu ventana: al cambiarla, cambia también el escritorio remoto."
           }
         },
         {
           "text": {
             "en": "Virtual screen decides what happens to the host's own screens while you are connected.",
-            "zh-Hans": "虚拟屏决定连接期间主机自己的屏幕如何处理。"
+            "zh-Hans": "虚拟屏决定连接期间主机自己的屏幕如何处理。",
+            "zh-Hant": "虛擬螢幕決定連線期間主機自己的螢幕如何處理。",
+            "ja": "仮想ディスプレイでは、接続中にホスト自身の画面をどう扱うかを決めます。",
+            "ko": "가상 화면은 연결 중 호스트 자체 화면을 어떻게 할지 정합니다.",
+            "de": "„Virtueller Bildschirm“ legt fest, was mit den Bildschirmen des Hosts während der Verbindung geschieht.",
+            "fr": "Écran virtuel détermine ce que deviennent les écrans de l'hôte pendant la connexion.",
+            "es": "Pantalla virtual decide qué pasa con las pantallas del host mientras estás conectado."
           }
         },
         {
           "text": {
             "en": "Desktop fine tuning makes everything on the remote desktop larger or smaller.",
-            "zh-Hans": "桌面微调让远程桌面上的内容整体变大或变小。"
+            "zh-Hans": "桌面微调让远程桌面上的内容整体变大或变小。",
+            "zh-Hant": "桌面微調讓遠端桌面上的內容整體變大或變小。",
+            "ja": "デスクトップ微調整で、リモートデスクトップ上の表示全体を大きくしたり小さくしたりできます。",
+            "ko": "데스크톱 미세 조정으로 원격 데스크톱의 모든 것을 크게 또는 작게 할 수 있습니다.",
+            "de": "Die Desktop-Feinabstimmung macht alles auf dem entfernten Desktop größer oder kleiner.",
+            "fr": "L'ajustement fin du bureau agrandit ou réduit tout ce qui s'affiche sur le bureau distant.",
+            "es": "El ajuste fino del escritorio hace más grande o más pequeño todo lo del escritorio remoto."
           }
         },
         {
           "text": {
             "en": "These settings are saved per device.",
-            "zh-Hans": "这些设置按设备分别保存。"
+            "zh-Hans": "这些设置按设备分别保存。",
+            "zh-Hant": "這些設定按裝置分別儲存。",
+            "ja": "これらの設定はデバイスごとに保存されます。",
+            "ko": "이 설정은 기기마다 따로 저장됩니다.",
+            "de": "Diese Einstellungen werden pro Gerät gespeichert.",
+            "fr": "Ces réglages sont enregistrés pour chaque appareil.",
+            "es": "Estos ajustes se guardan por dispositivo."
           }
         }
       ]
@@ -192,25 +360,49 @@
       "id": "trouble",
       "title": {
         "en": "When something goes wrong",
-        "zh-Hans": "出问题怎么办"
+        "zh-Hans": "出问题怎么办",
+        "zh-Hant": "出問題怎麼辦",
+        "ja": "うまくいかないとき",
+        "ko": "문제가 생겼을 때",
+        "de": "Wenn etwas nicht funktioniert",
+        "fr": "En cas de problème",
+        "es": "Si algo falla"
       },
       "steps": [
         {
           "text": {
             "en": "A device shown as offline is usually asleep, on another network, or not sharing.",
-            "zh-Hans": "显示离线的设备，通常是睡眠了、在另一个网络，或者没有开启共享。"
+            "zh-Hans": "显示离线的设备，通常是睡眠了、在另一个网络，或者没有开启共享。",
+            "zh-Hant": "顯示離線的裝置，通常是睡眠了、在另一個網路，或者沒有開啟共享。",
+            "ja": "オフラインと表示されるデバイスは、たいていスリープ中、別のネットワーク、または共有していない状態です。",
+            "ko": "오프라인으로 보이는 기기는 대개 잠자기 상태이거나 다른 네트워크에 있거나 공유하지 않는 상태입니다.",
+            "de": "Ein als offline angezeigtes Gerät schläft meist, ist in einem anderen Netzwerk oder gibt nicht frei.",
+            "fr": "Un appareil affiché hors ligne est généralement en veille, sur un autre réseau ou ne partage pas.",
+            "es": "Un dispositivo que aparece sin conexión suele estar en reposo, en otra red o sin compartir."
           }
         },
         {
           "text": {
             "en": "Refresh in the top bar re-checks every saved device.",
-            "zh-Hans": "顶栏的刷新会重新检查每一台已保存的设备。"
+            "zh-Hans": "顶栏的刷新会重新检查每一台已保存的设备。",
+            "zh-Hant": "頂欄的重新整理會重新檢查每一台已儲存的裝置。",
+            "ja": "上部バーの「更新」で、保存済みのすべてのデバイスを確認し直します。",
+            "ko": "상단 바의 새로 고침은 저장된 모든 기기를 다시 확인합니다.",
+            "de": "Aktualisieren in der oberen Leiste prüft jedes gespeicherte Gerät erneut.",
+            "fr": "Actualiser dans la barre supérieure revérifie chaque appareil enregistré.",
+            "es": "Actualizar en la barra superior vuelve a comprobar cada dispositivo guardado."
           }
         },
         {
           "text": {
             "en": "Report a problem in Settings collects a log archive you can attach to an issue. Review it before sharing it.",
-            "zh-Hans": "设置里的报告问题会生成日志压缩包，可以附在 issue 上。发出前请先检查内容。"
+            "zh-Hans": "设置里的报告问题会生成日志压缩包，可以附在 issue 上。发出前请先检查内容。",
+            "zh-Hant": "設定裡的回報問題會產生記錄壓縮檔，可以附在 issue 上。發出前請先檢查內容。",
+            "ja": "設定の「問題を報告」でログのアーカイブを作成し、issue に添付できます。共有する前に内容を確認してください。",
+            "ko": "설정의 문제 신고는 이슈에 첨부할 로그 압축 파일을 만듭니다. 공유하기 전에 내용을 확인하세요.",
+            "de": "„Problem melden“ in den Einstellungen erstellt ein Protokollarchiv, das Sie an ein Issue anhängen können. Prüfen Sie es vor dem Teilen.",
+            "fr": "Signaler un problème, dans les paramètres, crée une archive de journaux à joindre à un ticket. Vérifiez-la avant de la partager.",
+            "es": "Informar de un problema, en Ajustes, crea un archivo de registros que puedes adjuntar a una incidencia. Revísalo antes de compartirlo."
           }
         }
       ]
