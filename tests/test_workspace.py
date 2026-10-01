@@ -75,13 +75,14 @@ def main():
             lines.append(f'{{ DPWorkspace s={call}; if (!({checks})) {{fprintf(stderr,"FAIL {name}\\n"); return 3;}} }}')
         # Reviewed final-size examples also exercise protocol limits and identity.
         for base,factor,expected in [
-            ((1920,1080,2),0.5,(960,540,2)),
-            ((1920,1080,2),1.5,(2880,1620,2)),
-            ((824,1616,2),0.5,(640,1256,2)),
-            ((7680,4320,2),1.5,(7680,4320,2)),
+            ((1920,1080,2),1.5,(1280,720,2)),
+            ((1920,1080,2),0.5,(3840,2160,2)),
+            ((2316,1152,2),1.3,(1784,888,2)),
+            ((824,1616,2),1.5,(640,1256,2)),
+            ((7680,4320,2),0.5,(7680,4320,2)),
             ((1920,1080,2),1.1,(1920,1080,2)),
             ((1920,1080,2),'NAN',(1920,1080,2)),
-            ((640,360,1),0.5,(640,360,1)),
+            ((640,360,1),1.5,(640,360,1)),
         ]:
             checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
             lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_adjust(b,{factor}); if (!({checks})) return 4; }}')
