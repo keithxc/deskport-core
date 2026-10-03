@@ -21,6 +21,9 @@
 #define DP_MESSAGE_SESSION_ENDED "session-ended"
 #define DP_CLIENT_WINDOW_VERSION 1
 #define DP_MESSAGE_CLIENT_WINDOW "client-window"
+#define DP_VIDEO_PAUSE_VERSION 1
+#define DP_MESSAGE_VIDEO_STATE "video-state"
+#define DP_MESSAGE_VIDEO_RESULT "video-result"
 #define DP_SESSION_LIFECYCLE_VERSION 1
 #define DP_MESSAGE_SESSION_RELEASE "session-release"
 // Optional, explicitly advertised per-session topology policy.

@@ -69,7 +69,8 @@ static inline DPWorkspace dp_workspace_from_ui_pixels(double width, double heigh
     const DPWorkspace empty = {0, 0, 0};
     return dp_workspace_valid(result) ? result : empty;
 }
-// Apply the user's final workspace multiplier without changing host pixel scale.
+// Apply the user's final content zoom without changing host pixel scale. Larger
+// factors enlarge remote content, so the workspace shrinks by the same factor.
 // Clamp both axes by one factor so protocol bounds retain the aspect ratio.
 static inline DPWorkspace dp_workspace_adjust(DPWorkspace base, double factor) {
     const DPWorkspace empty = {0, 0, 0};
@@ -77,7 +78,7 @@ static inline DPWorkspace dp_workspace_adjust(DPWorkspace base, double factor) {
     int allowed = 0;
     for (unsigned i=0; i<DP_CATALOG_TUNING_COUNT; ++i)
         if (fabs(factor-dp_catalog_tuning_values[i]) < 0.000001) allowed = 1;
-    if (!allowed) factor = 1.0;
+    factor = allowed ? 1.0/factor : 1.0;
     factor = fmin(fmax(factor, fmax(640.0/base.width,360.0/base.height)),
                   fmin((double)DP_WORKSPACE_MAX_WIDTH/base.width,(double)DP_WORKSPACE_MAX_HEIGHT/base.height));
     const DPWorkspace result = {(int)(ceil(base.width*factor/4)*4),
