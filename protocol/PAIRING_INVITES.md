@@ -22,7 +22,7 @@ The URI is `deskport://bind` with exactly six query fields:
 | `id` | Host UUID, canonical lowercase hyphenated form, nonzero |
 | `fp` | Lowercase 64-character SHA-256 hex of the binding TLS leaf certificate DER |
 | `token` | 32 cryptographically random bytes, canonical base64url without padding (43 characters) |
-| `exp` | Expiry as a decimal Unix timestamp in whole seconds |
+| `exp` | Expiry as a positive decimal Unix timestamp in whole seconds, no leading zeros |
 
 Percent-encode query values, including the entry's colon/brackets. Reject
 duplicate, unknown or missing fields, unsupported versions, malformed percent
