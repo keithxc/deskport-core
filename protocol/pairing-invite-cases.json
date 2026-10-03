@@ -216,6 +216,34 @@
     {
       "name": "overlong",
       "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300&extra=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    {
+      "name": "v-encoded-newline",
+      "uri": "deskport://bind?v=1%0A&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+    },
+    {
+      "name": "entry-encoded-newline",
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%0A&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+    },
+    {
+      "name": "id-encoded-newline",
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc%0A&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+    },
+    {
+      "name": "fp-encoded-newline",
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef%0A&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+    },
+    {
+      "name": "token-encoded-newline",
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8%0A&exp=1801584300"
+    },
+    {
+      "name": "exp-encoded-newline",
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300%0A"
+    },
+    {
+      "name": "leading-zero-expiry",
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=01801584300"
     }
   ]
 }
