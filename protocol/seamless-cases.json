@@ -1,0 +1,579 @@
+{
+  "version": 1,
+  "capability": {
+    "field": "seamlessMode",
+    "versionField": "seamlessVersion",
+    "sessionModeField": "sessionMode",
+    "desktopMode": "desktop",
+    "seamlessMode": "seamless"
+  },
+  "messages": {
+    "negotiate": "seamless-negotiate",
+    "result": "seamless-result",
+    "windowCreate": "seamless-window-create",
+    "windowDestroy": "seamless-window-destroy",
+    "windowTitle": "seamless-window-title",
+    "windowResizeRequest": "seamless-window-resize-request",
+    "windowResizeResult": "seamless-window-resize-result",
+    "windowClose": "seamless-window-close",
+    "windowCursor": "seamless-window-cursor",
+    "windowFocus": "seamless-window-focus",
+    "inputPointer": "seamless-input-pointer",
+    "inputKeyboard": "seamless-input-keyboard",
+    "protocolError": "seamless-protocol-error"
+  },
+  "errors": {
+    "unsupportedVersion": "unsupported-version",
+    "modeNotAdvertised": "mode-not-advertised",
+    "wrongSessionMode": "wrong-session-mode",
+    "invalidMessage": "invalid-message",
+    "controlTooLarge": "control-too-large",
+    "tooManyWindows": "too-many-windows",
+    "duplicateWindowId": "duplicate-window-id",
+    "unknownWindowId": "unknown-window-id",
+    "invalidWindowSize": "invalid-window-size",
+    "mediaNotNegotiated": "media-not-negotiated",
+    "frameTooLarge": "frame-too-large"
+  },
+  "mediaKinds": {
+    "frame": 1,
+    "damage": 2
+  },
+  "limits": {
+    "windowIdMin": 1,
+    "windowIdMax": 2147483647,
+    "sequenceMin": 1,
+    "sequenceMax": 2147483647,
+    "maxActiveWindows": 64,
+    "windowMinWidth": 16,
+    "windowMinHeight": 16,
+    "windowMaxWidth": 7680,
+    "windowMaxHeight": 4320,
+    "titleBytes": 1024,
+    "appIdBytes": 255,
+    "controlFrameBytes": 32768,
+    "encodedFrameBytes": 33554432
+  },
+  "preflight": {
+    "request": {
+      "type": "seamless-negotiate",
+      "sessionMode": "seamless",
+      "seamlessVersion": 1
+    },
+    "acceptedResult": {
+      "type": "seamless-result",
+      "sessionMode": "seamless",
+      "seamlessVersion": 1,
+      "accepted": true
+    },
+    "unsupportedResult": {
+      "type": "seamless-result",
+      "sessionMode": "seamless",
+      "seamlessVersion": 1,
+      "accepted": false,
+      "code": "unsupported-version"
+    }
+  },
+  "scenarios": [
+    {
+      "name": "preflight-success-does-not-admit-session",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 1,
+        "sessionMode": "seamless",
+        "sessionLease": false,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 1,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "wrong-session-mode"
+        }
+      ]
+    },
+    {
+      "name": "valid-window-lifecycle",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 1,
+        "sessionMode": "seamless",
+        "sessionLease": true,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 160,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 1,
+            "width": 800,
+            "height": 600,
+            "title": "Terminal",
+            "appId": "org.example.Terminal"
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 90,
+          "message": {
+            "type": "seamless-window-title",
+            "id": 1,
+            "title": "Terminal - shell"
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 120,
+          "message": {
+            "type": "seamless-window-resize-request",
+            "id": 1,
+            "seq": 1,
+            "width": 1000,
+            "height": 700
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 120,
+          "message": {
+            "type": "seamless-window-resize-result",
+            "id": 1,
+            "seq": 1,
+            "width": 1000,
+            "height": 700
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 80,
+          "message": {
+            "type": "seamless-window-focus",
+            "id": 1,
+            "focused": true
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 70,
+          "message": {
+            "type": "seamless-window-close",
+            "id": 1
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 90,
+          "message": {
+            "type": "seamless-window-destroy",
+            "id": 1,
+            "reason": "closed"
+          },
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "name": "wrong-version-fails-without-fallback",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 2,
+        "sessionMode": "seamless",
+        "sessionLease": false,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 1,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "unsupported-version"
+        }
+      ]
+    },
+    {
+      "name": "missing-capability-fails",
+      "negotiation": {
+        "advertisedVersion": 0,
+        "requestedVersion": 1,
+        "sessionMode": "seamless",
+        "sessionLease": false,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 1,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "mode-not-advertised"
+        }
+      ]
+    },
+    {
+      "name": "duplicate-retired-and-unknown-ids",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 1,
+        "sessionMode": "seamless",
+        "sessionLease": true,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 2,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 2,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "duplicate-window-id"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 80,
+          "message": {
+            "type": "seamless-window-title",
+            "id": 99,
+            "title": "unknown"
+          },
+          "accepted": false,
+          "error": "unknown-window-id"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 70,
+          "message": {
+            "type": "seamless-window-destroy",
+            "id": 2
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 2,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "duplicate-window-id"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 70,
+          "message": {
+            "type": "seamless-window-destroy",
+            "id": 2
+          },
+          "accepted": false,
+          "error": "unknown-window-id"
+        }
+      ]
+    },
+    {
+      "name": "invalid-identifiers-and-dimensions",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 1,
+        "sessionMode": "seamless",
+        "sessionLease": true,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 0,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "invalid-message"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 3,
+            "width": 15,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "invalid-window-size"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 4,
+            "width": 800,
+            "height": 4321
+          },
+          "accepted": false,
+          "error": "invalid-window-size"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 5,
+            "width": 800.5,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "invalid-window-size"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 6,
+            "width": 16,
+            "height": 16
+          },
+          "accepted": true
+        },
+        {
+          "plane": "control",
+          "wireBytes": 120,
+          "message": {
+            "type": "seamless-window-resize-request",
+            "id": 6,
+            "seq": 1,
+            "width": 7681,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "invalid-window-size"
+        }
+      ]
+    },
+    {
+      "name": "control-and-media-size-limits",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 1,
+        "sessionMode": "seamless",
+        "sessionLease": true,
+        "mediaNegotiated": true
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 32769,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 7,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "control-too-large"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 32768,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 7,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": true
+        },
+        {
+          "plane": "media",
+          "message": {
+            "version": 1,
+            "kind": "frame",
+            "id": 7,
+            "seq": 1,
+            "width": 800,
+            "height": 600,
+            "payloadBytes": 33554432
+          },
+          "accepted": true
+        },
+        {
+          "plane": "media",
+          "message": {
+            "version": 1,
+            "kind": "frame",
+            "id": 7,
+            "seq": 2,
+            "width": 800,
+            "height": 600,
+            "payloadBytes": 33554433
+          },
+          "accepted": false,
+          "error": "frame-too-large"
+        },
+        {
+          "plane": "media",
+          "message": {
+            "version": 1,
+            "kind": "damage",
+            "id": 7,
+            "seq": 3,
+            "width": 800,
+            "height": 600,
+            "x": 790,
+            "y": 590,
+            "damageWidth": 11,
+            "damageHeight": 10,
+            "payloadBytes": 100
+          },
+          "accepted": false,
+          "error": "invalid-window-size"
+        }
+      ]
+    },
+    {
+      "name": "media-requires-separate-negotiation",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 1,
+        "sessionMode": "seamless",
+        "sessionLease": true,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 8,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": true
+        },
+        {
+          "plane": "media",
+          "message": {
+            "version": 1,
+            "kind": "frame",
+            "id": 8,
+            "seq": 1,
+            "width": 800,
+            "height": 600,
+            "payloadBytes": 100
+          },
+          "accepted": false,
+          "error": "media-not-negotiated"
+        }
+      ]
+    },
+    {
+      "name": "desktop-and-seamless-isolation",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 1,
+        "sessionMode": "desktop",
+        "sessionLease": false,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 120,
+          "message": {
+            "type": "display-resize",
+            "seq": 1,
+            "width": 1920,
+            "height": 1080,
+            "scale": 2
+          },
+          "accepted": false,
+          "error": "invalid-message"
+        },
+        {
+          "plane": "control",
+          "wireBytes": 100,
+          "message": {
+            "type": "seamless-window-create",
+            "id": 9,
+            "width": 800,
+            "height": 600
+          },
+          "accepted": false,
+          "error": "wrong-session-mode"
+        }
+      ]
+    },
+    {
+      "name": "desktop-message-not-reinterpreted-in-seamless-handler",
+      "negotiation": {
+        "advertisedVersion": 1,
+        "requestedVersion": 1,
+        "sessionMode": "seamless",
+        "sessionLease": true,
+        "mediaNegotiated": false
+      },
+      "steps": [
+        {
+          "plane": "control",
+          "wireBytes": 120,
+          "message": {
+            "type": "display-resize",
+            "seq": 1,
+            "width": 1920,
+            "height": 1080,
+            "scale": 2
+          },
+          "accepted": false,
+          "error": "invalid-message"
+        }
+      ]
+    }
+  ]
+}
