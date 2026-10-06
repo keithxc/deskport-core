@@ -11,4 +11,5 @@ jobs:
       - run: python3 tests/test_session_graph.py
       - run: python3 tests/test_manual.py
       - run: python3 tests/test_seamless_protocol.py
+      - run: python3 tests/test_pairing_invites.py
       - run: python3 portable/test_catalog.py --java

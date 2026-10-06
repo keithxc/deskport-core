@@ -18,7 +18,7 @@ The URI is `deskport://bind` with exactly six query fields:
 | Field | Value |
 | --- | --- |
 | `v` | `1` |
-| `entry` | ASCII DNS name, IPv4, or bracketed IPv6, followed by an explicit TCP port 1..65535 |
+| `entry` | ASCII DNS name (at most 253 bytes), IPv4, or bracketed IPv6, followed by an explicit decimal TCP port 1..65535 without leading zeros |
 | `id` | Host UUID, canonical lowercase hyphenated form, nonzero |
 | `fp` | Lowercase 64-character SHA-256 hex of the binding TLS leaf certificate DER |
 | `token` | 32 cryptographically random bytes, canonical base64url without padding (43 characters) |
@@ -95,6 +95,11 @@ host without the capability. There is no downgrade to unpinned discovery.
 Old clients ignore the optional hello field and continue manual binding.
 
 `pairing-invite-cases.json` contains shared URI fixtures with a fixed clock.
+Each invalid case names the single rule its `reason` exercises; the reference
+parser in `tests/test_pairing_invites.py` checks those reasons in order (length,
+URI shape, fields, escapes, then each value). Consumers only need to reject.
+Because every value is bounded, no otherwise valid URI reaches 2048 bytes: the
+length limit is a pre-parse bound that must be checked before decoding.
 Native transport tests must also exercise wrong certificate/UUID, missing
 capability, preview/cancel without writes, entry preservation, confirmation,
 expiry at confirmation, duplicate delivery, saved-pin conflicts, replay,

@@ -59,191 +59,248 @@
   "invalid": [
     {
       "name": "expired",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584000"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584000",
+      "reason": "expiry-window"
     },
     {
       "name": "too-far-future",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584331"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584331",
+      "reason": "expiry-window"
     },
     {
       "name": "fractional-expiry",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584000.5"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584000.5",
+      "reason": "exp"
     },
     {
       "name": "signed-expiry",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=%2B1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=%2B1801584300",
+      "reason": "exp"
     },
     {
       "name": "bad-version",
-      "uri": "deskport://bind?v=2&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=2&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "version"
     },
     {
       "name": "zero-uuid",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=00000000-0000-0000-0000-000000000000&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=00000000-0000-0000-0000-000000000000&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "id"
     },
     {
       "name": "noncanonical-uuid",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678123442348234123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678123442348234123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "id"
     },
     {
       "name": "uppercase-uuid",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789ABC&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789ABC&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "id"
     },
     {
       "name": "uppercase-pin",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "fp"
     },
     {
       "name": "short-pin",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "fp"
     },
     {
       "name": "short-token",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh&exp=1801584300",
+      "reason": "token"
     },
     {
       "name": "padded-token",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8%3D&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8%3D&exp=1801584300",
+      "reason": "token"
     },
     {
       "name": "noncanonical-token",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh9&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh9&exp=1801584300",
+      "reason": "token"
     },
     {
       "name": "port-zero",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A0&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A0&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "port-overflow",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A65536&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A65536&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
+    },
+    {
+      "name": "port-leading-zero",
+      "uri": "deskport://bind?v=1&entry=vps.example%3A048991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "missing-port",
-      "uri": "deskport://bind?v=1&entry=vps.example&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "userinfo-entry",
-      "uri": "deskport://bind?v=1&entry=alice%40vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=alice%40vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "entry-path",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%2Fx&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%2Fx&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "entry-query",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%3Fx&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%3Fx&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "entry-fragment",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%23x&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%23x&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "entry-scheme",
-      "uri": "deskport://bind?v=1&entry=https%3A%2F%2Fvps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=https%3A%2F%2Fvps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "entry-space",
-      "uri": "deskport://bind?v=1&entry=vps%20example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps%20example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "character"
     },
     {
       "name": "entry-newline",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%0A&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%0A&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "character"
     },
     {
       "name": "ipv6-zone",
-      "uri": "deskport://bind?v=1&entry=%5Bfe80%3A%3A1%25en0%5D%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=%5Bfe80%3A%3A1%25en0%5D%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "bare-ipv6",
-      "uri": "deskport://bind?v=1&entry=2001%3Adb8%3A%3A1%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=2001%3Adb8%3A%3A1%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "invalid-ipv6",
-      "uri": "deskport://bind?v=1&entry=%5Bnot%3Aipv6%5D%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=%5Bnot%3Aipv6%5D%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "leading-hyphen-dns",
-      "uri": "deskport://bind?v=1&entry=-bad.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=-bad.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "empty-dns-label",
-      "uri": "deskport://bind?v=1&entry=bad..example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=bad..example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
+    },
+    {
+      "name": "dns-name-too-long",
+      "uri": "deskport://bind?v=1&entry=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "entry"
     },
     {
       "name": "unicode-dns",
-      "uri": "deskport://bind?v=1&entry=%E4%B8%BB%E6%9C%BA.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=%E4%B8%BB%E6%9C%BA.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "character"
     },
     {
       "name": "duplicate",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300&v=1"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300&v=1",
+      "reason": "field"
     },
     {
       "name": "unknown-field",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300&extra=x"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300&extra=x",
+      "reason": "field"
     },
     {
       "name": "missing-field",
-      "uri": "deskport://bind?entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "field"
     },
     {
       "name": "bad-escape",
-      "uri": "deskport://bind?v=1&entry=vps%ZZ.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps%ZZ.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "escape"
     },
     {
       "name": "userinfo",
-      "uri": "deskport://user@bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://user@bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "userinfo"
     },
     {
       "name": "unexpected-path",
-      "uri": "deskport://bind/path?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind/path?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "path"
     },
     {
       "name": "fragment",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300#x"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300#x",
+      "reason": "fragment"
     },
     {
       "name": "wrong-authority",
-      "uri": "deskport://other?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://other?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "authority"
     },
     {
       "name": "wrong-scheme",
-      "uri": "https://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "https://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "scheme"
     },
     {
       "name": "empty-query",
-      "uri": "deskport://bind"
+      "uri": "deskport://bind",
+      "reason": "field"
     },
     {
       "name": "overlong",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300&extra=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      "uri": "deskport://bind?v=1&entry=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "length"
     },
     {
       "name": "v-encoded-newline",
-      "uri": "deskport://bind?v=1%0A&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1%0A&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "character"
     },
     {
       "name": "entry-encoded-newline",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%0A&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991%0A&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "character"
     },
     {
       "name": "id-encoded-newline",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc%0A&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc%0A&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "character"
     },
     {
       "name": "fp-encoded-newline",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef%0A&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef%0A&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300",
+      "reason": "character"
     },
     {
       "name": "token-encoded-newline",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8%0A&exp=1801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8%0A&exp=1801584300",
+      "reason": "character"
     },
     {
       "name": "exp-encoded-newline",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300%0A"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=1801584300%0A",
+      "reason": "character"
     },
     {
       "name": "leading-zero-expiry",
-      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=01801584300"
+      "uri": "deskport://bind?v=1&entry=vps.example%3A48991&id=12345678-1234-4234-8234-123456789abc&fp=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef&token=AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8&exp=01801584300",
+      "reason": "exp"
     }
   ]
 }
