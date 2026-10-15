@@ -28,6 +28,12 @@
 #define DP_VIDEO_PAUSE_VERSION 1
 #define DP_MESSAGE_VIDEO_STATE "video-state"
 #define DP_MESSAGE_VIDEO_RESULT "video-result"
+// Optional live video bitrate ceiling. See protocol/VIDEO_RATE.md.
+#define DP_VIDEO_RATE_VERSION 1
+#define DP_MESSAGE_VIDEO_RATE "video-rate"
+#define DP_MESSAGE_VIDEO_RATE_RESULT "video-rate-result"
+#define DP_VIDEO_RATE_MIN_KBPS 500
+#define DP_VIDEO_RATE_MAX_KBPS 200000
 #define DP_SESSION_LIFECYCLE_VERSION 1
 #define DP_MESSAGE_SESSION_RELEASE "session-release"
 
