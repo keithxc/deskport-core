@@ -7035,6 +7035,12 @@
       "attributes": {},
       "elements": [],
       "translationType": null
+    },
+    "881bc273ad29e93f": {
+      "source": "The host's minimum desktop size limits scaling. Use full screen or a larger window.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
     }
   },
   "catalogs": {
@@ -7376,6 +7382,18 @@
             "6fe3b2e94ac40a8d",
             "a05d3c9ac8702a40",
             "296336959adc5417"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "HostManager",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -7745,7 +7763,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -8576,7 +8601,8 @@
             "830a22c42c712dfe",
             "e1e8387e50a8d67e",
             "1a986010d6c801d9",
-            "ebbb448d30664e6f"
+            "ebbb448d30664e6f",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -8626,7 +8652,8 @@
             "f574509bac05015d",
             "d3c218bd98b690b0",
             "9926f8db2e3df00e",
-            "f841307a8b44f931"
+            "f841307a8b44f931",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -9129,7 +9156,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -9960,7 +9994,8 @@
             "830a22c42c712dfe",
             "e1e8387e50a8d67e",
             "1a986010d6c801d9",
-            "ebbb448d30664e6f"
+            "ebbb448d30664e6f",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -10010,7 +10045,8 @@
             "f574509bac05015d",
             "d3c218bd98b690b0",
             "9926f8db2e3df00e",
-            "f841307a8b44f931"
+            "f841307a8b44f931",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -10500,6 +10536,18 @@
           "messages": [
             "69140d877d4bfd3d",
             "31457713b3d2564a"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "HostManager",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -11329,7 +11377,8 @@
             "830a22c42c712dfe",
             "e1e8387e50a8d67e",
             "1a986010d6c801d9",
-            "ebbb448d30664e6f"
+            "ebbb448d30664e6f",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -11379,7 +11428,8 @@
             "f574509bac05015d",
             "d3c218bd98b690b0",
             "9926f8db2e3df00e",
-            "f841307a8b44f931"
+            "f841307a8b44f931",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -11863,6 +11913,18 @@
             "a05d3c9ac8702a40",
             "296336959adc5417"
           ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "HostManager",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
         }
       ]
     },
@@ -12211,6 +12273,18 @@
           "messages": [
             "69140d877d4bfd3d",
             "31457713b3d2564a"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "HostManager",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -12580,7 +12654,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -12950,7 +13031,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -13783,7 +13871,8 @@
             "830a22c42c712dfe",
             "e1e8387e50a8d67e",
             "1a986010d6c801d9",
-            "ebbb448d30664e6f"
+            "ebbb448d30664e6f",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -13837,7 +13926,8 @@
             "f574509bac05015d",
             "d3c218bd98b690b0",
             "9926f8db2e3df00e",
-            "f841307a8b44f931"
+            "f841307a8b44f931",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -14808,7 +14898,8 @@
             "830a22c42c712dfe",
             "e1e8387e50a8d67e",
             "1a986010d6c801d9",
-            "ebbb448d30664e6f"
+            "ebbb448d30664e6f",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -14858,7 +14949,8 @@
             "f574509bac05015d",
             "d3c218bd98b690b0",
             "9926f8db2e3df00e",
-            "f841307a8b44f931"
+            "f841307a8b44f931",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -15355,6 +15447,18 @@
           "messages": [
             "29482b515793fce1"
           ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "HostManager",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
         }
       ]
     },
@@ -15716,7 +15820,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -16086,7 +16197,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -16456,7 +16574,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -16820,7 +16945,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -17176,6 +17308,18 @@
           "name": "BindView",
           "messages": [
             "29482b515793fce1"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "HostManager",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -17545,7 +17689,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -17915,7 +18066,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -18283,7 +18441,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -18653,7 +18818,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -19010,6 +19182,18 @@
           "name": "BindView",
           "messages": [
             "29482b515793fce1"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "HostManager",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -19379,7 +19563,14 @@
         {
           "name": "HostManager",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "DeviceSettings",
+          "messages": [
+            "881bc273ad29e93f"
           ]
         }
       ]
@@ -20233,7 +20424,8 @@
             "5ceec4a0c7d911ee",
             "b898216faf6ae1ab",
             "32a81caea05cafa7",
-            "1bfba0f60a9852ad"
+            "1bfba0f60a9852ad",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -20287,7 +20479,8 @@
             "f574509bac05015d",
             "d3c218bd98b690b0",
             "9926f8db2e3df00e",
-            "f841307a8b44f931"
+            "f841307a8b44f931",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -21309,7 +21502,8 @@
             "5ceec4a0c7d911ee",
             "b898216faf6ae1ab",
             "32a81caea05cafa7",
-            "1bfba0f60a9852ad"
+            "1bfba0f60a9852ad",
+            "881bc273ad29e93f"
           ]
         },
         {
@@ -21363,7 +21557,8 @@
             "f574509bac05015d",
             "d3c218bd98b690b0",
             "9926f8db2e3df00e",
-            "f841307a8b44f931"
+            "f841307a8b44f931",
+            "881bc273ad29e93f"
           ]
         },
         {

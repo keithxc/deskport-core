@@ -32428,5 +32428,37 @@
     "uk": "Повідомити про проблему в налаштуваннях збирає архів журналу, який можна приєднати до проблеми. Перегляньте його, перш ніж ділитися ним.",
     "hi": "सेटिंग्स में किसी समस्या की रिपोर्ट करें एक लॉग संग्रह एकत्र करता है जिसे आप किसी समस्या के साथ संलग्न कर सकते हैं। इसे साझा करने से पहले इसकी समीक्षा करें.",
     "ms": "Laporkan masalah dalam Tetapan mengumpulkan arkib log yang boleh anda lampirkan pada isu. Semak ia sebelum berkongsinya."
+  },
+  "The host's minimum desktop size limits scaling. Use full screen or a larger window.": {
+    "en": "The host's minimum desktop size limits scaling. Use full screen or a larger window.",
+    "_platforms": {
+      "desktop": [
+        "DeviceSettings",
+        "HostManager"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "de": "Die minimale Desktopgröße des Hosts begrenzt die Skalierung. Verwende den Vollbildmodus oder ein größeres Fenster.",
+    "es": "El tamaño mínimo del escritorio del anfitrión limita la escala. Usa pantalla completa o una ventana más grande.",
+    "fr": "La taille minimale du bureau hôte limite la mise à l’échelle. Utilisez le plein écran ou une fenêtre plus grande.",
+    "ja": "ホストの最小デスクトップサイズにより拡大率が制限されています。全画面表示か、より大きなウィンドウを使用してください。",
+    "ko": "호스트의 최소 데스크톱 크기로 인해 배율이 제한됩니다. 전체 화면이나 더 큰 창을 사용하세요.",
+    "zh-Hans": "主机的最小桌面尺寸限制了缩放。请使用全屏或更大的窗口。",
+    "zh-Hant": "主機的最小桌面尺寸限制了縮放。請使用全螢幕或更大的視窗。",
+    "pt": "O tamanho mínimo da área de trabalho do anfitrião limita a escala. Use tela inteira ou uma janela maior.",
+    "ar": "يحد الحد الأدنى لحجم سطح مكتب المضيف من التحجيم. استخدم ملء الشاشة أو نافذة أكبر.",
+    "bo": "ཧོསཊི་གི་ཌེཀ་སི་ཊོབ་ཆུང་ཤོས་ཀྱི་ཚད་ཀྱིས་ཆེ་ཆུང་སྒྱུར་བ་ལ་ཚད་འཛིན་བྱེད། གསལ་གཞི་ཆ་ཚང་ཡང་ན་སྒེའུ་ཁུང་ཆེ་བ་བེད་སྤྱོད་བྱེད་དགོས།",
+    "it": "La dimensione minima del desktop host limita la scala. Usa lo schermo intero o una finestra più grande.",
+    "ru": "Минимальный размер рабочего стола хоста ограничивает масштаб. Используйте полноэкранный режим или окно большего размера.",
+    "id": "Ukuran desktop minimum host membatasi skala. Gunakan layar penuh atau jendela yang lebih besar.",
+    "tr": "Ana bilgisayarın minimum masaüstü boyutu ölçeklendirmeyi sınırlar. Tam ekran veya daha büyük bir pencere kullanın.",
+    "vi": "Kích thước màn hình nền tối thiểu của máy chủ giới hạn tỷ lệ. Hãy dùng toàn màn hình hoặc cửa sổ lớn hơn.",
+    "th": "ขนาดเดสก์ท็อปขั้นต่ำของโฮสต์จำกัดการปรับขนาด ใช้แบบเต็มหน้าจอหรือหน้าต่างที่ใหญ่ขึ้น",
+    "nl": "De minimale bureaubladgrootte van de host beperkt de schaal. Gebruik volledig scherm of een groter venster.",
+    "pl": "Minimalny rozmiar pulpitu hosta ogranicza skalowanie. Użyj pełnego ekranu lub większego okna.",
+    "uk": "Мінімальний розмір робочого столу хоста обмежує масштаб. Використовуйте повноекранний режим або більше вікно.",
+    "hi": "होस्ट के न्यूनतम डेस्कटॉप आकार के कारण स्केलिंग सीमित है। पूर्ण स्क्रीन या बड़ी विंडो का उपयोग करें।",
+    "ms": "Saiz desktop minimum hos mengehadkan penskalaan. Gunakan skrin penuh atau tetingkap yang lebih besar."
   }
 }

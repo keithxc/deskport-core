@@ -85,20 +85,27 @@ static inline DPWorkspace dp_workspace_adjust(DPWorkspace base, double factor) {
                          (int)(ceil(base.height*factor/4)*4),base.scale};
     return result;
 }
-// Conservative macOS desktop floor, verified in both orientations. WindowServer
-// can enumerate smaller HiDPI modes but reject selecting them. Apply after user
-// tuning, retaining backing scale and aspect ratio; other hosts keep their policy.
-static inline DPWorkspace dp_workspace_for_macos(DPWorkspace base) {
+// Shared post-tuning desktop floor. Preserve backing scale and aspect ratio.
+static inline DPWorkspace dp_workspace_minimum(DPWorkspace base, double logicalWidth, double logicalHeight) {
     const DPWorkspace empty = {0, 0, 0};
-    if (!dp_workspace_valid(base)) return empty;
-    const int portrait = base.height > base.width;
-    const double minimumWidth = (portrait ? 600.0 : 800.0) * base.scale;
-    const double minimumHeight = (portrait ? 800.0 : 600.0) * base.scale;
+    if (!dp_workspace_valid(base) || !isfinite(logicalWidth) || !isfinite(logicalHeight) ||
+        logicalWidth<=0 || logicalHeight<=0) return empty;
+    const double minimumWidth = logicalWidth * base.scale;
+    const double minimumHeight = logicalHeight * base.scale;
     const double factor = fmax(1.0, fmax(minimumWidth/base.width, minimumHeight/base.height));
     if (base.width*factor > DP_WORKSPACE_MAX_WIDTH || base.height*factor > DP_WORKSPACE_MAX_HEIGHT)
         return empty;
     const DPWorkspace result = {(int)(ceil(base.width*factor/4)*4),
                                (int)(ceil(base.height*factor/4)*4),base.scale};
     return result;
+}
+static inline DPWorkspace dp_workspace_for_macos(DPWorkspace base) {
+    return base.height>base.width ? dp_workspace_minimum(base,600.0,800.0) : dp_workspace_minimum(base,800.0,600.0);
+}
+// Windows clamps per-monitor UI DPI when the effective desktop falls below
+// 800x600. Unlike the macOS floor, these axes do not swap for portrait modes.
+// Apply after tuning; the native adapter must still verify the actual DPI.
+static inline DPWorkspace dp_workspace_for_windows(DPWorkspace base) {
+    return dp_workspace_minimum(base,800.0,600.0);
 }
 #endif

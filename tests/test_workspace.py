@@ -92,6 +92,14 @@ def main():
                           ((640,4320,2),(0,0,0))]:
         checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
         lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_macos(b); if (!({checks})) return 5; }}')
+    for base,expected in [((1920,1080,2),(2136,1200,2)),((1080,1920,2),(1600,2848,2)),
+                          ((2560,1440,2),(2560,1440,2)),((640,360,1),(1068,600,1)),
+                          ((0,0,0),(0,0,0)),((640,4320,2),(0,0,0))]:
+        checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
+        lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_windows(b); if (!({checks})) return 6; }}')
+    if adapter == 'qt':
+        lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1920,1080),2},1.0,QStringLiteral("Windows 11")); if(s.pixels!=QSize(2136,1200)||s.scale!=2) return 7; }')
+        lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1080,1920),2},1.0,QStringLiteral("Windows 11")); if(s.pixels!=QSize(1600,2848)||s.scale!=2) return 8; }')
     lines += ['return 0;', '}']
     with tempfile.TemporaryDirectory(prefix='deskport-core-') as tmp:
         work = Path(tmp)
