@@ -28,6 +28,12 @@ consumers load the `apple` / `android` table views; platform-only rows do not
 appear in the other product's generated resources. Consumer updates can follow
 independent release schedules without changing wire behavior.
 
+The shared registry now includes 22 languages: English, both Chinese scripts,
+Japanese, French, German, Arabic, Korean, Portuguese, Spanish, Tibetan, Italian,
+Russian, Indonesian, Turkish, Vietnamese, Thai, Dutch, Polish, Ukrainian, Hindi
+and Malay. Indonesian keeps the upstream Android `in` resource/picker code while
+exposing canonical `id` to modern OS locale settings.
+
 New translations added on 2026-10-17 are machine-assisted drafts with technical
 tokens and format placeholders preserved. Common navigation terminology is
 reviewed during integration; native-speaker review, especially Tibetan, and

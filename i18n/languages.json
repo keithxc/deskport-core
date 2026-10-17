@@ -1,13 +1,158 @@
 [
-  {"code":"en", "name":"English", "qt":"en", "android":"", "direction":"ltr"},
-  {"code":"zh-Hans", "name":"简体中文", "qt":"zh_CN", "android":"-b+zh+Hans", "direction":"ltr"},
-  {"code":"zh-Hant", "name":"繁體中文", "qt":"zh_TW", "android":"-b+zh+Hant", "direction":"ltr"},
-  {"code":"ja", "name":"日本語", "qt":"ja", "android":"-ja", "direction":"ltr"},
-  {"code":"fr", "name":"Français", "qt":"fr", "android":"-fr", "direction":"ltr"},
-  {"code":"de", "name":"Deutsch", "qt":"de", "android":"-de", "direction":"ltr"},
-  {"code":"ar", "name":"العربية", "qt":"ar", "android":"-ar", "direction":"rtl"},
-  {"code":"ko", "name":"한국어", "qt":"ko", "android":"-ko", "direction":"ltr"},
-  {"code":"pt", "name":"Português", "qt":"pt", "android":"-pt", "direction":"ltr"},
-  {"code":"es", "name":"Español", "qt":"es", "android":"-es", "direction":"ltr"},
-  {"code":"bo", "name":"བོད་ཡིག", "qt":"bo", "android":"-bo", "direction":"ltr"}
+  {
+    "code": "en",
+    "name": "English",
+    "qt": "en",
+    "android": "",
+    "direction": "ltr"
+  },
+  {
+    "code": "zh-Hans",
+    "name": "简体中文",
+    "qt": "zh_CN",
+    "android": "-b+zh+Hans",
+    "direction": "ltr"
+  },
+  {
+    "code": "zh-Hant",
+    "name": "繁體中文",
+    "qt": "zh_TW",
+    "android": "-b+zh+Hant",
+    "direction": "ltr"
+  },
+  {
+    "code": "ja",
+    "name": "日本語",
+    "qt": "ja",
+    "android": "-ja",
+    "direction": "ltr"
+  },
+  {
+    "code": "fr",
+    "name": "Français",
+    "qt": "fr",
+    "android": "-fr",
+    "direction": "ltr"
+  },
+  {
+    "code": "de",
+    "name": "Deutsch",
+    "qt": "de",
+    "android": "-de",
+    "direction": "ltr"
+  },
+  {
+    "code": "ar",
+    "name": "العربية",
+    "qt": "ar",
+    "android": "-ar",
+    "direction": "rtl"
+  },
+  {
+    "code": "ko",
+    "name": "한국어",
+    "qt": "ko",
+    "android": "-ko",
+    "direction": "ltr"
+  },
+  {
+    "code": "pt",
+    "name": "Português",
+    "qt": "pt",
+    "android": "-pt",
+    "direction": "ltr"
+  },
+  {
+    "code": "es",
+    "name": "Español",
+    "qt": "es",
+    "android": "-es",
+    "direction": "ltr"
+  },
+  {
+    "code": "bo",
+    "name": "བོད་ཡིག",
+    "qt": "bo",
+    "android": "-bo",
+    "direction": "ltr"
+  },
+  {
+    "code": "it",
+    "name": "Italiano",
+    "qt": "it",
+    "android": "-it",
+    "direction": "ltr"
+  },
+  {
+    "code": "ru",
+    "name": "Русский",
+    "qt": "ru",
+    "android": "-ru",
+    "direction": "ltr"
+  },
+  {
+    "code": "id",
+    "name": "Bahasa Indonesia",
+    "qt": "id",
+    "android": "-in",
+    "direction": "ltr",
+    "androidPicker": "in",
+    "androidLocale": "id"
+  },
+  {
+    "code": "tr",
+    "name": "Türkçe",
+    "qt": "tr",
+    "android": "-tr",
+    "direction": "ltr"
+  },
+  {
+    "code": "vi",
+    "name": "Tiếng Việt",
+    "qt": "vi",
+    "android": "-vi",
+    "direction": "ltr"
+  },
+  {
+    "code": "th",
+    "name": "ไทย",
+    "qt": "th",
+    "android": "-th",
+    "direction": "ltr"
+  },
+  {
+    "code": "nl",
+    "name": "Nederlands",
+    "qt": "nl",
+    "android": "-nl",
+    "direction": "ltr"
+  },
+  {
+    "code": "pl",
+    "name": "Polski",
+    "qt": "pl",
+    "android": "-pl",
+    "direction": "ltr"
+  },
+  {
+    "code": "uk",
+    "name": "Українська",
+    "qt": "uk",
+    "android": "-uk",
+    "direction": "ltr"
+  },
+  {
+    "code": "hi",
+    "name": "हिन्दी",
+    "qt": "hi",
+    "android": "-hi",
+    "direction": "ltr"
+  },
+  {
+    "code": "ms",
+    "name": "Bahasa Melayu",
+    "qt": "ms",
+    "android": "-ms",
+    "direction": "ltr"
+  }
 ]

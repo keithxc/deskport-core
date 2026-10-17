@@ -14,7 +14,18 @@
         "ko": "DeskPort란",
         "pt": "O que é DeskPort",
         "es": "Qué es DeskPort",
-        "bo": "DeskPort ནི་ག་རེ་རེད།"
+        "bo": "DeskPort ནི་ག་རེ་རེད།",
+        "it": "Cos'è DeskPort",
+        "ru": "Что такое DeskPort",
+        "id": "Apa itu DeskPort",
+        "tr": "DeskPort nedir?",
+        "vi": "DeskPort là gì",
+        "th": "DeskPort คืออะไร",
+        "nl": "Wat DeskPort is",
+        "pl": "Co to jest DeskPort",
+        "uk": "Що таке DeskPort",
+        "hi": "DeskPort क्या है",
+        "ms": "Apakah itu DeskPort"
       },
       "steps": [
         {
@@ -29,7 +40,18 @@
             "ko": "DeskPort는 컴퓨터 한 대를 공유해 다른 기기에서 그 데스크톱을 사용할 수 있게 합니다.",
             "pt": "DeskPort compartilha um computador e permite que outros dispositivos usem sua área de trabalho.",
             "es": "DeskPort comparte un ordenador para que tus otros dispositivos puedan usar su escritorio.",
-            "bo": "DeskPort ཡིས་གློག་ཀླད་གཅིག་མཉམ་སྤྱོད་བྱེད་པ་དང་ཁྱེད་ཀྱི་ཐབས་འཕྲུལ་གཞན་པ་ཚོས་དེའི་ཡིག་ཆའི་སྟེགས་བུ་བེད་སྤྱོད་གཏོང་ཐུབ།"
+            "bo": "DeskPort ཡིས་གློག་ཀླད་གཅིག་མཉམ་སྤྱོད་བྱེད་པ་དང་ཁྱེད་ཀྱི་ཐབས་འཕྲུལ་གཞན་པ་ཚོས་དེའི་ཡིག་ཆའི་སྟེགས་བུ་བེད་སྤྱོད་གཏོང་ཐུབ།",
+            "it": "DeskPort condivide un computer e consente agli altri dispositivi di utilizzare il suo desktop.",
+            "ru": "DeskPort использует один компьютер и позволяет другим вашим устройствам использовать его рабочий стол.",
+            "id": "DeskPort berbagi satu komputer dan memungkinkan perangkat Anda yang lain menggunakan desktopnya.",
+            "tr": "DeskPort bir bilgisayarı paylaşır ve diğer cihazlarınızın masaüstünü kullanmasına olanak tanır.",
+            "vi": "DeskPort chia sẻ một máy tính và cho phép các thiết bị khác của bạn sử dụng máy tính để bàn của nó.",
+            "th": "DeskPort แชร์คอมพิวเตอร์เครื่องหนึ่งและอนุญาตให้อุปกรณ์อื่นๆ ของคุณใช้เดสก์ท็อปได้",
+            "nl": "DeskPort deelt één computer en laat uw andere apparaten het bureaublad gebruiken.",
+            "pl": "DeskPort udostępnia jeden komputer i pozwala innym urządzeniom korzystać ze swojego pulpitu.",
+            "uk": "DeskPort спільно використовує один комп’ютер і дозволяє іншим вашим пристроям використовувати його робочий стіл.",
+            "hi": "DeskPort एक कंप्यूटर साझा करता है और आपके अन्य उपकरणों को इसके डेस्कटॉप का उपयोग करने देता है।",
+            "ms": "DeskPort berkongsi satu komputer dan membenarkan peranti anda yang lain menggunakan desktopnya."
           }
         },
         {
@@ -44,7 +66,18 @@
             "ko": "사용되는 컴퓨터가 호스트, 앞에서 조작하는 기기가 클라이언트입니다. 한 컴퓨터가 둘 다일 수도 있습니다.",
             "pt": "O computador usado é o host; o dispositivo em que você está sentado é o cliente. Um computador pode ser ambos.",
             "es": "El ordenador que se usa es el host y el dispositivo que tienes delante es el cliente. Un ordenador puede ser ambos.",
-            "bo": "བེད་སྤྱོད་བྱེད་བཞིན་པའི་གློག་ཀླད་དེ་གཙོ་བོ་ཡིན། ཁྱེད་རང་སྡོད་པའི་ཡོ་ཆས་དེ་ཚོང་ཤག་རེད། གློག་ཀླད་ནི་གཉིས་ཀ་ཡིན།"
+            "bo": "བེད་སྤྱོད་བྱེད་བཞིན་པའི་གློག་ཀླད་དེ་གཙོ་བོ་ཡིན། ཁྱེད་རང་སྡོད་པའི་ཡོ་ཆས་དེ་ཚོང་ཤག་རེད། གློག་ཀླད་ནི་གཉིས་ཀ་ཡིན།",
+            "it": "Il computer utilizzato è l'host; il dispositivo su cui ti siedi è il client. Un computer può essere entrambe le cose.",
+            "ru": "Используемый компьютер является хостом; устройство, на котором вы сидите, является клиентом. Компьютер может быть и тем, и другим.",
+            "id": "Komputer yang digunakan adalah hostnya; perangkat tempat Anda duduk adalah klien. Komputer bisa menjadi keduanya.",
+            "tr": "Kullanılan bilgisayar ana bilgisayardır; oturduğunuz cihaz istemcidir. Bir bilgisayar her ikisi de olabilir.",
+            "vi": "Máy tính đang được sử dụng là máy chủ; thiết bị bạn đang sử dụng là máy khách. Một máy tính có thể là cả hai.",
+            "th": "คอมพิวเตอร์ที่ใช้คือโฮสต์ อุปกรณ์ที่คุณนั่งคือลูกค้า คอมพิวเตอร์สามารถเป็นได้ทั้งสองอย่าง",
+            "nl": "De gebruikte computer is de host; het apparaat waarop u zit, is de cliënt. Een computer kan beide zijn.",
+            "pl": "Używany komputer jest hostem; urządzenie, przy którym siedzisz, jest klientem. Komputer może być jednym i drugim.",
+            "uk": "Комп’ютер, який використовується, є хостом; пристрій, за яким ви сидите, є клієнтом. Комп’ютер може бути і тим і іншим.",
+            "hi": "उपयोग किया जा रहा कंप्यूटर होस्ट है; आप जिस डिवाइस पर बैठते हैं वह क्लाइंट है। एक कंप्यूटर दोनों हो सकता है.",
+            "ms": "Komputer yang digunakan ialah hos; peranti yang anda duduki ialah pelanggan. Komputer boleh menjadi kedua-duanya."
           }
         },
         {
@@ -59,7 +92,18 @@
             "ko": "기기끼리는 한 번만 연결하면 됩니다. 접근 권한은 호스트에서 승인하고 호스트에서 철회할 수 있습니다.",
             "pt": "Os dispositivos são vinculados entre si uma vez. O acesso é aprovado no host e pode ser retirado lá.",
             "es": "Los dispositivos se vinculan una sola vez. El acceso se aprueba en el host y se puede retirar allí.",
-            "bo": "ཡོ་ཆས་ཕན་ཚུན་ཐེངས་གཅིག་སྦྲེལ་ཡོད། འཛུལ་ཞུགས་དེ་གཙོ་བདག་སྟེང་ཆོག་མཆན་ཐོབ་ཡོད་པ་དང་། དེ་ནས་ཕྱིར་འཐེན་བྱེད་ཐུབ།"
+            "bo": "ཡོ་ཆས་ཕན་ཚུན་ཐེངས་གཅིག་སྦྲེལ་ཡོད། འཛུལ་ཞུགས་དེ་གཙོ་བདག་སྟེང་ཆོག་མཆན་ཐོབ་ཡོད་པ་དང་། དེ་ནས་ཕྱིར་འཐེན་བྱེད་ཐུབ།",
+            "it": "I dispositivi sono collegati tra loro una volta. L'accesso è approvato sull'host e può essere ritirato lì.",
+            "ru": "Устройства привязываются друг к другу один раз. Доступ одобрен на хосте и может быть отозван там же.",
+            "id": "Perangkat terikat satu sama lain satu kali. Akses disetujui di host dan dapat ditarik di sana.",
+            "tr": "Cihazlar birbirine bir kez bağlanır. Erişim ana makinede onaylanmıştır ve orada geri çekilebilir.",
+            "vi": "Các thiết bị được liên kết với nhau một lần. Quyền truy cập được phê duyệt trên máy chủ và có thể được rút ở đó.",
+            "th": "อุปกรณ์จะเชื่อมโยงกันหนึ่งครั้ง การเข้าถึงได้รับการอนุมัติบนโฮสต์และสามารถเพิกถอนได้ที่นั่น",
+            "nl": "Apparaten zijn één keer aan elkaar gebonden. De toegang wordt op de host goedgekeurd en kan daar worden ingetrokken.",
+            "pl": "Urządzenia są ze sobą powiązane raz. Dostęp jest zatwierdzany na hoście i można go tam wycofać.",
+            "uk": "Пристрої прив’язані один до одного один раз. Доступ схвалено на хості, і його можна скасувати там.",
+            "hi": "डिवाइस एक बार एक दूसरे से बंधे होते हैं। होस्ट पर पहुंच स्वीकृत है और इसे वहां वापस लिया जा सकता है।",
+            "ms": "Peranti terikat satu sama lain sekali. Akses diluluskan pada hos dan boleh ditarik balik di sana."
           }
         }
       ]
@@ -77,7 +121,18 @@
         "ko": "이 컴퓨터 공유하기",
         "pt": "Compartilhe este computador",
         "es": "Compartir este ordenador",
-        "bo": "གློག་ཀླད་འདི་མཉམ་སྤྱོད།"
+        "bo": "གློག་ཀླད་འདི་མཉམ་སྤྱོད།",
+        "it": "Condividi questo computer",
+        "ru": "Поделиться этим компьютером",
+        "id": "Bagikan komputer ini",
+        "tr": "Bu bilgisayarı paylaş",
+        "vi": "Chia sẻ máy tính này",
+        "th": "แบ่งปันคอมพิวเตอร์เครื่องนี้",
+        "nl": "Deel deze computer",
+        "pl": "Udostępnij ten komputer",
+        "uk": "Поділитися цим комп’ютером",
+        "hi": "इस कंप्यूटर को साझा करें",
+        "ms": "Kongsi komputer ini"
       },
       "steps": [
         {
@@ -92,7 +147,18 @@
             "ko": "상단 바에서 공유를 열고 공유 시작을 선택합니다.",
             "pt": "Abra Compartilhamento na barra superior e escolha Iniciar compartilhamento.",
             "es": "Abre Compartir en la barra superior y elige Empezar a compartir.",
-            "bo": "མཐོ་རིམ་ཕྲ་རིང་ནང་མཉམ་སྤྱོད་ཁ་ཕྱེ་ནས་མཉམ་སྤྱོད་འགོ་འཛུགས་འདེམས།"
+            "bo": "མཐོ་རིམ་ཕྲ་རིང་ནང་མཉམ་སྤྱོད་ཁ་ཕྱེ་ནས་མཉམ་སྤྱོད་འགོ་འཛུགས་འདེམས།",
+            "it": "Apri Condivisione nella barra in alto e scegli Avvia condivisione.",
+            "ru": "Откройте «Общий доступ» на верхней панели и выберите «Начать общий доступ».",
+            "id": "Buka Berbagi di bilah atas dan pilih Mulai berbagi.",
+            "tr": "Üst çubukta Paylaşım'ı açın ve Paylaşımı başlat'ı seçin.",
+            "vi": "Mở Chia sẻ ở thanh trên cùng và chọn Bắt đầu chia sẻ.",
+            "th": "เปิดการแชร์ในแถบด้านบนแล้วเลือกเริ่มการแชร์",
+            "nl": "Open Delen in de bovenste balk en kies Beginnen met delen.",
+            "pl": "Otwórz Udostępnianie na górnym pasku i wybierz Rozpocznij udostępnianie.",
+            "uk": "Відкрийте «Спільний доступ» на верхній панелі та виберіть «Почати спільний доступ».",
+            "hi": "शीर्ष बार में शेयरिंग खोलें और स्टार्ट शेयरिंग चुनें।",
+            "ms": "Buka Perkongsian di bar atas dan pilih Mulakan perkongsian."
           }
         },
         {
@@ -107,7 +173,18 @@
             "ko": "요청되면 화면 기록과 손쉬운 사용 권한을 허용합니다. 허용하지 않아도 공유는 시작되지만 화면이나 입력이 작동하지 않습니다.",
             "pt": "Conceda gravação de tela e acesso de acessibilidade quando solicitado. O compartilhamento é executado sem eles, mas a imagem ou a entrada não funcionarão.",
             "es": "Concede la grabación de pantalla y la accesibilidad cuando se pidan. Se puede compartir sin ellos, pero la imagen o la entrada no funcionarán.",
-            "bo": "དྲིས་སྐབས་གློག་བརྙན་གྱི་སྒྲ་ཕབ་དང་འཛུལ་སྤྱོད་ཀྱི་ཐོབ་ཐང་སྤྲོད་དགོས། དེ་དག་མེད་པར་བརྗེ་རེས་བྱེད་ཐུབ། འོན་ཀྱང་པར་རིས་ཡང་ན་ནང་འཇུག་གིས་ལས་ཀ་བྱེད་མི་ཐུབ།"
+            "bo": "དྲིས་སྐབས་གློག་བརྙན་གྱི་སྒྲ་ཕབ་དང་འཛུལ་སྤྱོད་ཀྱི་ཐོབ་ཐང་སྤྲོད་དགོས། དེ་དག་མེད་པར་བརྗེ་རེས་བྱེད་ཐུབ། འོན་ཀྱང་པར་རིས་ཡང་ན་ནང་འཇུག་གིས་ལས་ཀ་བྱེད་མི་ཐུབ།",
+            "it": "Concedi l'accesso alla registrazione dello schermo e all'accessibilità quando richiesto. La condivisione viene eseguita senza di essi, ma l'immagine o l'input non funzioneranno.",
+            "ru": "Предоставьте запись экрана и доступ к специальным возможностям, когда вас спросят. Обмен запускается и без них, но картинка или ввод работать не будут.",
+            "id": "Berikan perekaman layar dan akses aksesibilitas saat diminta. Berbagi berjalan tanpa mereka, tetapi gambar atau masukan tidak akan berfungsi.",
+            "tr": "İstendiğinde ekran kaydına ve erişilebilirlik erişimine izin verin. Paylaşım bunlar olmadan çalışır ancak resim veya giriş çalışmaz.",
+            "vi": "Cấp quyền truy cập vào tính năng ghi màn hình và khả năng truy cập khi được yêu cầu. Quá trình chia sẻ diễn ra mà không có chúng nhưng hình ảnh hoặc dữ liệu đầu vào sẽ không hoạt động.",
+            "th": "ให้สิทธิ์การบันทึกหน้าจอและการเข้าถึงการเข้าถึงเมื่อถูกถาม การแชร์ดำเนินไปโดยไม่มีสิ่งเหล่านั้น แต่รูปภาพหรืออินพุตจะไม่ทำงาน",
+            "nl": "Verleen schermopname en toegankelijkheidstoegang wanneer daarom wordt gevraagd. Het delen verloopt zonder hen, maar de afbeelding of invoer werkt niet.",
+            "pl": "Gdy zostaniesz o to poproszony, przyznaj dostęp do nagrywania ekranu i ułatwień dostępu. Udostępnianie działa bez nich, ale obraz lub dane wejściowe nie będą działać.",
+            "uk": "Надайте доступ до запису екрана та спеціальних можливостей за запитом. Спільний доступ працює без них, але зображення чи введення не працюватимуть.",
+            "hi": "पूछे जाने पर स्क्रीन रिकॉर्डिंग और एक्सेसिबिलिटी एक्सेस प्रदान करें। साझाकरण उनके बिना चलता है, लेकिन चित्र या इनपुट काम नहीं करेगा।",
+            "ms": "Berikan rakaman skrin dan akses kebolehaksesan apabila diminta. Perkongsian berjalan tanpa mereka, tetapi gambar atau input tidak akan berfungsi."
           }
         },
         {
@@ -122,7 +199,18 @@
             "ko": "공유 아이콘 아래의 점은 이 컴퓨터가 공유 중이라는 뜻입니다.",
             "pt": "Um ponto abaixo do ícone de compartilhamento significa que este computador está compartilhado no momento.",
             "es": "Un punto bajo el icono de compartir indica que este ordenador se está compartiendo.",
-            "bo": "བརྗེ་རེས་བྱེད་པའི་འདྲ་སྐུ་འོག་ལ་ཚག་ཡོད་ན་གློག་ཀླད་འདི་ད་ལྟ་བརྗེ་རེས་བྱས་ཡོད་པའི་དོན་རེད།"
+            "bo": "བརྗེ་རེས་བྱེད་པའི་འདྲ་སྐུ་འོག་ལ་ཚག་ཡོད་ན་གློག་ཀླད་འདི་ད་ལྟ་བརྗེ་རེས་བྱས་ཡོད་པའི་དོན་རེད།",
+            "it": "Un punto sotto l'icona di condivisione significa che questo computer è attualmente condiviso.",
+            "ru": "Точка под значком общего доступа означает, что этот компьютер в настоящее время доступен для общего доступа.",
+            "id": "Titik di bawah ikon berbagi berarti komputer ini sedang dibagikan.",
+            "tr": "Paylaşım simgesinin altındaki nokta, bu bilgisayarın şu anda paylaşıldığı anlamına gelir.",
+            "vi": "Dấu chấm bên dưới biểu tượng chia sẻ có nghĩa là máy tính này hiện đang được chia sẻ.",
+            "th": "จุดใต้ไอคอนการแชร์หมายความว่าคอมพิวเตอร์เครื่องนี้ถูกแชร์อยู่ในปัจจุบัน",
+            "nl": "Een punt onder het deelpictogram betekent dat deze computer momenteel wordt gedeeld.",
+            "pl": "Kropka pod ikoną udostępniania oznacza, że ​​ten komputer jest obecnie udostępniany.",
+            "uk": "Крапка під піктограмою спільного доступу означає, що цей комп’ютер наразі спільний.",
+            "hi": "साझाकरण आइकन के नीचे एक बिंदु का अर्थ है कि यह कंप्यूटर वर्तमान में साझा किया गया है।",
+            "ms": "Titik di bawah ikon perkongsian bermakna komputer ini sedang dikongsi."
           }
         }
       ]
@@ -140,7 +228,18 @@
         "ko": "컴퓨터에 연결하기",
         "pt": "Conecte-se a um computador",
         "es": "Conectarse a un ordenador",
-        "bo": "གློག་ཀླད་ལ་མཐུད་པ།"
+        "bo": "གློག་ཀླད་ལ་མཐུད་པ།",
+        "it": "Connettersi a un computer",
+        "ru": "Подключитесь к компьютеру",
+        "id": "Hubungkan ke komputer",
+        "tr": "Bir bilgisayara bağlanma",
+        "vi": "Kết nối với máy tính",
+        "th": "เชื่อมต่อกับคอมพิวเตอร์",
+        "nl": "Maak verbinding met een computer",
+        "pl": "Połącz się z komputerem",
+        "uk": "Підключіться до комп'ютера",
+        "hi": "किसी कंप्यूटर से कनेक्ट करें",
+        "ms": "Sambung ke komputer"
       },
       "steps": [
         {
@@ -155,7 +254,18 @@
             "ko": "같은 네트워크의 기기는 기기 목록에 자동으로 나타납니다.",
             "pt": "Os dispositivos na mesma rede aparecem sozinhos na lista de dispositivos.",
             "es": "Los dispositivos de la misma red aparecen solos en la lista.",
-            "bo": "དྲ་རྒྱ་གཅིག་པའི་འཕྲུལ་ཆས་དེ་དག་འཕྲུལ་ཆས་ཐོ་གཞུང་ནང་རང་ཉིད་ཀྱིས་མངོན་ཡོད།"
+            "bo": "དྲ་རྒྱ་གཅིག་པའི་འཕྲུལ་ཆས་དེ་དག་འཕྲུལ་ཆས་ཐོ་གཞུང་ནང་རང་ཉིད་ཀྱིས་མངོན་ཡོད།",
+            "it": "I dispositivi sulla stessa rete vengono visualizzati da soli nell'elenco dei dispositivi.",
+            "ru": "Устройства в той же сети появляются в списке устройств сами по себе.",
+            "id": "Perangkat di jaringan yang sama akan muncul sendiri di daftar perangkat.",
+            "tr": "Aynı ağdaki cihazlar, cihaz listesinde kendi başlarına görünür.",
+            "vi": "Các thiết bị trên cùng một mạng sẽ tự xuất hiện trong danh sách thiết bị.",
+            "th": "อุปกรณ์บนเครือข่ายเดียวกันจะปรากฏในรายการอุปกรณ์ด้วยตัวเอง",
+            "nl": "Apparaten op hetzelfde netwerk verschijnen vanzelf in de apparatenlijst.",
+            "pl": "Urządzenia w tej samej sieci pojawiają się na liście urządzeń samodzielnie.",
+            "uk": "Пристрої в одній мережі відображаються в списку пристроїв окремо.",
+            "hi": "समान नेटवर्क पर मौजूद डिवाइस अपने आप डिवाइस सूची में दिखाई देते हैं।",
+            "ms": "Peranti pada rangkaian yang sama muncul pada senarai peranti dengan sendirinya."
           }
         },
         {
@@ -170,7 +280,18 @@
             "ko": "다른 네트워크의 컴퓨터는 추가 카드에서 기기 추가를 눌러 주소를 입력합니다.",
             "pt": "Use Adicionar dispositivo no cartão de adição de um computador em outra rede e insira seu endereço.",
             "es": "Para un ordenador de otra red, usa Añadir dispositivo en la tarjeta de añadir e introduce su dirección.",
-            "bo": "དྲ་རྒྱ་གཞན་ཞིག་གི་གློག་ཀླད་ཀྱི་ཁ་སྣོན་ཤོག་བྱང་སྟེང་ཁ་སྣོན་འཕྲུལ་ཆས་བེད་སྤྱོད་བྱས་ནས་དེའི་ཁ་བྱང་བླུགས།"
+            "bo": "དྲ་རྒྱ་གཞན་ཞིག་གི་གློག་ཀླད་ཀྱི་ཁ་སྣོན་ཤོག་བྱང་སྟེང་ཁ་སྣོན་འཕྲུལ་ཆས་བེད་སྤྱོད་བྱས་ནས་དེའི་ཁ་བྱང་བླུགས།",
+            "it": "Utilizza Aggiungi dispositivo sulla scheda di aggiunta di un computer su un'altra rete e inserisci il suo indirizzo.",
+            "ru": "Используйте «Добавить устройство» на карточке добавления компьютера в другой сети и введите его адрес.",
+            "id": "Gunakan Tambahkan perangkat pada kartu tambahan untuk komputer di jaringan lain, dan masukkan alamatnya.",
+            "tr": "Başka bir ağdaki bir bilgisayarın ekleme kartındaki Cihaz ekle seçeneğini kullanın ve adresini girin.",
+            "vi": "Sử dụng Thêm thiết bị trên thẻ thêm cho máy tính trên mạng khác và nhập địa chỉ của máy tính đó.",
+            "th": "ใช้ เพิ่มอุปกรณ์ บนการ์ดเพิ่มสำหรับคอมพิวเตอร์บนเครือข่ายอื่น และป้อนที่อยู่ของมัน",
+            "nl": "Gebruik Apparaat toevoegen op de kaart voor een computer op een ander netwerk en voer het adres ervan in.",
+            "pl": "Użyj opcji Dodaj urządzenie na karcie dodawania komputera w innej sieci i wprowadź jego adres.",
+            "uk": "Використовуйте Додати пристрій на картці додавання для комп’ютера в іншій мережі та введіть його адресу.",
+            "hi": "किसी अन्य नेटवर्क पर कंप्यूटर के लिए ऐड कार्ड पर डिवाइस जोड़ें का उपयोग करें और उसका पता दर्ज करें।",
+            "ms": "Gunakan Tambah peranti pada kad tambah untuk komputer pada rangkaian lain dan masukkan alamatnya."
           }
         },
         {
@@ -185,7 +306,18 @@
             "ko": "기기를 처음 선택하면 호스트에 접근을 요청합니다. 호스트에서 승인하세요.",
             "pt": "Selecionar um dispositivo pela primeira vez solicita acesso ao host; aprove a solicitação lá.",
             "es": "La primera vez que eliges un dispositivo se pide acceso al host; apruébalo allí.",
-            "bo": "ཐོག་མར་ཐབས་འཕྲུལ་འདེམས་ནས་གཙོ་བདག་ལ་འཛུལ་སྤྱོད་འདྲི་དགོས། དེར་རེ་ཞུ་ཆོག་མཆན་སྤྲོད་དགོས།"
+            "bo": "ཐོག་མར་ཐབས་འཕྲུལ་འདེམས་ནས་གཙོ་བདག་ལ་འཛུལ་སྤྱོད་འདྲི་དགོས། དེར་རེ་ཞུ་ཆོག་མཆན་སྤྲོད་དགོས།",
+            "it": "Selezionando un dispositivo la prima volta viene richiesto l'accesso all'host; approvare la richiesta lì.",
+            "ru": "При первом выборе устройства запрашивается доступ к хосту; утвердите запрос там.",
+            "id": "Memilih perangkat pertama kali meminta akses kepada host; menyetujui permintaan di sana.",
+            "tr": "Bir cihazın ilk kez seçilmesi, ana bilgisayardan erişim ister; Oradaki isteği onaylayın.",
+            "vi": "Việc chọn thiết bị lần đầu tiên sẽ yêu cầu máy chủ truy cập; phê duyệt yêu cầu ở đó.",
+            "th": "การเลือกอุปกรณ์ในครั้งแรกจะขอให้โฮสต์เข้าถึง อนุมัติคำขอที่นั่น",
+            "nl": "Als u voor de eerste keer een apparaat selecteert, wordt de host om toegang gevraagd; keurt daar het verzoek goed.",
+            "pl": "Wybierając urządzenie po raz pierwszy, host prosi o dostęp; zatwierdź tam żądanie.",
+            "uk": "Вибір пристрою вперше запитує доступ до хоста; схвалити запит там.",
+            "hi": "किसी डिवाइस का चयन पहली बार होस्ट से एक्सेस मांगता है; वहां अनुरोध को मंजूरी दें.",
+            "ms": "Memilih peranti pada kali pertama meminta hos untuk akses; meluluskan permintaan di sana."
           }
         },
         {
@@ -200,7 +332,18 @@
             "ko": "다른 기기가 이미 연결되어 있으면 이어받을지 묻습니다. 이어받으면 그 기기의 연결이 끊어집니다.",
             "pt": "Se outro dispositivo já estiver conectado, você será questionado se deseja assumir o controle. Assumir o controle desconecta esse dispositivo.",
             "es": "Si ya hay otro dispositivo conectado, se te pregunta si quieres tomar el control. Hacerlo desconecta ese dispositivo.",
-            "bo": "གལ་ཏེ་འཕྲུལ་ཆས་གཞན་ཞིག་མཐུད་ཟིན་ཡོད་ན། ཁྱེད་ལ་འགན་འཁུར་དགོས་མིན་དྲིས་ཡོད། འགན་ལེན་བྱས་ན་འཕྲུལ་ཆས་དེ་གཅོད་པ་རེད།"
+            "bo": "གལ་ཏེ་འཕྲུལ་ཆས་གཞན་ཞིག་མཐུད་ཟིན་ཡོད་ན། ཁྱེད་ལ་འགན་འཁུར་དགོས་མིན་དྲིས་ཡོད། འགན་ལེན་བྱས་ན་འཕྲུལ་ཆས་དེ་གཅོད་པ་རེད།",
+            "it": "Se è già connesso un altro dispositivo, ti verrà chiesto se subentrare. La presa in consegna disconnette il dispositivo.",
+            "ru": "Если другое устройство уже подключено, вас спросят, взять ли на себя управление. Принятие контроля отключает это устройство.",
+            "id": "Jika perangkat lain telah terhubung, Anda akan ditanya apakah akan mengambil alih. Pengambilan alih memutuskan sambungan perangkat itu.",
+            "tr": "Başka bir cihaz zaten bağlıysa, devralıp devralmayacağınız sorulur. Devralmak bu cihazın bağlantısını keser.",
+            "vi": "Nếu một thiết bị khác đã được kết nối, bạn sẽ được hỏi có tiếp quản hay không. Tiếp quản sẽ ngắt kết nối thiết bị đó.",
+            "th": "หากมีอุปกรณ์อื่นเชื่อมต่ออยู่แล้ว ระบบจะถามว่าจะรับช่วงต่อหรือไม่ การรับช่วงต่อจะยกเลิกการเชื่อมต่ออุปกรณ์นั้น",
+            "nl": "Als er al een ander apparaat is aangesloten, wordt u gevraagd of u het wilt overnemen. Als u het overneemt, wordt de verbinding met dat apparaat verbroken.",
+            "pl": "Jeśli inne urządzenie jest już podłączone, zostaniesz zapytany, czy chcesz je przejąć. Przejęcie powoduje rozłączenie tego urządzenia.",
+            "uk": "Якщо інший пристрій уже підключено, вас запитають, чи приймати його. Переймання від’єднує цей пристрій.",
+            "hi": "यदि कोई अन्य डिवाइस पहले से ही कनेक्ट है, तो आपसे पूछा जाएगा कि क्या इसे संभालना है। कार्यभार संभालने से वह उपकरण डिस्कनेक्ट हो जाता है.",
+            "ms": "Jika peranti lain sudah disambungkan, anda akan ditanya sama ada untuk mengambil alih. Mengambil alih memutuskan sambungan peranti itu."
           }
         }
       ]
@@ -218,7 +361,18 @@
         "ko": "기기 목록 정리하기",
         "pt": "Organize a lista de dispositivos",
         "es": "Organizar la lista de dispositivos",
-        "bo": "སྒྲིག་ཆས་དཀར་ཆག་བཀོད་སྒྲིག་བྱེད་པ།"
+        "bo": "སྒྲིག་ཆས་དཀར་ཆག་བཀོད་སྒྲིག་བྱེད་པ།",
+        "it": "Organizza l'elenco dei dispositivi",
+        "ru": "Организация списка устройств",
+        "id": "Atur daftar perangkat",
+        "tr": "Cihaz listesini düzenleyin",
+        "vi": "Sắp xếp danh sách thiết bị",
+        "th": "จัดระเบียบรายการอุปกรณ์",
+        "nl": "Organiseer de apparatenlijst",
+        "pl": "Uporządkuj listę urządzeń",
+        "uk": "Упорядкуйте список пристроїв",
+        "hi": "डिवाइस सूची व्यवस्थित करें",
+        "ms": "Susun senarai peranti"
       },
       "steps": [
         {
@@ -233,7 +387,18 @@
             "ko": "상단 바의 편집으로 편집 모드에 들어가고 카드를 끌어 순서를 바꿉니다.",
             "pt": "Editar na barra superior inicia o modo de edição; arraste os cartões para reordená-los.",
             "es": "Editar en la barra superior activa el modo de edición; arrastra las tarjetas para reordenarlas.",
-            "bo": "མཐོ་རིམ་ཕྲ་རིང་ནང་རྩོམ་སྒྲིག་བྱེད་པ་དེས་རྩོམ་སྒྲིག་ཐབས་ལམ་འགོ་འཛུགས། ཤོག་བྱང་འདྲུད་ནས་བསྐྱར་དུ་གོ་རིམ་སྒྲིག་དགོས།"
+            "bo": "མཐོ་རིམ་ཕྲ་རིང་ནང་རྩོམ་སྒྲིག་བྱེད་པ་དེས་རྩོམ་སྒྲིག་ཐབས་ལམ་འགོ་འཛུགས། ཤོག་བྱང་འདྲུད་ནས་བསྐྱར་དུ་གོ་རིམ་སྒྲིག་དགོས།",
+            "it": "Modifica nella barra in alto avvia la modalità di modifica; trascina le carte per riordinarle.",
+            "ru": "Редактирование в верхней панели запускает режим редактирования; перетаскивайте карты, чтобы изменить их порядок.",
+            "id": "Edit di bilah atas memulai mode edit; seret kartu untuk menyusun ulang.",
+            "tr": "Üst çubuktaki düzenleme, düzenleme modunu başlatır; yeniden sıralamak için kartları sürükleyin.",
+            "vi": "Chỉnh sửa ở thanh trên cùng bắt đầu chế độ chỉnh sửa; kéo thẻ để sắp xếp lại chúng.",
+            "th": "แก้ไขในแถบด้านบนเริ่มโหมดแก้ไข ลากการ์ดเพื่อเรียงลำดับใหม่",
+            "nl": "Bewerken in de bovenste balk start de bewerkingsmodus; versleep kaarten om ze opnieuw te ordenen.",
+            "pl": "Edycja na górnym pasku uruchamia tryb edycji; przeciągnij karty, aby zmienić ich kolejność.",
+            "uk": "Редагувати на верхній панелі запускає режим редагування; перетягуйте картки, щоб змінити їх порядок.",
+            "hi": "शीर्ष बार में संपादित करें संपादन मोड प्रारंभ होता है; कार्डों को पुनः व्यवस्थित करने के लिए उन्हें खींचें।",
+            "ms": "Edit di bar atas memulakan mod edit; seret kad untuk menyusun semula kad itu."
           }
         },
         {
@@ -248,7 +413,18 @@
             "ko": "기기를 다른 기기 위에 놓으면 그룹이 됩니다. 휴대폰 홈 화면의 폴더와 같습니다.",
             "pt": "Solte um dispositivo sobre outro para agrupá-los, como pastas na tela inicial de um telefone.",
             "es": "Suelta un dispositivo sobre otro para agruparlos, como las carpetas en la pantalla de inicio de un móvil.",
-            "bo": "ཐབས་འཕྲུལ་གཅིག་གཞན་ཞིག་གི་སྟེང་ལ་བཞག་ནས་དེ་དག་སྡེ་ཚན་བཟོས་དགོས། དཔེར་ན་ཁ་པར་གྱི་གཙོ་ངོས་སྟེང་གི་སྣོད་ཐོ་ལྟར།"
+            "bo": "ཐབས་འཕྲུལ་གཅིག་གཞན་ཞིག་གི་སྟེང་ལ་བཞག་ནས་དེ་དག་སྡེ་ཚན་བཟོས་དགོས། དཔེར་ན་ཁ་པར་གྱི་གཙོ་ངོས་སྟེང་གི་སྣོད་ཐོ་ལྟར།",
+            "it": "Trascina un dispositivo su un altro per raggrupparli, come le cartelle sulla schermata iniziale di un telefono.",
+            "ru": "Перетащите одно устройство на другое, чтобы сгруппировать их, как папки на главном экране телефона.",
+            "id": "Letakkan satu perangkat ke perangkat lain untuk mengelompokkannya, seperti folder di layar utama ponsel.",
+            "tr": "Bir telefonun ana ekranındaki klasörler gibi gruplandırmak için bir cihazı diğerinin üzerine bırakın.",
+            "vi": "Thả một thiết bị vào một thiết bị khác để nhóm chúng lại, giống như các thư mục trên màn hình chính của điện thoại.",
+            "th": "วางอุปกรณ์เครื่องหนึ่งไปยังอีกเครื่องหนึ่งเพื่อจัดกลุ่ม เช่น โฟลเดอร์บนหน้าจอหลักของโทรศัพท์",
+            "nl": "Zet het ene apparaat op het andere neer om ze te groeperen, zoals mappen op het startscherm van een telefoon.",
+            "pl": "Upuść jedno urządzenie na drugie, aby je pogrupować, jak foldery na ekranie głównym telefonu.",
+            "uk": "Перемістіть один пристрій на інший, щоб згрупувати їх, як папки на головному екрані телефону.",
+            "hi": "फ़ोन की होम स्क्रीन पर फ़ोल्डर्स की तरह, उन्हें समूहीकृत करने के लिए एक डिवाइस को दूसरे पर छोड़ें।",
+            "ms": "Lepaskan satu peranti ke peranti lain untuk mengumpulkannya, seperti folder pada skrin utama telefon."
           }
         },
         {
@@ -263,7 +439,18 @@
             "ko": "카드 메뉴의 별칭 설정은 이 기기에서만 이름을 바꿉니다.",
             "pt": "Definir alias no menu do cartão renomeia um dispositivo somente para este dispositivo.",
             "es": "Establecer alias en el menú de la tarjeta cambia el nombre solo en este dispositivo.",
-            "bo": "ཤོག་བྱང་གི་དཀར་ཆག་ནང་མིང་གཞན་སྒྲིག་ན་ཐབས་འཕྲུལ་འདིའི་ཆེད་དུ་ཐབས་འཕྲུལ་ལ་མིང་བསྒྱུར་གྱི་ཡོད།"
+            "bo": "ཤོག་བྱང་གི་དཀར་ཆག་ནང་མིང་གཞན་སྒྲིག་ན་ཐབས་འཕྲུལ་འདིའི་ཆེད་དུ་ཐབས་འཕྲུལ་ལ་མིང་བསྒྱུར་གྱི་ཡོད།",
+            "it": "Imposta alias nel menu della scheda rinomina un dispositivo solo per questo dispositivo.",
+            "ru": "Установка псевдонима в меню карты переименовывает устройство только для этого устройства.",
+            "id": "Setel alias di menu kartu akan mengganti nama perangkat hanya untuk perangkat ini.",
+            "tr": "Kartın menüsündeki takma adı ayarla, bir cihazı yalnızca bu cihaz için yeniden adlandırır.",
+            "vi": "Đặt bí danh trong menu của thẻ chỉ đổi tên thiết bị cho thiết bị này.",
+            "th": "ตั้งชื่อแทนในเมนูของการ์ดจะเปลี่ยนชื่ออุปกรณ์สำหรับอุปกรณ์นี้เท่านั้น",
+            "nl": "Als u een alias in het kaartmenu instelt, wordt de naam van een apparaat alleen voor dit apparaat gewijzigd.",
+            "pl": "Ustawienie aliasu w menu karty zmienia nazwę urządzenia tylko dla tego urządzenia.",
+            "uk": "Встановити псевдонім у меню карти перейменовує пристрій лише для цього пристрою.",
+            "hi": "कार्ड के मेनू में उपनाम सेट करने से डिवाइस का नाम केवल इस डिवाइस के लिए बदल जाता है।",
+            "ms": "Tetapkan alias dalam menu kad menamakan semula peranti untuk peranti ini sahaja."
           }
         },
         {
@@ -278,7 +465,18 @@
             "ko": "새로 고침은 저장된 기기를 다시 확인하고 새 기기를 찾습니다.",
             "pt": "Atualizar verifica novamente os dispositivos salvos e procura novos.",
             "es": "Actualizar vuelve a comprobar los dispositivos guardados y busca otros nuevos.",
-            "bo": "གསར་བརྗེ་ཡིས་ཉར་ཚགས་བྱས་པའི་ཐབས་འཕྲུལ་ཡང་བསྐྱར་ཞིབ་བཤེར་བྱེད་པ་དང་གསར་པ་འཚོལ་བ་རེད།"
+            "bo": "གསར་བརྗེ་ཡིས་ཉར་ཚགས་བྱས་པའི་ཐབས་འཕྲུལ་ཡང་བསྐྱར་ཞིབ་བཤེར་བྱེད་པ་དང་གསར་པ་འཚོལ་བ་རེད།",
+            "it": "Aggiorna controlla nuovamente i dispositivi salvati e ne cerca di nuovi.",
+            "ru": "При обновлении снова проверяется сохраненные устройства и ищется новые.",
+            "id": "Refresh memeriksa kembali perangkat yang disimpan dan mencari yang baru.",
+            "tr": "Yenile, kayıtlı cihazları tekrar kontrol eder ve yenilerini arar.",
+            "vi": "Làm mới kiểm tra lại các thiết bị đã lưu và tìm kiếm những thiết bị mới.",
+            "th": "รีเฟรชจะตรวจสอบอุปกรณ์ที่บันทึกไว้อีกครั้งและค้นหาอุปกรณ์ใหม่",
+            "nl": "Vernieuwen controleert opgeslagen apparaten opnieuw en zoekt naar nieuwe.",
+            "pl": "Odśwież ponownie sprawdza zapisane urządzenia i szuka nowych.",
+            "uk": "Оновлення знову перевіряє збережені пристрої та шукає нові.",
+            "hi": "रिफ्रेश सहेजे गए डिवाइसों की दोबारा जांच करता है और नए की तलाश करता है।",
+            "ms": "Muat semula semak semula peranti yang disimpan dan cari yang baharu."
           }
         }
       ]
@@ -296,7 +494,18 @@
         "ko": "전체 화면",
         "pt": "Tela inteira",
         "es": "Pantalla completa",
-        "bo": "བརྙན་ཡོལ་ཡོངས།"
+        "bo": "བརྙན་ཡོལ་ཡོངས།",
+        "it": "A schermo intero",
+        "ru": "Полноэкранный",
+        "id": "Layar penuh",
+        "tr": "Tam ekran",
+        "vi": "Toàn màn hình",
+        "th": "เต็มจอ",
+        "nl": "Volledig scherm",
+        "pl": "Pełny ekran",
+        "uk": "Повний екран",
+        "hi": "पूर्ण स्क्रीन",
+        "ms": "Skrin penuh"
       },
       "steps": [
         {
@@ -311,7 +520,18 @@
             "ko": "컴퓨터에서는 기기 설정의 전체 화면이 그 기기에 연결할 때 어떻게 열지 정합니다.",
             "pt": "Em um computador, a tela cheia nas configurações do dispositivo decide como uma conexão com esse dispositivo é aberta.",
             "es": "En un ordenador, Pantalla completa, en los ajustes del dispositivo, decide cómo se abre una conexión con él.",
-            "bo": "གློག་ཀླད་སྟེང་ལ་ཐབས་འཕྲུལ་གྱི་སྒྲིག་སྟངས་ནང་དུ་ཡོད་པའི་གསལ་གཞི་ཆ་ཚང་གིས་ཐབས་འཕྲུལ་དེ་ལ་མཐུད་ཁ་ཇི་ལྟར་ཁ་ཕྱེ་མིན་ཐག་གཅོད་བྱེད།"
+            "bo": "གློག་ཀླད་སྟེང་ལ་ཐབས་འཕྲུལ་གྱི་སྒྲིག་སྟངས་ནང་དུ་ཡོད་པའི་གསལ་གཞི་ཆ་ཚང་གིས་ཐབས་འཕྲུལ་དེ་ལ་མཐུད་ཁ་ཇི་ལྟར་ཁ་ཕྱེ་མིན་ཐག་གཅོད་བྱེད།",
+            "it": "Su un computer, la modalità Schermo intero nelle impostazioni del dispositivo determina la modalità di apertura della connessione a quel dispositivo.",
+            "ru": "На компьютере Полноэкранный режим в настройках устройства определяет, как будет открываться соединение с этим устройством.",
+            "id": "Di komputer, Layar penuh di pengaturan perangkat menentukan cara membuka koneksi ke perangkat tersebut.",
+            "tr": "Bilgisayarda, cihazın ayarlarındaki Tam ekran, o cihazla bağlantının nasıl açılacağını belirler.",
+            "vi": "Trên máy tính, Toàn màn hình trong cài đặt của thiết bị quyết định cách mở kết nối với thiết bị đó.",
+            "th": "บนคอมพิวเตอร์ การตั้งค่าแบบเต็มหน้าจอในการตั้งค่าของอุปกรณ์จะกำหนดวิธีเปิดการเชื่อมต่อกับอุปกรณ์นั้น",
+            "nl": "Op een computer bepaalt Volledig scherm in de apparaatinstellingen hoe een verbinding met dat apparaat wordt geopend.",
+            "pl": "Na komputerze opcja Pełny ekran w ustawieniach urządzenia decyduje o sposobie otwierania połączenia z tym urządzeniem.",
+            "uk": "На комп’ютері параметр «На весь екран» у налаштуваннях пристрою визначає, як відкривається з’єднання з цим пристроєм.",
+            "hi": "कंप्यूटर पर, डिवाइस की सेटिंग में पूर्ण स्क्रीन यह तय करती है कि उस डिवाइस से कनेक्शन कैसे खुलेगा।",
+            "ms": "Pada komputer, Skrin penuh dalam tetapan peranti menentukan cara sambungan ke peranti itu dibuka."
           }
         },
         {
@@ -326,7 +546,18 @@
             "ko": "컴퓨터에서는 연결 중 Ctrl+Alt+Shift+X로 전체 화면을 켜고 끄며, 휴대폰이나 태블릿에서는 떠 있는 버튼을 다시 불러옵니다.",
             "pt": "Em um computador, o Ctrl+Alt+Shift+X liga e desliga a tela inteira durante uma conexão; em um telefone ou tablet, ele traz de volta o botão flutuante.",
             "es": "En un ordenador, Ctrl+Alt+Mayús+X activa y desactiva la pantalla completa durante una conexión; en un móvil o tableta, recupera el botón flotante.",
-            "bo": "གློག་ཀླད་སྟེང་ལ་Ctrl+Alt+Shift+X མཐུད་སྐབས་གློག་བརྙན་ཆ་ཚང་ཁ་ཕྱེ་དང་ཁ་བརྒྱབ་པ་རེད། ཁ་པར་ཡང་ན་ཐབ་ཚང་སྟེང་དུ་འཕྱོ་བའི་མཐེབ་དེ་སླར་ཡང་འཁྱེར་ཡོང་ངེས།"
+            "bo": "གློག་ཀླད་སྟེང་ལ་Ctrl+Alt+Shift+X མཐུད་སྐབས་གློག་བརྙན་ཆ་ཚང་ཁ་ཕྱེ་དང་ཁ་བརྒྱབ་པ་རེད། ཁ་པར་ཡང་ན་ཐབ་ཚང་སྟེང་དུ་འཕྱོ་བའི་མཐེབ་དེ་སླར་ཡང་འཁྱེར་ཡོང་ངེས།",
+            "it": "Su un computer, Ctrl+Alt+Shift+X attiva e disattiva lo schermo intero durante una connessione; su un telefono o tablet riporta il pulsante mobile.",
+            "ru": "На компьютере Ctrl+Alt+Shift+X включает и выключает полноэкранный режим во время соединения; на телефоне или планшете возвращается плавающая кнопка.",
+            "id": "Di komputer, Ctrl+Alt+Shift+X mengaktifkan dan menonaktifkan layar penuh selama koneksi; di ponsel atau tablet ini mengembalikan tombol mengambang.",
+            "tr": "Bir bilgisayarda Ctrl+Alt+Shift+X, bağlantı sırasında tam ekranı açar ve kapatır; bir telefonda veya tablette kayan düğmeyi geri getirir.",
+            "vi": "Trên máy tính, Ctrl+Alt+Shift+X bật và tắt toàn màn hình trong khi kết nối; trên điện thoại hoặc máy tính bảng, nó mang lại nút nổi.",
+            "th": "บนคอมพิวเตอร์ Ctrl+Alt+Shift+X จะเปิดและปิดเต็มหน้าจอระหว่างการเชื่อมต่อ บนโทรศัพท์หรือแท็บเล็ต จะนำปุ่มลอยกลับมา",
+            "nl": "Op een computer schakelt de Ctrl+Alt+Shift+X het volledige scherm in en uit tijdens een verbinding; op een telefoon of tablet brengt het de zwevende knop terug.",
+            "pl": "Na komputerze Ctrl+Alt+Shift+X włącza i wyłącza pełny ekran podczas połączenia; na telefonie lub tablecie przywraca pływający przycisk.",
+            "uk": "На комп’ютері Ctrl+Alt+Shift+X вмикає та вимикає повний екран під час з’єднання; на телефоні чи планшеті він повертає плаваючу кнопку.",
+            "hi": "कंप्यूटर पर, Ctrl+Alt+Shift+X कनेक्शन के दौरान पूर्ण स्क्रीन को चालू और बंद करता है; फ़ोन या टैबलेट पर यह फ़्लोटिंग बटन को वापस लाता है।",
+            "ms": "Pada komputer, Ctrl+Alt+Shift+X menghidupkan dan mematikan skrin penuh semasa sambungan; pada telefon atau tablet ia mengembalikan butang terapung."
           }
         },
         {
@@ -341,7 +572,18 @@
             "ko": "휴대폰과 태블릿에서는 원격 데스크톱이 항상 화면 전체를 씁니다. 떠 있는 버튼을 탭하면 키보드, 길게 누르면 메뉴가 열립니다.",
             "pt": "Telefones e tablets sempre mostram a área de trabalho remota em tela inteira. Toque no botão flutuante do teclado; segure-o para o menu.",
             "es": "En móviles y tabletas, el escritorio remoto ocupa siempre toda la pantalla. Toca el botón flotante para el teclado y mantenlo pulsado para el menú.",
-            "bo": "ཁ་པར་དང་ཐབ་ཚང་གིས་རྟག་ཏུ་ཐག་རིང་གི་ཡིག་ཆའི་སྟེང་དུ་གློག་བརྙན་ཆ་ཚང་སྟོན་གྱི་ཡོད། ལྡེ་སྒྲོམ་གྱི་འཕྱོ་བའི་མཐེབ་གཞོང་ལ་རྡེབ་རོགས། དཀར་ཆག་ཆེད་དུ་དེ་འཛིན་དགོས།"
+            "bo": "ཁ་པར་དང་ཐབ་ཚང་གིས་རྟག་ཏུ་ཐག་རིང་གི་ཡིག་ཆའི་སྟེང་དུ་གློག་བརྙན་ཆ་ཚང་སྟོན་གྱི་ཡོད། ལྡེ་སྒྲོམ་གྱི་འཕྱོ་བའི་མཐེབ་གཞོང་ལ་རྡེབ་རོགས། དཀར་ཆག་ཆེད་དུ་དེ་འཛིན་དགོས།",
+            "it": "Telefoni e tablet mostrano sempre il desktop remoto sull'intero schermo. Tocca il pulsante mobile per la tastiera; tienilo per il menu.",
+            "ru": "Телефоны и планшеты всегда отображают удаленный рабочий стол на весь экран. Нажмите плавающую кнопку клавиатуры; удерживайте его для меню.",
+            "id": "Ponsel dan tablet selalu menampilkan desktop jarak jauh di seluruh layar. Ketuk tombol mengambang untuk keyboard; tahan untuk menunya.",
+            "tr": "Telefonlar ve tabletler uzak masaüstünü her zaman tam ekranda gösterir. Klavyenin kayan düğmesine dokunun; menü için basılı tutun.",
+            "vi": "Điện thoại và máy tính bảng luôn hiển thị màn hình từ xa trên toàn màn hình. Nhấn vào nút nổi cho bàn phím; giữ nó cho menu.",
+            "th": "โทรศัพท์และแท็บเล็ตจะแสดงเดสก์ท็อประยะไกลเต็มหน้าจอเสมอ แตะปุ่มลอยสำหรับคีย์บอร์ด กดค้างไว้ที่เมนู",
+            "nl": "Telefoons en tablets tonen altijd het externe bureaublad op het hele scherm. Tik op de zwevende knop voor het toetsenbord; houd het vast voor het menu.",
+            "pl": "Telefony i tablety zawsze pokazują pulpit zdalny na całym ekranie. Stuknij pływający przycisk klawiatury; przytrzymaj go, aby wyświetlić menu.",
+            "uk": "Телефони та планшети завжди показують віддалений робочий стіл на весь екран. Торкніться плаваючої кнопки клавіатури; тримайте його для меню.",
+            "hi": "फ़ोन और टैबलेट हमेशा रिमोट डेस्कटॉप को पूरी स्क्रीन पर दिखाते हैं। कीबोर्ड के लिए फ़्लोटिंग बटन टैप करें; इसे मेनू के लिए दबाए रखें.",
+            "ms": "Telefon dan tablet sentiasa menunjukkan desktop jauh pada keseluruhan skrin. Ketik butang terapung untuk papan kekunci; tahan untuk menu."
           }
         },
         {
@@ -356,7 +598,18 @@
             "ko": "호스트는 연결된 기기에 전체 화면 해제를 요청할 수 있지만 전체 화면을 강제하지는 않습니다.",
             "pt": "O host pode solicitar que um dispositivo conectado saia da tela inteira; nunca o força para tela cheia.",
             "es": "El host puede pedir a un dispositivo conectado que salga de la pantalla completa, pero nunca la impone.",
-            "bo": "གཙོ་བདག་གིས་མཐུད་ཡོད་པའི་འཕྲུལ་ཆས་ལ་གསལ་གཞི་ཆ་ཚང་བཞག་དགོས་པའི་བཀའ་བཏང་ཆོག དེས་ནམ་ཡང་བརྙན་ཤེལ་ཆ་ཚང་ལ་བཙན་ཤེད་ཀྱིས་མི་བྱེད།"
+            "bo": "གཙོ་བདག་གིས་མཐུད་ཡོད་པའི་འཕྲུལ་ཆས་ལ་གསལ་གཞི་ཆ་ཚང་བཞག་དགོས་པའི་བཀའ་བཏང་ཆོག དེས་ནམ་ཡང་བརྙན་ཤེལ་ཆ་ཚང་ལ་བཙན་ཤེད་ཀྱིས་མི་བྱེད།",
+            "it": "L'host può chiedere a un dispositivo connesso di lasciare lo schermo intero; non lo forza mai a schermo intero.",
+            "ru": "Хост может попросить подключенное устройство выйти из полноэкранного режима; он никогда не переводит его в полноэкранный режим.",
+            "id": "Tuan rumah dapat meminta perangkat yang terhubung untuk keluar dari layar penuh; itu tidak pernah memaksanya ke layar penuh.",
+            "tr": "Toplantı sahibi, bağlı bir cihazın tam ekrandan çıkmasını isteyebilir; asla tam ekrana zorlamaz.",
+            "vi": "Máy chủ có thể yêu cầu thiết bị được kết nối rời khỏi chế độ toàn màn hình; nó không bao giờ buộc nó vào toàn màn hình.",
+            "th": "โฮสต์สามารถขอให้อุปกรณ์ที่เชื่อมต่อออกจากโหมดเต็มหน้าจอได้ มันไม่เคยบังคับให้แสดงแบบเต็มหน้าจอ",
+            "nl": "De host kan een aangesloten apparaat vragen het volledige scherm te verlaten; het dwingt het nooit naar volledig scherm.",
+            "pl": "Host może poprosić podłączone urządzenie o opuszczenie trybu pełnoekranowego; nigdy nie wymusza przejścia na pełny ekran.",
+            "uk": "Організатор може попросити підключений пристрій залишити повноекранний режим; він ніколи не переводить його на весь екран.",
+            "hi": "होस्ट किसी कनेक्टेड डिवाइस को पूर्ण स्क्रीन छोड़ने के लिए कह सकता है; यह इसे कभी भी पूर्ण स्क्रीन पर बाध्य नहीं करता है।",
+            "ms": "Hos boleh meminta peranti yang disambungkan untuk meninggalkan skrin penuh; ia tidak pernah memaksanya ke skrin penuh."
           }
         }
       ]
@@ -374,7 +627,18 @@
         "ko": "화질과 가상 화면",
         "pt": "Imagem e tela virtual",
         "es": "Imagen y pantalla virtual",
-        "bo": "པར་རིས་དང་གཟུགས་བརྙན་བརྙན་ཤེལ།"
+        "bo": "པར་རིས་དང་གཟུགས་བརྙན་བརྙན་ཤེལ།",
+        "it": "Immagine e schermo virtuale",
+        "ru": "Изображение и виртуальный экран",
+        "id": "Gambar dan layar virtual",
+        "tr": "Resim ve sanal ekran",
+        "vi": "Hình ảnh và màn hình ảo",
+        "th": "รูปภาพและหน้าจอเสมือน",
+        "nl": "Beeld en virtueel scherm",
+        "pl": "Obraz i wirtualny ekran",
+        "uk": "Зображення та віртуальний екран",
+        "hi": "चित्र और आभासी स्क्रीन",
+        "ms": "Gambar dan skrin maya"
       },
       "steps": [
         {
@@ -389,7 +653,18 @@
             "ko": "원격 데스크톱은 창 크기를 따르므로 창 크기를 바꾸면 원격 데스크톱도 바뀝니다.",
             "pt": "A área de trabalho remota segue o tamanho da janela, portanto, redimensionar a janela redimensiona a área de trabalho remota.",
             "es": "El escritorio remoto sigue el tamaño de tu ventana: al cambiarla, cambia también el escritorio remoto.",
-            "bo": "ཐག་རིང་གི་ཡིག་ཆ་དེ་ཁྱེད་ཀྱི་སྒེའུ་ཁུང་གི་ཚད་ལ་རྗེས་འཇུག་བྱེད་ཀྱི་ཡོད།"
+            "bo": "ཐག་རིང་གི་ཡིག་ཆ་དེ་ཁྱེད་ཀྱི་སྒེའུ་ཁུང་གི་ཚད་ལ་རྗེས་འཇུག་བྱེད་ཀྱི་ཡོད།",
+            "it": "Il desktop remoto segue le dimensioni della finestra, quindi ridimensionando la finestra si ridimensiona anche il desktop remoto.",
+            "ru": "Удаленный рабочий стол соответствует размеру вашего окна, поэтому изменение размера окна приводит к изменению размера удаленного рабочего стола.",
+            "id": "Desktop jarak jauh mengikuti ukuran jendela Anda, jadi mengubah ukuran jendela akan mengubah ukuran desktop jarak jauh.",
+            "tr": "Uzak masaüstü pencere boyutunuzu takip eder; dolayısıyla pencerenin yeniden boyutlandırılması uzak masaüstünün boyutunu da değiştirir.",
+            "vi": "Màn hình từ xa tuân theo kích thước cửa sổ của bạn, do đó việc thay đổi kích thước cửa sổ sẽ thay đổi kích thước màn hình từ xa.",
+            "th": "เดสก์ท็อประยะไกลจะเป็นไปตามขนาดหน้าต่างของคุณ ดังนั้นการปรับขนาดหน้าต่างจะปรับขนาดเดสก์ท็อประยะไกล",
+            "nl": "Het externe bureaublad volgt de grootte van uw venster, dus als u de grootte van het venster wijzigt, wordt de grootte van het externe bureaublad ook aangepast.",
+            "pl": "Pulpit zdalny dopasowuje się do rozmiaru okna, więc zmiana rozmiaru okna powoduje zmianę rozmiaru pulpitu zdalnego.",
+            "uk": "Віддалений робочий стіл відповідає розміру вашого вікна, тому зміна розміру вікна змінює розмір віддаленого робочого столу.",
+            "hi": "रिमोट डेस्कटॉप आपके विंडो आकार का अनुसरण करता है, इसलिए विंडो का आकार बदलने से रिमोट डेस्कटॉप का आकार बदल जाता है।",
+            "ms": "Desktop jauh mengikut saiz tetingkap anda, jadi saiz semula tetingkap mengubah saiz desktop jauh."
           }
         },
         {
@@ -404,7 +679,18 @@
             "ko": "가상 화면은 연결 중 호스트 자체 화면을 어떻게 할지 정합니다.",
             "pt": "A tela virtual decide o que acontece com as telas do próprio host enquanto você está conectado.",
             "es": "Pantalla virtual decide qué pasa con las pantallas del host mientras estás conectado.",
-            "bo": "ཁྱེད་རང་མཐུད་པའི་སྐབས་ལ་གཙོ་བདག་རང་ཉིད་ཀྱི་གློག་བརྙན་ལ་གང་འབྱུང་རྒྱུ་དེ་མངོན་གསལ་གྱི་གློག་བརྙན་གྱིས་ཐག་གཅོད་བྱེད།"
+            "bo": "ཁྱེད་རང་མཐུད་པའི་སྐབས་ལ་གཙོ་བདག་རང་ཉིད་ཀྱི་གློག་བརྙན་ལ་གང་འབྱུང་རྒྱུ་དེ་མངོན་གསལ་གྱི་གློག་བརྙན་གྱིས་ཐག་གཅོད་བྱེད།",
+            "it": "Lo schermo virtuale decide cosa succede agli schermi dell'host mentre sei connesso.",
+            "ru": "Виртуальный экран решает, что происходит с собственными экранами хоста, пока вы подключены.",
+            "id": "Layar virtual memutuskan apa yang terjadi pada layar host saat Anda terhubung.",
+            "tr": "Sanal ekran, siz bağlıyken ana bilgisayarın kendi ekranlarına ne olacağına karar verir.",
+            "vi": "Màn hình ảo quyết định điều gì xảy ra với màn hình của chính máy chủ khi bạn kết nối.",
+            "th": "หน้าจอเสมือนจะตัดสินใจว่าจะเกิดอะไรขึ้นกับหน้าจอของโฮสต์ในขณะที่คุณเชื่อมต่อ",
+            "nl": "Het virtuele scherm bepaalt wat er met de eigen schermen van de host gebeurt terwijl u verbonden bent.",
+            "pl": "Wirtualny ekran decyduje o tym, co dzieje się z ekranami hosta, gdy jesteś podłączony.",
+            "uk": "Віртуальний екран вирішує, що відбувається з власними екранами хоста, коли ви підключені.",
+            "hi": "वर्चुअल स्क्रीन यह तय करती है कि आपके कनेक्ट होने के दौरान होस्ट की अपनी स्क्रीन का क्या होगा।",
+            "ms": "Skrin maya menentukan perkara yang berlaku pada skrin hos sendiri semasa anda disambungkan."
           }
         },
         {
@@ -419,7 +705,18 @@
             "ko": "데스크톱 미세 조정으로 원격 데스크톱의 모든 것을 크게 또는 작게 할 수 있습니다.",
             "pt": "O ajuste fino da área de trabalho torna tudo na área de trabalho remota maior ou menor.",
             "es": "El ajuste fino del escritorio hace más grande o más pequeño todo lo del escritorio remoto.",
-            "bo": "ཡིག་ཆའི་སྒྲིག་ཆས་ལེགས་སྒྲིག་བྱེད་པ་དེས་ཐག་རིང་གི་ཡིག་ཆའི་སྟེང་གི་ཡོད་ཚད་ཆེ་ཆུང་བཟོ་ཐུབ།"
+            "bo": "ཡིག་ཆའི་སྒྲིག་ཆས་ལེགས་སྒྲིག་བྱེད་པ་དེས་ཐག་རིང་གི་ཡིག་ཆའི་སྟེང་གི་ཡོད་ཚད་ཆེ་ཆུང་བཟོ་ཐུབ།",
+            "it": "La regolazione fine del desktop rende tutto sul desktop remoto più grande o più piccolo.",
+            "ru": "Точная настройка рабочего стола делает все на удаленном рабочем столе больше или меньше.",
+            "id": "Penyempurnaan desktop membuat semua yang ada di desktop jarak jauh menjadi lebih besar atau lebih kecil.",
+            "tr": "Masaüstü ince ayarı, uzak masaüstündeki her şeyin büyütülmesini veya küçültülmesini sağlar.",
+            "vi": "Tinh chỉnh màn hình làm cho mọi thứ trên màn hình từ xa lớn hơn hoặc nhỏ hơn.",
+            "th": "การปรับแต่งเดสก์ท็อปอย่างละเอียดทำให้ทุกอย่างบนเดสก์ท็อประยะไกลใหญ่ขึ้นหรือเล็กลง",
+            "nl": "Desktopfijnafstemming maakt alles op het externe bureaublad groter of kleiner.",
+            "pl": "Dostrajanie pulpitu sprawia, że ​​wszystko na zdalnym pulpicie jest większe lub mniejsze.",
+            "uk": "Тонке налаштування робочого столу збільшує або зменшує все на віддаленому робочому столі.",
+            "hi": "डेस्कटॉप फ़ाइन ट्यूनिंग दूरस्थ डेस्कटॉप पर मौजूद सभी चीज़ों को बड़ा या छोटा कर देती है।",
+            "ms": "Penalaan halus desktop menjadikan segala-galanya pada desktop jauh lebih besar atau lebih kecil."
           }
         },
         {
@@ -434,7 +731,18 @@
             "ko": "이 설정은 기기마다 따로 저장됩니다.",
             "pt": "Essas configurações são salvas por dispositivo.",
             "es": "Estos ajustes se guardan por dispositivo.",
-            "bo": "སྒྲིག་སྟངས་འདི་དག་འཕྲུལ་ཆས་རེ་རེར་ཉར་ཚགས་བྱས་ཡོད།"
+            "bo": "སྒྲིག་སྟངས་འདི་དག་འཕྲུལ་ཆས་རེ་རེར་ཉར་ཚགས་བྱས་ཡོད།",
+            "it": "Queste impostazioni vengono salvate per dispositivo.",
+            "ru": "Эти настройки сохраняются для каждого устройства.",
+            "id": "Pengaturan ini disimpan per perangkat.",
+            "tr": "Bu ayarlar cihaz başına kaydedilir.",
+            "vi": "Các cài đặt này được lưu trên mỗi thiết bị.",
+            "th": "การตั้งค่าเหล่านี้จะถูกบันทึกไว้ในแต่ละอุปกรณ์",
+            "nl": "Deze instellingen worden per apparaat opgeslagen.",
+            "pl": "Te ustawienia są zapisywane na każdym urządzeniu.",
+            "uk": "Ці налаштування зберігаються для кожного пристрою.",
+            "hi": "ये सेटिंग्स प्रति डिवाइस सहेजी जाती हैं।",
+            "ms": "Tetapan ini disimpan setiap peranti."
           }
         }
       ]
@@ -452,7 +760,18 @@
         "ko": "문제가 생겼을 때",
         "pt": "Quando algo dá errado",
         "es": "Si algo falla",
-        "bo": "བྱ་བ་ཞིག་ནོར་འཁྲུལ་བྱུང་དུས།"
+        "bo": "བྱ་བ་ཞིག་ནོར་འཁྲུལ་བྱུང་དུས།",
+        "it": "Quando qualcosa va storto",
+        "ru": "Когда что-то идет не так",
+        "id": "Ketika terjadi kesalahan",
+        "tr": "Bir şeyler ters gittiğinde",
+        "vi": "Khi có sự cố xảy ra",
+        "th": "เมื่อมีสิ่งผิดปกติเกิดขึ้น",
+        "nl": "Wanneer er iets misgaat",
+        "pl": "Kiedy coś pójdzie nie tak",
+        "uk": "Коли щось йде не так",
+        "hi": "जब कुछ गलत हो जाता है",
+        "ms": "Apabila sesuatu berlaku"
       },
       "steps": [
         {
@@ -467,7 +786,18 @@
             "ko": "오프라인으로 보이는 기기는 대개 잠자기 상태이거나 다른 네트워크에 있거나 공유하지 않는 상태입니다.",
             "pt": "Um dispositivo mostrado como off-line geralmente está em suspensão, em outra rede ou não está compartilhando.",
             "es": "Un dispositivo que aparece sin conexión suele estar en reposo, en otra red o sin compartir.",
-            "bo": "དྲ་རྒྱའི་ཕྱི་རོལ་དུ་སྟོན་པའི་འཕྲུལ་ཆས་དེ་རྒྱུན་དུ་གཉིད་ཁུག་པའམ་དྲ་རྒྱ་གཞན་ཞིག་གི་སྟེང་དུ་ཡོད་པའམ་ཡང་ན་མཉམ་སྤྱོད་བྱེད་ཀྱི་མེད།"
+            "bo": "དྲ་རྒྱའི་ཕྱི་རོལ་དུ་སྟོན་པའི་འཕྲུལ་ཆས་དེ་རྒྱུན་དུ་གཉིད་ཁུག་པའམ་དྲ་རྒྱ་གཞན་ཞིག་གི་སྟེང་དུ་ཡོད་པའམ་ཡང་ན་མཉམ་སྤྱོད་བྱེད་ཀྱི་མེད།",
+            "it": "Un dispositivo mostrato come offline solitamente è in modalità sospensione, su un'altra rete o non condivide.",
+            "ru": "Устройство, показанное как автономное, обычно находится в спящем режиме, находится в другой сети или не имеет общего доступа.",
+            "id": "Perangkat yang ditampilkan sebagai offline biasanya dalam keadaan tidur, berada di jaringan lain, atau tidak berbagi.",
+            "tr": "Çevrimdışı olarak gösterilen bir cihaz genellikle uykudadır, başka bir ağdadır veya paylaşımda bulunmamaktadır.",
+            "vi": "Thiết bị được hiển thị là ngoại tuyến thường ở chế độ ngủ, trên mạng khác hoặc không chia sẻ.",
+            "th": "อุปกรณ์ที่แสดงเป็นออฟไลน์มักจะอยู่ในโหมดสลีป บนเครือข่ายอื่น หรือไม่แชร์",
+            "nl": "Een apparaat dat als offline wordt weergegeven, is meestal in slaap, bevindt zich op een ander netwerk of deelt niet.",
+            "pl": "Urządzenie wyświetlane jako offline zwykle śpi, jest w innej sieci lub nie udostępnia danych.",
+            "uk": "Пристрій, який відображається як офлайн, зазвичай перебуває в режимі сну, в іншій мережі або не надає спільний доступ.",
+            "hi": "ऑफ़लाइन के रूप में दिखाया गया उपकरण आमतौर पर निष्क्रिय है, किसी अन्य नेटवर्क पर है, या साझा नहीं कर रहा है।",
+            "ms": "Peranti yang ditunjukkan sebagai luar talian biasanya tidur, pada rangkaian lain, atau tidak berkongsi."
           }
         },
         {
@@ -482,7 +812,18 @@
             "ko": "상단 바의 새로 고침은 저장된 모든 기기를 다시 확인합니다.",
             "pt": "Atualizar na barra superior verifica novamente todos os dispositivos salvos.",
             "es": "Actualizar en la barra superior vuelve a comprobar cada dispositivo guardado.",
-            "bo": "མཐོ་རིམ་གྱི་ཕྲ་རིང་ནང་དུ་གསར་འགྱུར་གྱིས་ཉར་ཚགས་བྱས་པའི་ཐབས་འཕྲུལ་ཚང་མ་ཡང་བསྐྱར་ཞིབ་བཤེར་བྱེད།"
+            "bo": "མཐོ་རིམ་གྱི་ཕྲ་རིང་ནང་དུ་གསར་འགྱུར་གྱིས་ཉར་ཚགས་བྱས་པའི་ཐབས་འཕྲུལ་ཚང་མ་ཡང་བསྐྱར་ཞིབ་བཤེར་བྱེད།",
+            "it": "Aggiorna nella barra in alto ricontrolla ogni dispositivo salvato.",
+            "ru": "При обновлении в верхней панели выполняется повторная проверка каждого сохраненного устройства.",
+            "id": "Segarkan di bilah atas untuk memeriksa ulang setiap perangkat yang disimpan.",
+            "tr": "Üst çubuktaki Yenile, kaydedilen her cihazı yeniden kontrol eder.",
+            "vi": "Làm mới ở thanh trên cùng sẽ kiểm tra lại mọi thiết bị đã lưu.",
+            "th": "รีเฟรชในแถบด้านบนจะตรวจสอบอุปกรณ์ที่บันทึกไว้ทุกเครื่องอีกครั้ง",
+            "nl": "Vernieuwen in de bovenste balk controleert elk opgeslagen apparaat opnieuw.",
+            "pl": "Odśwież na górnym pasku ponownie sprawdza każde zapisane urządzenie.",
+            "uk": "Оновити у верхній панелі повторно перевіряє кожен збережений пристрій.",
+            "hi": "शीर्ष बार में रिफ्रेश प्रत्येक सहेजे गए डिवाइस को दोबारा जांचता है।",
+            "ms": "Muat semula di bar atas menyemak semula setiap peranti yang disimpan."
           }
         },
         {
@@ -497,7 +838,18 @@
             "ko": "설정의 문제 신고는 이슈에 첨부할 로그 압축 파일을 만듭니다. 공유하기 전에 내용을 확인하세요.",
             "pt": "Relatar um problema em Configurações coleta um arquivo de log que você pode anexar a um problema. Revise-o antes de compartilhá-lo.",
             "es": "Informar de un problema, en Ajustes, crea un archivo de registros que puedes adjuntar a una incidencia. Revísalo antes de compartirlo.",
-            "bo": "སྒྲིག་སྟངས་ནང་དཀའ་ངལ་སྙན་ཞུ་བྱེད་པ་དེས་ཁྱེད་ཀྱིས་གནད་དོན་ལ་མཉམ་སྦྲེལ་བྱེད་ཐུབ་པའི་དྲན་ཐོའི་ཡིག་མཛོད་བསྡུ་རུབ་བྱེད། བརྗེ་རེས་མ་བྱས་སྔོན་ལ་བསྐྱར་ཞིབ་བྱོས།"
+            "bo": "སྒྲིག་སྟངས་ནང་དཀའ་ངལ་སྙན་ཞུ་བྱེད་པ་དེས་ཁྱེད་ཀྱིས་གནད་དོན་ལ་མཉམ་སྦྲེལ་བྱེད་ཐུབ་པའི་དྲན་ཐོའི་ཡིག་མཛོད་བསྡུ་རུབ་བྱེད། བརྗེ་རེས་མ་བྱས་སྔོན་ལ་བསྐྱར་ཞིབ་བྱོས།",
+            "it": "Segnala un problema in Impostazioni raccoglie un archivio di log che puoi allegare a un problema. Rivedilo prima di condividerlo.",
+            "ru": "Сообщить о проблеме в настройках собирает архив журналов, который можно прикрепить к проблеме. Просмотрите его, прежде чем поделиться.",
+            "id": "Laporkan masalah di Pengaturan mengumpulkan arsip log yang dapat Anda lampirkan ke suatu masalah. Tinjau sebelum membagikannya.",
+            "tr": "Ayarlar'daki sorunu bildirme özelliği, bir soruna ekleyebileceğiniz bir günlük arşivi toplar. Paylaşmadan önce inceleyin.",
+            "vi": "Báo cáo sự cố trong Cài đặt sẽ thu thập kho lưu trữ nhật ký mà bạn có thể đính kèm vào sự cố. Hãy xem lại nó trước khi chia sẻ nó.",
+            "th": "รายงานปัญหาในการตั้งค่าจะรวบรวมไฟล์บันทึกที่คุณสามารถแนบไปกับปัญหาได้ ตรวจสอบก่อนแชร์",
+            "nl": "Een probleem melden in Instellingen verzamelt een logarchief dat u aan een probleem kunt koppelen. Beoordeel het voordat u het deelt.",
+            "pl": "Zgłoś problem w Ustawieniach, gromadząc archiwum dzienników, które możesz dołączyć do problemu. Przejrzyj go, zanim go udostępnisz.",
+            "uk": "Повідомити про проблему в налаштуваннях збирає архів журналу, який можна приєднати до проблеми. Перегляньте його, перш ніж ділитися ним.",
+            "hi": "सेटिंग्स में किसी समस्या की रिपोर्ट करें एक लॉग संग्रह एकत्र करता है जिसे आप किसी समस्या के साथ संलग्न कर सकते हैं। इसे साझा करने से पहले इसकी समीक्षा करें.",
+            "ms": "Laporkan masalah dalam Tetapan mengumpulkan arkib log yang boleh anda lampirkan pada isu. Semak ia sebelum berkongsinya."
           }
         }
       ]
@@ -514,6 +866,17 @@
     "ko",
     "pt",
     "es",
-    "bo"
+    "bo",
+    "it",
+    "ru",
+    "id",
+    "tr",
+    "vi",
+    "th",
+    "nl",
+    "pl",
+    "uk",
+    "hi",
+    "ms"
   ]
 }

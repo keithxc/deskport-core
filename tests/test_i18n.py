@@ -13,7 +13,7 @@ spec.loader.exec_module(module)
 languages = module.languages()
 codes = [language['code'] for language in languages]
 assert len(codes) == len(set(codes))
-assert {'en','zh-Hans','zh-Hant','ja','fr','de','ar','ko','pt','es','bo'} == set(codes)
+assert {'en','zh-Hans','zh-Hant','ja','fr','de','ar','ko','pt','es','bo','it','ru','id','tr','vi','th','nl','pl','uk','hi','ms'} == set(codes)
 assert next(language for language in languages if language['code'] == 'ar')['direction'] == 'rtl'
 rows = module.catalog()
 records = module.records()
