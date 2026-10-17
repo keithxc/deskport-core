@@ -23,7 +23,7 @@ for platform in ('apple', 'android'):
             assert row.get(code), (platform, source, code)
             assert module.placeholders(source) == module.placeholders(row[code]), (platform, source, code)
 for source, row in records.items():
-    assert row['_platforms']['desktop'] or row['_platforms']['apple'] or row['_platforms']['android'] or row.get('_manual'), source
+    assert row['_platforms']['desktop'] or row['_platforms']['apple'] or row['_platforms']['android'] or row.get('_manual') or row.get('_web'), source
     for code, text in row.items():
         if code.startswith('_') or not text:
             continue
@@ -35,6 +35,15 @@ for source, row in records.items():
         for code, text in translations.items():
             if code in codes and text:
                 assert sorted(module.placeholders(source)) == sorted(module.placeholders(text)), (source, context, code)
+for source, row in records.items():
+    if row.get('_web'):
+        for code in codes:
+            assert row.get('_webTranslations', {}).get('Browser', {}).get(code, row.get(code)), (source, code)
+    for context, translations in row.get('_webTranslations', {}).items():
+        assert context in row.get('_web', []), (source, context)
+        for code, text in translations.items():
+            assert code in codes and text, (source, context, code)
+            assert sorted(module.placeholders(source)) == sorted(module.placeholders(text)), (source, context, code)
 metadata = module.qt_catalogs()
 for description in metadata.values():
     for context in description['contexts']:

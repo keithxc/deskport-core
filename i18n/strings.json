@@ -1064,7 +1064,10 @@
     "pl": "Rozłącz",
     "uk": "Відключитися",
     "hi": "डिस्कनेक्ट करें",
-    "ms": "Putuskan sambungan"
+    "ms": "Putuskan sambungan",
+    "_web": [
+      "Browser"
+    ]
   },
   "YOUR DEVICES": {
     "en": "YOUR DEVICES",
@@ -1333,7 +1336,10 @@
     "th": "ภาษา",
     "uk": "Мова",
     "hi": "भाषा",
-    "ms": "Bahasa"
+    "ms": "Bahasa",
+    "_web": [
+      "Browser"
+    ]
   },
   "Follow system": {
     "en": "Follow system",
@@ -6806,7 +6812,10 @@
     "pl": "Bezpośredni dotyk",
     "uk": "Прямий дотик",
     "hi": "सीधा स्पर्श",
-    "ms": "Sentuhan langsung"
+    "ms": "Sentuhan langsung",
+    "_web": [
+      "Browser"
+    ]
   },
   "Trackpad": {
     "en": "Trackpad",
@@ -6835,7 +6844,10 @@
     "pl": "Gładzik",
     "uk": "Трекпад",
     "hi": "ट्रैकपैड",
-    "ms": "Pad jejak"
+    "ms": "Pad jejak",
+    "_web": [
+      "Browser"
+    ]
   },
   "Direct touch: tap to click, slide one finger to drag, two fingers to scroll or tap for right-click. Hold for right-click. Pinch to zoom; two fingers pan while zoomed.": {
     "en": "Direct touch: tap to click, slide one finger to drag, two fingers to scroll or tap for right-click. Hold for right-click. Pinch to zoom; two fingers pan while zoomed.",
@@ -7588,7 +7600,10 @@
     "pl": "Wirtualny ekran",
     "uk": "Віртуальний екран",
     "hi": "आभासी स्क्रीन",
-    "ms": "Skrin maya"
+    "ms": "Skrin maya",
+    "_web": [
+      "Browser"
+    ]
   },
   "Primary screen and mirror others (default)": {
     "en": "Primary screen and mirror others (default)",
@@ -7681,7 +7696,10 @@
     "pl": "Używaj klienta jako ekranu rozszerzonego",
     "uk": "Використовувати клієнт як додатковий екран",
     "hi": "क्लाइंट को अतिरिक्त स्क्रीन की तरह उपयोग करें",
-    "ms": "Gunakan klien sebagai skrin tambahan"
+    "ms": "Gunakan klien sebagai skrin tambahan",
+    "_web": [
+      "Browser"
+    ]
   },
   "Update the host to use the selected virtual screen mode.": {
     "en": "Update the host to use the selected virtual screen mode.",
@@ -8882,7 +8900,10 @@
     "pl": "Pełny ekran",
     "uk": "Повний екран",
     "hi": "पूर्ण स्क्रीन",
-    "ms": "Skrin penuh"
+    "ms": "Skrin penuh",
+    "_web": [
+      "Browser"
+    ]
   },
   "Hide the bottom bar so the remote desktop fills the screen. Ctrl+Alt+Shift+X also toggles it.": {
     "en": "Hide the bottom bar so the remote desktop fills the screen. Ctrl+Alt+Shift+X also toggles it.",
@@ -9501,7 +9522,10 @@
     "pl": "Połącz",
     "uk": "Підключитися",
     "hi": "कनेक्ट करें",
-    "ms": "Sambung"
+    "ms": "Sambung",
+    "_web": [
+      "Browser"
+    ]
   },
   "Troubleshoot": {
     "en": "Troubleshoot",
@@ -10971,7 +10995,15 @@
     "nl": "Gekoppeld",
     "uk": "Парні",
     "hi": "युग्मित",
-    "ms": "Berpasangan"
+    "ms": "Berpasangan",
+    "_web": [
+      "Browser"
+    ],
+    "_webTranslations": {
+      "Browser": {
+        "zh-Hant": "配對"
+      }
+    }
   },
   "Unpaired": {
     "en": "Unpaired",
@@ -19528,7 +19560,10 @@
     "pl": "Łączę z komputerem…",
     "uk": "Підключення до робочого столу…",
     "hi": "डेस्कटॉप से ​​कनेक्ट हो रहा है...",
-    "ms": "Menyambung ke desktop…"
+    "ms": "Menyambung ke desktop…",
+    "_web": [
+      "Browser"
+    ]
   },
   "This connection would create a loop. Disconnect one of the existing links first.": {
     "en": "This connection would create a loop. Disconnect one of the existing links first.",
@@ -20690,7 +20725,10 @@
     "pl": "Połączony",
     "uk": "Підключено",
     "hi": "जुड़े हुए",
-    "ms": "Bersambung"
+    "ms": "Bersambung",
+    "_web": [
+      "Browser"
+    ]
   },
   "Return": {
     "en": "Return",
@@ -21249,7 +21287,10 @@
     "pl": "Nie podłączony",
     "uk": "Не підключено",
     "hi": "जुड़े नहीं हैं",
-    "ms": "Tidak bersambung"
+    "ms": "Tidak bersambung",
+    "_web": [
+      "Browser"
+    ]
   },
   "Check saved devices and look for new ones": {
     "en": "Check saved devices and look for new ones",
@@ -21437,7 +21478,10 @@
     "pl": "Złączony…",
     "uk": "Підключення…",
     "hi": "कनेक्ट हो रहा है...",
-    "ms": "Menyambung…"
+    "ms": "Menyambung…",
+    "_web": [
+      "Browser"
+    ]
   },
   "Disconnecting…": {
     "en": "Disconnecting…",
@@ -21477,7 +21521,10 @@
     "pl": "Rozłączam…",
     "uk": "Відключення…",
     "hi": "डिस्कनेक्ट हो रहा है...",
-    "ms": "Memutuskan sambungan…"
+    "ms": "Memutuskan sambungan…",
+    "_web": [
+      "Browser"
+    ]
   },
   "Failed": {
     "en": "Failed",
@@ -25505,7 +25552,10 @@
     "pl": "Usuń parowanie",
     "uk": "Видалити пару",
     "hi": "युग्मन हटाएँ",
-    "ms": "Alih keluar gandingan"
+    "ms": "Alih keluar gandingan",
+    "_web": [
+      "Browser"
+    ]
   },
   "Could not save the pairing removal. Please try again.": {
     "en": "Could not save the pairing removal. Please try again.",
@@ -32460,5 +32510,3557 @@
     "uk": "Мінімальний розмір робочого столу хоста обмежує масштаб. Використовуйте повноекранний режим або більше вікно.",
     "hi": "होस्ट के न्यूनतम डेस्कटॉप आकार के कारण स्केलिंग सीमित है। पूर्ण स्क्रीन या बड़ी विंडो का उपयोग करें।",
     "ms": "Saiz desktop minimum hos mengehadkan penskalaan. Gunakan skrin penuh atau tetingkap yang lebih besar."
+  },
+  "Browser connection": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Browser connection",
+    "zh-Hans": "浏览器连接",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Connexion par navigateur",
+    "de": "Browserverbindung",
+    "ar": "اتصال المتصفح",
+    "zh-Hant": "瀏覽器連線",
+    "ja": "ブラウザ接続",
+    "ko": "브라우저 연결",
+    "pt": "Conexão do navegador",
+    "es": "Conexión del navegador",
+    "bo": "དྲ་ངོས་དྲ་རྒྱ།",
+    "it": "Connessione al browser",
+    "ru": "Подключение через браузер",
+    "id": "Koneksi peramban",
+    "tr": "Tarayıcı bağlantısı",
+    "vi": "Kết nối trình duyệt",
+    "th": "การเชื่อมต่อเบราว์เซอร์",
+    "nl": "Browserverbinding",
+    "pl": "Połączenie przeglądarki",
+    "uk": "Підключення до браузера",
+    "hi": "ब्राउज़र कनेक्शन",
+    "ms": "Sambungan penyemak imbas"
+  },
+  "DeskPort · Browser connection": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "DeskPort · Browser connection",
+    "zh-Hans": "DeskPort · 浏览器连接",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "DeskPort · Connexion par navigateur",
+    "de": "DeskPort · Browserverbindung",
+    "ar": "DeskPort · اتصال المتصفح",
+    "zh-Hant": "DeskPort · 瀏覽器連線",
+    "ja": "DeskPort・ブラウザ接続",
+    "ko": "DeskPort · 브라우저 연결",
+    "pt": "DeskPort · Conexão do navegador",
+    "es": "DeskPort · Conexión del navegador",
+    "bo": "DeskPort · དྲ་ལྗོངས་མཐུད་ཁ།",
+    "it": "DeskPort · Connessione al browser",
+    "ru": "DeskPort · Подключение через браузер",
+    "id": "DeskPort · Koneksi browser",
+    "tr": "DeskPort · Tarayıcı bağlantısı",
+    "vi": "DeskPort · Kết nối trình duyệt",
+    "th": "DeskPort · การเชื่อมต่อเบราว์เซอร์",
+    "nl": "DeskPort · Browserverbinding",
+    "pl": "DeskPort · Połączenie z przeglądarką",
+    "uk": "DeskPort · Підключення до браузера",
+    "hi": "डेस्कपोर्ट · ब्राउज़र कनेक्शन",
+    "ms": "DeskPort · Sambungan penyemak imbas"
+  },
+  "Your computer, within reach": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Your computer, within reach",
+    "zh-Hans": "你的电脑，随手可用",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Votre ordinateur à portée de main",
+    "de": "Ihr Computer in Reichweite",
+    "ar": "حاسوبك في متناول يدك",
+    "zh-Hant": "你的電腦，隨手可用",
+    "ja": "あなたのコンピュータを手の届くところに",
+    "ko": "손 닿는 곳에 있는 컴퓨터",
+    "pt": "Seu computador ao seu alcance",
+    "es": "Tu ordenador, a tu alcance",
+    "bo": "ཁྱེད་རང་གི་གློག་ཀླད། ལག་ཐོག་ཏུ་ཡོད།",
+    "it": "Il tuo computer, a portata di mano",
+    "ru": "Ваш компьютер в пределах досягаемости",
+    "id": "Komputer Anda, dalam jangkauan",
+    "tr": "Bilgisayarınız elinizin altında",
+    "vi": "Máy tính của bạn, trong tầm tay",
+    "th": "คอมพิวเตอร์ของคุณอยู่ใกล้แค่เอื้อม",
+    "nl": "Uw computer, binnen handbereik",
+    "pl": "Twój komputer w zasięgu ręki",
+    "uk": "Ваш комп’ютер під рукою",
+    "hi": "आपका कंप्यूटर, पहुंच के भीतर",
+    "ms": "Komputer anda, dalam jangkauan"
+  },
+  "Connect to DeskPort": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Connect to DeskPort",
+    "zh-Hans": "连接到 DeskPort",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Se connecter à DeskPort",
+    "de": "Mit DeskPort verbinden",
+    "ar": "الاتصال بـ DeskPort",
+    "zh-Hant": "連線至 DeskPort",
+    "ja": "DeskPortに接続する",
+    "ko": "DeskPort에 연결",
+    "pt": "Conecte-se ao DeskPort",
+    "es": "Conéctese a DeskPort",
+    "bo": "DeskPort ལ་མཐུད།",
+    "it": "Connettersi a DeskPort",
+    "ru": "Подключиться к DeskPort",
+    "id": "Hubungkan ke DeskPort",
+    "tr": "DeskPort'a bağlanın",
+    "vi": "Kết nối với DeskPort",
+    "th": "เชื่อมต่อกับเดสก์พอร์ต",
+    "nl": "Maak verbinding met DeskPort",
+    "pl": "Połącz się z DeskPortem",
+    "uk": "Підключіться до DeskPort",
+    "hi": "डेस्कपोर्ट से कनेक्ट करें",
+    "ms": "Sambung ke DeskPort"
+  },
+  "Enter the 6-digit code from Sharing on your computer or your authenticator app.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Enter the 6-digit code from Sharing on your computer or your authenticator app.",
+    "zh-Hans": "输入电脑共享页面或验证器 App 上的 6 位动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Saisissez le code à 6 chiffres du partage sur votre ordinateur ou de votre application d’authentification.",
+    "de": "Geben Sie den 6-stelligen Code aus der Freigabe am Computer oder Ihrer Authenticator-App ein.",
+    "ar": "أدخل الرمز المكوّن من 6 أرقام من صفحة المشاركة على حاسوبك أو تطبيق المصادقة.",
+    "zh-Hant": "輸入電腦共享頁面或驗證器 App 上的 6 位動態碼。",
+    "ja": "コンピューターまたは認証アプリの共有から 6 桁のコードを入力します。",
+    "ko": "컴퓨터 또는 인증 앱의 공유에서 6자리 코드를 입력하세요.",
+    "pt": "Digite o código de 6 dígitos do Compartilhamento em seu computador ou aplicativo autenticador.",
+    "es": "Ingrese el código de 6 dígitos de Compartir en su computadora o su aplicación de autenticación.",
+    "bo": "ཁྱེད་རང་གི་གློག་ཀླད་ཡང་ན་བདེན་དཔང་བྱེད་མཁན་གྱི་མཉེན་ཆས་ནང་ལ་མཉམ་སྤྱོད་བྱེད་པའི་ཨང་གྲངས་༦ཅན་གྱི་གསང་གྲངས་བླུགས།",
+    "it": "Inserisci il codice a 6 cifre da Condivisione sul tuo computer o sull'app di autenticazione.",
+    "ru": "Введите 6-значный код из раздела «Общий доступ» на своем компьютере или в приложении для аутентификации.",
+    "id": "Masukkan kode 6 digit dari Berbagi di komputer atau aplikasi autentikator Anda.",
+    "tr": "Bilgisayarınızda veya kimlik doğrulama uygulamanızda Paylaşım'dan 6 haneli kodu girin.",
+    "vi": "Nhập mã gồm 6 chữ số từ Chia sẻ trên máy tính hoặc ứng dụng xác thực của bạn.",
+    "th": "ป้อนรหัส 6 หลักจากการแชร์บนคอมพิวเตอร์หรือแอปตรวจสอบสิทธิ์ของคุณ",
+    "nl": "Voer de 6-cijferige code van Delen in op uw computer of uw authenticator-app.",
+    "pl": "Wprowadź 6-cyfrowy kod z Udostępniania na komputerze lub w aplikacji uwierzytelniającej.",
+    "uk": "Введіть 6-значний код у розділі «Спільний доступ» на комп’ютері або в програмі автентифікації.",
+    "hi": "अपने कंप्यूटर या अपने प्रमाणक ऐप पर शेयरिंग से 6-अंकीय कोड दर्ज करें।",
+    "ms": "Masukkan kod 6 digit daripada Perkongsian pada komputer anda atau apl pengesah anda."
+  },
+  "Access code": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Access code",
+    "zh-Hans": "动态码",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Code d’accès",
+    "de": "Zugangscode",
+    "ar": "رمز الدخول",
+    "zh-Hant": "動態碼",
+    "ja": "アクセスコード",
+    "ko": "액세스 코드",
+    "pt": "Código de acesso",
+    "es": "código de acceso",
+    "bo": "འཛུལ་སྤྱོད་ཨང་རྟགས།",
+    "it": "Codice di accesso",
+    "ru": "Код доступа",
+    "id": "Kode akses",
+    "tr": "Erişim kodu",
+    "vi": "Mã truy cập",
+    "th": "รหัสการเข้าถึง",
+    "nl": "Toegangscode",
+    "pl": "Kod dostępu",
+    "uk": "Код доступу",
+    "hi": "एक्सेस कोड",
+    "ms": "Kod akses"
+  },
+  "6 digits": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "6 digits",
+    "zh-Hans": "6 位数字",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "6 chiffres",
+    "de": "6 Ziffern",
+    "ar": "6 أرقام",
+    "zh-Hant": "6 位數字",
+    "ja": "6桁",
+    "ko": "6자리",
+    "pt": "6 dígitos",
+    "es": "6 dígitos",
+    "bo": "6 ཨང་ཀི།",
+    "it": "6 cifre",
+    "ru": "6 цифр",
+    "id": "6 digit",
+    "tr": "6 hane",
+    "vi": "6 chữ số",
+    "th": "6 หลัก",
+    "nl": "6 cijfers",
+    "pl": "6 cyfr",
+    "uk": "6 цифр",
+    "hi": "6 अंक",
+    "ms": "6 digit"
+  },
+  "The code changes every 30 seconds. Each code can be used once.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The code changes every 30 seconds. Each code can be used once.",
+    "zh-Hans": "动态码每 30 秒更换一次，每个只能用一次。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Le code change toutes les 30 secondes et ne peut être utilisé qu’une fois.",
+    "de": "Der Code wechselt alle 30 Sekunden und ist nur einmal verwendbar.",
+    "ar": "يتغير الرمز كل 30 ثانية، ويمكن استخدام كل رمز مرة واحدة.",
+    "zh-Hant": "動態碼每 30 秒更換一次，每個只能用一次。",
+    "ja": "コードは 30 秒ごとに変わります。各コードは 1 回のみ使用できます。",
+    "ko": "코드는 30초마다 변경됩니다. 각 코드는 한 번만 사용할 수 있습니다.",
+    "pt": "O código muda a cada 30 segundos. Cada código pode ser usado uma vez.",
+    "es": "El código cambia cada 30 segundos. Cada código se puede utilizar una vez.",
+    "bo": "ཨང་གྲངས་དེ་སྐར་ཆ་30རེ་ལ་འགྱུར་བ་འགྲོ་གི་ཡོད། ཨང་རྟགས་རེ་རེ་བཞིན་ཐེངས་གཅིག་བེད་སྤྱོད་གཏོང་ཐུབ།",
+    "it": "Il codice cambia ogni 30 secondi. Ogni codice può essere utilizzato una volta.",
+    "ru": "Код меняется каждые 30 секунд. Каждый код можно использовать один раз.",
+    "id": "Kode berubah setiap 30 detik. Setiap kode dapat digunakan satu kali.",
+    "tr": "Kod her 30 saniyede bir değişir. Her kod bir kez kullanılabilir.",
+    "vi": "Mã thay đổi cứ sau 30 giây. Mỗi mã có thể được sử dụng một lần.",
+    "th": "รหัสจะเปลี่ยนทุกๆ 30 วินาที แต่ละรหัสสามารถใช้ได้ครั้งเดียว",
+    "nl": "De code verandert elke 30 seconden. Elke code kan één keer worden gebruikt.",
+    "pl": "Kod zmienia się co 30 sekund. Każdy kod może zostać użyty raz.",
+    "uk": "Код змінюється кожні 30 секунд. Кожен код можна використати один раз.",
+    "hi": "कोड हर 30 सेकंड में बदलता है। प्रत्येक कोड का उपयोग एक बार किया जा सकता है।",
+    "ms": "Kod berubah setiap 30 saat. Setiap kod boleh digunakan sekali."
+  },
+  "Remember this browser for 7 days": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Remember this browser for 7 days",
+    "zh-Hans": "记住此浏览器 7 天",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Mémoriser ce navigateur pendant 7 jours",
+    "de": "Diesen Browser 7 Tage merken",
+    "ar": "تذكّر هذا المتصفح لمدة 7 أيام",
+    "zh-Hant": "記住此瀏覽器 7 天",
+    "ja": "このブラウザを 7 日間記憶します",
+    "ko": "이 브라우저를 7일 동안 기억하세요",
+    "pt": "Lembre-se deste navegador por 7 dias",
+    "es": "Recuerda este navegador durante 7 días",
+    "bo": "དྲ་ངོས་འདི་ཉིན7དྲན་དགོས།",
+    "it": "Ricorda questo browser per 7 giorni",
+    "ru": "Запомнить этот браузер на 7 дней",
+    "id": "Ingat browser ini selama 7 hari",
+    "tr": "Bu tarayıcıyı 7 gün boyunca hatırla",
+    "vi": "Ghi nhớ trình duyệt này trong 7 ngày",
+    "th": "จำเบราว์เซอร์นี้เป็นเวลา 7 วัน",
+    "nl": "Onthoud deze browser 7 dagen",
+    "pl": "Zapamiętaj tę przeglądarkę przez 7 dni",
+    "uk": "Запам'ятайте цей браузер на 7 днів",
+    "hi": "इस ब्राउज़र को 7 दिनों तक याद रखें",
+    "ms": "Ingat pelayar ini selama 7 hari"
+  },
+  "Only remember your own device. Otherwise, enter a new code after closing the browser.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Only remember your own device. Otherwise, enter a new code after closing the browser.",
+    "zh-Hans": "仅在自己的设备上勾选。不记住时，关闭浏览器后需要重新输入动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Uniquement sur votre propre appareil. Sinon, un nouveau code sera nécessaire après fermeture du navigateur.",
+    "de": "Nur auf eigenen Geräten. Andernfalls ist nach dem Schließen des Browsers ein neuer Code nötig.",
+    "ar": "على جهازك الشخصي فقط. وإلا فستحتاج إلى رمز جديد بعد إغلاق المتصفح.",
+    "zh-Hant": "僅在自己的裝置上勾選。不記住時，關閉瀏覽器後需要重新輸入動態碼。",
+    "ja": "自分のデバイスだけを覚えておいてください。それ以外の場合は、ブラウザを閉じてから新しいコードを入力してください。",
+    "ko": "자신의 장치만 기억하세요. 그렇지 않은 경우 브라우저를 닫은 후 새 코드를 입력하세요.",
+    "pt": "Lembre-se apenas do seu próprio dispositivo. Caso contrário, insira um novo código após fechar o navegador.",
+    "es": "Recuerda sólo tu propio dispositivo. De lo contrario, ingrese un nuevo código después de cerrar el navegador.",
+    "bo": "རང་ཉིད་ཀྱི་ཡོ་ཆས་ཁོ་ན་དྲན་དགོས། དེ་མིན་ན་དྲ་མིག་ཁ་རྒྱག་རྗེས་ཨང་རྟགས་གསར་པ་ཞིག་བླུགས་དགོས།",
+    "it": "Ricorda solo il tuo dispositivo. Altrimenti inserisci un nuovo codice dopo aver chiuso il browser.",
+    "ru": "Помните только о своем устройстве. В противном случае введите новый код после закрытия браузера.",
+    "id": "Hanya ingat perangkat Anda sendiri. Jika tidak, masukkan kode baru setelah menutup browser.",
+    "tr": "Yalnızca kendi cihazınızı hatırlayın. Aksi takdirde tarayıcıyı kapattıktan sonra yeni bir kod girin.",
+    "vi": "Chỉ nhớ thiết bị của riêng bạn. Nếu không, hãy nhập mã mới sau khi đóng trình duyệt.",
+    "th": "จำเฉพาะอุปกรณ์ของคุณเองเท่านั้น มิฉะนั้น ให้ป้อนรหัสใหม่หลังจากปิดเบราว์เซอร์",
+    "nl": "Onthoud alleen uw eigen apparaat. Voer anders een nieuwe code in nadat u de browser hebt gesloten.",
+    "pl": "Pamiętaj tylko o swoim urządzeniu. W przeciwnym razie wprowadź nowy kod po zamknięciu przeglądarki.",
+    "uk": "Пам'ятайте лише про свій пристрій. В іншому випадку введіть новий код після закриття браузера.",
+    "hi": "केवल अपना उपकरण याद रखें. अन्यथा, ब्राउज़र बंद करने के बाद एक नया कोड दर्ज करें।",
+    "ms": "Hanya ingat peranti anda sendiri. Jika tidak, masukkan kod baharu selepas menutup penyemak imbas."
+  },
+  "Device name (optional)": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Device name (optional)",
+    "zh-Hans": "设备名称（可选）",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Nom de l’appareil (facultatif)",
+    "de": "Gerätename (optional)",
+    "ar": "اسم الجهاز (اختياري)",
+    "zh-Hant": "裝置名稱（選填）",
+    "ja": "デバイス名 (オプション)",
+    "ko": "장치 이름(선택 사항)",
+    "pt": "Nome do dispositivo (opcional)",
+    "es": "Nombre del dispositivo (opcional)",
+    "bo": "ཡོ་ཆས་ཀྱི་མིང་། (འདམ་ཀ།)",
+    "it": "Nome del dispositivo (facoltativo)",
+    "ru": "Имя устройства (необязательно)",
+    "id": "Nama perangkat (opsional)",
+    "tr": "Cihaz adı (isteğe bağlı)",
+    "vi": "Tên thiết bị (tùy chọn)",
+    "th": "ชื่ออุปกรณ์ (ไม่บังคับ)",
+    "nl": "Apparaatnaam (optioneel)",
+    "pl": "Nazwa urządzenia (opcjonalnie)",
+    "uk": "Назва пристрою (необов'язково)",
+    "hi": "डिवाइस का नाम (वैकल्पिक)",
+    "ms": "Nama peranti (pilihan)"
+  },
+  "Identify this browser on your computer": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Identify this browser on your computer",
+    "zh-Hans": "用于在电脑端识别此浏览器",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Identifier ce navigateur sur votre ordinateur",
+    "de": "Diesen Browser am Computer erkennen",
+    "ar": "تمييز هذا المتصفح على حاسوبك",
+    "zh-Hant": "用於在電腦端識別此瀏覽器",
+    "ja": "コンピュータ上のこのブラウザを識別する",
+    "ko": "컴퓨터에서 이 브라우저를 식별하세요.",
+    "pt": "Identifique este navegador no seu computador",
+    "es": "Identifica este navegador en tu ordenador",
+    "bo": "གློག་ཀླད་ནང་དྲ་ངོས་འདི་ངོས་འཛིན།",
+    "it": "Identifica questo browser sul tuo computer",
+    "ru": "Определите этот браузер на своем компьютере",
+    "id": "Identifikasi browser ini di komputer Anda",
+    "tr": "Bilgisayarınızda bu tarayıcıyı tanımlayın",
+    "vi": "Xác định trình duyệt này trên máy tính của bạn",
+    "th": "ระบุเบราว์เซอร์นี้บนคอมพิวเตอร์ของคุณ",
+    "nl": "Identificeer deze browser op uw computer",
+    "pl": "Zidentyfikuj tę przeglądarkę na swoim komputerze",
+    "uk": "Визначте цей браузер на своєму комп’ютері",
+    "hi": "अपने कंप्यूटर पर इस ब्राउज़र को पहचानें",
+    "ms": "Kenal pasti penyemak imbas ini pada komputer anda"
+  },
+  "This browser is paired": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "This browser is paired",
+    "zh-Hans": "此浏览器已配对",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Ce navigateur est associé",
+    "de": "Dieser Browser ist gekoppelt",
+    "ar": "هذا المتصفح مقترن",
+    "zh-Hant": "此瀏覽器已配對",
+    "ja": "このブラウザはペアリングされています",
+    "ko": "이 브라우저는 페어링되었습니다",
+    "pt": "Este navegador está emparelhado",
+    "es": "Este navegador está emparejado",
+    "bo": "དྲ་ངོས་འདི་ཆ་སྒྲིག་བྱས་ཡོད།",
+    "it": "Questo browser è accoppiato",
+    "ru": "Этот браузер подключен",
+    "id": "Browser ini dipasangkan",
+    "tr": "Bu tarayıcı eşlendi",
+    "vi": "Trình duyệt này được ghép nối",
+    "th": "เบราว์เซอร์นี้ถูกจับคู่",
+    "nl": "Deze browser is gekoppeld",
+    "pl": "Ta przeglądarka jest sparowana",
+    "uk": "Цей браузер є парним",
+    "hi": "यह ब्राउज़र युग्मित है",
+    "ms": "Penyemak imbas ini dipasangkan"
+  },
+  "This browser": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "This browser",
+    "zh-Hans": "此浏览器",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Ce navigateur",
+    "de": "Dieser Browser",
+    "ar": "هذا المتصفح",
+    "zh-Hant": "此瀏覽器",
+    "ja": "このブラウザ",
+    "ko": "이 브라우저",
+    "pt": "Este navegador",
+    "es": "este navegador",
+    "bo": "དྲ་ངོས་འདི།",
+    "it": "Questo navigatore",
+    "ru": "Этот браузер",
+    "id": "peramban ini",
+    "tr": "Bu tarayıcı",
+    "vi": "Trình duyệt này",
+    "th": "เบราว์เซอร์นี้",
+    "nl": "Deze browser",
+    "pl": "Ta przeglądarka",
+    "uk": "Цей браузер",
+    "hi": "यह ब्राउज़र",
+    "ms": "pelayar ini"
+  },
+  "Check pairing again": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Check pairing again",
+    "zh-Hans": "重新检查配对",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Revérifier l’association",
+    "de": "Kopplung erneut prüfen",
+    "ar": "التحقق من الاقتران مجددًا",
+    "zh-Hant": "重新檢查配對",
+    "ja": "ペアリングを再度確認してください",
+    "ko": "페어링을 다시 확인하세요.",
+    "pt": "Verifique o emparelhamento novamente",
+    "es": "Verifique el emparejamiento nuevamente",
+    "bo": "ཡང་བསྐྱར་ཆ་སྒྲིག་ལ་ཞིབ་བཤེར་བྱས།",
+    "it": "Controlla di nuovo l'accoppiamento",
+    "ru": "Проверьте сопряжение еще раз",
+    "id": "Periksa penyandingan lagi",
+    "tr": "Eşleştirmeyi tekrar kontrol edin",
+    "vi": "Kiểm tra ghép nối lại",
+    "th": "ตรวจสอบการจับคู่อีกครั้ง",
+    "nl": "Controleer het koppelen opnieuw",
+    "pl": "Sprawdź ponownie parowanie",
+    "uk": "Перевірте сполучення ще раз",
+    "hi": "युग्मन पुनः जांचें",
+    "ms": "Periksa gandingan sekali lagi"
+  },
+  "Connection options": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Connection options",
+    "zh-Hans": "连接选项",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Options de connexion",
+    "de": "Verbindungsoptionen",
+    "ar": "خيارات الاتصال",
+    "zh-Hant": "連線選項",
+    "ja": "接続オプション",
+    "ko": "연결 옵션",
+    "pt": "Opções de conexão",
+    "es": "Opciones de conexión",
+    "bo": "མཐུད་སྣེའི་གདམ་ཁ།",
+    "it": "Opzioni di connessione",
+    "ru": "Варианты подключения",
+    "id": "Opsi koneksi",
+    "tr": "Bağlantı seçenekleri",
+    "vi": "Tùy chọn kết nối",
+    "th": "ตัวเลือกการเชื่อมต่อ",
+    "nl": "Verbindingsmogelijkheden",
+    "pl": "Opcje połączenia",
+    "uk": "Варіанти підключення",
+    "hi": "कनेक्शन विकल्प",
+    "ms": "Pilihan sambungan"
+  },
+  "Picture quality": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Picture quality",
+    "zh-Hans": "画面质量",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Qualité d’image",
+    "de": "Bildqualität",
+    "ar": "جودة الصورة",
+    "zh-Hant": "畫面品質",
+    "ja": "画質",
+    "ko": "화질",
+    "pt": "Qualidade de imagem",
+    "es": "Calidad de imagen",
+    "bo": "པར་རིས་སྤུས་ཚད།",
+    "it": "Qualità dell'immagine",
+    "ru": "Качество изображения",
+    "id": "Kualitas gambar",
+    "tr": "Resim kalitesi",
+    "vi": "Chất lượng hình ảnh",
+    "th": "คุณภาพของภาพ",
+    "nl": "Beeldkwaliteit",
+    "pl": "Jakość obrazu",
+    "uk": "Якість зображення",
+    "hi": "चित्र गुणवत्ता",
+    "ms": "Kualiti gambar"
+  },
+  "Fit the computer desktop to this window": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Fit the computer desktop to this window",
+    "zh-Hans": "调整电脑桌面以适合此窗口",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Adapter le bureau à cette fenêtre",
+    "de": "Computerdesktop an dieses Fenster anpassen",
+    "ar": "ملاءمة سطح مكتب الحاسوب لهذه النافذة",
+    "zh-Hant": "調整電腦桌面以符合此視窗",
+    "ja": "コンピュータのデスクトップをこのウィンドウに合わせます",
+    "ko": "컴퓨터 바탕 화면을 이 창에 맞춥니다.",
+    "pt": "Ajuste a área de trabalho do computador a esta janela",
+    "es": "Ajustar el escritorio de la computadora a esta ventana",
+    "bo": "གློག་ཀླད་ཀྱི་ཅོག་ལེབ་སྒེའུ་ཁུང་འདི་ལ་སྒྲིག་དགོས།",
+    "it": "Adatta il desktop del computer a questa finestra",
+    "ru": "Подогнать рабочий стол компьютера под это окно",
+    "id": "Sesuaikan desktop komputer dengan jendela ini",
+    "tr": "Bilgisayarın masaüstünü bu pencereye sığdır",
+    "vi": "Lắp màn hình máy tính vào cửa sổ này",
+    "th": "ติดตั้งเดสก์ท็อปคอมพิวเตอร์เข้ากับหน้าต่างนี้",
+    "nl": "Pas het bureaublad van de computer aan dit venster aan",
+    "pl": "Dopasuj pulpit komputera do tego okna",
+    "uk": "Розмістіть робочий стіл комп’ютера до цього вікна",
+    "hi": "कंप्यूटर डेस्कटॉप को इस विंडो में फिट करें",
+    "ms": "Muatkan desktop komputer pada tetingkap ini"
+  },
+  "Content size": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Content size",
+    "zh-Hans": "内容大小",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Taille du contenu",
+    "de": "Inhaltsgröße",
+    "ar": "حجم المحتوى",
+    "zh-Hant": "內容大小",
+    "ja": "コンテンツのサイズ",
+    "ko": "콘텐츠 크기",
+    "pt": "Tamanho do conteúdo",
+    "es": "Tamaño del contenido",
+    "bo": "ནང་དོན་ཆེ་ཆུང་།",
+    "it": "Dimensione del contenuto",
+    "ru": "Размер контента",
+    "id": "Ukuran konten",
+    "tr": "İçerik boyutu",
+    "vi": "Kích thước nội dung",
+    "th": "ขนาดเนื้อหา",
+    "nl": "Inhoudsgrootte",
+    "pl": "Rozmiar treści",
+    "uk": "Розмір вмісту",
+    "hi": "सामग्री का आकार",
+    "ms": "Saiz kandungan"
+  },
+  "Play computer audio": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Play computer audio",
+    "zh-Hans": "播放电脑声音",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Lire le son de l’ordinateur",
+    "de": "Computerton wiedergeben",
+    "ar": "تشغيل صوت الحاسوب",
+    "zh-Hant": "播放電腦聲音",
+    "ja": "コンピューターオーディオを再生する",
+    "ko": "컴퓨터 오디오 재생",
+    "pt": "Reproduzir áudio do computador",
+    "es": "Reproducir audio de computadora",
+    "bo": "གློག་ཀླད་སྒྲ་དབྱངས།",
+    "it": "Riproduci l'audio del computer",
+    "ru": "Воспроизвести компьютерный звук",
+    "id": "Memutar audio komputer",
+    "tr": "Bilgisayar sesini çal",
+    "vi": "Phát âm thanh máy tính",
+    "th": "เล่นเสียงคอมพิวเตอร์",
+    "nl": "Speel computeraudio af",
+    "pl": "Odtwórz dźwięk z komputera",
+    "uk": "Відтворення аудіо з комп'ютера",
+    "hi": "कंप्यूटर ऑडियो चलाएं",
+    "ms": "Mainkan audio komputer"
+  },
+  "No account needed. Only enter a code from the target computer or your own authenticator app.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "No account needed. Only enter a code from the target computer or your own authenticator app.",
+    "zh-Hans": "无需注册账号。请只输入目标电脑或你自己的验证器 App 上的动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Aucun compte requis. Saisissez uniquement un code de l’ordinateur cible ou de votre propre application d’authentification.",
+    "de": "Kein Konto erforderlich. Nur einen Code vom Zielcomputer oder Ihrer eigenen Authenticator-App eingeben.",
+    "ar": "لا يلزم حساب. أدخل رمزًا من الحاسوب المستهدف أو تطبيق المصادقة الخاص بك فقط.",
+    "zh-Hant": "無需註冊帳號。請只輸入目標電腦或你自己的驗證器 App 上的動態碼。",
+    "ja": "アカウントは必要ありません。ターゲット コンピューターまたは独自の認証アプリからのコードのみを入力してください。",
+    "ko": "계정이 필요하지 않습니다. 대상 컴퓨터 또는 자체 인증 앱의 코드만 입력하세요.",
+    "pt": "Nenhuma conta é necessária. Insira apenas um código do computador de destino ou do seu próprio aplicativo autenticador.",
+    "es": "No se necesita cuenta. Introduzca únicamente un código de la computadora de destino o de su propia aplicación de autenticación.",
+    "bo": "རྩིས་ཁྲ་མི་དགོས། དམིགས་འབེན་གྱི་གློག་ཀླད་ཡང་ན་ཁྱེད་རང་གི་བདེན་དཔང་བྱེད་མཁན་གྱི་མཉེན་ཆས་ནས་ཨང་གྲངས་གཅིག་བླུགས་དགོས།",
+    "it": "Nessun account necessario. Inserisci solo un codice dal computer di destinazione o dalla tua app di autenticazione.",
+    "ru": "Никакой учетной записи не требуется. Введите код только с целевого компьютера или из собственного приложения для проверки подлинности.",
+    "id": "Tidak diperlukan akun. Hanya masukkan kode dari komputer target atau aplikasi autentikator Anda sendiri.",
+    "tr": "Hesaba gerek yok. Yalnızca hedef bilgisayardan veya kendi kimlik doğrulama uygulamanızdan bir kod girin.",
+    "vi": "Không cần tài khoản. Chỉ nhập mã từ máy tính mục tiêu hoặc ứng dụng xác thực của riêng bạn.",
+    "th": "ไม่จำเป็นต้องมีบัญชี ป้อนรหัสจากคอมพิวเตอร์เป้าหมายหรือแอปตรวจสอบความถูกต้องของคุณเองเท่านั้น",
+    "nl": "Geen account nodig. Voer alleen een code in vanaf de doelcomputer of uw eigen authenticator-app.",
+    "pl": "Nie potrzeba konta. Wprowadź tylko kod z komputera docelowego lub własnej aplikacji uwierzytelniającej.",
+    "uk": "Обліковий запис не потрібен. Вводьте лише код із цільового комп’ютера або власної програми автентифікації.",
+    "hi": "किसी खाते की आवश्यकता नहीं. केवल लक्ष्य कंप्यूटर या अपने स्वयं के प्रमाणक ऐप से एक कोड दर्ज करें।",
+    "ms": "Tiada akaun diperlukan. Hanya masukkan kod daripada komputer sasaran atau apl pengesah anda sendiri."
+  },
+  "Remote computer": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Remote computer",
+    "zh-Hans": "远程电脑",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Ordinateur distant",
+    "de": "Entfernter Computer",
+    "ar": "الحاسوب البعيد",
+    "zh-Hant": "遠端電腦",
+    "ja": "リモートコンピュータ",
+    "ko": "원격 컴퓨터",
+    "pt": "Computador remoto",
+    "es": "Computadora remota",
+    "bo": "ཐག་རིང་གི་གློག་ཀླད།",
+    "it": "Computer remoto",
+    "ru": "Удаленный компьютер",
+    "id": "Komputer jarak jauh",
+    "tr": "Uzak bilgisayar",
+    "vi": "Máy tính từ xa",
+    "th": "คอมพิวเตอร์ระยะไกล",
+    "nl": "Computer op afstand",
+    "pl": "Zdalny komputer",
+    "uk": "Віддалений комп'ютер",
+    "hi": "रिमोट कंप्यूटर",
+    "ms": "Komputer jauh"
+  },
+  "Remote desktop. Tap to use the keyboard; hold the trackpad to drag.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Remote desktop. Tap to use the keyboard; hold the trackpad to drag.",
+    "zh-Hans": "远程桌面。点按画面后可使用键盘，长按触控板可拖动。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Bureau distant. Touchez pour utiliser le clavier ; maintenez le pavé tactile pour glisser.",
+    "de": "Remote-Desktop. Zum Tippen antippen; zum Ziehen das Trackpad gedrückt halten.",
+    "ar": "سطح المكتب البعيد. انقر لاستخدام لوحة المفاتيح، واضغط مطولًا على لوحة اللمس للسحب.",
+    "zh-Hant": "遠端桌面。點按畫面後可使用鍵盤，長按觸控板可拖曳。",
+    "ja": "リモートデスクトップ。タップしてキーボードを使用します。トラックパッドを押したままドラッグします。",
+    "ko": "원격 데스크톱. 키보드를 사용하려면 탭하세요. 드래그하려면 트랙패드를 길게 누르세요.",
+    "pt": "Área de trabalho remota. Toque para usar o teclado; segure o trackpad para arrastar.",
+    "es": "Escritorio remoto. Toque para usar el teclado; Mantenga presionado el trackpad para arrastrar.",
+    "bo": "ཐག་རིང་གི་ཡིག་ཆའི་སྟེགས་བུ། མཐེབ་གཞོང་བེད་སྤྱོད་གཏོང་བར་རྡེབ། འདྲུད་ཆེད་དུ་ཊེག་པེཌ་འཛིན་དགོས།",
+    "it": "Desktop remoto. Tocca per utilizzare la tastiera; tieni premuto il trackpad per trascinare.",
+    "ru": "Удаленный рабочий стол. Нажмите, чтобы использовать клавиатуру; удерживайте трекпад для перетаскивания.",
+    "id": "Desktop jarak jauh. Ketuk untuk menggunakan keyboard; tahan trackpad untuk menyeret.",
+    "tr": "Uzak masaüstü. Klavyeyi kullanmak için dokunun; sürüklemek için izleme dörtgenini basılı tutun.",
+    "vi": "Máy tính để bàn từ xa. Nhấn để sử dụng bàn phím; giữ trackpad để kéo.",
+    "th": "เดสก์ท็อประยะไกล แตะเพื่อใช้แป้นพิมพ์ กดแทร็คแพดค้างไว้เพื่อลาก",
+    "nl": "Extern bureaublad. Tik om het toetsenbord te gebruiken; houd het trackpad ingedrukt om te slepen.",
+    "pl": "Zdalny pulpit. Stuknij, aby użyć klawiatury; przytrzymaj gładzik, aby przeciągnąć.",
+    "uk": "Віддалений робочий стіл. Натисніть, щоб використовувати клавіатуру; утримуйте трекпад, щоб перетягнути.",
+    "hi": "रिमोट डेस्कटॉप. कीबोर्ड का उपयोग करने के लिए टैप करें; खींचने के लिए ट्रैकपैड को दबाए रखें।",
+    "ms": "Desktop jauh. Ketik untuk menggunakan papan kekunci; pegang pad jejak untuk menyeret."
+  },
+  "Remote desktop video": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Remote desktop video",
+    "zh-Hans": "远程桌面画面",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Vidéo du bureau distant",
+    "de": "Remote-Desktop-Video",
+    "ar": "فيديو سطح المكتب البعيد",
+    "zh-Hant": "遠端桌面畫面",
+    "ja": "リモートデスクトップビデオ",
+    "ko": "원격 데스크톱 비디오",
+    "pt": "Vídeo de área de trabalho remota",
+    "es": "Vídeo de escritorio remoto",
+    "bo": "ཐག་རིང་གི་ཡིག་ཆའི་བརྙན་འཕྲིན།",
+    "it": "Video sul desktop remoto",
+    "ru": "Видео с удаленного рабочего стола",
+    "id": "Video desktop jarak jauh",
+    "tr": "Uzak masaüstü videosu",
+    "vi": "Video máy tính để bàn từ xa",
+    "th": "วิดีโอเดสก์ท็อประยะไกล",
+    "nl": "Externe desktopvideo",
+    "pl": "Wideo na zdalnym pulpicie",
+    "uk": "Відео на віддаленому робочому столі",
+    "hi": "रिमोट डेस्कटॉप वीडियो",
+    "ms": "Video desktop jauh"
+  },
+  "Control is available after the first video frame": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Control is available after the first video frame",
+    "zh-Hans": "第一帧画面就绪后即可操作",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Le contrôle sera disponible après la première image",
+    "de": "Steuerung nach dem ersten Videobild verfügbar",
+    "ar": "يتاح التحكم بعد ظهور أول إطار فيديو",
+    "zh-Hant": "第一幀畫面就緒後即可操作",
+    "ja": "最初のビデオ フレームの後にコントロールが使用可能になります",
+    "ko": "첫 번째 비디오 프레임 이후에 제어가 가능합니다.",
+    "pt": "O controle está disponível após o primeiro quadro de vídeo",
+    "es": "El control está disponible después del primer fotograma de vídeo.",
+    "bo": "བརྙན་འཕྲིན་སྒྲོམ་གཞི་དང་པོའི་རྗེས་སུ་སྟངས་འཛིན་བྱེད་ཐུབ།",
+    "it": "Il controllo è disponibile dopo il primo fotogramma video",
+    "ru": "Управление доступно после первого кадра видео.",
+    "id": "Kontrol tersedia setelah frame video pertama",
+    "tr": "Kontrol ilk video karesinden sonra kullanılabilir",
+    "vi": "Kiểm soát có sẵn sau khung hình video đầu tiên",
+    "th": "การควบคุมจะพร้อมใช้งานหลังจากเฟรมวิดีโอแรก",
+    "nl": "Controle is beschikbaar na het eerste videoframe",
+    "pl": "Sterowanie jest dostępne po pierwszej klatce wideo",
+    "uk": "Керування доступне після першого кадру відео",
+    "hi": "पहले वीडियो फ्रेम के बाद नियंत्रण उपलब्ध है",
+    "ms": "Kawalan tersedia selepas bingkai video pertama"
+  },
+  "Tap to enable audio": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Tap to enable audio",
+    "zh-Hans": "点按开启声音",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Toucher pour activer le son",
+    "de": "Tippen, um Ton zu aktivieren",
+    "ar": "انقر لتفعيل الصوت",
+    "zh-Hant": "點按開啟聲音",
+    "ja": "タップして音声を有効にします",
+    "ko": "오디오를 활성화하려면 탭하세요.",
+    "pt": "Toque para ativar o áudio",
+    "es": "Toca para habilitar el audio",
+    "bo": "སྒྲ་འཇུག་བྱེད་པར་རྡེབ།",
+    "it": "Tocca per abilitare l'audio",
+    "ru": "Нажмите, чтобы включить звук",
+    "id": "Ketuk untuk mengaktifkan audio",
+    "tr": "Sesi etkinleştirmek için dokunun",
+    "vi": "Nhấn để bật âm thanh",
+    "th": "แตะเพื่อเปิดใช้งานเสียง",
+    "nl": "Tik om audio in te schakelen",
+    "pl": "Kliknij, aby włączyć dźwięk",
+    "uk": "Торкніться, щоб увімкнути звук",
+    "hi": "ऑडियो सक्षम करने के लिए टैप करें",
+    "ms": "Ketik untuk mendayakan audio"
+  },
+  "Show toolbar": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Show toolbar",
+    "zh-Hans": "显示工具栏",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Afficher la barre d’outils",
+    "de": "Werkzeugleiste anzeigen",
+    "ar": "إظهار شريط الأدوات",
+    "zh-Hant": "顯示工具列",
+    "ja": "ツールバーを表示",
+    "ko": "툴바 표시",
+    "pt": "Mostrar barra de ferramentas",
+    "es": "Mostrar barra de herramientas",
+    "bo": "ལག་ཆས་ཕྲ་རིང་སྟོན།",
+    "it": "Mostra barra degli strumenti",
+    "ru": "Показать панель инструментов",
+    "id": "Tampilkan bilah alat",
+    "tr": "Araç çubuğunu göster",
+    "vi": "Hiển thị thanh công cụ",
+    "th": "แสดงแถบเครื่องมือ",
+    "nl": "Werkbalk tonen",
+    "pl": "Pokaż pasek narzędzi",
+    "uk": "Показати панель інструментів",
+    "hi": "टूलबार दिखाएँ",
+    "ms": "Tunjukkan bar alat"
+  },
+  "Remote controls": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Remote controls",
+    "zh-Hans": "远程操作",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Commandes à distance",
+    "de": "Fernsteuerung",
+    "ar": "أدوات التحكم عن بُعد",
+    "zh-Hant": "遠端操作",
+    "ja": "リモコン",
+    "ko": "리모콘",
+    "pt": "Controles remotos",
+    "es": "Controles remotos",
+    "bo": "ཐག་རིང་ནས་ཚོད་འཛིན།",
+    "it": "Telecomandi",
+    "ru": "Пульты дистанционного управления",
+    "id": "Kontrol jarak jauh",
+    "tr": "Uzaktan kumandalar",
+    "vi": "Điều khiển từ xa",
+    "th": "การควบคุมระยะไกล",
+    "nl": "Afstandsbedieningen",
+    "pl": "Piloty zdalnego sterowania",
+    "uk": "Пульти дистанційного керування",
+    "hi": "रिमोट कंट्रोल",
+    "ms": "Alat kawalan jauh"
+  },
+  "Touch mode": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Touch mode",
+    "zh-Hans": "触摸模式",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Mode tactile",
+    "de": "Berührungsmodus",
+    "ar": "وضع اللمس",
+    "zh-Hant": "觸控模式",
+    "ja": "タッチモード",
+    "ko": "터치 모드",
+    "pt": "Modo de toque",
+    "es": "Modo táctil",
+    "bo": "རེག་བྱ་ཐབས་ལམ།",
+    "it": "Modalità tocco",
+    "ru": "Сенсорный режим",
+    "id": "Modus sentuh",
+    "tr": "Dokunma modu",
+    "vi": "Chế độ cảm ứng",
+    "th": "โหมดสัมผัส",
+    "nl": "Aanraakmodus",
+    "pl": "Tryb dotykowy",
+    "uk": "Сенсорний режим",
+    "hi": "स्पर्श मोड",
+    "ms": "Mod sentuh"
+  },
+  "Left mouse button": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Left mouse button",
+    "zh-Hans": "鼠标左键",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Bouton gauche de la souris",
+    "de": "Linke Maustaste",
+    "ar": "زر الفأرة الأيسر",
+    "zh-Hant": "滑鼠左鍵",
+    "ja": "マウスの左ボタン",
+    "ko": "마우스 왼쪽 버튼",
+    "pt": "Botão esquerdo do mouse",
+    "es": "Botón izquierdo del ratón",
+    "bo": "ཙི་ཙིའི་གཡོན་ཕྱོགས་ཀྱི་མཐེབ་གཞོང་།",
+    "it": "Pulsante sinistro del mouse",
+    "ru": "Левая кнопка мыши",
+    "id": "Tombol kiri mouse",
+    "tr": "Sol fare düğmesi",
+    "vi": "Nút chuột trái",
+    "th": "ปุ่มซ้ายของเมาส์",
+    "nl": "Linkermuisknop",
+    "pl": "Lewy przycisk myszy",
+    "uk": "Ліва кнопка миші",
+    "hi": "बाईं माउस बटन",
+    "ms": "Butang tetikus kiri"
+  },
+  "Right mouse button": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Right mouse button",
+    "zh-Hans": "鼠标右键",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Bouton droit de la souris",
+    "de": "Rechte Maustaste",
+    "ar": "زر الفأرة الأيمن",
+    "zh-Hant": "滑鼠右鍵",
+    "ja": "マウスの右ボタン",
+    "ko": "마우스 오른쪽 버튼",
+    "pt": "Botão direito do mouse",
+    "es": "Botón derecho del ratón",
+    "bo": "ཙི་ཙི་གཡས་ཀྱི་མཐེབ་གཞོང་།",
+    "it": "Tasto destro del mouse",
+    "ru": "Правая кнопка мыши",
+    "id": "Tombol kanan mouse",
+    "tr": "Sağ fare düğmesi",
+    "vi": "Nút chuột phải",
+    "th": "ปุ่มเมาส์ขวา",
+    "nl": "Rechtermuisknop",
+    "pl": "Prawy przycisk myszy",
+    "uk": "Права кнопка миші",
+    "hi": "दायां माउस बटन",
+    "ms": "Butang tetikus kanan"
+  },
+  "Left click": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Left click",
+    "zh-Hans": "左键",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Clic gauche",
+    "de": "Linksklick",
+    "ar": "نقرة يسرى",
+    "zh-Hant": "左鍵",
+    "ja": "左クリック",
+    "ko": "왼쪽 클릭",
+    "pt": "Clique esquerdo",
+    "es": "clic izquierdo",
+    "bo": "གཡོན་མཐེབ་གནོན།",
+    "it": "Fare clic con il pulsante sinistro del mouse",
+    "ru": "Щелкните левой кнопкой мыши",
+    "id": "Klik kiri",
+    "tr": "Sol tıklama",
+    "vi": "Nhấp chuột trái",
+    "th": "คลิกซ้าย",
+    "nl": "Klik met de linkermuisknop",
+    "pl": "Kliknij lewym przyciskiem myszy",
+    "uk": "Клацніть лівою кнопкою миші",
+    "hi": "बायां क्लिक करें",
+    "ms": "Klik kiri"
+  },
+  "Right click": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Right click",
+    "zh-Hans": "右键",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Clic droit",
+    "de": "Rechtsklick",
+    "ar": "نقرة يمنى",
+    "zh-Hant": "右鍵",
+    "ja": "右クリック",
+    "ko": "마우스 오른쪽 버튼을 클릭하세요.",
+    "pt": "Clique com o botão direito",
+    "es": "clic derecho",
+    "bo": "གཡས་གནོན།",
+    "it": "Fare clic con il tasto destro",
+    "ru": "Щелкните правой кнопкой мыши",
+    "id": "Klik kanan",
+    "tr": "Sağ tıklama",
+    "vi": "Nhấp chuột phải",
+    "th": "คลิกขวา",
+    "nl": "Klik met de rechtermuisknop",
+    "pl": "Kliknij prawym przyciskiem myszy",
+    "uk": "Клацніть правою кнопкою миші",
+    "hi": "राइट क्लिक करें",
+    "ms": "Klik kanan"
+  },
+  "Text": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Text",
+    "zh-Hans": "文字",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Texte",
+    "de": "Text",
+    "ar": "نص",
+    "zh-Hant": "文字",
+    "ja": "テキスト",
+    "ko": "텍스트",
+    "pt": "Texto",
+    "es": "Texto",
+    "bo": "ཡིག་ཆ།",
+    "it": "Testo",
+    "ru": "Текст",
+    "id": "Teks",
+    "tr": "Metin",
+    "vi": "văn bản",
+    "th": "ข้อความ",
+    "nl": "Tekst",
+    "pl": "Tekst",
+    "uk": "текст",
+    "hi": "पाठ",
+    "ms": "Teks"
+  },
+  "Shortcuts": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Shortcuts",
+    "zh-Hans": "快捷键",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Raccourcis",
+    "de": "Tastenkürzel",
+    "ar": "اختصارات",
+    "zh-Hant": "快捷鍵",
+    "ja": "ショートカット",
+    "ko": "단축키",
+    "pt": "Atalhos",
+    "es": "Atajos",
+    "bo": "མགྱོགས་ཐབས།",
+    "it": "Scorciatoie",
+    "ru": "Ярлыки",
+    "id": "Jalan pintas",
+    "tr": "Kısayollar",
+    "vi": "Phím tắt",
+    "th": "ทางลัด",
+    "nl": "Snelkoppelingen",
+    "pl": "Skróty",
+    "uk": "Ярлики",
+    "hi": "शॉर्टकट",
+    "ms": "Jalan pintas"
+  },
+  "Sound off": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Sound off",
+    "zh-Hans": "声音关",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Son désactivé",
+    "de": "Ton aus",
+    "ar": "الصوت متوقف",
+    "zh-Hant": "聲音關",
+    "ja": "サウンドオフ",
+    "ko": "소리 끄기",
+    "pt": "Som desligado",
+    "es": "sonido apagado",
+    "bo": "སྒྲ་མེད་པར་བཟོས།",
+    "it": "Suono disattivato",
+    "ru": "Звук выключен",
+    "id": "Matikan suara",
+    "tr": "Ses kapalı",
+    "vi": "Tắt âm thanh",
+    "th": "ปิดเสียง",
+    "nl": "Geluid uit",
+    "pl": "Wyłącz dźwięk",
+    "uk": "Звук вимкнено",
+    "hi": "आवाज़ बंद करो",
+    "ms": "Bunyi mati"
+  },
+  "Sound on": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Sound on",
+    "zh-Hans": "声音开",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Son activé",
+    "de": "Ton an",
+    "ar": "الصوت مفعّل",
+    "zh-Hant": "聲音開",
+    "ja": "サウンドオン",
+    "ko": "소리 켜짐",
+    "pt": "Som ativado",
+    "es": "Sonido encendido",
+    "bo": "སྒྲ་སྒམ།",
+    "it": "Suono attivo",
+    "ru": "Звук включен",
+    "id": "Nyalakan suara",
+    "tr": "Ses açık",
+    "vi": "Bật âm thanh",
+    "th": "เปิดเสียง",
+    "nl": "Geluid aan",
+    "pl": "Włącz dźwięk",
+    "uk": "Звук увімкнено",
+    "hi": "ध्वनि चालू",
+    "ms": "Bunyi dihidupkan"
+  },
+  "Exit full screen": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Exit full screen",
+    "zh-Hans": "退出全屏",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Quitter le plein écran",
+    "de": "Vollbild verlassen",
+    "ar": "الخروج من ملء الشاشة",
+    "zh-Hant": "離開全螢幕",
+    "ja": "全画面表示を終了する",
+    "ko": "전체 화면 종료",
+    "pt": "Sair da tela inteira",
+    "es": "Salir de pantalla completa",
+    "bo": "གསལ་གཞི་ཆ་ཚང་ཕྱིར་ཐོན་པ།",
+    "it": "Esci dallo schermo intero",
+    "ru": "Выйти из полноэкранного режима",
+    "id": "Keluar dari layar penuh",
+    "tr": "Tam ekrandan çık",
+    "vi": "Thoát toàn màn hình",
+    "th": "ออกจากโหมดเต็มหน้าจอ",
+    "nl": "Sluit het volledige scherm af",
+    "pl": "Wyjdź z pełnego ekranu",
+    "uk": "Вийти з повноекранного режиму",
+    "hi": "पूर्ण स्क्रीन से बाहर निकलें",
+    "ms": "Keluar dari skrin penuh"
+  },
+  "Backspace": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Backspace",
+    "zh-Hans": "退格",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Retour arrière",
+    "de": "Rücktaste",
+    "ar": "مسافة للخلف",
+    "zh-Hant": "退格",
+    "ja": "バックスペース",
+    "ko": "백스페이스",
+    "pt": "Retrocesso",
+    "es": "Retroceso",
+    "bo": "རྒྱབ་ཕྱོགས་ཀྱི་བར་སྟོང་།",
+    "it": "Indietro",
+    "ru": "Backspace",
+    "id": "Ruang belakang",
+    "tr": "Geri tuşu",
+    "vi": "Phím lùi",
+    "th": "แบ็คสเปซ",
+    "nl": "Backspace",
+    "pl": "Backspace",
+    "uk": "Backspace",
+    "hi": "बैकस्पेस",
+    "ms": "Ruang belakang"
+  },
+  "Enter text on the computer, including IME input": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Enter text on the computer, including IME input",
+    "zh-Hans": "向电脑输入文字，支持中文输入法",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Saisir du texte sur l’ordinateur, y compris avec un IME",
+    "de": "Text am Computer eingeben, auch mit IME",
+    "ar": "إدخال نص على الحاسوب، بما في ذلك عبر محرر أسلوب الإدخال",
+    "zh-Hant": "向電腦輸入文字，支援輸入法",
+    "ja": "IME入力を含む、コンピューター上でのテキスト入力",
+    "ko": "IME 입력을 포함하여 컴퓨터에 텍스트 입력",
+    "pt": "Insira texto no computador, incluindo entrada IME",
+    "es": "Ingrese texto en la computadora, incluida la entrada de IME",
+    "bo": "IME ནང་འཇུག་ཚུད་པའི་གློག་ཀླད་ཐོག་ཡི་གེ་བླུགས།",
+    "it": "Inserisci il testo sul computer, incluso l'input IME",
+    "ru": "Введите текст на компьютере, включая ввод IME.",
+    "id": "Masukkan teks di komputer, termasuk input IME",
+    "tr": "IME girişi de dahil olmak üzere bilgisayara metin girin",
+    "vi": "Nhập văn bản trên máy tính, bao gồm cả đầu vào IME",
+    "th": "ป้อนข้อความบนคอมพิวเตอร์ รวมทั้งอินพุต IME",
+    "nl": "Voer tekst in op de computer, inclusief IME-invoer",
+    "pl": "Wprowadź tekst na komputerze, łącznie z wejściem IME",
+    "uk": "Введіть текст на комп’ютері, включаючи IME",
+    "hi": "IME इनपुट सहित कंप्यूटर पर टेक्स्ट दर्ज करें",
+    "ms": "Masukkan teks pada komputer, termasuk input IME"
+  },
+  "Type or paste text here, then send": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Type or paste text here, then send",
+    "zh-Hans": "在这里输入中文或粘贴文字，再点发送",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Saisissez ou collez du texte ici, puis envoyez",
+    "de": "Text hier eingeben oder einfügen, dann senden",
+    "ar": "اكتب النص أو الصقه هنا، ثم أرسله",
+    "zh-Hant": "在這裡輸入或貼上文字，再點傳送",
+    "ja": "ここにテキストを入力または貼り付けて送信してください",
+    "ko": "여기에 텍스트를 입력하거나 붙여넣은 다음 보내세요.",
+    "pt": "Digite ou cole o texto aqui e envie",
+    "es": "Escriba o pegue el texto aquí y luego envíelo.",
+    "bo": "འདིར་ཡིག་འཇུག་ཡང་ན་སྦྱར་རྗེས་བསྐུར་རོགས།",
+    "it": "Digita o incolla il testo qui, quindi invia",
+    "ru": "Введите или вставьте сюда текст, а затем отправьте",
+    "id": "Ketik atau tempel teks di sini, lalu kirim",
+    "tr": "Metni buraya yazın veya yapıştırın, ardından gönderin",
+    "vi": "Nhập hoặc dán văn bản vào đây rồi gửi",
+    "th": "พิมพ์หรือวางข้อความที่นี่ จากนั้นส่ง",
+    "nl": "Typ of plak hier tekst en verzend deze",
+    "pl": "Wpisz lub wklej tutaj tekst, a następnie wyślij",
+    "uk": "Введіть або вставте текст тут і надішліть",
+    "hi": "यहां टेक्स्ट टाइप करें या पेस्ट करें, फिर भेजें",
+    "ms": "Taip atau tampal teks di sini, kemudian hantar"
+  },
+  "Paste": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Paste",
+    "zh-Hans": "粘贴",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Coller",
+    "de": "Einfügen",
+    "ar": "لصق",
+    "zh-Hant": "貼上",
+    "ja": "ペースト",
+    "ko": "붙여넣기",
+    "pt": "Colar",
+    "es": "Pegar",
+    "bo": "སྦྱར་བ།",
+    "it": "Incolla",
+    "ru": "Вставить",
+    "id": "Tempel",
+    "tr": "Yapıştır",
+    "vi": "Dán",
+    "th": "วาง",
+    "nl": "Plakken",
+    "pl": "Wklej",
+    "uk": "Вставити",
+    "hi": "चिपकाएँ",
+    "ms": "tampal"
+  },
+  "Send text": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Send text",
+    "zh-Hans": "发送文字",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Envoyer le texte",
+    "de": "Text senden",
+    "ar": "إرسال النص",
+    "zh-Hant": "傳送文字",
+    "ja": "テキストを送信する",
+    "ko": "문자 보내기",
+    "pt": "Enviar texto",
+    "es": "Enviar texto",
+    "bo": "ཡི་གེ་བསྐུར་བ།",
+    "it": "Invia testo",
+    "ru": "Отправить текст",
+    "id": "Kirim teks",
+    "tr": "Metin gönder",
+    "vi": "Gửi văn bản",
+    "th": "ส่งข้อความ",
+    "nl": "Stuur tekst",
+    "pl": "Wyślij tekst",
+    "uk": "Надіслати текст",
+    "hi": "पाठ भेजें",
+    "ms": "Hantar teks"
+  },
+  "One finger to move · tap to click · two fingers to scroll · hold to drag": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "One finger to move · tap to click · two fingers to scroll · hold to drag",
+    "zh-Hans": "单指移动 · 点按左键 · 双指滚动 · 长按拖动",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Un doigt pour déplacer · toucher pour cliquer · deux doigts pour défiler · maintenir pour glisser",
+    "de": "Ein Finger bewegt · Tippen klickt · zwei Finger scrollen · Halten zieht",
+    "ar": "إصبع للتحريك · نقرة للنقر · إصبعان للتمرير · ضغط مطوّل للسحب",
+    "zh-Hant": "單指移動 · 點按左鍵 · 雙指捲動 · 長按拖曳",
+    "ja": "1 本の指で移動 / タップしてクリック / 2 本の指でスクロール / 押し続けてドラッグ",
+    "ko": "한 손가락으로 이동 · 탭하여 클릭 · 두 손가락으로 스크롤 · 길게 눌러 드래그",
+    "pt": "Um dedo para mover · toque para clicar · dois dedos para rolar · segure para arrastar",
+    "es": "Un dedo para mover · tocar para hacer clic · dos dedos para desplazarse · mantener presionado para arrastrar",
+    "bo": "མཛུབ་མོ་གཅིག་གིས་འགུལ་བསྐྱོད་བྱེད།",
+    "it": "Un dito per spostare · toccare per fare clic · due dita per scorrere · tenere premuto per trascinare",
+    "ru": "Перемещение одним пальцем · нажатие, чтобы щелкнуть · два пальца для прокрутки · удержание для перетаскивания",
+    "id": "Satu jari untuk bergerak · ketuk untuk mengklik · dua jari untuk menggulir · tahan untuk menyeret",
+    "tr": "Taşımak için bir parmak · tıklamak için dokunun · kaydırmak için iki parmak · sürüklemek için basılı tutun",
+    "vi": "Một ngón tay để di chuyển · chạm để nhấp · hai ngón tay để cuộn · giữ để kéo",
+    "th": "หนึ่งนิ้วเพื่อย้าย · แตะเพื่อคลิก · สองนิ้วเพื่อเลื่อน · กดค้างเพื่อลาก",
+    "nl": "Eén vinger om te bewegen · Tik om te klikken · Twee vingers om te scrollen · Houd ingedrukt om te slepen",
+    "pl": "Przesuń jednym palcem · dotknij, aby kliknąć · dwoma palcami, aby przewinąć · przytrzymaj, aby przeciągnąć",
+    "uk": "Один палець, щоб перемістити · торкніться, щоб клацнути · двома пальцями, щоб прокрутити · утримуйте, щоб перетягнути",
+    "hi": "हिलाने के लिए एक उंगली · क्लिक करने के लिए टैप करें · स्क्रॉल करने के लिए दो उंगलियां · खींचने के लिए दबाए रखें",
+    "ms": "Satu jari untuk bergerak · ketik untuk klik · dua jari untuk menatal · tahan untuk menyeret"
+  },
+  "Tap to select · one finger to drag · two fingers to scroll": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Tap to select · one finger to drag · two fingers to scroll",
+    "zh-Hans": "点按选择 · 单指拖动 · 双指滚动",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Toucher pour sélectionner · un doigt pour glisser · deux doigts pour défiler",
+    "de": "Tippen wählt · ein Finger zieht · zwei Finger scrollen",
+    "ar": "نقرة للتحديد · إصبع للسحب · إصبعان للتمرير",
+    "zh-Hant": "點按選取 · 單指拖曳 · 雙指捲動",
+    "ja": "タップして選択 · 1 本の指でドラッグ · 2 本の指でスクロール",
+    "ko": "눌러서 선택 · 한 손가락으로 드래그하기 · 두 손가락으로 스크롤하기",
+    "pt": "Toque para selecionar · um dedo para arrastar · dois dedos para rolar",
+    "es": "Toque para seleccionar · un dedo para arrastrar · dos dedos para desplazarse",
+    "bo": "འདེམས་སྒྲུག་བྱེད་པར་རྡེབ། · མཛུབ་མོ་གཅིག་གིས་འདྲུད། · མཛུབ་མོ་གཉིས་ཀྱིས་བཤུད་དགོས།",
+    "it": "Toccare per selezionare · un dito per trascinare · due dita per scorrere",
+    "ru": "Нажмите, чтобы выбрать · перетаскивание одним пальцем · прокрутку двумя пальцами",
+    "id": "Ketuk untuk memilih · satu jari untuk menyeret · dua jari untuk menggulir",
+    "tr": "Seçmek için dokunun · sürüklemek için bir parmak · kaydırmak için iki parmak",
+    "vi": "Nhấn để chọn · một ngón tay để kéo · hai ngón tay để cuộn",
+    "th": "แตะเพื่อเลือก · หนึ่งนิ้วเพื่อลาก · สองนิ้วเพื่อเลื่อน",
+    "nl": "Tik om te selecteren · één vinger om te slepen · twee vingers om te scrollen",
+    "pl": "Stuknij, aby wybrać · jednym palcem, aby przeciągnąć · dwoma palcami, aby przewijać",
+    "uk": "Торкніться, щоб вибрати · одним пальцем, щоб перетягнути · двома пальцями, щоб прокрутити",
+    "hi": "चुनने के लिए टैप करें · खींचने के लिए एक उंगली · स्क्रॉल करने के लिए दो उंगलियां",
+    "ms": "Ketik untuk memilih · satu jari untuk menyeret · dua jari untuk menatal"
+  },
+  "Enable JavaScript to connect to DeskPort.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Enable JavaScript to connect to DeskPort.",
+    "zh-Hans": "请启用 JavaScript 以连接 DeskPort。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Activez JavaScript pour vous connecter à DeskPort.",
+    "de": "JavaScript aktivieren, um DeskPort zu verbinden.",
+    "ar": "فعّل JavaScript للاتصال بـ DeskPort.",
+    "zh-Hant": "請啟用 JavaScript 以連線至 DeskPort。",
+    "ja": "JavaScript を有効にして DeskPort に接続します。",
+    "ko": "DeskPort에 연결하려면 JavaScript를 활성화하십시오.",
+    "pt": "Habilite o JavaScript para conectar-se ao DeskPort.",
+    "es": "Habilite JavaScript para conectarse a DeskPort.",
+    "bo": "ཇ་བ་སི་ཁི་རིཔ་ཊི་ཌེཀ་སི་པོརཊ་ལ་མཐུད་པར་ལྕོགས་ཅན་བཟོས།",
+    "it": "Abilita JavaScript per connettersi a DeskPort.",
+    "ru": "Включите JavaScript для подключения к DeskPort.",
+    "id": "Aktifkan JavaScript untuk terhubung ke DeskPort.",
+    "tr": "DeskPort'a bağlanmak için JavaScript'i etkinleştirin.",
+    "vi": "Kích hoạt JavaScript để kết nối với DeskPort.",
+    "th": "เปิดใช้งาน JavaScript เพื่อเชื่อมต่อกับ DeskPort",
+    "nl": "Schakel JavaScript in om verbinding te maken met DeskPort.",
+    "pl": "Włącz JavaScript, aby połączyć się z DeskPort.",
+    "uk": "Увімкніть JavaScript для підключення до DeskPort.",
+    "hi": "डेस्कपोर्ट से कनेक्ट करने के लिए जावास्क्रिप्ट सक्षम करें।",
+    "ms": "Dayakan JavaScript untuk menyambung ke DeskPort."
+  },
+  "Incorrect or expired code. Enter the current 6-digit code.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Incorrect or expired code. Enter the current 6-digit code.",
+    "zh-Hans": "动态码不正确或已过期，请输入当前显示的 6 位动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Code incorrect ou expiré. Saisissez le code actuel à 6 chiffres.",
+    "de": "Code falsch oder abgelaufen. Aktuellen 6-stelligen Code eingeben.",
+    "ar": "الرمز غير صحيح أو منتهي الصلاحية. أدخل الرمز الحالي المكوّن من 6 أرقام.",
+    "zh-Hant": "動態碼不正確或已過期，請輸入目前顯示的 6 位動態碼。",
+    "ja": "コードが間違っているか、期限切れです。現在の 6 桁のコードを入力します。",
+    "ko": "코드가 잘못되었거나 만료되었습니다. 현재 6자리 코드를 입력하세요.",
+    "pt": "Código incorreto ou expirado. Digite o código atual de 6 dígitos.",
+    "es": "Código incorrecto o caducado. Ingrese el código actual de 6 dígitos.",
+    "bo": "ནོར་འཁྲུལ་ཅན་ཡང་ན་དུས་ཚོད་ཡོལ་ཟིན་པའི་ཨང་གྲངས། ད་ལྟའི་ཨང་གྲངས་6ཅན་གྱི་ཨང་རྟགས་བླུགས།",
+    "it": "Codice errato o scaduto. Inserisci il codice attuale di 6 cifre.",
+    "ru": "Неверный или просроченный код. Введите текущий 6-значный код.",
+    "id": "Kode salah atau kedaluwarsa. Masukkan kode 6 digit saat ini.",
+    "tr": "Yanlış veya süresi dolmuş kod. Geçerli 6 haneli kodu girin.",
+    "vi": "Mã không chính xác hoặc hết hạn. Nhập mã gồm 6 chữ số hiện tại.",
+    "th": "รหัสไม่ถูกต้องหรือหมดอายุ กรอกรหัส 6 หลักปัจจุบัน",
+    "nl": "Onjuiste of verlopen code. Voer de huidige 6-cijferige code in.",
+    "pl": "Nieprawidłowy lub wygasły kod. Wprowadź aktualny 6-cyfrowy kod.",
+    "uk": "Неправильний або прострочений код. Введіть поточний 6-значний код.",
+    "hi": "गलत या समाप्त कोड. वर्तमान 6-अंकीय कोड दर्ज करें.",
+    "ms": "Kod salah atau tamat tempoh. Masukkan kod 6 digit semasa."
+  },
+  "Too many incorrect codes. Code sign-in is paused for 15 minutes. Try later or check the computer.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Too many incorrect codes. Code sign-in is paused for 15 minutes. Try later or check the computer.",
+    "zh-Hans": "动态码错误次数过多，代码登录已暂停 15 分钟。可稍后再试，或在电脑上查看。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Trop de codes incorrects. Connexion par code suspendue pendant 15 minutes. Réessayez plus tard ou vérifiez l’ordinateur.",
+    "de": "Zu viele falsche Codes. Code-Anmeldung für 15 Minuten gesperrt. Später versuchen oder am Computer prüfen.",
+    "ar": "محاولات خاطئة كثيرة. تم تعليق الدخول بالرمز لمدة 15 دقيقة. حاول لاحقًا أو تحقق من الحاسوب.",
+    "zh-Hant": "動態碼錯誤次數過多，代碼登入已暫停 15 分鐘。請稍後再試，或在電腦上查看。",
+    "ja": "間違ったコードが多すぎます。コード サインインは 15 分間一時停止されます。後で試すか、コンピューターを確認してください。",
+    "ko": "잘못된 코드가 너무 많습니다. 코드 로그인이 15분 동안 일시 중지됩니다. 나중에 시도하거나 컴퓨터를 확인하세요.",
+    "pt": "Muitos códigos incorretos. O login do código é pausado por 15 minutos. Tente mais tarde ou verifique o computador.",
+    "es": "Demasiados códigos incorrectos. El inicio de sesión con código se pausa durante 15 minutos. Inténtalo más tarde o revisa la computadora.",
+    "bo": "ནོར་འཁྲུལ་ཅན་གྱི་ཨང་རྟགས་མང་པོ་འདུག གསང་གྲངས་ཐོ་འགོད་སྐར་མ་15རིང་མཚམས་འཇོག་བྱས། རྗེས་སུ་ཚོད་ལྟ་བྱེད་པའམ་ཡང་ན་གློག་ཀླད་ལ་ལྟ་ཞིབ་བྱོས།",
+    "it": "Troppi codici errati. L'accesso tramite codice viene sospeso per 15 minuti. Riprova più tardi o controlla il computer.",
+    "ru": "Слишком много неверных кодов. Вход по коду приостанавливается на 15 минут. Попробуйте позже или проверьте компьютер.",
+    "id": "Terlalu banyak kode yang salah. Proses masuk dengan kode dijeda selama 15 menit. Coba lagi nanti atau periksa komputer.",
+    "tr": "Çok fazla hatalı kod var. Kodla oturum açma 15 dakika süreyle duraklatılır. Daha sonra deneyin veya bilgisayarı kontrol edin.",
+    "vi": "Quá nhiều mã sai. Đăng nhập bằng mã bị tạm dừng trong 15 phút. Hãy thử lại sau hoặc kiểm tra máy tính.",
+    "th": "รหัสไม่ถูกต้องมากเกินไป การลงชื่อเข้าใช้รหัสจะถูกหยุดชั่วคราวเป็นเวลา 15 นาที ลองใหม่ภายหลังหรือตรวจสอบคอมพิวเตอร์",
+    "nl": "Te veel onjuiste codes. Het inloggen met de code wordt 15 minuten onderbroken. Probeer het later of controleer de computer.",
+    "pl": "Za dużo błędnych kodów. Logowanie za pomocą kodu zostało wstrzymane na 15 minut. Spróbuj później lub sprawdź komputer.",
+    "uk": "Забагато неправильних кодів. Вхід за кодом призупинено на 15 хвилин. Спробуйте пізніше або перевірте комп’ютер.",
+    "hi": "बहुत सारे ग़लत कोड. कोड साइन-इन 15 मिनट के लिए रोक दिया गया है। बाद में प्रयास करें या कंप्यूटर की जाँच करें।",
+    "ms": "Terlalu banyak kod yang salah. Log masuk kod dijeda selama 15 minit. Cuba kemudian atau semak komputer."
+  },
+  "This browser is unpaired, its 7-day pairing expired, or the computer removed it. Enter an access code.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "This browser is unpaired, its 7-day pairing expired, or the computer removed it. Enter an access code.",
+    "zh-Hans": "此浏览器未配对，或配对已满 7 天、已被电脑取消。请输入动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Ce navigateur n’est plus associé, son association de 7 jours a expiré ou a été supprimée. Saisissez un code d’accès.",
+    "de": "Browser nicht gekoppelt, 7-Tage-Kopplung abgelaufen oder entfernt. Zugangscode eingeben.",
+    "ar": "المتصفح غير مقترن، أو انتهت مدة الاقتران البالغة 7 أيام، أو أزال الحاسوب الاقتران. أدخل رمز الدخول.",
+    "zh-Hant": "此瀏覽器未配對，或配對已滿 7 天、已被電腦取消。請輸入動態碼。",
+    "ja": "このブラウザはペアリングが解除されているか、7 日間のペアリングの期限が切れているか、コンピュータによってペアリングが削除されています。アクセスコードを入力します。",
+    "ko": "이 브라우저는 페어링되지 않았거나 7일 페어링이 만료되었거나 컴퓨터에서 브라우저를 제거했습니다. 액세스 코드를 입력하세요.",
+    "pt": "Este navegador não está emparelhado, o emparelhamento de 7 dias expirou ou o computador o removeu. Insira um código de acesso.",
+    "es": "Este navegador no está emparejado, su emparejamiento de 7 días expiró o la computadora lo eliminó. Introduzca un código de acceso.",
+    "bo": "དྲ་ལྗོངས་འདི་ཆ་སྒྲིག་མེད་པའམ་ཡང་ན་ཉིན་བདུན་གྱི་ཆ་སྒྲིག་དུས་ཚོད་རྫོགས་པའམ་ཡང་ན་གློག་ཀླད་ཀྱིས་དེ་མེད་པར་བཟོས་ཡོད། འཛུལ་སྤྱོད་ཨང་རྟགས་བླུགས།",
+    "it": "Questo browser non è abbinato, il suo abbinamento di 7 giorni è scaduto o il computer lo ha rimosso. Inserisci un codice di accesso.",
+    "ru": "Этот браузер не подключен, срок его 7-дневного сопряжения истек или компьютер удалил его. Введите код доступа.",
+    "id": "Browser ini tidak dipasangkan, pemasangan 7 hari telah habis masa berlakunya, atau komputer menghapusnya. Masukkan kode akses.",
+    "tr": "Bu tarayıcının eşleşmesi kaldırılmış, 7 günlük eşleştirme süresi dolmuş veya bilgisayar tarayıcıyı kaldırmış. Bir erişim kodu girin.",
+    "vi": "Trình duyệt này chưa được ghép nối, quá trình ghép nối 7 ngày của nó đã hết hạn hoặc máy tính đã xóa nó. Nhập mã truy cập.",
+    "th": "เบราว์เซอร์นี้ไม่ได้จับคู่ การจับคู่ 7 วันหมดอายุ หรือคอมพิวเตอร์ลบออก ป้อนรหัสการเข้าถึง",
+    "nl": "Deze browser is ontkoppeld, de koppelingsperiode van zeven dagen is verstreken of de computer heeft deze verwijderd. Voer een toegangscode in.",
+    "pl": "Ta przeglądarka nie jest sparowana, jej 7-dniowe parowanie wygasło lub komputer ją usunął. Wprowadź kod dostępu.",
+    "uk": "Цей веб-переглядач не підключено, термін його 7-денного підключення минув або комп’ютер видалив його. Введіть код доступу.",
+    "hi": "यह ब्राउज़र अयुग्मित है, इसकी 7-दिवसीय युग्मन समाप्त हो गई है, या कंप्यूटर ने इसे हटा दिया है। एक एक्सेस कोड दर्ज करें.",
+    "ms": "Penyemak imbas ini dinyahgandingkan, gandingan 7 harinya tamat tempoh atau komputer mengalih keluarnya. Masukkan kod akses."
+  },
+  "The computer could not save pairing changes. Try again later.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer could not save pairing changes. Try again later.",
+    "zh-Hans": "电脑暂时无法保存配对变更，请稍后重试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "L’ordinateur n’a pas pu enregistrer l’association. Réessayez plus tard.",
+    "de": "Kopplungsänderungen konnten nicht gespeichert werden. Später erneut versuchen.",
+    "ar": "تعذّر حفظ تغييرات الاقتران على الحاسوب. حاول لاحقًا.",
+    "zh-Hant": "電腦暫時無法儲存配對變更，請稍後重試。",
+    "ja": "コンピューターはペアリングの変更を保存できませんでした。後でもう一度試してください。",
+    "ko": "컴퓨터가 페어링 변경 사항을 저장할 수 없습니다. 나중에 다시 시도하세요.",
+    "pt": "O computador não conseguiu salvar as alterações de emparelhamento. Tente novamente mais tarde.",
+    "es": "La computadora no pudo guardar los cambios de emparejamiento. Vuelve a intentarlo más tarde.",
+    "bo": "གློག་ཀླད་ཀྱིས་ཆ་སྒྲིག་བསྒྱུར་བཅོས་ཉར་ཚགས་བྱེད་མ་ཐུབ། རྗེས་སུ་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།",
+    "it": "Il computer non è riuscito a salvare le modifiche di abbinamento. Riprova più tardi.",
+    "ru": "Компьютеру не удалось сохранить изменения сопряжения. Повторите попытку позже.",
+    "id": "Komputer tidak dapat menyimpan perubahan pemasangan. Coba lagi nanti.",
+    "tr": "Bilgisayar eşleştirme değişikliklerini kaydedemedi. Daha sonra tekrar deneyin.",
+    "vi": "Máy tính không thể lưu các thay đổi ghép nối. Hãy thử lại sau.",
+    "th": "คอมพิวเตอร์ไม่สามารถบันทึกการเปลี่ยนแปลงการจับคู่ได้ ลองอีกครั้งในภายหลัง",
+    "nl": "De computer kan de koppelingswijzigingen niet opslaan. Probeer het later opnieuw.",
+    "pl": "Komputer nie mógł zapisać zmian w parowaniu. Spróbuj ponownie później.",
+    "uk": "Комп’ютер не зміг зберегти зміни сполучення. Повторіть спробу пізніше.",
+    "hi": "कंप्यूटर युग्मन परिवर्तन सहेज नहीं सका. बाद में पुन: प्रयास।",
+    "ms": "Komputer tidak dapat menyimpan perubahan berpasangan. Cuba lagi nanti."
+  },
+  "Too many attempts. Try again later.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Too many attempts. Try again later.",
+    "zh-Hans": "尝试次数过多，请稍后再试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Trop de tentatives. Réessayez plus tard.",
+    "de": "Zu viele Versuche. Später erneut versuchen.",
+    "ar": "محاولات كثيرة جدًا. حاول لاحقًا.",
+    "zh-Hant": "嘗試次數過多，請稍後再試。",
+    "ja": "試行回数が多すぎます。後でもう一度試してください。",
+    "ko": "시도 횟수가 너무 많습니다. 나중에 다시 시도하세요.",
+    "pt": "Muitas tentativas. Tente novamente mais tarde.",
+    "es": "Demasiados intentos. Vuelve a intentarlo más tarde.",
+    "bo": "ཚོད་ལྟ་མང་པོ་བྱས། རྗེས་སུ་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།",
+    "it": "Troppi tentativi. Riprova più tardi.",
+    "ru": "Слишком много попыток. Повторите попытку позже.",
+    "id": "Terlalu banyak upaya. Coba lagi nanti.",
+    "tr": "Çok fazla deneme. Daha sonra tekrar deneyin.",
+    "vi": "Quá nhiều nỗ lực. Hãy thử lại sau.",
+    "th": "มีความพยายามมากเกินไป ลองอีกครั้งในภายหลัง",
+    "nl": "Te veel pogingen. Probeer het later opnieuw.",
+    "pl": "Zbyt wiele prób. Spróbuj ponownie później.",
+    "uk": "Забагато спроб. Повторіть спробу пізніше.",
+    "hi": "बहुत अधिक प्रयास. बाद में पुन: प्रयास।",
+    "ms": "Terlalu banyak percubaan. Cuba lagi nanti."
+  },
+  "Start sharing on the computer, then try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Start sharing on the computer, then try again.",
+    "zh-Hans": "电脑尚未开启屏幕共享，请在电脑端开启后重试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Activez le partage sur l’ordinateur, puis réessayez.",
+    "de": "Freigabe am Computer starten und erneut versuchen.",
+    "ar": "ابدأ المشاركة على الحاسوب ثم أعد المحاولة.",
+    "zh-Hant": "電腦尚未開啟螢幕共享，請在電腦端開啟後重試。",
+    "ja": "コンピューターで共有を開始してから、もう一度試してください。",
+    "ko": "컴퓨터에서 공유를 시작한 후 다시 시도하세요.",
+    "pt": "Comece a compartilhar no computador e tente novamente.",
+    "es": "Comience a compartir en la computadora y vuelva a intentarlo.",
+    "bo": "གློག་ཀླད་ཐོག་བརྗེ་རེས་བྱེད་འགོ་ཚུགས་རྗེས་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།",
+    "it": "Inizia la condivisione sul computer, quindi riprova.",
+    "ru": "Откройте общий доступ на компьютере и повторите попытку.",
+    "id": "Mulai berbagi di komputer, lalu coba lagi.",
+    "tr": "Bilgisayarda paylaşmaya başlayın ve tekrar deneyin.",
+    "vi": "Bắt đầu chia sẻ trên máy tính, sau đó thử lại.",
+    "th": "เริ่มแชร์บนคอมพิวเตอร์ จากนั้นลองอีกครั้ง",
+    "nl": "Begin met delen op de computer en probeer het opnieuw.",
+    "pl": "Rozpocznij udostępnianie na komputerze i spróbuj ponownie.",
+    "uk": "Почніть ділитися на комп’ютері та повторіть спробу.",
+    "hi": "कंप्यूटर पर साझा करना प्रारंभ करें, फिर पुनः प्रयास करें।",
+    "ms": "Mula berkongsi pada komputer, kemudian cuba lagi."
+  },
+  "The computer is in use by another connection. End that connection and try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer is in use by another connection. End that connection and try again.",
+    "zh-Hans": "电脑正被其他连接使用，请结束原连接后再试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Une autre connexion utilise l’ordinateur. Terminez-la et réessayez.",
+    "de": "Eine andere Verbindung nutzt den Computer. Diese beenden und erneut versuchen.",
+    "ar": "يستخدم اتصال آخر الحاسوب. أنهِ ذلك الاتصال ثم أعد المحاولة.",
+    "zh-Hant": "電腦正被其他連線使用，請結束原連線後再試。",
+    "ja": "コンピュータは別の接続で使用されています。接続を終了して、もう一度試してください。",
+    "ko": "컴퓨터가 다른 연결에서 사용 중입니다. 해당 연결을 종료하고 다시 시도하십시오.",
+    "pt": "O computador está sendo usado por outra conexão. Encerre essa conexão e tente novamente.",
+    "es": "La computadora está siendo utilizada por otra conexión. Finalice esa conexión y vuelva a intentarlo.",
+    "bo": "གློག་ཀླད་དེ་མཐུད་ཁ་གཞན་ཞིག་གིས་བེད་སྤྱོད་བྱེད་བཞིན་ཡོད། འབྲེལ་མཐུད་དེ་མཇུག་སྒྲིལ་ནས་བསྐྱར་དུ་ཚོད་ལྟ་བྱོས།",
+    "it": "Il computer è utilizzato da un'altra connessione. Termina la connessione e riprova.",
+    "ru": "Компьютер используется другим соединением. Завершите это соединение и повторите попытку.",
+    "id": "Komputer sedang digunakan oleh koneksi lain. Akhiri koneksi itu dan coba lagi.",
+    "tr": "Bilgisayar başka bir bağlantı tarafından kullanılıyor. Bu bağlantıyı sonlandırın ve tekrar deneyin.",
+    "vi": "Máy tính đang được sử dụng bởi một kết nối khác. Ngắt kết nối đó và thử lại.",
+    "th": "คอมพิวเตอร์ถูกใช้งานโดยการเชื่อมต่ออื่น สิ้นสุดการเชื่อมต่อนั้นแล้วลองอีกครั้ง",
+    "nl": "De computer wordt gebruikt door een andere verbinding. Beëindig die verbinding en probeer het opnieuw.",
+    "pl": "Komputer jest używany przez inne połączenie. Zakończ to połączenie i spróbuj ponownie.",
+    "uk": "Комп’ютер використовується іншим з’єднанням. Розірвіть це з’єднання та повторіть спробу.",
+    "hi": "कंप्यूटर किसी अन्य कनेक्शन द्वारा उपयोग में है. उस कनेक्शन को समाप्त करें और पुनः प्रयास करें।",
+    "ms": "Komputer sedang digunakan oleh sambungan lain. Tamatkan sambungan itu dan cuba lagi."
+  },
+  "A DeskPort client took over the computer. The browser connection has ended.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "A DeskPort client took over the computer. The browser connection has ended.",
+    "zh-Hans": "电脑已被 DeskPort 客户端接管，网页连接已结束。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Un client DeskPort a repris l’ordinateur. La connexion du navigateur est terminée.",
+    "de": "Ein DeskPort-Client hat den Computer übernommen. Die Browserverbindung wurde beendet.",
+    "ar": "استلم عميل DeskPort التحكم بالحاسوب. انتهى اتصال المتصفح.",
+    "zh-Hant": "電腦已被 DeskPort 用戶端接管，網頁連線已結束。",
+    "ja": "DeskPort クライアントがコンピュータを乗っ取りました。ブラウザ接続が終了しました。",
+    "ko": "DeskPort 클라이언트가 컴퓨터를 인수했습니다. 브라우저 연결이 종료되었습니다.",
+    "pt": "Um cliente DeskPort assumiu o controle do computador. A conexão do navegador foi encerrada.",
+    "es": "Un cliente DeskPort se hizo cargo de la computadora. La conexión del navegador ha finalizado.",
+    "bo": "ཌེས་ཀ་པོརཊ་ཚོང་ཤག་གིས་གློག་ཀླད་དེ་བདག་བཟུང་བྱས། བཤར་ཆས་ཀྱི་འབྲེལ་མཐུད་མཇུག་བསྒྲིལ་ཟིན།",
+    "it": "Un client DeskPort ha preso il controllo del computer. La connessione al browser è terminata.",
+    "ru": "Клиент DeskPort взял на себя управление компьютером. Соединение браузера прервано.",
+    "id": "Klien DeskPort mengambil alih komputer. Koneksi browser telah berakhir.",
+    "tr": "Bir DeskPort istemcisi bilgisayarı devraldı. Tarayıcı bağlantısı sona erdi.",
+    "vi": "Một ứng dụng khách DeskPort đã tiếp quản máy tính. Kết nối trình duyệt đã kết thúc.",
+    "th": "ไคลเอ็นต์ DeskPort เข้าควบคุมคอมพิวเตอร์ การเชื่อมต่อเบราว์เซอร์สิ้นสุดลงแล้ว",
+    "nl": "Een DeskPort-client heeft de computer overgenomen. De browserverbinding is beëindigd.",
+    "pl": "Klient DeskPort przejął komputer. Połączenie przeglądarki zostało zakończone.",
+    "uk": "Клієнт DeskPort заволодів комп’ютером. Підключення браузера закінчилося.",
+    "hi": "एक डेस्कपोर्ट क्लाइंट ने कंप्यूटर पर कब्ज़ा कर लिया। ब्राउज़र कनेक्शन समाप्त हो गया है.",
+    "ms": "Pelanggan DeskPort mengambil alih komputer. Sambungan penyemak imbas telah ditamatkan."
+  },
+  "Browser streaming is unavailable. Check the computer.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Browser streaming is unavailable. Check the computer.",
+    "zh-Hans": "这台电脑暂时无法提供浏览器串流，请检查电脑端状态。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Diffusion par navigateur indisponible. Vérifiez l’ordinateur.",
+    "de": "Browserstreaming nicht verfügbar. Computer prüfen.",
+    "ar": "البث عبر المتصفح غير متاح. تحقق من الحاسوب.",
+    "zh-Hant": "這台電腦暫時無法提供瀏覽器串流，請檢查電腦端狀態。",
+    "ja": "ブラウザストリーミングは利用できません。コンピューターを確認してください。",
+    "ko": "브라우저 스트리밍을 사용할 수 없습니다. 컴퓨터를 확인하세요.",
+    "pt": "O streaming do navegador não está disponível. Verifique o computador.",
+    "es": "La transmisión por navegador no está disponible. Revisa la computadora.",
+    "bo": "དྲ་ལྗོངས་དྲ་རྒྱའི་བརྒྱུད་ལམ་ཐོབ་མི་ཐུབ། གློག་ཀླད་ལ་ཞིབ་བཤེར་བྱས།",
+    "it": "Lo streaming del browser non è disponibile. Controlla il computer.",
+    "ru": "Потоковая передача через браузер недоступна. Проверьте компьютер.",
+    "id": "Streaming peramban tidak tersedia. Periksa komputer.",
+    "tr": "Tarayıcı akışı kullanılamıyor. Bilgisayarı kontrol edin.",
+    "vi": "Tính năng phát trực tuyến qua trình duyệt không khả dụng. Kiểm tra máy tính.",
+    "th": "การสตรีมเบราว์เซอร์ไม่พร้อมใช้งาน ตรวจสอบคอมพิวเตอร์",
+    "nl": "Browserstreaming is niet beschikbaar. Controleer de computer.",
+    "pl": "Przesyłanie strumieniowe przeglądarki jest niedostępne. Sprawdź komputer.",
+    "uk": "Потокова передача в браузері недоступна. Перевірте комп'ютер.",
+    "hi": "ब्राउज़र स्ट्रीमिंग अनुपलब्ध है. कंप्यूटर की जाँच करें.",
+    "ms": "Penstriman penyemak imbas tidak tersedia. Semak komputer."
+  },
+  "This browser does not support H.264 Baseline 3.1. Update it or use another browser.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "This browser does not support H.264 Baseline 3.1. Update it or use another browser.",
+    "zh-Hans": "当前浏览器不支持所需的视频格式（H.264 Baseline 3.1），请更新或更换浏览器。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Ce navigateur ne prend pas en charge H.264 Baseline 3.1. Mettez-le à jour ou changez de navigateur.",
+    "de": "Dieser Browser unterstützt H.264 Baseline 3.1 nicht. Aktualisieren oder anderen Browser verwenden.",
+    "ar": "هذا المتصفح لا يدعم H.264 Baseline 3.1. حدّثه أو استخدم متصفحًا آخر.",
+    "zh-Hant": "目前瀏覽器不支援 H.264 Baseline 3.1，請更新或更換瀏覽器。",
+    "ja": "このブラウザは H.264 Baseline 3.1 をサポートしていません。更新するか、別のブラウザを使用してください。",
+    "ko": "이 브라우저는 H.264 Baseline 3.1을 지원하지 않습니다. 업데이트하거나 다른 브라우저를 사용하세요.",
+    "pt": "Este navegador não suporta H.264 Baseline 3.1. Atualize-o ou use outro navegador.",
+    "es": "Este navegador no es compatible con H.264 Baseline 3.1. Actualízalo o utiliza otro navegador.",
+    "bo": "དྲ་ལྗོངས་འདིས་H.264གཞི་གྲངས་3.1ལ་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་མེད། དེ་གསར་བརྗེ་བྱེད་པའམ་ཡང་ན་དྲ་ངོས་གཞན་ཞིག་བེད་སྤྱོད་བྱེད་དགོས།",
+    "it": "Questo browser non supporta H.264 Baseline 3.1. Aggiornalo o utilizza un altro browser.",
+    "ru": "Этот браузер не поддерживает H.264 Baseline 3.1. Обновите его или используйте другой браузер.",
+    "id": "Browser ini tidak mendukung H.264 Baseline 3.1. Perbarui atau gunakan browser lain.",
+    "tr": "Bu tarayıcı H.264 Baseline 3.1'i desteklemiyor. Güncelleyin veya başka bir tarayıcı kullanın.",
+    "vi": "Trình duyệt này không hỗ trợ H.264 Baseline 3.1. Cập nhật nó hoặc sử dụng trình duyệt khác.",
+    "th": "เบราว์เซอร์นี้ไม่รองรับ H.264 Baseline 3.1 อัปเดตหรือใช้เบราว์เซอร์อื่น",
+    "nl": "Deze browser ondersteunt geen H.264 Baseline 3.1. Update het of gebruik een andere browser.",
+    "pl": "Ta przeglądarka nie obsługuje standardu H.264 Baseline 3.1. Zaktualizuj ją lub użyj innej przeglądarki.",
+    "uk": "Цей браузер не підтримує H.264 Baseline 3.1. Оновіть його або скористайтеся іншим браузером.",
+    "hi": "यह ब्राउज़र H.264 बेसलाइन 3.1 का समर्थन नहीं करता है. इसे अपडेट करें या किसी अन्य ब्राउज़र का उपयोग करें।",
+    "ms": "Pelayar ini tidak menyokong H.264 Baseline 3.1. Kemas kini atau gunakan penyemak imbas lain."
+  },
+  "The computer cannot capture or encode video. Check sharing permissions and the encoder.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer cannot capture or encode video. Check sharing permissions and the encoder.",
+    "zh-Hans": "电脑当前无法采集或编码画面，请检查电脑端共享权限与编码器状态。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Impossible de capturer ou d’encoder la vidéo. Vérifiez les autorisations de partage et l’encodeur.",
+    "de": "Videoaufnahme oder -kodierung nicht möglich. Freigaberechte und Encoder prüfen.",
+    "ar": "يتعذّر على الحاسوب التقاط الفيديو أو ترميزه. تحقق من أذونات المشاركة والمُرمِّز.",
+    "zh-Hant": "電腦目前無法擷取或編碼畫面，請檢查共享權限與編碼器狀態。",
+    "ja": "コンピューターはビデオをキャプチャまたはエンコードできません。共有権限とエンコーダーを確認してください。",
+    "ko": "컴퓨터가 비디오를 캡처하거나 인코딩할 수 없습니다. 공유 권한과 인코더를 확인하세요.",
+    "pt": "O computador não consegue capturar ou codificar vídeo. Verifique as permissões de compartilhamento e o codificador.",
+    "es": "La computadora no puede capturar ni codificar video. Verifique los permisos para compartir y el codificador.",
+    "bo": "གློག་ཀླད་ཀྱིས་བརྙན་པར་ལེན་མི་ཐུབ་པའམ་ཡང་ན་གསང་གྲངས་བསྒྱུར་ཐུབ་ཀྱི་མེད། བརྗེ་རེས་ཆོག་མཆན་དང་ཨེན་ཀོ་ཌར་ལ་ཞིབ་བཤེར་བྱས།",
+    "it": "Il computer non può acquisire o codificare video. Controlla le autorizzazioni di condivisione e il codificatore.",
+    "ru": "Компьютер не может захватывать или кодировать видео. Проверьте разрешения на общий доступ и кодировщик.",
+    "id": "Komputer tidak dapat menangkap atau menyandikan video. Periksa izin berbagi dan pembuat enkode.",
+    "tr": "Bilgisayar videoyu yakalayamıyor veya kodlayamıyor. Paylaşım izinlerini ve kodlayıcıyı kontrol edin.",
+    "vi": "Máy tính không thể quay hoặc mã hóa video. Kiểm tra quyền chia sẻ và bộ mã hóa.",
+    "th": "คอมพิวเตอร์ไม่สามารถจับภาพหรือเข้ารหัสวิดีโอได้ ตรวจสอบสิทธิ์การแชร์และตัวเข้ารหัส",
+    "nl": "De computer kan geen video opnemen of coderen. Controleer de deelrechten en de encoder.",
+    "pl": "Komputer nie może przechwytywać ani kodować wideo. Sprawdź uprawnienia udostępniania i koder.",
+    "uk": "Комп’ютер не може захопити або закодувати відео. Перевірте дозволи на спільний доступ і кодувальник.",
+    "hi": "कंप्यूटर वीडियो कैप्चर या एनकोड नहीं कर सकता. साझाकरण अनुमतियाँ और एनकोडर की जाँच करें।",
+    "ms": "Komputer tidak boleh menangkap atau mengekod video. Semak kebenaran perkongsian dan pengekod."
+  },
+  "The computer rejected the request. Reload the page and try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer rejected the request. Reload the page and try again.",
+    "zh-Hans": "连接请求未被电脑接受，请刷新页面后重试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "L’ordinateur a refusé la requête. Rechargez la page et réessayez.",
+    "de": "Anfrage abgelehnt. Seite neu laden und erneut versuchen.",
+    "ar": "رفض الحاسوب الطلب. أعد تحميل الصفحة وحاول مجددًا.",
+    "zh-Hant": "連線請求未被電腦接受，請重新載入頁面後重試。",
+    "ja": "コンピューターは要求を拒否しました。ページをリロードして、もう一度お試しください。",
+    "ko": "컴퓨터가 요청을 거부했습니다. 페이지를 새로고침하고 다시 시도하세요.",
+    "pt": "O computador rejeitou a solicitação. Atualize a página e tente novamente.",
+    "es": "La computadora rechazó la solicitud. Vuelve a cargar la página e inténtalo de nuevo.",
+    "bo": "གློག་ཀླད་ཀྱིས་རེ་འདུན་དེ་ཁས་མ་བླངས་པ་རེད། ཤོག་ངོས་བསྐྱར་དུ་བླུགས་ནས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་དགོས།",
+    "it": "Il computer ha rifiutato la richiesta. Ricarica la pagina e riprova.",
+    "ru": "Компьютер отклонил запрос. Перезагрузите страницу и повторите попытку.",
+    "id": "Komputer menolak permintaan tersebut. Muat ulang halaman dan coba lagi.",
+    "tr": "Bilgisayar isteği reddetti. Sayfayı yeniden yükleyip tekrar deneyin.",
+    "vi": "Máy tính đã từ chối yêu cầu. Tải lại trang và thử lại.",
+    "th": "คอมพิวเตอร์ปฏิเสธคำขอ โหลดหน้านี้ซ้ำแล้วลองอีกครั้ง",
+    "nl": "De computer heeft het verzoek afgewezen. Laad de pagina opnieuw en probeer het opnieuw.",
+    "pl": "Komputer odrzucił żądanie. Załaduj ponownie stronę i spróbuj ponownie.",
+    "uk": "Комп’ютер відхилив запит. Перезавантажте сторінку та повторіть спробу.",
+    "hi": "कंप्यूटर ने अनुरोध अस्वीकार कर दिया. पृष्ठ पुनः लोड करें और पुनः प्रयास करें।",
+    "ms": "Komputer menolak permintaan itu. Muat semula halaman dan cuba lagi."
+  },
+  "Connection timed out. Check the computer and network.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Connection timed out. Check the computer and network.",
+    "zh-Hans": "连接超时，请检查电脑是否在线以及网络是否畅通。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Délai de connexion dépassé. Vérifiez l’ordinateur et le réseau.",
+    "de": "Zeitüberschreitung. Computer und Netzwerk prüfen.",
+    "ar": "انتهت مهلة الاتصال. تحقق من الحاسوب والشبكة.",
+    "zh-Hant": "連線逾時，請檢查電腦是否在線以及網路是否暢通。",
+    "ja": "接続がタイムアウトしました。コンピューターとネットワークを確認してください。",
+    "ko": "연결 시간이 초과되었습니다. 컴퓨터와 네트워크를 확인하세요.",
+    "pt": "A conexão expirou. Verifique o computador e a rede.",
+    "es": "Se agotó el tiempo de conexión. Verifique la computadora y la red.",
+    "bo": "མཐུད་སྣེའི་དུས་ཚོད་རྫོགས་སོང་། གློག་ཀླད་དང་དྲ་རྒྱ་ལ་ཞིབ་བཤེར་བྱས་ཏེ།",
+    "it": "Connessione scaduta. Controlla il computer e la rete.",
+    "ru": "Время подключения истекло. Проверьте компьютер и сеть.",
+    "id": "Waktu koneksi habis. Periksa komputer dan jaringan.",
+    "tr": "Bağlantı zaman aşımına uğradı. Bilgisayarı ve ağı kontrol edin.",
+    "vi": "Đã hết thời gian kết nối. Kiểm tra máy tính và mạng.",
+    "th": "การเชื่อมต่อหมดเวลา ตรวจสอบคอมพิวเตอร์และเครือข่าย",
+    "nl": "Er is een time-out voor de verbinding opgetreden. Controleer de computer en het netwerk.",
+    "pl": "Upłynął limit czasu połączenia. Sprawdź komputer i sieć.",
+    "uk": "Час очікування підключення минув. Перевірте комп'ютер і мережу.",
+    "hi": "कनेक्शन का समय समाप्त। कंप्यूटर और नेटवर्क की जाँच करें.",
+    "ms": "Sambungan tamat masa. Semak komputer dan rangkaian."
+  },
+  "Cannot connect. Check the network and the computer’s HTTPS certificate.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Cannot connect. Check the network and the computer’s HTTPS certificate.",
+    "zh-Hans": "无法连接电脑，请检查网络和电脑端的 HTTPS 证书。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Connexion impossible. Vérifiez le réseau et le certificat HTTPS de l’ordinateur.",
+    "de": "Verbindung nicht möglich. Netzwerk und HTTPS-Zertifikat des Computers prüfen.",
+    "ar": "تعذّر الاتصال. تحقق من الشبكة وشهادة HTTPS للحاسوب.",
+    "zh-Hant": "無法連線至電腦，請檢查網路和電腦端的 HTTPS 憑證。",
+    "ja": "接続できません。ネットワークとコンピューターの HTTPS 証明書を確認してください。",
+    "ko": "연결할 수 없습니다. 네트워크와 컴퓨터의 HTTPS 인증서를 확인하세요.",
+    "pt": "Não é possível conectar. Verifique a rede e o certificado HTTPS do computador.",
+    "es": "No se puede conectar. Verifique la red y el certificado HTTPS de la computadora.",
+    "bo": "མཐུད་ཐུབ་ཀྱི་མ་རེད། དྲ་རྒྱ་དང་གློག་ཀླད་ཀྱི་HTTPSལག་ཁྱེར་ལ་ཞིབ་བཤེར་བྱོས།",
+    "it": "Impossibile connettersi. Controlla la rete e il certificato HTTPS del computer.",
+    "ru": "Невозможно подключиться. Проверьте сеть и сертификат HTTPS компьютера.",
+    "id": "Tidak dapat terhubung. Periksa jaringan dan sertifikat HTTPS komputer.",
+    "tr": "Bağlantı kurulamıyor. Ağı ve bilgisayarın HTTPS sertifikasını kontrol edin.",
+    "vi": "Không thể kết nối. Kiểm tra mạng và chứng chỉ HTTPS của máy tính.",
+    "th": "ไม่สามารถเชื่อมต่อได้ ตรวจสอบเครือข่ายและใบรับรอง HTTPS ของคอมพิวเตอร์",
+    "nl": "Kan geen verbinding maken. Controleer het netwerk en het HTTPS-certificaat van de computer.",
+    "pl": "Nie można połączyć. Sprawdź sieć i certyfikat HTTPS komputera.",
+    "uk": "Неможливо підключитися. Перевірте мережу та сертифікат HTTPS комп’ютера.",
+    "hi": "जुड़ नहीं रहा है। नेटवर्क और कंप्यूटर का HTTPS प्रमाणपत्र जांचें।",
+    "ms": "Tidak boleh menyambung. Semak rangkaian dan sijil HTTPS komputer."
+  },
+  "This Tailscale device does not belong to the computer’s user. Enter an access code.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "This Tailscale device does not belong to the computer’s user. Enter an access code.",
+    "zh-Hans": "这台 Tailscale 设备不属于这台电脑的用户，请输入动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Cet appareil Tailscale n’appartient pas à l’utilisateur de l’ordinateur. Saisissez un code d’accès.",
+    "de": "Dieses Tailscale-Gerät gehört nicht zum Benutzer des Computers. Zugangscode eingeben.",
+    "ar": "جهاز Tailscale هذا لا يخص مستخدم الحاسوب. أدخل رمز الدخول.",
+    "zh-Hant": "這台 Tailscale 裝置不屬於這台電腦的使用者，請輸入動態碼。",
+    "ja": "この Tailscale デバイスはコンピュータのユーザーに属していません。アクセスコードを入力します。",
+    "ko": "이 Tailscale 장치는 컴퓨터 사용자의 것이 아닙니다. 액세스 코드를 입력하세요.",
+    "pt": "Este dispositivo Tailscale não pertence ao usuário do computador. Insira um código de acesso.",
+    "es": "Este dispositivo Tailscale no pertenece al usuario de la computadora. Introduzca un código de acceso.",
+    "bo": "མཇུག་མའི་ཚད་གཞིའི་འཕྲུལ་ཆས་འདི་གློག་ཀླད་ཀྱི་བེད་སྤྱོད་པ་ལ་དབང་གི་མེད། འཛུལ་སྤྱོད་ཨང་རྟགས་བླུགས།",
+    "it": "Questo dispositivo Tailscale non appartiene all'utente del computer. Inserisci un codice di accesso.",
+    "ru": "Это устройство Tailscale не принадлежит пользователю компьютера. Введите код доступа.",
+    "id": "Perangkat Tailscale ini bukan milik pengguna komputer. Masukkan kode akses.",
+    "tr": "Bu Tailscale cihazı bilgisayarın kullanıcısına ait değil. Bir erişim kodu girin.",
+    "vi": "Thiết bị Tailscale này không thuộc sở hữu của người dùng máy tính. Nhập mã truy cập.",
+    "th": "อุปกรณ์ Tailscale นี้ไม่ได้เป็นของผู้ใช้คอมพิวเตอร์ ป้อนรหัสการเข้าถึง",
+    "nl": "Dit Tailscale-apparaat is niet het eigendom van de computergebruiker. Voer een toegangscode in.",
+    "pl": "To urządzenie Tailscale nie należy do użytkownika komputera. Wprowadź kod dostępu.",
+    "uk": "Цей пристрій Tailscale не належить користувачеві комп’ютера. Введіть код доступу.",
+    "hi": "यह टेलस्केल डिवाइस कंप्यूटर के उपयोगकर्ता का नहीं है। एक एक्सेस कोड दर्ज करें.",
+    "ms": "Peranti Tailscale ini bukan milik pengguna komputer. Masukkan kod akses."
+  },
+  "Enter the code shown on the computer to connect from this network.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Enter the code shown on the computer to connect from this network.",
+    "zh-Hans": "当前网络需要输入电脑端显示的动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Saisissez le code affiché sur l’ordinateur pour ce réseau.",
+    "de": "Für dieses Netzwerk den am Computer angezeigten Code eingeben.",
+    "ar": "أدخل الرمز المعروض على الحاسوب للاتصال من هذه الشبكة.",
+    "zh-Hant": "目前網路需要輸入電腦端顯示的動態碼。",
+    "ja": "このネットワークから接続するには、コンピューターに表示されているコードを入力します。",
+    "ko": "이 네트워크에서 연결하려면 컴퓨터에 표시된 코드를 입력하세요.",
+    "pt": "Digite o código mostrado no computador para conectar-se a partir desta rede.",
+    "es": "Ingrese el código que se muestra en la computadora para conectarse desde esta red.",
+    "bo": "དྲ་རྒྱ་འདི་ནས་མཐུད་ཆེད་གློག་ཀླད་ཐོག་སྟོན་པའི་ཨང་རྟགས་བླུགས།",
+    "it": "Inserisci il codice mostrato sul computer per connetterti da questa rete.",
+    "ru": "Введите код, показанный на компьютере, для подключения из этой сети.",
+    "id": "Masukkan kode yang ditampilkan di komputer untuk terhubung dari jaringan ini.",
+    "tr": "Bu ağdan bağlanmak için bilgisayarda gösterilen kodu girin.",
+    "vi": "Nhập mã hiển thị trên máy tính để kết nối từ mạng này.",
+    "th": "ป้อนรหัสที่แสดงบนคอมพิวเตอร์เพื่อเชื่อมต่อจากเครือข่ายนี้",
+    "nl": "Voer de code in die op de computer wordt weergegeven om verbinding te maken vanaf dit netwerk.",
+    "pl": "Wprowadź kod wyświetlony na komputerze, aby połączyć się z tej sieci.",
+    "uk": "Введіть код, який відображається на комп’ютері, щоб підключитися з цієї мережі.",
+    "hi": "इस नेटवर्क से कनेक्ट करने के लिए कंप्यूटर पर दिखाया गया कोड दर्ज करें।",
+    "ms": "Masukkan kod yang ditunjukkan pada komputer untuk menyambung dari rangkaian ini."
+  },
+  "Verified by Tailscale": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Verified by Tailscale",
+    "zh-Hans": "已通过 Tailscale 确认",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Vérifié par Tailscale",
+    "de": "Von Tailscale bestätigt",
+    "ar": "تم التحقق عبر Tailscale",
+    "zh-Hant": "已透過 Tailscale 確認",
+    "ja": "テイルスケールによって検証されました",
+    "ko": "Tailscale의 검증",
+    "pt": "Verificado por Tailscale",
+    "es": "Verificado por Tailscale",
+    "bo": "མཇུག་མའི་ཚད་གཞི་ཡིས་བདེན་དཔང་བྱས།",
+    "it": "Verificato da Tailscale",
+    "ru": "Проверено Tailscale",
+    "id": "Diverifikasi oleh Tailscale",
+    "tr": "Tailscale tarafından doğrulandı",
+    "vi": "Được xác minh bởi Tailscale",
+    "th": "ตรวจสอบโดย Tailscale",
+    "nl": "Geverifieerd door Tailscale",
+    "pl": "Zweryfikowane przez Tailscale",
+    "uk": "Перевірено Tailscale",
+    "hi": "टेलस्केल द्वारा सत्यापित",
+    "ms": "Disahkan oleh Tailscale"
+  },
+  "Checking pairing…": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Checking pairing…",
+    "zh-Hans": "正在检查配对",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Vérification de l’association…",
+    "de": "Kopplung wird geprüft…",
+    "ar": "جارٍ التحقق من الاقتران…",
+    "zh-Hant": "正在檢查配對…",
+    "ja": "ペアリングを確認中…",
+    "ko": "페어링 확인 중…",
+    "pt": "Verificando o pareamento…",
+    "es": "Comprobando emparejamiento...",
+    "bo": "ཆ་སྒྲིག་ཞིབ་བཤེར་བྱེད་བཞིན་ཡོད།",
+    "it": "Verifica dell'accoppiamento…",
+    "ru": "Проверка сопряжения…",
+    "id": "Memeriksa penyandingan…",
+    "tr": "Eşleştirme kontrol ediliyor…",
+    "vi": "Đang kiểm tra ghép nối…",
+    "th": "กำลังตรวจสอบการจับคู่...",
+    "nl": "Koppeling controleren…",
+    "pl": "Sprawdzam parowanie…",
+    "uk": "Перевірка створення пари…",
+    "hi": "युग्मन की जाँच की जा रही है...",
+    "ms": "Menyemak gandingan…"
+  },
+  "Removing pairing…": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Removing pairing…",
+    "zh-Hans": "正在取消配对",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Suppression de l’association…",
+    "de": "Kopplung wird entfernt…",
+    "ar": "جارٍ إزالة الاقتران…",
+    "zh-Hant": "正在取消配對…",
+    "ja": "ペアリングを削除中…",
+    "ko": "페어링 삭제 중…",
+    "pt": "Removendo pareamento…",
+    "es": "Eliminando emparejamiento…",
+    "bo": "ཆ་སྒྲིག་མེད་པར་བཟོ་བཞིན་ཡོད།",
+    "it": "Rimozione dell'accoppiamento…",
+    "ru": "Удаление сопряжения…",
+    "id": "Menghapus penyandingan…",
+    "tr": "Eşleme kaldırılıyor…",
+    "vi": "Đang xóa ghép nối…",
+    "th": "กำลังนำการจับคู่ออก...",
+    "nl": "Koppeling verwijderen…",
+    "pl": "Usuwam parowanie…",
+    "uk": "Видалення пари…",
+    "hi": "युग्मन हटाया जा रहा है…",
+    "ms": "Mengalih keluar gandingan…"
+  },
+  "Authenticating…": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Authenticating…",
+    "zh-Hans": "正在验证",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Authentification…",
+    "de": "Authentifizierung…",
+    "ar": "جارٍ المصادقة…",
+    "zh-Hant": "正在驗證…",
+    "ja": "認証中…",
+    "ko": "인증 중…",
+    "pt": "Autenticando…",
+    "es": "Autenticando…",
+    "bo": "བདེན་དཔང་བྱེད་བཞིན་ཡོད།",
+    "it": "Autenticazione…",
+    "ru": "Аутентификация…",
+    "id": "Mengautentikasi…",
+    "tr": "Kimlik doğrulaması yapılıyor…",
+    "vi": "Đang xác thực…",
+    "th": "กำลังตรวจสอบสิทธิ์...",
+    "nl": "Authenticeren…",
+    "pl": "Uwierzytelnianie…",
+    "uk": "Автентифікація…",
+    "hi": "प्रमाणित किया जा रहा है...",
+    "ms": "Mengesahkan…"
+  },
+  "Cannot confirm pairing. Check again when the network recovers.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Cannot confirm pairing. Check again when the network recovers.",
+    "zh-Hans": "暂时无法确认配对状态。网络恢复后，请重新检查。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Association non confirmée. Revérifiez après le rétablissement du réseau.",
+    "de": "Kopplung nicht bestätigt. Nach Wiederherstellung des Netzwerks erneut prüfen.",
+    "ar": "تعذّر تأكيد الاقتران. تحقق مجددًا بعد عودة الشبكة.",
+    "zh-Hant": "暫時無法確認配對狀態。網路恢復後，請重新檢查。",
+    "ja": "ペアリングが確認できません。ネットワークが復旧したら再度確認してください。",
+    "ko": "페어링을 확인할 수 없습니다. 네트워크가 복구되면 다시 확인하세요.",
+    "pt": "Não é possível confirmar o emparelhamento. Verifique novamente quando a rede se recuperar.",
+    "es": "No se puede confirmar el emparejamiento. Verifique nuevamente cuando la red se recupere.",
+    "bo": "ཆ་སྒྲིག་གཏན་འཁེལ་བྱེད་མི་ཐུབ། དྲ་རྒྱ་སླར་གསོ་བྱུང་རྗེས་ཡང་བསྐྱར་ཞིབ་བཤེར་བྱེད་དགོས།",
+    "it": "Impossibile confermare l'associazione. Ricontrolla quando la rete viene ripristinata.",
+    "ru": "Невозможно подтвердить сопряжение. Проверьте еще раз, когда сеть восстановится.",
+    "id": "Tidak dapat mengonfirmasi penyandingan. Periksa lagi ketika jaringan pulih.",
+    "tr": "Eşleştirme onaylanamıyor. Ağ kurtarıldığında tekrar kontrol edin.",
+    "vi": "Không thể xác nhận ghép nối. Kiểm tra lại khi mạng phục hồi.",
+    "th": "ไม่สามารถยืนยันการจับคู่ได้ ตรวจสอบอีกครั้งเมื่อเครือข่ายฟื้นตัว",
+    "nl": "Kan het koppelen niet bevestigen. Controleer opnieuw wanneer het netwerk herstelt.",
+    "pl": "Nie można potwierdzić parowania. Sprawdź ponownie, gdy sieć zostanie przywrócona.",
+    "uk": "Неможливо підтвердити створення пари. Перевірте ще раз, коли мережа відновиться.",
+    "hi": "युग्मन की पुष्टि नहीं की जा सकती. नेटवर्क ठीक होने पर दोबारा जांचें।",
+    "ms": "Tidak dapat mengesahkan gandingan. Semak semula apabila rangkaian pulih."
+  },
+  "This browser is paired with the computer. Select Connect to begin.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "This browser is paired with the computer. Select Connect to begin.",
+    "zh-Hans": "此浏览器已与电脑配对。点击连接即可使用。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Ce navigateur est associé à l’ordinateur. Sélectionnez Connecter pour commencer.",
+    "de": "Dieser Browser ist gekoppelt. Zum Start Verbinden wählen.",
+    "ar": "هذا المتصفح مقترن بالحاسوب. اختر اتصال للبدء.",
+    "zh-Hant": "此瀏覽器已與電腦配對。點擊連線即可使用。",
+    "ja": "このブラウザはコンピュータとペアリングされています。 [接続] を選択して開始します。",
+    "ko": "이 브라우저는 컴퓨터와 페어링되어 있습니다. 시작하려면 연결을 선택하세요.",
+    "pt": "Este navegador está emparelhado com o computador. Selecione Conectar para começar.",
+    "es": "Este navegador está emparejado con la computadora. Seleccione Conectar para comenzar.",
+    "bo": "དྲ་ལྗོངས་འདི་གློག་ཀླད་དང་མཉམ་དུ་ཆ་སྒྲིག་བྱས་ཡོད། འགོ་འཛུགས་པར་མཐུད་འདེམས།",
+    "it": "Questo browser è accoppiato con il computer. Seleziona Connetti per iniziare.",
+    "ru": "Этот браузер сопряжен с компьютером. Выберите «Подключиться», чтобы начать.",
+    "id": "Browser ini dipasangkan dengan komputer. Pilih Hubungkan untuk memulai.",
+    "tr": "Bu tarayıcı bilgisayarla eşleştirilmiştir. Başlamak için Bağlan'ı seçin.",
+    "vi": "Trình duyệt này được ghép nối với máy tính. Chọn Kết nối để bắt đầu.",
+    "th": "เบราว์เซอร์นี้จับคู่กับคอมพิวเตอร์ เลือกเชื่อมต่อเพื่อเริ่มต้น",
+    "nl": "Deze browser is gekoppeld aan de computer. Selecteer Verbinden om te beginnen.",
+    "pl": "Ta przeglądarka jest sparowana z komputerem. Wybierz Połącz, aby rozpocząć.",
+    "uk": "Цей браузер пов'язаний з комп'ютером. Щоб почати, виберіть Підключитися.",
+    "hi": "यह ब्राउज़र कंप्यूटर के साथ युग्मित है. आरंभ करने के लिए कनेक्ट का चयन करें.",
+    "ms": "Pelayar ini dipasangkan dengan komputer. Pilih Sambung untuk bermula."
+  },
+  "Tailscale verified your device. Select Connect; no access code is needed.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Tailscale verified your device. Select Connect; no access code is needed.",
+    "zh-Hans": "已通过 Tailscale 确认这是你的设备，无需动态码。点击连接即可使用。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Tailscale a vérifié votre appareil. Sélectionnez Connecter ; aucun code requis.",
+    "de": "Tailscale hat Ihr Gerät bestätigt. Verbinden wählen; kein Zugangscode erforderlich.",
+    "ar": "تحقق Tailscale من جهازك. اختر اتصال؛ لا يلزم رمز دخول.",
+    "zh-Hant": "已透過 Tailscale 確認這是你的裝置，無需動態碼。點擊連線即可使用。",
+    "ja": "Tailscale がデバイスを確認しました。 「接続」を選択します。アクセスコードは必要ありません。",
+    "ko": "Tailscale이 장치를 확인했습니다. 연결을 선택하십시오. 액세스 코드가 필요하지 않습니다.",
+    "pt": "Tailscale verificou seu dispositivo. Selecione Conectar; nenhum código de acesso é necessário.",
+    "es": "Tailscale verificó su dispositivo. Seleccione Conectar; no se necesita ningún código de acceso.",
+    "bo": "མཇུག་མའི་འཇལ་ཆས་ཀྱིས་ཁྱེད་ཀྱི་ཡོ་ཆས་བདེན་དཔང་བྱས། མཐུད་ འདེམས། འཛུལ་སྤྱོད་ཀྱི་ཨང་རྟགས་དགོས་མིན།",
+    "it": "Tailscale ha verificato il tuo dispositivo. Seleziona Connetti; non è necessario alcun codice di accesso.",
+    "ru": "Компания Tailscale проверила ваше устройство. Выберите «Подключиться»; код доступа не требуется.",
+    "id": "Tailscale memverifikasi perangkat Anda. Pilih Hubungkan; tidak diperlukan kode akses.",
+    "tr": "Tailscale cihazınızı doğruladı. Bağlan'ı seçin; erişim koduna gerek yoktur.",
+    "vi": "Tailscale đã xác minh thiết bị của bạn. Chọn Kết nối; không cần mã truy cập.",
+    "th": "Tailscale ตรวจสอบอุปกรณ์ของคุณแล้ว เลือกเชื่อมต่อ; ไม่จำเป็นต้องมีรหัสการเข้าถึง",
+    "nl": "Tailscale heeft uw apparaat geverifieerd. Selecteer Verbinden; er is geen toegangscode nodig.",
+    "pl": "Tailscale zweryfikował Twoje urządzenie. Wybierz Połącz; nie jest potrzebny żaden kod dostępu.",
+    "uk": "Tailscale підтвердив ваш пристрій. Виберіть Підключити; код доступу не потрібен.",
+    "hi": "टेलस्केल ने आपके डिवाइस का सत्यापन किया। कनेक्ट चुनें; किसी एक्सेस कोड की आवश्यकता नहीं है.",
+    "ms": "Tailscale mengesahkan peranti anda. Pilih Sambung; tiada kod akses diperlukan."
+  },
+  "The computer returned invalid credentials. Reload and try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer returned invalid credentials. Reload and try again.",
+    "zh-Hans": "电脑未返回有效的连接凭据，请刷新后重试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Identifiants renvoyés invalides. Rechargez la page et réessayez.",
+    "de": "Ungültige Zugangsdaten empfangen. Neu laden und erneut versuchen.",
+    "ar": "أعاد الحاسوب بيانات اعتماد غير صالحة. أعد التحميل وحاول مجددًا.",
+    "zh-Hant": "電腦未傳回有效的連線憑證，請重新載入後重試。",
+    "ja": "コンピューターが無効な資格情報を返しました。リロードして再試行してください。",
+    "ko": "컴퓨터가 잘못된 자격 증명을 반환했습니다. 새로고침하고 다시 시도하세요.",
+    "pt": "O computador retornou credenciais inválidas. Recarregue e tente novamente.",
+    "es": "La computadora devolvió credenciales no válidas. Vuelva a cargar y vuelva a intentarlo.",
+    "bo": "གློག་ཀླད་ཀྱིས་ནུས་མེད་ཀྱི་ཡིག་ཆ་ཕྱིར་ལོག་བྱས། བསྐྱར་དུ་བླུགས་ནས་བསྐྱར་དུ་ཚོད་ལྟ་བྱོས།",
+    "it": "Il computer ha restituito credenziali non valide. Ricarica e riprova.",
+    "ru": "Компьютер вернул неверные учетные данные. Перезагрузите и попробуйте еще раз.",
+    "id": "Komputer mengembalikan kredensial yang tidak valid. Muat ulang dan coba lagi.",
+    "tr": "Bilgisayar geçersiz kimlik bilgileri döndürdü. Yeniden yükleyin ve tekrar deneyin.",
+    "vi": "Máy tính trả về thông tin đăng nhập không hợp lệ. Tải lại và thử lại.",
+    "th": "คอมพิวเตอร์ส่งคืนข้อมูลประจำตัวที่ไม่ถูกต้อง โหลดซ้ำแล้วลองอีกครั้ง",
+    "nl": "De computer heeft ongeldige inloggegevens geretourneerd. Herlaad en probeer het opnieuw.",
+    "pl": "Komputer zwrócił nieprawidłowe poświadczenia. Załaduj ponownie i spróbuj ponownie.",
+    "uk": "Комп’ютер повернув недійсні облікові дані. Перезавантажте та повторіть спробу.",
+    "hi": "कंप्यूटर ने अमान्य क्रेडेंशियल लौटाए. पुनः लोड करें और पुनः प्रयास करें।",
+    "ms": "Komputer mengembalikan bukti kelayakan yang tidak sah. Muat semula dan cuba lagi."
+  },
+  "Pairing restored. Select Connect to begin.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Pairing restored. Select Connect to begin.",
+    "zh-Hans": "配对已恢复，点击连接即可使用。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Association rétablie. Sélectionnez Connecter pour commencer.",
+    "de": "Kopplung wiederhergestellt. Zum Start Verbinden wählen.",
+    "ar": "تم استعادة الاقتران. اختر اتصال للبدء.",
+    "zh-Hant": "配對已恢復，點擊連線即可使用。",
+    "ja": "ペアリングが回復しました。 [接続] を選択して開始します。",
+    "ko": "페어링이 복원되었습니다. 시작하려면 연결을 선택하세요.",
+    "pt": "Emparelhamento restaurado. Selecione Conectar para começar.",
+    "es": "Emparejamiento restablecido. Seleccione Conectar para comenzar.",
+    "bo": "ཆ་སྒྲིག་སླར་གསོ་བྱས། འགོ་འཛུགས་པར་མཐུད་འདེམས།",
+    "it": "Associazione ripristinata. Seleziona Connetti per iniziare.",
+    "ru": "Сопряжение восстановлено. Выберите «Подключиться», чтобы начать.",
+    "id": "Penyandingan dipulihkan. Pilih Hubungkan untuk memulai.",
+    "tr": "Eşleştirme geri yüklendi. Başlamak için Bağlan'ı seçin.",
+    "vi": "Đã khôi phục ghép nối. Chọn Kết nối để bắt đầu.",
+    "th": "กู้คืนการจับคู่แล้ว เลือกเชื่อมต่อเพื่อเริ่มต้น",
+    "nl": "Koppeling hersteld. Selecteer Verbinden om te beginnen.",
+    "pl": "Parowanie przywrócone. Wybierz Połącz, aby rozpocząć.",
+    "uk": "Сполучення відновлено. Щоб почати, виберіть Підключитися.",
+    "hi": "युग्मन पुनः स्थापित. आरंभ करने के लिए कनेक्ट का चयन करें.",
+    "ms": "Gandingan dipulihkan. Pilih Sambung untuk bermula."
+  },
+  "Enter the access code shown on the computer.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Enter the access code shown on the computer.",
+    "zh-Hans": "请输入电脑端动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Saisissez le code d’accès affiché sur l’ordinateur.",
+    "de": "Den am Computer angezeigten Zugangscode eingeben.",
+    "ar": "أدخل رمز الدخول المعروض على الحاسوب.",
+    "zh-Hant": "請輸入電腦端動態碼。",
+    "ja": "パソコンに表示されているアクセスコードを入力します。",
+    "ko": "컴퓨터에 표시된 액세스 코드를 입력하세요.",
+    "pt": "Digite o código de acesso mostrado no computador.",
+    "es": "Ingrese el código de acceso que se muestra en la computadora.",
+    "bo": "གློག་ཀླད་ནང་བསྟན་པའི་འཛུལ་སྤྱོད་ཨང་རྟགས་བླུགས།",
+    "it": "Inserisci il codice di accesso mostrato sul computer.",
+    "ru": "Введите код доступа, показанный на компьютере.",
+    "id": "Masukkan kode akses yang ditampilkan di komputer.",
+    "tr": "Bilgisayarda gösterilen erişim kodunu girin.",
+    "vi": "Nhập mã truy cập hiển thị trên máy tính.",
+    "th": "ป้อนรหัสการเข้าถึงที่แสดงบนคอมพิวเตอร์",
+    "nl": "Voer de toegangscode in die op de computer wordt weergegeven.",
+    "pl": "Wprowadź kod dostępu wyświetlony na komputerze.",
+    "uk": "Введіть код доступу, який відображається на комп’ютері.",
+    "hi": "कंप्यूटर पर दिखाया गया एक्सेस कोड दर्ज करें।",
+    "ms": "Masukkan kod akses yang ditunjukkan pada komputer."
+  },
+  "Browser": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Browser",
+    "zh-Hans": "浏览器",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Navigateur",
+    "de": "Browser",
+    "ar": "المتصفح",
+    "zh-Hant": "瀏覽器",
+    "ja": "ブラウザ",
+    "ko": "브라우저",
+    "pt": "Navegador",
+    "es": "Navegador",
+    "bo": "དྲ་བཤེར་འཕྲུལ་ཆས།",
+    "it": "Navigatore",
+    "ru": "Браузер",
+    "id": "Peramban",
+    "tr": "Tarayıcı",
+    "vi": "Trình duyệt",
+    "th": "เบราว์เซอร์",
+    "nl": "Browser",
+    "pl": "Przeglądarka",
+    "uk": "Браузер",
+    "hi": "ब्राउज़र",
+    "ms": "pelayar"
+  },
+  "The computer could not complete this action.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer could not complete this action.",
+    "zh-Hans": "电脑未能完成此操作。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "L’ordinateur n’a pas pu terminer cette action.",
+    "de": "Der Computer konnte diese Aktion nicht abschließen.",
+    "ar": "تعذّر على الحاسوب إكمال هذا الإجراء.",
+    "zh-Hant": "電腦未能完成此操作。",
+    "ja": "コンピュータはこのアクションを完了できませんでした。",
+    "ko": "컴퓨터가 이 작업을 완료할 수 없습니다.",
+    "pt": "O computador não conseguiu concluir esta ação.",
+    "es": "La computadora no pudo completar esta acción.",
+    "bo": "གློག་ཀླད་ཀྱིས་བྱ་སྤྱོད་འདི་མཇུག་སྒྲིལ་མ་ཐུབ།",
+    "it": "Il computer non è riuscito a completare questa azione.",
+    "ru": "Компьютер не смог выполнить это действие.",
+    "id": "Komputer tidak dapat menyelesaikan tindakan ini.",
+    "tr": "Bilgisayar bu eylemi tamamlayamadı.",
+    "vi": "Máy tính không thể hoàn thành hành động này.",
+    "th": "คอมพิวเตอร์ไม่สามารถดำเนินการนี้ให้เสร็จสิ้นได้",
+    "nl": "De computer kon deze actie niet voltooien.",
+    "pl": "Komputer nie mógł ukończyć tej akcji.",
+    "uk": "Комп’ютер не зміг виконати цю дію.",
+    "hi": "कंप्यूटर यह क्रिया पूर्ण नहीं कर सका.",
+    "ms": "Komputer tidak dapat menyelesaikan tindakan ini."
+  },
+  "The computer could not resize the desktop. The current picture is kept.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer could not resize the desktop. The current picture is kept.",
+    "zh-Hans": "电脑暂时无法调整桌面尺寸，已保持当前画面。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Impossible de redimensionner le bureau. L’image actuelle est conservée.",
+    "de": "Desktopgröße konnte nicht geändert werden. Das aktuelle Bild bleibt erhalten.",
+    "ar": "تعذّر تغيير حجم سطح المكتب. تم الإبقاء على الصورة الحالية.",
+    "zh-Hant": "電腦暫時無法調整桌面尺寸，已保持目前畫面。",
+    "ja": "コンピュータはデスクトップのサイズを変更できませんでした。現在の写真が保存されます。",
+    "ko": "컴퓨터에서 바탕 화면의 크기를 조정할 수 없습니다. 현재 사진이 유지됩니다.",
+    "pt": "O computador não conseguiu redimensionar a área de trabalho. A imagem atual é mantida.",
+    "es": "La computadora no pudo cambiar el tamaño del escritorio. Se mantiene la imagen actual.",
+    "bo": "གློག་ཀླད་ཀྱིས་ཡིག་ཆའི་ཆེ་ཆུང་བསྒྱུར་མི་ཐུབ། ད་ལྟའི་པར་རིས་ཉར་ཚགས་བྱས་ཡོད།",
+    "it": "Il computer non è riuscito a ridimensionare il desktop. L'immagine corrente viene mantenuta.",
+    "ru": "Компьютеру не удалось изменить размер рабочего стола. Текущая картинка сохраняется.",
+    "id": "Komputer tidak dapat mengubah ukuran desktop. Gambar saat ini disimpan.",
+    "tr": "Bilgisayar masaüstünü yeniden boyutlandıramadı. Mevcut resim korunur.",
+    "vi": "Máy tính không thể thay đổi kích thước màn hình nền. Hình ảnh hiện tại được giữ lại.",
+    "th": "คอมพิวเตอร์ไม่สามารถปรับขนาดเดสก์ท็อปได้ ภาพปัจจุบันจะถูกเก็บไว้",
+    "nl": "De computer kan het formaat van het bureaublad niet wijzigen. De huidige foto blijft behouden.",
+    "pl": "Komputer nie mógł zmienić rozmiaru pulpitu. Bieżący obraz zostanie zachowany.",
+    "uk": "Комп’ютер не міг змінити розмір робочого столу. Поточне зображення зберігається.",
+    "hi": "कंप्यूटर डेस्कटॉप का आकार नहीं बदल सका. वर्तमान चित्र रखा गया है.",
+    "ms": "Komputer tidak dapat mengubah saiz desktop. Gambar semasa disimpan."
+  },
+  "No H.264 decoder is available. Use a recent Safari, Chrome or Edge.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "No H.264 decoder is available. Use a recent Safari, Chrome or Edge.",
+    "zh-Hans": "此浏览器没有可用的 H.264 解码器，请使用较新的 Safari、Chrome 或 Edge。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Aucun décodeur H.264 disponible. Utilisez une version récente de Safari, Chrome ou Edge.",
+    "de": "Kein H.264-Decoder verfügbar. Aktuelles Safari, Chrome oder Edge verwenden.",
+    "ar": "لا يتوفر مفكك ترميز H.264. استخدم إصدارًا حديثًا من Safari أو Chrome أو Edge.",
+    "zh-Hant": "此瀏覽器沒有可用的 H.264 解碼器，請使用較新的 Safari、Chrome 或 Edge。",
+    "ja": "H.264 デコーダは使用できません。最新の Safari、Chrome、または Edge を使用してください。",
+    "ko": "H.264 디코더를 사용할 수 없습니다. 최신 Safari, Chrome 또는 Edge를 사용하세요.",
+    "pt": "Nenhum decodificador H.264 está disponível. Use um Safari, Chrome ou Edge recente.",
+    "es": "No hay ningún decodificador H.264 disponible. Utilice un Safari, Chrome o Edge reciente.",
+    "bo": "H.264 བརྡ་སྒྱུར་ཆས་མེད། ཉེ་ཆར་གྱི་ས་ཕ་རི་དང་། ཁི་རོམ། ཡང་ན་ཨེ་ཇི་བེད་སྤྱོད་བྱོས།",
+    "it": "Non è disponibile alcun decoder H.264. Utilizza un Safari, Chrome o Edge recente.",
+    "ru": "Декодер H.264 недоступен. Используйте последнюю версию Safari, Chrome или Edge.",
+    "id": "Tidak ada dekoder H.264 yang tersedia. Gunakan Safari, Chrome, atau Edge terbaru.",
+    "tr": "H.264 kod çözücü mevcut değil. Güncel bir Safari, Chrome veya Edge kullanın.",
+    "vi": "Không có bộ giải mã H.264. Sử dụng Safari, Chrome hoặc Edge gần đây.",
+    "th": "ไม่มีตัวถอดรหัส H.264 ให้ใช้งาน ใช้ Safari, Chrome หรือ Edge เวอร์ชันล่าสุด",
+    "nl": "Er is geen H.264-decoder beschikbaar. Gebruik een recente Safari, Chrome of Edge.",
+    "pl": "Brak dostępnego dekodera H.264. Użyj najnowszej przeglądarki Safari, Chrome lub Edge.",
+    "uk": "Декодер H.264 недоступний. Використовуйте останні версії Safari, Chrome або Edge.",
+    "hi": "कोई H.264 डिकोडर उपलब्ध नहीं है। नवीनतम सफ़ारी, क्रोम या एज का उपयोग करें।",
+    "ms": "Tiada penyahkod H.264 tersedia. Gunakan Safari, Chrome atau Edge terkini."
+  },
+  "Connection cancelled.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Connection cancelled.",
+    "zh-Hans": "连接已取消。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Connexion annulée.",
+    "de": "Verbindung abgebrochen.",
+    "ar": "أُلغي الاتصال.",
+    "zh-Hant": "連線已取消。",
+    "ja": "接続がキャンセルされました。",
+    "ko": "연결이 취소되었습니다.",
+    "pt": "Conexão cancelada.",
+    "es": "Conexión cancelada.",
+    "bo": "མཐུད་མཚམས་ཆད་སོང་།",
+    "it": "Connessione annullata.",
+    "ru": "Соединение отменено.",
+    "id": "Koneksi dibatalkan.",
+    "tr": "Bağlantı iptal edildi.",
+    "vi": "Kết nối bị hủy.",
+    "th": "การเชื่อมต่อถูกยกเลิก",
+    "nl": "Verbinding geannuleerd.",
+    "pl": "Połączenie anulowane.",
+    "uk": "Підключення скасовано.",
+    "hi": "कनेक्शन रद्द कर दिया गया.",
+    "ms": "Sambungan dibatalkan."
+  },
+  "The browser could not negotiate the connection. Check the network and try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The browser could not negotiate the connection. Check the network and try again.",
+    "zh-Hans": "浏览器未能完成网络协商，请检查网络后重试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Échec de négociation du navigateur. Vérifiez le réseau et réessayez.",
+    "de": "Verbindungsaushandlung fehlgeschlagen. Netzwerk prüfen und erneut versuchen.",
+    "ar": "تعذّر على المتصفح التفاوض على الاتصال. تحقق من الشبكة وحاول مجددًا.",
+    "zh-Hant": "瀏覽器未能完成網路協商，請檢查網路後重試。",
+    "ja": "ブラウザは接続をネゴシエートできませんでした。ネットワークを確認して、再試行してください。",
+    "ko": "브라우저가 연결을 협상할 수 없습니다. 네트워크를 확인하고 다시 시도하세요.",
+    "pt": "O navegador não conseguiu negociar a conexão. Verifique a rede e tente novamente.",
+    "es": "El navegador no pudo negociar la conexión. Verifique la red y vuelva a intentarlo.",
+    "bo": "དྲ་ལྗོངས་ཀྱིས་འབྲེལ་མཐུད་གྲོས་མོལ་བྱེད་ཐུབ་ཀྱི་མིན་འདུག དྲ་རྒྱ་ལ་ཞིབ་བཤེར་བྱས་ནས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་དགོས།",
+    "it": "Il browser non è riuscito a negoziare la connessione. Controlla la rete e riprova.",
+    "ru": "Браузеру не удалось согласовать соединение. Проверьте сеть и повторите попытку.",
+    "id": "Browser tidak dapat menegosiasikan sambungan. Periksa jaringan dan coba lagi.",
+    "tr": "Tarayıcı bağlantıda anlaşamadı. Ağı kontrol edip tekrar deneyin.",
+    "vi": "Trình duyệt không thể thương lượng kết nối. Hãy kiểm tra mạng và thử lại.",
+    "th": "เบราว์เซอร์ไม่สามารถเจรจาการเชื่อมต่อได้ ตรวจสอบเครือข่ายแล้วลองอีกครั้ง",
+    "nl": "De browser kon de verbinding niet tot stand brengen. Controleer het netwerk en probeer het opnieuw.",
+    "pl": "Przeglądarka nie mogła negocjować połączenia. Sprawdź sieć i spróbuj ponownie.",
+    "uk": "Браузер не зміг узгодити підключення. Перевірте мережу та повторіть спробу.",
+    "hi": "ब्राउज़र कनेक्शन पर बातचीत नहीं कर सका. नेटवर्क जांचें और पुनः प्रयास करें।",
+    "ms": "Penyemak imbas tidak dapat merundingkan sambungan. Semak rangkaian dan cuba lagi."
+  },
+  "Open this page at a trusted HTTPS address. A secure browser context is required.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Open this page at a trusted HTTPS address. A secure browser context is required.",
+    "zh-Hans": "请通过受信任的 HTTPS 地址打开此页面。当前浏览器安全环境无法建立连接。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Ouvrez cette page à une adresse HTTPS de confiance. Un contexte sécurisé est requis.",
+    "de": "Diese Seite über eine vertrauenswürdige HTTPS-Adresse öffnen. Ein sicherer Browserkontext ist erforderlich.",
+    "ar": "افتح هذه الصفحة بعنوان HTTPS موثوق. يلزم سياق متصفح آمن.",
+    "zh-Hant": "請透過受信任的 HTTPS 位址開啟此頁面。需要安全的瀏覽器環境。",
+    "ja": "信頼できる HTTPS アドレスでこのページを開きます。安全なブラウザコンテキストが必要です。",
+    "ko": "신뢰할 수 있는 HTTPS 주소에서 이 페이지를 엽니다. 보안 브라우저 컨텍스트가 필요합니다.",
+    "pt": "Abra esta página em um endereço HTTPS confiável. É necessário um contexto de navegador seguro.",
+    "es": "Abra esta página en una dirección HTTPS confiable. Se requiere un contexto de navegador seguro.",
+    "bo": "ཡིད་ཆེས་བྱེད་ཐུབ་པའི་HTTPSཁ་བྱང་ཐོག་ཤོག་ངོས་འདི་ཁ་ཕྱེ། བདེ་འཇགས་ལྡན་པའི་དྲ་ལྗོངས་སྐབས་དོན་དགོས།",
+    "it": "Apri questa pagina a un indirizzo HTTPS attendibile. È richiesto un contesto browser sicuro.",
+    "ru": "Откройте эту страницу по доверенному адресу HTTPS. Требуется безопасный контекст браузера.",
+    "id": "Buka halaman ini di alamat HTTPS tepercaya. Konteks browser yang aman diperlukan.",
+    "tr": "Bu sayfayı güvenilir bir HTTPS adresinde açın. Güvenli bir tarayıcı bağlamı gereklidir.",
+    "vi": "Mở trang này tại địa chỉ HTTPS đáng tin cậy. Cần có bối cảnh trình duyệt an toàn.",
+    "th": "เปิดหน้านี้ตามที่อยู่ HTTPS ที่เชื่อถือได้ จำเป็นต้องมีบริบทของเบราว์เซอร์ที่ปลอดภัย",
+    "nl": "Open deze pagina op een vertrouwd HTTPS-adres. Een veilige browsercontext is vereist.",
+    "pl": "Otwórz tę stronę pod zaufanym adresem HTTPS. Wymagany jest bezpieczny kontekst przeglądarki.",
+    "uk": "Відкрийте цю сторінку за надійною адресою HTTPS. Потрібен безпечний контекст браузера.",
+    "hi": "इस पृष्ठ को किसी विश्वसनीय HTTPS पते पर खोलें। एक सुरक्षित ब्राउज़र संदर्भ आवश्यक है.",
+    "ms": "Buka halaman ini pada alamat HTTPS yang dipercayai. Konteks penyemak imbas yang selamat diperlukan."
+  },
+  "This browser does not support WebRTC. Use a recent Safari, Chrome or Edge.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "This browser does not support WebRTC. Use a recent Safari, Chrome or Edge.",
+    "zh-Hans": "此浏览器不支持 WebRTC，请使用较新的 Safari、Chrome 或 Edge。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Ce navigateur ne prend pas en charge WebRTC. Utilisez Safari, Chrome ou Edge à jour.",
+    "de": "WebRTC wird nicht unterstützt. Aktuelles Safari, Chrome oder Edge verwenden.",
+    "ar": "هذا المتصفح لا يدعم WebRTC. استخدم إصدارًا حديثًا من Safari أو Chrome أو Edge.",
+    "zh-Hant": "此瀏覽器不支援 WebRTC，請使用較新的 Safari、Chrome 或 Edge。",
+    "ja": "このブラウザは WebRTC をサポートしていません。最新の Safari、Chrome、または Edge を使用してください。",
+    "ko": "이 브라우저는 WebRTC를 지원하지 않습니다. 최신 Safari, Chrome 또는 Edge를 사용하세요.",
+    "pt": "Este navegador não oferece suporte a WebRTC. Use um Safari, Chrome ou Edge recente.",
+    "es": "Este navegador no es compatible con WebRTC. Utilice un Safari, Chrome o Edge reciente.",
+    "bo": "དྲ་ལྗོངས་འདིས་WebRTCལ་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་མེད། ཉེ་ཆར་གྱི་ས་ཕ་རི་དང་། ཁི་རོམ། ཡང་ན་ཨེ་ཇི་བེད་སྤྱོད་བྱོས།",
+    "it": "Questo browser non supporta WebRTC. Utilizza un Safari, Chrome o Edge recente.",
+    "ru": "Этот браузер не поддерживает WebRTC. Используйте последнюю версию Safari, Chrome или Edge.",
+    "id": "Peramban ini tidak mendukung WebRTC. Gunakan Safari, Chrome, atau Edge terbaru.",
+    "tr": "Bu tarayıcı WebRTC'yi desteklemiyor. Güncel bir Safari, Chrome veya Edge kullanın.",
+    "vi": "Trình duyệt này không hỗ trợ WebRTC. Sử dụng Safari, Chrome hoặc Edge gần đây.",
+    "th": "เบราว์เซอร์นี้ไม่รองรับ WebRTC ใช้ Safari, Chrome หรือ Edge เวอร์ชันล่าสุด",
+    "nl": "Deze browser ondersteunt geen WebRTC. Gebruik een recente Safari, Chrome of Edge.",
+    "pl": "Ta przeglądarka nie obsługuje WebRTC. Użyj najnowszej przeglądarki Safari, Chrome lub Edge.",
+    "uk": "Цей браузер не підтримує WebRTC. Використовуйте останні версії Safari, Chrome або Edge.",
+    "hi": "यह ब्राउज़र WebRTC का समर्थन नहीं करता. नवीनतम सफ़ारी, क्रोम या एज का उपयोग करें।",
+    "ms": "Penyemak imbas ini tidak menyokong WebRTC. Gunakan Safari, Chrome atau Edge terkini."
+  },
+  "Enter the 6-digit code from the computer or your authenticator app.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Enter the 6-digit code from the computer or your authenticator app.",
+    "zh-Hans": "请输入电脑或验证器 App 上的 6 位数字动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Saisissez le code à 6 chiffres de l’ordinateur ou de votre application d’authentification.",
+    "de": "6-stelligen Code vom Computer oder Ihrer Authenticator-App eingeben.",
+    "ar": "أدخل الرمز المكوّن من 6 أرقام من الحاسوب أو تطبيق المصادقة.",
+    "zh-Hant": "請輸入電腦或驗證器 App 上的 6 位數字動態碼。",
+    "ja": "コンピューターまたは認証アプリから 6 桁のコードを入力します。",
+    "ko": "컴퓨터나 인증 앱에 표시된 6자리 코드를 입력하세요.",
+    "pt": "Insira o código de 6 dígitos do computador ou do seu aplicativo autenticador.",
+    "es": "Ingrese el código de 6 dígitos desde la computadora o su aplicación de autenticación.",
+    "bo": "གློག་ཀླད་ཡང་ན་ཁྱེད་རང་གི་བདེན་དཔང་བྱེད་མཁན་གྱི་མཉེན་ཆས་ནས་ཨང་གྲངས་༦ཅན་གྱི་ཨང་གྲངས་བླུགས།",
+    "it": "Inserisci il codice di 6 cifre dal computer o dall'app di autenticazione.",
+    "ru": "Введите 6-значный код с компьютера или приложения для аутентификации.",
+    "id": "Masukkan kode 6 digit dari komputer atau aplikasi autentikator Anda.",
+    "tr": "Bilgisayardan veya kimlik doğrulama uygulamanızdan 6 haneli kodu girin.",
+    "vi": "Nhập mã gồm 6 chữ số từ máy tính hoặc ứng dụng xác thực của bạn.",
+    "th": "ป้อนรหัส 6 หลักจากคอมพิวเตอร์หรือแอปยืนยันตัวตนของคุณ",
+    "nl": "Voer de 6-cijferige code in vanaf de computer of uw authenticator-app.",
+    "pl": "Wprowadź 6-cyfrowy kod z komputera lub aplikacji uwierzytelniającej.",
+    "uk": "Введіть 6-значний код із комп’ютера або програми автентифікації.",
+    "hi": "कंप्यूटर या अपने प्रमाणक ऐप से 6 अंकों का कोड दर्ज करें।",
+    "ms": "Masukkan kod 6 digit daripada komputer atau apl pengesah anda."
+  },
+  "This computer does not support an extended screen. Its desktop will fit this window.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "This computer does not support an extended screen. Its desktop will fit this window.",
+    "zh-Hans": "这台电脑暂不支持扩展显示器，将调整电脑桌面以适合此窗口。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Écran étendu non pris en charge. Le bureau sera adapté à cette fenêtre.",
+    "de": "Erweiterter Bildschirm nicht unterstützt. Der Desktop wird an das Fenster angepasst.",
+    "ar": "لا يدعم هذا الحاسوب شاشة موسّعة. سيتم ملاءمة سطح المكتب لهذه النافذة.",
+    "zh-Hant": "這台電腦暫不支援延伸顯示器，將調整電腦桌面以符合此視窗。",
+    "ja": "このコンピュータは拡張画面をサポートしていません。そのデスクトップはこのウィンドウに適合します。",
+    "ko": "이 컴퓨터는 확장 화면을 지원하지 않습니다. 데스크탑이 이 창에 맞습니다.",
+    "pt": "Este computador não suporta tela estendida. Sua área de trabalho caberá nesta janela.",
+    "es": "Esta computadora no admite una pantalla extendida. Su escritorio se ajustará a esta ventana.",
+    "bo": "གློག་ཀླད་འདིས་བརྙན་ཤེལ་རྒྱ་བསྐྱེད་ལ་རྒྱབ་སྐྱོར་བྱེད་ཀྱི་མེད། དེའི་ཡིག་ཆའི་སྒེའུ་ཁུང་འདི་ལ་འཚམ་པོ་ཡོད།",
+    "it": "Questo computer non supporta uno schermo esteso. Il suo desktop si adatterà a questa finestra.",
+    "ru": "Этот компьютер не поддерживает расширенный экран. Его рабочий стол поместится в это окно.",
+    "id": "Komputer ini tidak mendukung layar yang diperluas. Desktopnya akan sesuai dengan jendela ini.",
+    "tr": "Bu bilgisayar genişletilmiş ekranı desteklemiyor. Masaüstü bu pencereye sığacak.",
+    "vi": "Máy tính này không hỗ trợ màn hình mở rộng. Máy tính để bàn của nó sẽ phù hợp với cửa sổ này.",
+    "th": "คอมพิวเตอร์เครื่องนี้ไม่รองรับหน้าจอแบบขยาย เดสก์ท็อปจะพอดีกับหน้าต่างนี้",
+    "nl": "Deze computer ondersteunt geen uitgebreid scherm. Het bureaublad past in dit venster.",
+    "pl": "Ten komputer nie obsługuje rozszerzonego ekranu. Jego pulpit będzie pasował do tego okna.",
+    "uk": "Цей комп’ютер не підтримує розширений екран. Його робочий стіл підійде до цього вікна.",
+    "hi": "यह कंप्यूटर विस्तारित स्क्रीन का समर्थन नहीं करता. इसका डेस्कटॉप इस विंडो में फिट होगा.",
+    "ms": "Komputer ini tidak menyokong skrin lanjutan. Desktopnya sesuai dengan tetingkap ini."
+  },
+  "The computer stopped sending video. Reconnect to try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer stopped sending video. Reconnect to try again.",
+    "zh-Hans": "电脑已停止发送画面，请重新连接。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "L’ordinateur a cessé d’envoyer la vidéo. Reconnectez-vous.",
+    "de": "Der Computer sendet kein Video mehr. Erneut verbinden.",
+    "ar": "توقف الحاسوب عن إرسال الفيديو. أعد الاتصال.",
+    "zh-Hant": "電腦已停止傳送畫面，請重新連線。",
+    "ja": "コンピューターがビデオの送信を停止しました。再接続してもう一度試してください。",
+    "ko": "컴퓨터가 비디오 전송을 중단했습니다. 다시 시도하려면 다시 연결하세요.",
+    "pt": "O computador parou de enviar vídeo. Reconecte para tentar novamente.",
+    "es": "La computadora dejó de enviar video. Vuelve a conectarte para intentarlo de nuevo.",
+    "bo": "གློག་ཀླད་ཀྱིས་བརྙན་འཕྲིན་གཏོང་མཚམས་འཇོག་བྱས། ཡང་བསྐྱར་ཚོད་ལྟ་བྱེད་པར་བསྐྱར་དུ་མཐུད་དགོས།",
+    "it": "Il computer ha smesso di inviare video. Riconnettiti per riprovare.",
+    "ru": "Компьютер перестал отправлять видео. Повторно подключитесь, чтобы повторить попытку.",
+    "id": "Komputer berhenti mengirim video. Hubungkan kembali untuk mencoba lagi.",
+    "tr": "Bilgisayar video göndermeyi durdurdu. Tekrar denemek için yeniden bağlanın.",
+    "vi": "Máy tính đã ngừng gửi video. Hãy kết nối lại để thử lại.",
+    "th": "คอมพิวเตอร์หยุดส่งวิดีโอ เชื่อมต่อใหม่เพื่อลองอีกครั้ง",
+    "nl": "De computer is gestopt met het verzenden van video. Maak opnieuw verbinding om het opnieuw te proberen.",
+    "pl": "Komputer przestał wysyłać wideo. Połącz się ponownie, aby spróbować jeszcze raz.",
+    "uk": "Комп'ютер перестав надсилати відео. Повторно підключіться, щоб повторити спробу.",
+    "hi": "कंप्यूटर ने वीडियो भेजना बंद कर दिया. पुनः प्रयास करने के लिए पुनः कनेक्ट करें.",
+    "ms": "Komputer berhenti menghantar video. Sambung semula untuk mencuba lagi."
+  },
+  "The stream disconnected. Reconnect to try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The stream disconnected. Reconnect to try again.",
+    "zh-Hans": "串流连接已断开，请重新连接。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "La diffusion est déconnectée. Reconnectez-vous.",
+    "de": "Stream getrennt. Erneut verbinden.",
+    "ar": "انقطع البث. أعد الاتصال.",
+    "zh-Hant": "串流連線已中斷，請重新連線。",
+    "ja": "ストリームが切断されました。再接続してもう一度試してください。",
+    "ko": "스트림 연결이 끊어졌습니다. 다시 시도하려면 다시 연결하세요.",
+    "pt": "O fluxo foi desconectado. Reconecte para tentar novamente.",
+    "es": "La transmisión se desconectó. Vuelve a conectarte para intentarlo de nuevo.",
+    "bo": "རྒྱུག་ཆུ་དེ་ཆད་སོང་། ཡང་བསྐྱར་ཚོད་ལྟ་བྱེད་པར་བསྐྱར་དུ་མཐུད་དགོས།",
+    "it": "Il flusso si è disconnesso. Riconnettiti per riprovare.",
+    "ru": "Поток отключился. Повторно подключитесь, чтобы повторить попытку.",
+    "id": "Alirannya terputus. Hubungkan kembali untuk mencoba lagi.",
+    "tr": "Akış bağlantısı kesildi. Tekrar denemek için yeniden bağlanın.",
+    "vi": "Luồng bị ngắt kết nối. Hãy kết nối lại để thử lại.",
+    "th": "สตรีมถูกตัดการเชื่อมต่อ เชื่อมต่อใหม่เพื่อลองอีกครั้ง",
+    "nl": "De stroom is verbroken. Maak opnieuw verbinding om het opnieuw te proberen.",
+    "pl": "Strumień został rozłączony. Połącz się ponownie, aby spróbować jeszcze raz.",
+    "uk": "Потік відключено. Повторно підключіться, щоб повторити спробу.",
+    "hi": "धारा विच्छेदित हो गई. पुनः प्रयास करने के लिए पुनः कनेक्ट करें.",
+    "ms": "Aliran terputus. Sambung semula untuk mencuba lagi."
+  },
+  "Network interrupted. Waiting for the connection to recover…": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Network interrupted. Waiting for the connection to recover…",
+    "zh-Hans": "网络暂时中断，正在等待连接恢复…",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Réseau interrompu. En attente du rétablissement…",
+    "de": "Netzwerk unterbrochen. Wiederherstellung wird abgewartet…",
+    "ar": "انقطعت الشبكة. في انتظار استعادة الاتصال…",
+    "zh-Hant": "網路暫時中斷，正在等待連線恢復…",
+    "ja": "ネットワークが中断されました。接続が回復するのを待っています…",
+    "ko": "네트워크가 중단되었습니다. 연결이 복구되기를 기다리는 중…",
+    "pt": "Rede interrompida. Aguardando a recuperação da conexão…",
+    "es": "Red interrumpida. Esperando a que se recupere la conexión...",
+    "bo": "དྲ་རྒྱ་བར་ཆད་བྱུང་། འབྲེལ་མཐུད་སླར་གསོ་བྱེད་པར་སྒུག་ཡོད།",
+    "it": "Rete interrotta. In attesa del ripristino della connessione...",
+    "ru": "Сеть прервана. Ждем восстановления соединения…",
+    "id": "Jaringan terputus. Menunggu koneksi pulih…",
+    "tr": "Ağ kesintiye uğradı. Bağlantının düzelmesi bekleniyor…",
+    "vi": "Mạng bị gián đoạn. Đang chờ kết nối khôi phục…",
+    "th": "เครือข่ายถูกขัดจังหวะ กำลังรอการเชื่อมต่อเพื่อกู้คืน...",
+    "nl": "Netwerk onderbroken. Wachten tot de verbinding hersteld is...",
+    "pl": "Sieć przerwana. Oczekiwanie na przywrócenie połączenia…",
+    "uk": "Мережа перервана. Очікування відновлення з’єднання…",
+    "hi": "नेटवर्क बाधित. कनेक्शन ठीक होने की प्रतीक्षा की जा रही है…",
+    "ms": "Rangkaian terganggu. Menunggu sambungan pulih…"
+  },
+  "The network did not recover. Reconnect to try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The network did not recover. Reconnect to try again.",
+    "zh-Hans": "网络连接未能恢复，请重新连接。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Le réseau n’a pas été rétabli. Reconnectez-vous.",
+    "de": "Netzwerk nicht wiederhergestellt. Erneut verbinden.",
+    "ar": "لم تتعافَ الشبكة. أعد الاتصال.",
+    "zh-Hant": "網路連線未能恢復，請重新連線。",
+    "ja": "ネットワークは復旧しませんでした。再接続してもう一度試してください。",
+    "ko": "네트워크가 복구되지 않았습니다. 다시 시도하려면 다시 연결하세요.",
+    "pt": "A rede não se recuperou. Reconecte para tentar novamente.",
+    "es": "La red no se recuperó. Vuelve a conectarte para intentarlo de nuevo.",
+    "bo": "དྲ་རྒྱ་སླར་གསོ་བྱུང་མེད། ཡང་བསྐྱར་ཚོད་ལྟ་བྱེད་པར་བསྐྱར་དུ་མཐུད་དགོས།",
+    "it": "La rete non si è ripresa. Riconnettiti per riprovare.",
+    "ru": "Сеть не восстановилась. Повторно подключитесь, чтобы повторить попытку.",
+    "id": "Jaringan tidak pulih. Hubungkan kembali untuk mencoba lagi.",
+    "tr": "Ağ düzelmedi. Tekrar denemek için yeniden bağlanın.",
+    "vi": "Mạng không phục hồi được. Hãy kết nối lại để thử lại.",
+    "th": "เครือข่ายไม่สามารถกู้คืนได้ เชื่อมต่อใหม่เพื่อลองอีกครั้ง",
+    "nl": "Het netwerk is niet hersteld. Maak opnieuw verbinding om het opnieuw te proberen.",
+    "pl": "Sieć nie została przywrócona. Połącz się ponownie, aby spróbować jeszcze raz.",
+    "uk": "Мережа не відновилася. Повторно підключіться, щоб повторити спробу.",
+    "hi": "नेटवर्क ठीक नहीं हुआ. पुनः प्रयास करने के लिए पुनः कनेक्ट करें.",
+    "ms": "Rangkaian tidak pulih. Sambung semula untuk mencuba lagi."
+  },
+  "The computer returned invalid media negotiation data.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer returned invalid media negotiation data.",
+    "zh-Hans": "电脑返回的媒体协商信息无效。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Données de négociation multimédia invalides.",
+    "de": "Ungültige Medienaushandlungsdaten empfangen.",
+    "ar": "أعاد الحاسوب بيانات تفاوض وسائط غير صالحة.",
+    "zh-Hant": "電腦傳回的媒體協商資訊無效。",
+    "ja": "コンピュータが無効なメディア ネゴシエーション データを返しました。",
+    "ko": "컴퓨터가 잘못된 미디어 협상 데이터를 반환했습니다.",
+    "pt": "O computador retornou dados de negociação de mídia inválidos.",
+    "es": "La computadora devolvió datos de negociación de medios no válidos.",
+    "bo": "གློག་ཀླད་ཀྱིས་ནུས་མེད་ཀྱི་བརྡ་འཕྲིན་གྲོས་མོལ་གྱི་གཞི་གྲངས་ཕྱིར་ལོག་བྱས།",
+    "it": "Il computer ha restituito dati di negoziazione multimediale non validi.",
+    "ru": "Компьютер вернул неверные данные согласования мультимедиа.",
+    "id": "Komputer mengembalikan data negosiasi media yang tidak valid.",
+    "tr": "Bilgisayar geçersiz medya anlaşma verileri döndürdü.",
+    "vi": "Máy tính trả về dữ liệu đàm phán phương tiện không hợp lệ.",
+    "th": "คอมพิวเตอร์ส่งคืนข้อมูลการเจรจาสื่อที่ไม่ถูกต้อง",
+    "nl": "De computer heeft ongeldige media-onderhandelingsgegevens geretourneerd.",
+    "pl": "Komputer zwrócił nieprawidłowe dane negocjacji multimediów.",
+    "uk": "Комп’ютер повернув недійсні дані узгодження медіа.",
+    "hi": "कंप्यूटर ने अमान्य मीडिया वार्ता डेटा लौटाया।",
+    "ms": "Komputer mengembalikan data rundingan media yang tidak sah."
+  },
+  "Media did not connect. Check the computer’s firewall and local network, then try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Media did not connect. Check the computer’s firewall and local network, then try again.",
+    "zh-Hans": "媒体连接未建立，请检查电脑防火墙与局域网连接后重试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Connexion multimédia impossible. Vérifiez le pare-feu et le réseau local de l’ordinateur, puis réessayez.",
+    "de": "Medienverbindung fehlgeschlagen. Firewall und lokales Netzwerk des Computers prüfen und erneut versuchen.",
+    "ar": "تعذّر اتصال الوسائط. تحقق من جدار حماية الحاسوب والشبكة المحلية ثم حاول مجددًا.",
+    "zh-Hant": "媒體連線未建立，請檢查電腦防火牆與區域網路連線後重試。",
+    "ja": "メディアが接続できませんでした。コンピュータのファイアウォールとローカル ネットワークを確認して、もう一度試してください。",
+    "ko": "미디어가 연결되지 않았습니다. 컴퓨터의 방화벽과 로컬 네트워크를 확인한 후 다시 시도하세요.",
+    "pt": "A mídia não se conectou. Verifique o firewall e a rede local do computador e tente novamente.",
+    "es": "Los medios no se conectaron. Verifique el firewall y la red local de la computadora, luego inténtelo nuevamente.",
+    "bo": "སྨྱན་སྦྱོར་མཐུད་མེད། གློག་ཀླད་ཀྱི་མེ་གྱང་དང་ས་གནས་ཀྱི་དྲ་རྒྱ་ལ་ཞིབ་བཤེར་བྱས་ནས་བསྐྱར་དུ་ཚོད་ལྟ་བྱོས།",
+    "it": "Il supporto multimediale non si è connesso. Controlla il firewall e la rete locale del computer, quindi riprova.",
+    "ru": "Медиа не подключились. Проверьте брандмауэр компьютера и локальную сеть, затем повторите попытку.",
+    "id": "Media tidak terhubung. Periksa firewall komputer dan jaringan lokal, lalu coba lagi.",
+    "tr": "Medya bağlanmadı. Bilgisayarın güvenlik duvarını ve yerel ağını kontrol edip tekrar deneyin.",
+    "vi": "Phương tiện không kết nối được. Hãy kiểm tra tường lửa và mạng cục bộ của máy tính, sau đó thử lại.",
+    "th": "สื่อไม่ได้เชื่อมต่อ ตรวจสอบไฟร์วอลล์ของคอมพิวเตอร์และเครือข่ายท้องถิ่น จากนั้นลองอีกครั้ง",
+    "nl": "Media hebben geen verbinding gemaakt. Controleer de firewall en het lokale netwerk van de computer en probeer het opnieuw.",
+    "pl": "Media nie zostały połączone. Sprawdź zaporę sieciową komputera i sieć lokalną, a następnie spróbuj ponownie.",
+    "uk": "Медіа не підключилося. Перевірте брандмауер комп’ютера та локальну мережу, а потім повторіть спробу.",
+    "hi": "मीडिया कनेक्ट नहीं हुआ. कंप्यूटर के फ़ायरवॉल और स्थानीय नेटवर्क की जाँच करें, फिर पुनः प्रयास करें।",
+    "ms": "Media tidak menyambung. Semak tembok api komputer dan rangkaian tempatan, kemudian cuba lagi."
+  },
+  "Disconnected. Connect again when needed.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Disconnected. Connect again when needed.",
+    "zh-Hans": "已断开连接。需要时可再次连接。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Déconnecté. Reconnectez-vous au besoin.",
+    "de": "Getrennt. Bei Bedarf erneut verbinden.",
+    "ar": "تم قطع الاتصال. اتصل مجددًا عند الحاجة.",
+    "zh-Hant": "已中斷連線。需要時可再次連線。",
+    "ja": "切断されました。必要に応じて再度接続してください。",
+    "ko": "연결이 끊어졌습니다. 필요할 때 다시 연결하세요.",
+    "pt": "Desconectado. Conecte-se novamente quando necessário.",
+    "es": "Desconectado. Conéctese nuevamente cuando sea necesario.",
+    "bo": "འབྲེལ་མཐུད་ཆད་སོང་། དགོས་མཁོ་བྱུང་སྐབས་ཡང་བསྐྱར་མཐུད་དགོས།",
+    "it": "Disconnesso. Connettiti di nuovo quando necessario.",
+    "ru": "Отключено. Подключитесь снова, когда это необходимо.",
+    "id": "Terputus. Hubungkan kembali bila diperlukan.",
+    "tr": "Bağlantı kesildi. Gerektiğinde tekrar bağlanın.",
+    "vi": "Đã ngắt kết nối. Kết nối lại khi cần thiết.",
+    "th": "ตัดการเชื่อมต่อแล้ว เชื่อมต่ออีกครั้งเมื่อจำเป็น",
+    "nl": "Verbinding verbroken. Maak opnieuw verbinding wanneer dat nodig is.",
+    "pl": "Bezładny. Połącz się ponownie, jeśli zajdzie taka potrzeba.",
+    "uk": "Відключено. За потреби підключіться знову.",
+    "hi": "विच्छेदित. जरूरत पड़ने पर दोबारा कनेक्ट करें.",
+    "ms": "Terputus sambungan. Sambung semula apabila diperlukan."
+  },
+  "Pairing removed. Enter a new access code next time.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Pairing removed. Enter a new access code next time.",
+    "zh-Hans": "已取消此浏览器配对。下次连接需要重新输入动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Association supprimée. Un nouveau code sera requis la prochaine fois.",
+    "de": "Kopplung entfernt. Beim nächsten Mal neuen Zugangscode eingeben.",
+    "ar": "أُزيل الاقتران. أدخل رمز دخول جديدًا في المرة القادمة.",
+    "zh-Hant": "已取消此瀏覽器配對。下次連線需要重新輸入動態碼。",
+    "ja": "ペアリングが解除されました。次回からは新しいアクセスコードを入力してください。",
+    "ko": "페어링이 제거되었습니다. 다음번에는 새로운 액세스 코드를 입력하세요.",
+    "pt": "Emparelhamento removido. Digite um novo código de acesso na próxima vez.",
+    "es": "Emparejamiento eliminado. Ingrese un nuevo código de acceso la próxima vez.",
+    "bo": "ཆ་སྒྲིག་མེད་པར་བཟོས། ཐེངས་རྗེས་མར་འཛུལ་སྤྱོད་ཨང་གྲངས་གསར་བ་བླུགས།",
+    "it": "Associazione rimossa. La prossima volta inserisci un nuovo codice di accesso.",
+    "ru": "Сопряжение удалено. В следующий раз введите новый код доступа.",
+    "id": "Penyandingan dihapus. Masukkan kode akses baru lain kali.",
+    "tr": "Eşleştirme kaldırıldı. Bir dahaki sefere yeni bir erişim kodu girin.",
+    "vi": "Đã xóa ghép nối. Nhập mã truy cập mới vào lần tiếp theo.",
+    "th": "นำการจับคู่ออกแล้ว ป้อนรหัสการเข้าถึงใหม่ในครั้งต่อไป",
+    "nl": "Koppeling verwijderd. Voer de volgende keer een nieuwe toegangscode in.",
+    "pl": "Parowanie usunięte. Następnym razem wprowadź nowy kod dostępu.",
+    "uk": "Пару видалено. Наступного разу введіть новий код доступу.",
+    "hi": "जोड़ी हटा दी गई. अगली बार एक नया एक्सेस कोड दर्ज करें।",
+    "ms": "Gandingan dialih keluar. Masukkan kod akses baharu lain kali."
+  },
+  "The computer removed this pairing. Enter a new access code.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The computer removed this pairing. Enter a new access code.",
+    "zh-Hans": "电脑已取消此浏览器配对，请重新输入动态码。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "L’ordinateur a supprimé cette association. Saisissez un nouveau code.",
+    "de": "Der Computer hat die Kopplung entfernt. Neuen Zugangscode eingeben.",
+    "ar": "أزال الحاسوب هذا الاقتران. أدخل رمز دخول جديدًا.",
+    "zh-Hant": "電腦已取消此瀏覽器配對，請重新輸入動態碼。",
+    "ja": "コンピューターがこのペアリングを削除しました。新しいアクセスコードを入力してください。",
+    "ko": "컴퓨터가 이 페어링을 제거했습니다. 새로운 액세스 코드를 입력하세요.",
+    "pt": "O computador removeu este emparelhamento. Insira um novo código de acesso.",
+    "es": "La computadora eliminó este emparejamiento. Ingrese un nuevo código de acceso.",
+    "bo": "གློག་ཀླད་ཀྱིས་ཆ་སྒྲིག་འདི་མེད་པར་བཟོས། འཛུལ་སྤྱོད་ཨང་གྲངས་གསར་པ་ཞིག་བླུགས།",
+    "it": "Il computer ha rimosso questa associazione. Inserisci un nuovo codice di accesso.",
+    "ru": "Компьютер удалил это соединение. Введите новый код доступа.",
+    "id": "Komputer menghapus pasangan ini. Masukkan kode akses baru.",
+    "tr": "Bilgisayar bu eşleştirmeyi kaldırdı. Yeni bir erişim kodu girin.",
+    "vi": "Máy tính đã loại bỏ ghép nối này. Nhập mã truy cập mới.",
+    "th": "คอมพิวเตอร์ลบการจับคู่นี้ออก ป้อนรหัสการเข้าถึงใหม่",
+    "nl": "De computer heeft deze koppeling verwijderd. Voer een nieuwe toegangscode in.",
+    "pl": "Komputer usunął to parowanie. Wprowadź nowy kod dostępu.",
+    "uk": "Комп’ютер видалив цю пару. Введіть новий код доступу.",
+    "hi": "कंप्यूटर ने इस युग्म को हटा दिया. एक नया एक्सेस कोड दर्ज करें.",
+    "ms": "Komputer mengalih keluar gandingan ini. Masukkan kod akses baharu."
+  },
+  "Could not confirm pairing removal.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Could not confirm pairing removal.",
+    "zh-Hans": "未能确认取消配对。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Suppression de l’association non confirmée.",
+    "de": "Entfernen der Kopplung nicht bestätigt.",
+    "ar": "تعذّر تأكيد إزالة الاقتران.",
+    "zh-Hant": "未能確認取消配對。",
+    "ja": "ペアリングの解除が確認できませんでした。",
+    "ko": "페어링 제거를 확인할 수 없습니다.",
+    "pt": "Não foi possível confirmar a remoção do pareamento.",
+    "es": "No se pudo confirmar la eliminación del emparejamiento.",
+    "bo": "ཆ་སྒྲིག་མེད་པར་བཟོ་རྒྱུ་གཏན་འཁེལ་བྱེད་མ་ཐུབ།",
+    "it": "Impossibile confermare la rimozione dell'associazione.",
+    "ru": "Не удалось подтвердить удаление сопряжения.",
+    "id": "Tidak dapat mengonfirmasi penghapusan penyandingan.",
+    "tr": "Eşleştirmenin kaldırılması onaylanamadı.",
+    "vi": "Không thể xác nhận việc xóa ghép nối.",
+    "th": "ไม่สามารถยืนยันการนำการจับคู่ออกได้",
+    "nl": "Kan het verwijderen van de koppeling niet bevestigen.",
+    "pl": "Nie można potwierdzić usunięcia parowania.",
+    "uk": "Не вдалося підтвердити видалення пари.",
+    "hi": "युग्मन हटाने की पुष्टि नहीं की जा सकी.",
+    "ms": "Tidak dapat mengesahkan pengalihan keluar gandingan."
+  },
+  "Input congested. Disconnected to release remote keys. Reconnect to try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Input congested. Disconnected to release remote keys. Reconnect to try again.",
+    "zh-Hans": "输入连接拥堵，已断开以释放远程按键，请重新连接。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Entrée saturée. Déconnexion pour libérer les touches distantes. Reconnectez-vous.",
+    "de": "Eingabe überlastet. Zum Freigeben entfernter Tasten getrennt. Erneut verbinden.",
+    "ar": "ازدحام الإدخال. تم قطع الاتصال لتحرير المفاتيح البعيدة. أعد الاتصال.",
+    "zh-Hant": "輸入連線壅塞，已中斷以釋放遠端按鍵，請重新連線。",
+    "ja": "入力が混雑しています。リモートキーを解放するために切断されました。再接続してもう一度試してください。",
+    "ko": "입력이 혼잡합니다. 원격 키를 해제하기 위해 연결이 끊어졌습니다. 다시 시도하려면 다시 연결하세요.",
+    "pt": "Entrada congestionada. Desconectado para liberar chaves remotas. Reconecte para tentar novamente.",
+    "es": "Entrada congestionada. Desconectado para liberar llaves remotas. Vuelve a conectarte para intentarlo de nuevo.",
+    "bo": "ནང་འདྲེན་འཚང་ཁ་ཤོར་འདུག ཐག་རིང་གི་ལྡེ་མིག་གློད་པའི་ཆེད་དུ་མཐུད་མཚམས་བཞག་ཡོད། ཡང་བསྐྱར་ཚོད་ལྟ་བྱེད་པར་བསྐྱར་དུ་མཐུད་དགོས།",
+    "it": "Ingresso congestionato. Disconnesso per rilasciare i tasti remoti. Riconnettiti per riprovare.",
+    "ru": "Вход перегружен. Отключено, чтобы разблокировать дистанционные ключи. Повторно подключитесь, чтобы повторить попытку.",
+    "id": "Masukan macet. Terputus untuk melepaskan kunci jarak jauh. Hubungkan kembali untuk mencoba lagi.",
+    "tr": "Giriş sıkışık. Uzak tuşları serbest bırakmak için bağlantı kesildi. Tekrar denemek için yeniden bağlanın.",
+    "vi": "Đầu vào bị tắc nghẽn. Ngắt kết nối để giải phóng các phím từ xa. Hãy kết nối lại để thử lại.",
+    "th": "อินพุตติดขัด ยกเลิกการเชื่อมต่อเพื่อปล่อยกุญแจรีโมท เชื่อมต่อใหม่เพื่อลองอีกครั้ง",
+    "nl": "Invoer overbelast. Verbinding verbroken om toetsen op afstand vrij te geven. Maak opnieuw verbinding om het opnieuw te proberen.",
+    "pl": "Wejście przeciążone. Rozłączono, aby zwolnić klawisze zdalne. Połącz się ponownie, aby spróbować jeszcze raz.",
+    "uk": "Вхід перевантажений. Відключено, щоб звільнити дистанційні ключі. Повторно підключіться, щоб повторити спробу.",
+    "hi": "इनपुट भीड़भाड़ वाला है. दूरस्थ कुंजियाँ जारी करने के लिए डिस्कनेक्ट किया गया। पुनः प्रयास करने के लिए पुनः कनेक्ट करें.",
+    "ms": "Input sesak. Diputuskan sambungan untuk melepaskan kunci jauh. Sambung semula untuk mencuba lagi."
+  },
+  "Input congested. Keys released. Try again later.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Input congested. Keys released. Try again later.",
+    "zh-Hans": "输入网络拥堵，已释放按键，请稍后再操作。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Entrée saturée. Touches relâchées. Réessayez plus tard.",
+    "de": "Eingabe überlastet. Tasten freigegeben. Später erneut versuchen.",
+    "ar": "ازدحام الإدخال. تم تحرير المفاتيح. حاول لاحقًا.",
+    "zh-Hant": "輸入網路壅塞，已釋放按鍵，請稍後再操作。",
+    "ja": "入力が混雑しています。キーが解放されました。後でもう一度試してください。",
+    "ko": "입력이 혼잡합니다. 열쇠가 공개되었습니다. 나중에 다시 시도하세요.",
+    "pt": "Entrada congestionada. Chaves liberadas. Tente novamente mais tarde.",
+    "es": "Entrada congestionada. Llaves liberadas. Vuelve a intentarlo más tarde.",
+    "bo": "ནང་འཇུག་འཚང་ཁ་རྒྱག་འདུག ལྡེ་མིག་གློད་པ་རེད། རྗེས་སུ་ཡང་བསྐྱར་ཚོད་ལྟ་བྱོས།",
+    "it": "Ingresso congestionato. Chiavi rilasciate. Riprova più tardi.",
+    "ru": "Вход перегружен. Ключи выпущены. Повторите попытку позже.",
+    "id": "Masukan macet. Kunci dilepaskan. Coba lagi nanti.",
+    "tr": "Giriş sıkışık. Anahtarlar serbest bırakıldı. Daha sonra tekrar deneyin.",
+    "vi": "Đầu vào bị tắc nghẽn. Chìa khóa được phát hành. Hãy thử lại sau.",
+    "th": "อินพุตติดขัด ปล่อยกุญแจแล้ว ลองอีกครั้งในภายหลัง",
+    "nl": "Invoer overbelast. Sleutels vrijgegeven. Probeer het later opnieuw.",
+    "pl": "Wejście przeciążone. Klucze wydane. Spróbuj ponownie później.",
+    "uk": "Вхід перевантажений. Ключі звільнені. Повторіть спробу пізніше.",
+    "hi": "इनपुट भीड़भाड़ वाला है. चाबियाँ जारी की गईं. बाद में पुन: प्रयास।",
+    "ms": "Input sesak. Kunci dikeluarkan. Cuba lagi nanti."
+  },
+  "Remote input disconnected.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Remote input disconnected.",
+    "zh-Hans": "远程输入连接已中断。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Entrée distante déconnectée.",
+    "de": "Remote-Eingabe getrennt.",
+    "ar": "انقطع الإدخال البعيد.",
+    "zh-Hant": "遠端輸入連線已中斷。",
+    "ja": "リモート入力が切断されました。",
+    "ko": "원격 입력이 끊어졌습니다.",
+    "pt": "Entrada remota desconectada.",
+    "es": "Entrada remota desconectada.",
+    "bo": "ཐག་རིང་གི་ནང་འཇུག་ཁ་བྲལ་འདུག",
+    "it": "Ingresso remoto disconnesso.",
+    "ru": "Удаленный вход отключен.",
+    "id": "Input jarak jauh terputus.",
+    "tr": "Uzaktan giriş bağlantısı kesildi.",
+    "vi": "Đầu vào từ xa bị ngắt kết nối.",
+    "th": "อินพุตระยะไกลถูกตัดการเชื่อมต่อ",
+    "nl": "Ingang op afstand ontkoppeld.",
+    "pl": "Wejście zdalne odłączone.",
+    "uk": "Дистанційний вхід відключено.",
+    "hi": "रिमोट इनपुट डिस्कनेक्ट हो गया.",
+    "ms": "Input jauh diputuskan sambungan."
+  },
+  "Send up to 4096 bytes at a time. Split the text into smaller parts.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Send up to 4096 bytes at a time. Split the text into smaller parts.",
+    "zh-Hans": "一次最多发送 4096 字节，请将文字分段发送。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Envoyez au maximum 4096 octets à la fois. Divisez le texte.",
+    "de": "Höchstens 4096 Bytes auf einmal senden. Text aufteilen.",
+    "ar": "أرسل حتى 4096 بايت في المرة الواحدة. قسّم النص إلى أجزاء أصغر.",
+    "zh-Hant": "一次最多傳送 4096 位元組，請將文字分段傳送。",
+    "ja": "一度に最大 4096 バイトを送信します。テキストを小さな部分に分割します。",
+    "ko": "한 번에 최대 4096바이트를 보낼 수 있습니다. 텍스트를 더 작은 부분으로 나눕니다.",
+    "pt": "Envie até 4.096 bytes por vez. Divida o texto em partes menores.",
+    "es": "Envíe hasta 4096 bytes a la vez. Divide el texto en partes más pequeñas.",
+    "bo": "དུས་གཅིག་ཏུ་བཱའིཊི་4096བར་གཏོང་དགོས། ཡི་གེ་དེ་ཆ་ཤས་ཆུང་ཆུང་དུ་བགོས།",
+    "it": "Invia fino a 4096 byte alla volta. Dividi il testo in parti più piccole.",
+    "ru": "Отправляйте до 4096 байт за раз. Разделите текст на более мелкие части.",
+    "id": "Kirim hingga 4096 byte sekaligus. Pisahkan teks menjadi bagian-bagian yang lebih kecil.",
+    "tr": "Tek seferde 4096 bayta kadar gönderin. Metni daha küçük parçalara bölün.",
+    "vi": "Gửi tối đa 4096 byte mỗi lần. Chia văn bản thành các phần nhỏ hơn.",
+    "th": "ส่งได้สูงสุดครั้งละ 4096 ไบต์ แบ่งข้อความออกเป็นส่วนเล็กๆ",
+    "nl": "Verzend maximaal 4096 bytes tegelijk. Splits de tekst in kleinere delen.",
+    "pl": "Jednorazowo wysyłaj do 4096 bajtów. Podziel tekst na mniejsze części.",
+    "uk": "Надсилайте до 4096 байт за раз. Розділіть текст на менші частини.",
+    "hi": "एक बार में 4096 बाइट्स तक भेजें। टेक्स्ट को छोटे-छोटे भागों में विभाजित करें।",
+    "ms": "Hantar sehingga 4096 bait pada satu masa. Pisahkan teks kepada bahagian yang lebih kecil."
+  },
+  "Text sent to the computer.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Text sent to the computer.",
+    "zh-Hans": "文字已发送到电脑。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Texte envoyé à l’ordinateur.",
+    "de": "Text an den Computer gesendet.",
+    "ar": "أُرسل النص إلى الحاسوب.",
+    "zh-Hant": "文字已傳送至電腦。",
+    "ja": "コンピュータに送信されたテキスト。",
+    "ko": "컴퓨터로 전송된 텍스트입니다.",
+    "pt": "Texto enviado para o computador.",
+    "es": "Texto enviado a la computadora.",
+    "bo": "གློག་ཀླད་ནང་ཡི་གེ་བསྐུར་ཡོད།",
+    "it": "Testo inviato al computer.",
+    "ru": "Текст отправлен на компьютер.",
+    "id": "Teks dikirim ke komputer.",
+    "tr": "Bilgisayara gönderilen metin.",
+    "vi": "Văn bản được gửi tới máy tính.",
+    "th": "ข้อความที่ส่งไปยังคอมพิวเตอร์",
+    "nl": "Tekst verzonden naar de computer.",
+    "pl": "Tekst wysłany do komputera.",
+    "uk": "Текст надіслано на комп’ютер.",
+    "hi": "कंप्यूटर पर पाठ भेजा गया.",
+    "ms": "Teks dihantar ke komputer."
+  },
+  "Hold the text box and choose Paste, or use the system paste shortcut.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Hold the text box and choose Paste, or use the system paste shortcut.",
+    "zh-Hans": "请在文字框中长按并选择“粘贴”，或使用系统粘贴快捷键。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Maintenez la zone de texte et choisissez Coller, ou utilisez le raccourci système.",
+    "de": "Textfeld gedrückt halten und Einfügen wählen oder das Systemtastenkürzel verwenden.",
+    "ar": "اضغط مطولًا على مربع النص واختر لصق، أو استخدم اختصار اللصق في النظام.",
+    "zh-Hant": "請在文字框中長按並選擇「貼上」，或使用系統貼上快捷鍵。",
+    "ja": "テキスト ボックスを押したまま「貼り付け」を選択するか、システムの貼り付けショートカットを使用します。",
+    "ko": "텍스트 상자를 누른 채 붙여넣기를 선택하거나 시스템 붙여넣기 단축키를 사용하세요.",
+    "pt": "Segure a caixa de texto e escolha Colar ou use o atalho de colagem do sistema.",
+    "es": "Mantenga presionado el cuadro de texto y elija Pegar, o use el acceso directo para pegar del sistema.",
+    "bo": "ཡིག་སྒྲོམ་འཛིན་ནས་སྦྱར་ འདེམས་པའམ་མ་ལག་སྦྱར་མགྱོགས་ཐབས་བེད་སྤྱོད་བྱེད།",
+    "it": "Tieni premuta la casella di testo e scegli Incolla oppure utilizza la scorciatoia di sistema per incollare.",
+    "ru": "Удерживая текстовое поле, выберите «Вставить» или воспользуйтесь системным ярлыком для вставки.",
+    "id": "Tahan kotak teks dan pilih Tempel, atau gunakan pintasan tempel sistem.",
+    "tr": "Metin kutusunu basılı tutun ve Yapıştır'ı seçin veya sistem yapıştırma kısayolunu kullanın.",
+    "vi": "Giữ hộp văn bản và chọn Dán hoặc sử dụng phím tắt dán hệ thống.",
+    "th": "กดกล่องข้อความค้างไว้แล้วเลือกวาง หรือใช้ทางลัดการวางระบบ",
+    "nl": "Houd het tekstvak ingedrukt en kies Plakken, of gebruik de snelkoppeling voor plakken op het systeem.",
+    "pl": "Przytrzymaj pole tekstowe i wybierz Wklej lub użyj systemowego skrótu wklejania.",
+    "uk": "Утримуйте текстове поле та виберіть «Вставити» або скористайтеся системним ярликом «Вставити».",
+    "hi": "टेक्स्ट बॉक्स को दबाए रखें और पेस्ट चुनें, या सिस्टम पेस्ट शॉर्टकट का उपयोग करें।",
+    "ms": "Pegang kotak teks dan pilih Tampal, atau gunakan pintasan tampal sistem."
+  },
+  "Audio is off for this session. Disconnect and enable it in Connection options.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Audio is off for this session. Disconnect and enable it in Connection options.",
+    "zh-Hans": "本次连接未启用电脑声音。请断开后在连接选项中开启。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Son désactivé pour cette session. Déconnectez-vous et activez-le dans les options de connexion.",
+    "de": "Ton für diese Sitzung aus. Trennen und in den Verbindungsoptionen aktivieren.",
+    "ar": "الصوت متوقف لهذه الجلسة. اقطع الاتصال وفعّله في خيارات الاتصال.",
+    "zh-Hant": "本次連線未啟用電腦聲音。請中斷後在連線選項中開啟。",
+    "ja": "このセッションでは音声がオフになっています。接続を切断し、接続オプションで有効にします。",
+    "ko": "이 세션에서는 오디오가 꺼져 있습니다. 연결을 끊고 연결 옵션에서 활성화하세요.",
+    "pt": "O áudio está desativado nesta sessão. Desconecte e habilite-o nas opções de conexão.",
+    "es": "El audio está desactivado para esta sesión. Desconéctalo y habilítalo en Opciones de conexión.",
+    "bo": "དུས་ཚོད་འདིའི་སྒྲ་བསྡམས་ཡོད། མཐུད་ཁའི་གདམ་ཁའི་ནང་དུ་མཐུད་ཁ་གཅོད་ནས་ལྕོགས་ཅན་བཟོས།",
+    "it": "L'audio è disattivato per questa sessione. Disconnettiti e abilitalo nelle Opzioni di connessione.",
+    "ru": "Звук для этого сеанса отключен. Отключите и включите его в параметрах подключения.",
+    "id": "Audio tidak aktif untuk sesi ini. Putuskan sambungan dan aktifkan di opsi Koneksi.",
+    "tr": "Bu oturumda ses kapalı. Bağlantıyı kesin ve Bağlantı seçeneklerinde etkinleştirin.",
+    "vi": "Âm thanh bị tắt trong phiên này. Ngắt kết nối và kích hoạt nó trong tùy chọn Kết nối.",
+    "th": "ปิดเสียงสำหรับเซสชันนี้ ตัดการเชื่อมต่อและเปิดใช้งานในตัวเลือกการเชื่อมต่อ",
+    "nl": "Audio staat uit voor deze sessie. Verbreek de verbinding en schakel deze in in Verbindingsopties.",
+    "pl": "Dźwięk jest wyłączony w tej sesji. Odłącz i włącz tę opcję w Opcjach połączenia.",
+    "uk": "Аудіо вимкнено для цього сеансу. Відключіть і ввімкніть його в параметрах підключення.",
+    "hi": "इस सत्र के लिए ऑडियो बंद है. कनेक्शन विकल्पों में इसे डिस्कनेक्ट और सक्षम करें।",
+    "ms": "Audio dimatikan untuk sesi ini. Putuskan sambungan dan dayakannya dalam pilihan Sambungan."
+  },
+  "The browser blocked audio. Tap Enable audio again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The browser blocked audio. Tap Enable audio again.",
+    "zh-Hans": "浏览器未允许播放声音，请再点按“开启声音”。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Le navigateur a bloqué le son. Touchez à nouveau Activer le son.",
+    "de": "Browser hat Ton blockiert. Erneut auf Ton aktivieren tippen.",
+    "ar": "حظر المتصفح الصوت. انقر تفعيل الصوت مجددًا.",
+    "zh-Hant": "瀏覽器未允許播放聲音，請再點按「開啟聲音」。",
+    "ja": "ブラウザが音声をブロックしました。もう一度「オーディオを有効にする」をタップします。",
+    "ko": "브라우저가 오디오를 차단했습니다. 오디오 활성화를 다시 탭합니다.",
+    "pt": "O navegador bloqueou o áudio. Toque em Ativar áudio novamente.",
+    "es": "El navegador bloqueó el audio. Toque Habilitar audio nuevamente.",
+    "bo": "དྲ་ལྗོངས་ཀྱིས་སྒྲ་བཀག་ཡོད། ཡང་བསྐྱར་སྒྲ་ལྕོགས་ཅན་བཟོས།",
+    "it": "Il browser ha bloccato l'audio. Tocca di nuovo Abilita audio.",
+    "ru": "Браузер заблокировал звук. Нажмите «Включить звук» еще раз.",
+    "id": "Browser memblokir audio. Ketuk Aktifkan audio lagi.",
+    "tr": "Tarayıcı sesi engelledi. Sesi etkinleştir'e tekrar dokunun.",
+    "vi": "Trình duyệt đã chặn âm thanh. Nhấn vào Bật lại âm thanh.",
+    "th": "เบราว์เซอร์ปิดกั้นเสียง แตะเปิดใช้งานเสียงอีกครั้ง",
+    "nl": "De browser blokkeerde audio. Tik nogmaals op Audio inschakelen.",
+    "pl": "Przeglądarka zablokowała dźwięk. Kliknij ponownie Włącz dźwięk.",
+    "uk": "Браузер заблокував звук. Знову торкніться Увімкнути аудіо.",
+    "hi": "ब्राउज़र ने ऑडियो ब्लॉक कर दिया. ऑडियो सक्षम करें पर फिर से टैप करें।",
+    "ms": "Penyemak imbas menyekat audio. Ketik Dayakan audio sekali lagi."
+  },
+  "Fullscreen is unavailable in this browser. Rotate the iPad for a larger picture.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Fullscreen is unavailable in this browser. Rotate the iPad for a larger picture.",
+    "zh-Hans": "此浏览器不支持网页全屏。横向使用 iPad 可获得更大的画面。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Plein écran indisponible. Tournez l’iPad pour agrandir l’image.",
+    "de": "Vollbild nicht verfügbar. iPad für ein größeres Bild drehen.",
+    "ar": "ملء الشاشة غير متاح في هذا المتصفح. أدر iPad للحصول على صورة أكبر.",
+    "zh-Hant": "此瀏覽器不支援網頁全螢幕。橫向使用 iPad 可獲得更大的畫面。",
+    "ja": "このブラウザでは全画面表示を利用できません。 iPad を回転すると大きな画像が表示されます。",
+    "ko": "이 브라우저에서는 전체 화면을 사용할 수 없습니다. 더 큰 사진을 보려면 iPad를 회전하세요.",
+    "pt": "A tela cheia não está disponível neste navegador. Gire o iPad para obter uma imagem maior.",
+    "es": "La pantalla completa no está disponible en este navegador. Gire el iPad para ver una imagen más grande.",
+    "bo": "དྲ་ལྗོངས་འདིའི་ནང་དུ་གསལ་གཞི་ཆ་ཚང་མེད། པར་རིས་ཆེ་རུ་གཏོང་ཆེད་iPadདེ་འཁོར་རོགས།",
+    "it": "Lo schermo intero non è disponibile in questo browser. Ruota l'iPad per un'immagine più grande.",
+    "ru": "Полноэкранный режим недоступен в этом браузере. Поверните iPad, чтобы увеличить изображение.",
+    "id": "Layar penuh tidak tersedia di browser ini. Putar iPad untuk gambar yang lebih besar.",
+    "tr": "Bu tarayıcıda tam ekran kullanılamıyor. Daha büyük bir resim için iPad'i döndürün.",
+    "vi": "Toàn màn hình không khả dụng trong trình duyệt này. Xoay iPad để có hình ảnh lớn hơn.",
+    "th": "โหมดเต็มหน้าจอไม่พร้อมใช้งานในเบราว์เซอร์นี้ หมุน iPad เพื่อดูภาพใหญ่ขึ้น",
+    "nl": "Volledig scherm is niet beschikbaar in deze browser. Draai de iPad voor een grotere afbeelding.",
+    "pl": "Tryb pełnoekranowy jest niedostępny w tej przeglądarce. Obróć iPada, aby uzyskać większy obraz.",
+    "uk": "Повноекранний режим недоступний у цьому браузері. Поверніть iPad для збільшення зображення.",
+    "hi": "इस ब्राउज़र में फ़ुलस्क्रीन उपलब्ध नहीं है. बड़ी तस्वीर के लिए आईपैड घुमाएँ।",
+    "ms": "Skrin penuh tidak tersedia dalam penyemak imbas ini. Putar iPad untuk gambar yang lebih besar."
+  },
+  "The browser blocked fullscreen. Keep the page in front and try again.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "The browser blocked fullscreen. Keep the page in front and try again.",
+    "zh-Hans": "浏览器未允许全屏，请保持页面前台后重试。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Plein écran bloqué. Gardez la page au premier plan et réessayez.",
+    "de": "Vollbild blockiert. Seite im Vordergrund halten und erneut versuchen.",
+    "ar": "حظر المتصفح ملء الشاشة. أبقِ الصفحة في المقدمة وحاول مجددًا.",
+    "zh-Hant": "瀏覽器未允許全螢幕，請保持頁面在前景後重試。",
+    "ja": "ブラウザが全画面表示をブロックしました。ページを先頭にして、もう一度お試しください。",
+    "ko": "브라우저가 전체 화면을 차단했습니다. 페이지를 앞에 두고 다시 시도하세요.",
+    "pt": "O navegador bloqueou a tela cheia. Mantenha a página na frente e tente novamente.",
+    "es": "El navegador bloqueó la pantalla completa. Mantenga la página al frente y vuelva a intentarlo.",
+    "bo": "དྲ་ལྗོངས་ཀྱིས་གློག་བརྙན་ཆ་ཚང་བཀག་ཡོད། ཤོག་ངོས་མདུན་དུ་བཞག་ནས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་དགོས།",
+    "it": "Il browser ha bloccato lo schermo intero. Mantieni la pagina in primo piano e riprova.",
+    "ru": "Браузер заблокировал полноэкранный режим. Оставьте страницу впереди и повторите попытку.",
+    "id": "Browser memblokir layar penuh. Simpan halaman di depan dan coba lagi.",
+    "tr": "Tarayıcı tam ekranı engelledi. Sayfayı önde tutun ve tekrar deneyin.",
+    "vi": "Trình duyệt đã chặn toàn màn hình. Giữ trang ở phía trước và thử lại.",
+    "th": "เบราว์เซอร์ถูกบล็อกแบบเต็มหน้าจอ เก็บหน้าไว้ข้างหน้าแล้วลองอีกครั้ง",
+    "nl": "De browser blokkeerde volledig scherm. Houd de pagina vooraan en probeer het opnieuw.",
+    "pl": "Przeglądarka zablokowała pełny ekran. Zachowaj stronę z przodu i spróbuj ponownie.",
+    "uk": "Браузер заблокував повноекранний режим. Тримайте сторінку вперед і повторіть спробу.",
+    "hi": "ब्राउज़र ने फ़ुलस्क्रीन ब्लॉक कर दिया. पृष्ठ को सामने रखें और पुनः प्रयास करें।",
+    "ms": "Penyemak imbas menyekat skrin penuh. Pastikan halaman di hadapan dan cuba lagi."
+  },
+  "Network offline. Reconnect after the network recovers.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Network offline. Reconnect after the network recovers.",
+    "zh-Hans": "网络已断开。网络恢复后，请重新连接。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Réseau hors ligne. Reconnectez-vous après son rétablissement.",
+    "de": "Netzwerk offline. Nach Wiederherstellung erneut verbinden.",
+    "ar": "الشبكة غير متصلة. أعد الاتصال بعد عودتها.",
+    "zh-Hant": "網路已中斷。網路恢復後，請重新連線。",
+    "ja": "ネットワークがオフライン。ネットワークが回復してから再接続してください。",
+    "ko": "오프라인으로 네트워크를 구축하세요. 네트워크가 복구된 후 다시 연결하세요.",
+    "pt": "Rede off-line. Reconecte após a recuperação da rede.",
+    "es": "Red fuera de línea. Vuelva a conectarse después de que la red se recupere.",
+    "bo": "དྲ་རྒྱའི་ཕྱི་རོལ་དུ། དྲ་རྒྱ་སླར་གསོ་བྱུང་རྗེས་བསྐྱར་དུ་མཐུད་དགོས།",
+    "it": "Rete offline. Riconnettiti dopo il ripristino della rete.",
+    "ru": "Сеть оффлайн. Повторно подключитесь после восстановления сети.",
+    "id": "Jaringan offline. Sambungkan kembali setelah jaringan pulih.",
+    "tr": "Ağ çevrimdışı. Ağ kurtarıldıktan sonra yeniden bağlanın.",
+    "vi": "Mạng ngoại tuyến. Kết nối lại sau khi mạng phục hồi.",
+    "th": "เครือข่ายออฟไลน์ เชื่อมต่อใหม่หลังจากที่เครือข่ายกู้คืนแล้ว",
+    "nl": "Netwerk offline. Maak opnieuw verbinding nadat het netwerk is hersteld.",
+    "pl": "Sieć nieaktywna. Połącz się ponownie po odzyskaniu sieci.",
+    "uk": "Мережа офлайн. Повторно підключіться після відновлення мережі.",
+    "hi": "नेटवर्क ऑफ़लाइन. नेटवर्क ठीक होने के बाद पुनः कनेक्ट करें.",
+    "ms": "Rangkaian luar talian. Sambung semula selepas rangkaian pulih."
+  },
+  "Use the HTTPS address shown on the computer and trust its certificate in your browser.": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Use the HTTPS address shown on the computer and trust its certificate in your browser.",
+    "zh-Hans": "请使用电脑端提供的 HTTPS 地址，并确认浏览器信任其证书。",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Utilisez l’adresse HTTPS affichée sur l’ordinateur et approuvez son certificat dans le navigateur.",
+    "de": "Die HTTPS-Adresse des Computers verwenden und dessen Zertifikat im Browser vertrauen.",
+    "ar": "استخدم عنوان HTTPS المعروض على الحاسوب وثِق بشهادته في المتصفح.",
+    "zh-Hant": "請使用電腦端提供的 HTTPS 位址，並確認瀏覽器信任其憑證。",
+    "ja": "コンピューターに表示されている HTTPS アドレスを使用し、ブラウザーでその証明書を信頼します。",
+    "ko": "컴퓨터에 표시된 HTTPS 주소를 사용하고 브라우저에서 해당 인증서를 신뢰하십시오.",
+    "pt": "Use o endereço HTTPS mostrado no computador e confie no certificado no seu navegador.",
+    "es": "Utilice la dirección HTTPS que se muestra en la computadora y confíe en su certificado en su navegador.",
+    "bo": "གློག་ཀླད་ཐོག་སྟོན་པའི་HTTPSཁ་བྱང་བེད་སྤྱོད་བྱས་ནས་དེའི་ལག་ཁྱེར་ཁྱེད་ཀྱི་དྲ་ལྗོངས་ནང་ཡིད་ཆེས་བྱེད་དགོས།",
+    "it": "Utilizza l'indirizzo HTTPS mostrato sul computer e attendi il suo certificato nel tuo browser.",
+    "ru": "Используйте адрес HTTPS, указанный на компьютере, и доверьтесь его сертификату в своем браузере.",
+    "id": "Gunakan alamat HTTPS yang ditampilkan di komputer dan percayakan sertifikatnya di browser Anda.",
+    "tr": "Bilgisayarda gösterilen HTTPS adresini kullanın ve tarayıcınızdaki sertifikasına güvenin.",
+    "vi": "Sử dụng địa chỉ HTTPS hiển thị trên máy tính và tin tưởng chứng chỉ của nó trong trình duyệt của bạn.",
+    "th": "ใช้ที่อยู่ HTTPS ที่แสดงบนคอมพิวเตอร์และเชื่อถือใบรับรองในเบราว์เซอร์ของคุณ",
+    "nl": "Gebruik het HTTPS-adres dat op de computer wordt weergegeven en vertrouw het certificaat ervan in uw browser.",
+    "pl": "Skorzystaj z adresu HTTPS widocznego na komputerze i zaufaj jego certyfikatowi w swojej przeglądarce.",
+    "uk": "Використовуйте адресу HTTPS, яка відображається на комп’ютері, і довіряйте її сертифікату у своєму браузері.",
+    "hi": "कंप्यूटर पर दिखाए गए HTTPS पते का उपयोग करें और अपने ब्राउज़र में इसके प्रमाणपत्र पर भरोसा करें।",
+    "ms": "Gunakan alamat HTTPS yang ditunjukkan pada komputer dan percayai sijilnya dalam penyemak imbas anda."
+  },
+  "System default": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "System default",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Valeur du système",
+    "de": "Systemstandard",
+    "ar": "افتراضي النظام",
+    "zh-Hant": "系統預設",
+    "zh-Hans": "系统默认",
+    "ja": "システムのデフォルト",
+    "ko": "시스템 기본값",
+    "pt": "Padrão do sistema",
+    "es": "Valor predeterminado del sistema",
+    "bo": "མ་ལག་སྔོན་སྒྲིག",
+    "it": "Predefinito del sistema",
+    "ru": "Система по умолчанию",
+    "id": "Bawaan sistem",
+    "tr": "Sistem varsayılanı",
+    "vi": "Mặc định hệ thống",
+    "th": "ค่าเริ่มต้นของระบบ",
+    "nl": "Systeemstandaard",
+    "pl": "Domyślne systemowe",
+    "uk": "Система за умовчанням",
+    "hi": "सिस्टम डिफ़ॉल्ट",
+    "ms": "Sistem lalai"
+  },
+  "%1 fps": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "%1 fps",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "%1 i/s",
+    "de": "%1 fps",
+    "ar": "%1 إطار/ث",
+    "zh-Hant": "%1 幀",
+    "zh-Hans": "%1 帧/秒",
+    "ja": "%1 fps",
+    "ko": "%1fps",
+    "pt": "%1 fps",
+    "es": "%1 fps",
+    "bo": "%1 fps",
+    "it": "%1 fps",
+    "ru": "%1 кадр/с",
+    "id": "%1fps",
+    "tr": "%1 kare/saniye",
+    "vi": "%1 khung hình/giây",
+    "th": "%1 เฟรมต่อวินาที",
+    "nl": "%1 fps",
+    "pl": "%1 fps",
+    "uk": "%1 кадр/сек",
+    "hi": "%1 एफपीएस",
+    "ms": "%1 fps"
+  },
+  "Could not confirm pairing removal. %1": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Could not confirm pairing removal. %1",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Suppression de l’association non confirmée. %1",
+    "de": "Entfernen der Kopplung nicht bestätigt. %1",
+    "ar": "تعذّر تأكيد إزالة الاقتران. %1",
+    "zh-Hant": "未能確認取消配對。%1",
+    "zh-Hans": "无法确认配对删除。 %1",
+    "ja": "ペアリングの解除が確認できませんでした。 %1",
+    "ko": "페어링 제거를 확인할 수 없습니다. %1",
+    "pt": "Não foi possível confirmar a remoção do pareamento. %1",
+    "es": "No se pudo confirmar la eliminación del emparejamiento. %1",
+    "bo": "ཆ་སྒྲིག་མེད་པར་བཟོ་རྒྱུ་གཏན་འཁེལ་བྱེད་མ་ཐུབ། %1།",
+    "it": "Impossibile confermare la rimozione dell'associazione. %1",
+    "ru": "Не удалось подтвердить удаление сопряжения. %1",
+    "id": "Tidak dapat mengonfirmasi penghapusan penyandingan. %1",
+    "tr": "Eşleştirmenin kaldırılması onaylanamadı. %1",
+    "vi": "Không thể xác nhận việc xóa ghép nối. %1",
+    "th": "ไม่สามารถยืนยันการนำการจับคู่ออกได้ %1",
+    "nl": "Kan het verwijderen van de koppeling niet bevestigen. %1",
+    "pl": "Nie można potwierdzić usunięcia parowania. %1",
+    "uk": "Не вдалося підтвердити видалення пари. %1",
+    "hi": "युग्मन हटाने की पुष्टि नहीं की जा सकी. %1",
+    "ms": "Tidak dapat mengesahkan pengalihan keluar gandingan. %1"
+  },
+  "Remote input disconnected. %1": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Remote input disconnected. %1",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Entrée distante déconnectée. %1",
+    "de": "Remote-Eingabe getrennt. %1",
+    "ar": "انقطع الإدخال البعيد. %1",
+    "zh-Hant": "遠端輸入連線已中斷。%1",
+    "zh-Hans": "远程输入已断开。 %1",
+    "ja": "リモート入力が切断されました。 %1",
+    "ko": "원격 입력이 끊어졌습니다. %1",
+    "pt": "Entrada remota desconectada. %1",
+    "es": "Entrada remota desconectada. %1",
+    "bo": "ཐག་རིང་གི་ནང་འཇུག་ཁ་བྲལ་འདུག %1།",
+    "it": "Ingresso remoto disconnesso. %1",
+    "ru": "Удаленный вход отключен. %1",
+    "id": "Input jarak jauh terputus. %1",
+    "tr": "Uzaktan giriş bağlantısı kesildi. %1",
+    "vi": "Đầu vào từ xa bị ngắt kết nối. %1",
+    "th": "อินพุตระยะไกลถูกตัดการเชื่อมต่อ %1",
+    "nl": "Ingang op afstand ontkoppeld. %1",
+    "pl": "Wejście zdalne odłączone. %1",
+    "uk": "Дистанційний вхід відключено. %1",
+    "hi": "रिमोट इनपुट डिस्कनेक्ट हो गया. %1",
+    "ms": "Input jauh diputuskan sambungan. %1"
+  },
+  "Balanced · native resolution / 60 fps": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Balanced · native resolution / 60 fps",
+    "zh-Hans": "均衡 · 原生分辨率 / 60 帧",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Équilibrée · résolution native / 60 i/s",
+    "de": "Ausgewogen · native Auflösung / 60 fps",
+    "ar": "متوازن · الدقة الأصلية / 60 إطارًا/ث",
+    "zh-Hant": "均衡 · 原生解析度 / 60 幀",
+    "ja": "バランス・ネイティブ解像度 / 60 fps",
+    "ko": "균형 잡힌 · 기본 해상도 / 60fps",
+    "pt": "Balanceado · resolução nativa / 60 fps",
+    "es": "Equilibrado · resolución nativa / 60 fps",
+    "bo": "དོ་མཉམ་པ། · ས་གནས་ཀྱི་ཆ་ཚད། / 60fps",
+    "it": "Bilanciato · risoluzione nativa / 60 fps",
+    "ru": "Сбалансированный · исходное разрешение / 60 кадров в секунду",
+    "id": "Seimbang · resolusi asli / 60 fps",
+    "tr": "Dengeli · doğal çözünürlük / 60 fps",
+    "vi": "Cân bằng · độ phân giải gốc / 60 khung hình / giây",
+    "th": "สมดุล · ความละเอียดดั้งเดิม / 60 fps",
+    "nl": "Gebalanceerd · oorspronkelijke resolutie / 60 fps",
+    "pl": "Zrównoważona · Rozdzielczość natywna / 60 kl./s",
+    "uk": "Збалансована · вихідна роздільна здатність / 60 кадрів/с",
+    "hi": "संतुलित · मूल रिज़ॉल्यूशन / 60 एफपीएस",
+    "ms": "Seimbang · peleraian asli / 60 fps"
+  },
+  "Save data · native resolution / 60 fps": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Save data · native resolution / 60 fps",
+    "zh-Hans": "省流量 · 原生分辨率 / 60 帧",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Économie de données · résolution native / 60 i/s",
+    "de": "Datensparend · native Auflösung / 60 fps",
+    "ar": "توفير البيانات · الدقة الأصلية / 60 إطارًا/ث",
+    "zh-Hant": "節省流量 · 原生解析度 / 60 幀",
+    "ja": "セーブデータ・ネイティブ解像度/60fps",
+    "ko": "데이터 저장 · 기본 해상도 / 60fps",
+    "pt": "Salvar dados · resolução nativa / 60 fps",
+    "es": "Guardar datos · resolución nativa / 60 fps",
+    "bo": "གཞི་གྲངས་ཉར་ཚགས། · ས་གནས་ཀྱི་གསལ་ཆ། / 60fps",
+    "it": "Salvataggio dati · risoluzione nativa/60 fps",
+    "ru": "Сохранение данных · исходное разрешение / 60 кадров в секунду",
+    "id": "Hemat data · resolusi asli / 60 fps",
+    "tr": "Verilerden tasarruf edin · yerel çözünürlük / 60 fps",
+    "vi": "Tiết kiệm dữ liệu · độ phân giải gốc / 60 khung hình / giây",
+    "th": "ประหยัดข้อมูล · ความละเอียดเนทีฟ / 60 fps",
+    "nl": "Gegevens opslaan · oorspronkelijke resolutie / 60 fps",
+    "pl": "Zapis danych · Natywna rozdzielczość / 60 kl./s",
+    "uk": "Збереження даних · рідна роздільна здатність / 60 кадрів в секунду",
+    "hi": "डेटा सहेजें · मूल रिज़ॉल्यूशन / 60 एफपीएस",
+    "ms": "Simpan data · resolusi asli / 60 fps"
+  },
+  "Sharp · native resolution / 60 fps": {
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    },
+    "en": "Sharp · native resolution / 60 fps",
+    "zh-Hans": "清晰 · 原生分辨率 / 60 帧",
+    "_web": [
+      "Browser"
+    ],
+    "fr": "Nette · résolution native / 60 i/s",
+    "de": "Scharf · native Auflösung / 60 fps",
+    "ar": "واضح · الدقة الأصلية / 60 إطارًا/ث",
+    "zh-Hant": "清晰 · 原生解析度 / 60 幀",
+    "ja": "シャープ・ネイティブ解像度 / 60 fps",
+    "ko": "선명한 · 기본 해상도 / 60fps",
+    "pt": "Nítido · resolução nativa / 60 fps",
+    "es": "Nítida · resolución nativa / 60 fps",
+    "bo": "རྣོ་བ། · ས་གནས་ཀྱི་ཆ་ཚད། / 60fps",
+    "it": "Nitido · risoluzione nativa/60 fps",
+    "ru": "Четкое · собственное разрешение / 60 кадров в секунду",
+    "id": "Tajam · resolusi asli / 60 fps",
+    "tr": "Keskin · doğal çözünürlük / 60 fps",
+    "vi": "Sắc nét · độ phân giải gốc / 60 khung hình/giây",
+    "th": "คมชัด · ความละเอียดดั้งเดิม / 60 fps",
+    "nl": "Scherp · native resolutie / 60 fps",
+    "pl": "Ostry · natywna rozdzielczość / 60 kl./s",
+    "uk": "Sharp · рідна роздільна здатність / 60 кадрів/с",
+    "hi": "तीव्र · मूल रिज़ॉल्यूशन / 60 एफपीएस",
+    "ms": "Tajam · resolusi asli / 60 fps"
   }
 }
