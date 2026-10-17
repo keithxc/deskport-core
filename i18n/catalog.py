@@ -21,6 +21,7 @@ def records():
     for source, row in data.items():
         assert row['en'] == source, source
         assert set(row['_platforms']) == {'desktop', 'apple', 'android'}, source
+        assert set(row.get('_web', [])) <= {'Browser'}, source
     return data
 
 

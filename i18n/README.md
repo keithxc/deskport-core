@@ -43,3 +43,21 @@ regional system-locale fallback. Tibetan uses `bo`; Arabic uses `ar` and RTL.
 
 Run `python3 i18n/catalog.py` and `python3 tests/test_i18n.py` before advancing
 consumer pins. Locale choice never changes any wire or stored protocol value.
+
+## Browser view — 2026-10-17
+
+`_web: ["Browser"]` explicitly scopes Web UI usage without changing the native
+`_platforms` schema. `_webTranslations.Browser` supplies a context-specific cell
+when the generic row does not cover that language. Consumers project this view
+and `languages.json` into static resources; English originals remain the IDs.
+No browser dictionary is authored in the consumer and no mobile source is used.
+
+The Web view contains 126 originals in all 22 primary locales. New Web-only
+translations are machine-assisted drafts (including a one-time authoring import);
+native-speaker review remains required, especially Tibetan and authentication
+instructions. Existing native translations and native output are unchanged.
+The authoring import is not a build or runtime dependency. Consumers retain an
+explicit English fallback for absent cells and unsupported browser languages.
+Error codes, settings IDs, user names, server messages and transmitted text are
+not translation keys. Numbered placeholders must be preserved; consumers insert
+values once as text and isolate bidirectional arguments.
