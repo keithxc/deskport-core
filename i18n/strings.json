@@ -32460,5 +32460,67 @@
     "uk": "Мінімальний розмір робочого столу хоста обмежує масштаб. Використовуйте повноекранний режим або більше вікно.",
     "hi": "होस्ट के न्यूनतम डेस्कटॉप आकार के कारण स्केलिंग सीमित है। पूर्ण स्क्रीन या बड़ी विंडो का उपयोग करें।",
     "ms": "Saiz desktop minimum hos mengehadkan penskalaan. Gunakan skrin penuh atau tetingkap yang lebih besar."
+  },
+  "Use the local input method": {
+    "en": "Use the local input method",
+    "_platforms": {
+      "desktop": [
+        "DeviceAdvanced"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "使用本地输入法",
+    "zh-Hant": "使用本機輸入法",
+    "ja": "ローカルの入力メソッドを使用",
+    "ko": "로컬 입력기 사용",
+    "fr": "Utiliser la méthode de saisie locale",
+    "de": "Lokale Eingabemethode verwenden",
+    "es": "Usar el método de entrada local",
+    "it": "Usa il metodo di input locale",
+    "pt": "Usar o método de entrada local",
+    "ru": "Использовать локальный метод ввода",
+    "id": "Gunakan metode masukan lokal",
+    "tr": "Yerel giriş yöntemini kullan",
+    "vi": "Dùng bộ gõ cục bộ",
+    "th": "ใช้วิธีป้อนข้อมูลของเครื่องนี้",
+    "nl": "Lokale invoermethode gebruiken",
+    "pl": "Używaj lokalnej metody wprowadzania",
+    "uk": "Використовувати локальний метод введення",
+    "hi": "स्थानीय इनपुट विधि का उपयोग करें",
+    "ms": "Gunakan kaedah input setempat",
+    "ar": "استخدام أسلوب الإدخال المحلي",
+    "bo": "ས་གནས་ཀྱི་ནང་འཇུག་ཐབས་ལམ་སྤྱོད།"
+  },
+  "Commit text with this computer's IME. Candidates stay at the top left; the remote caret is unavailable. Turn off for remote IME or games. Reconnect to apply.": {
+    "en": "Commit text with this computer's IME. Candidates stay at the top left; the remote caret is unavailable. Turn off for remote IME or games. Reconnect to apply.",
+    "_platforms": {
+      "desktop": [
+        "DeviceAdvanced"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "使用此电脑的输入法提交文字。候选窗口固定在左上角，无法获取远端文字光标。远端输入法或游戏请关闭此项。重连后生效。",
+    "zh-Hant": "使用此電腦的輸入法提交文字。候選視窗固定在左上角，無法取得遠端文字游標。遠端輸入法或遊戲請關閉此選項。重新連線後生效。",
+    "ja": "このコンピューターのIMEで文字を確定します。候補は左上に表示され、リモートのキャレット位置は使用できません。リモートIMEやゲームではオフにしてください。再接続後に適用されます。",
+    "ko": "이 컴퓨터의 입력기로 텍스트를 확정합니다. 후보 창은 왼쪽 위에 표시되며 원격 커서 위치는 사용할 수 없습니다. 원격 입력기나 게임에서는 끄세요. 다시 연결하면 적용됩니다.",
+    "fr": "Valide le texte avec la méthode de saisie de cet ordinateur. Les candidats restent en haut à gauche ; le curseur de texte distant est indisponible. Désactivez pour la saisie distante ou les jeux. Reconnectez-vous pour appliquer.",
+    "de": "Text mit der Eingabemethode dieses Computers bestätigen. Kandidaten bleiben oben links; der entfernte Textcursor ist nicht verfügbar. Für entfernte Eingabemethoden oder Spiele ausschalten. Zum Anwenden neu verbinden.",
+    "es": "Confirma texto con el método de entrada de este equipo. Los candidatos aparecen arriba a la izquierda; el cursor de texto remoto no está disponible. Desactívalo para la entrada remota o los juegos. Vuelve a conectar para aplicar.",
+    "it": "Conferma il testo con il metodo di input di questo computer. I candidati restano in alto a sinistra; il cursore di testo remoto non è disponibile. Disattiva per input remoto o giochi. Riconnetti per applicare.",
+    "pt": "Confirma texto com o método de entrada deste computador. Os candidatos ficam no canto superior esquerdo; o cursor de texto remoto não está disponível. Desative para entrada remota ou jogos. Reconecte para aplicar.",
+    "ru": "Текст подтверждается методом ввода этого компьютера. Кандидаты отображаются слева вверху; позиция удалённого текстового курсора недоступна. Отключите для удалённого ввода или игр. Для применения подключитесь заново.",
+    "id": "Konfirmasikan teks dengan metode masukan komputer ini. Kandidat tetap di kiri atas; kursor teks jarak jauh tidak tersedia. Nonaktifkan untuk masukan jarak jauh atau game. Hubungkan ulang untuk menerapkan.",
+    "tr": "Metni bu bilgisayarın giriş yöntemiyle onaylayın. Adaylar sol üstte kalır; uzak metin imleci kullanılamaz. Uzak giriş veya oyunlar için kapatın. Uygulamak için yeniden bağlanın.",
+    "vi": "Xác nhận văn bản bằng bộ gõ của máy tính này. Danh sách gợi ý ở góc trên bên trái; không có vị trí con trỏ văn bản từ xa. Tắt khi dùng bộ gõ từ xa hoặc chơi trò chơi. Kết nối lại để áp dụng.",
+    "th": "ยืนยันข้อความด้วยวิธีป้อนข้อมูลของคอมพิวเตอร์นี้ รายการคำอยู่ที่มุมซ้ายบน ไม่สามารถระบุตำแหน่งเคอร์เซอร์ข้อความระยะไกลได้ ปิดเมื่อใช้วิธีป้อนข้อมูลระยะไกลหรือเล่นเกม เชื่อมต่อใหม่เพื่อใช้การตั้งค่า",
+    "nl": "Bevestig tekst met de invoermethode van deze computer. Kandidaten blijven linksboven; de externe tekstcursor is niet beschikbaar. Schakel uit voor externe invoer of games. Verbind opnieuw om toe te passen.",
+    "pl": "Zatwierdzaj tekst metodą wprowadzania tego komputera. Kandydaci pozostają w lewym górnym rogu; zdalny kursor tekstowy jest niedostępny. Wyłącz dla zdalnego wprowadzania lub gier. Połącz ponownie, aby zastosować.",
+    "uk": "Підтверджуйте текст методом введення цього комп’ютера. Кандидати відображаються вгорі ліворуч; позиція віддаленого текстового курсора недоступна. Вимкніть для віддаленого введення чи ігор. Підключіться знову для застосування.",
+    "hi": "इस कंप्यूटर की इनपुट विधि से पाठ की पुष्टि करें। विकल्प ऊपर बाईं ओर रहेंगे; दूरस्थ पाठ कर्सर उपलब्ध नहीं है। दूरस्थ इनपुट या गेम के लिए बंद करें। लागू करने के लिए फिर से कनेक्ट करें।",
+    "ms": "Sahkan teks dengan kaedah input komputer ini. Calon kekal di kiri atas; kursor teks jauh tidak tersedia. Matikan untuk input jauh atau permainan. Sambung semula untuk menggunakan tetapan.",
+    "ar": "أكّد النص بأسلوب الإدخال على هذا الكمبيوتر. تبقى الاقتراحات أعلى اليسار؛ موضع مؤشر النص البعيد غير متاح. عطّل هذا الخيار للإدخال البعيد أو الألعاب. أعد الاتصال لتطبيق التغيير.",
+    "bo": "རྩིས་འཁོར་འདིའི་ནང་འཇུག་ཐབས་ལམ་གྱིས་ཡི་གེ་གཏན་འཁེལ་བྱེད། འདེམས་ཚིག་གཡོན་སྟེང་དུ་ཡོད། ཐག་རིང་གི་ཡི་གེའི་འོད་རྟགས་གནས་ས་མེད། ཐག་རིང་ནང་འཇུག་གམ་རྩེད་མོར་ཁ་རྒྱག སླར་མཐུད་ནས་སྤྱོད།"
   }
 }

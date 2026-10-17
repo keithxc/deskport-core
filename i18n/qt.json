@@ -7041,6 +7041,18 @@
       "attributes": {},
       "elements": [],
       "translationType": null
+    },
+    "389a1646675e21ae": {
+      "source": "Use the local input method",
+      "attributes": {},
+      "elements": [],
+      "translationType": "unfinished"
+    },
+    "70dc6cb8bdb561ba": {
+      "source": "Commit text with this computer's IME. Candidates stay at the top left; the remote caret is unavailable. Turn off for remote IME or games. Reconnect to apply.",
+      "attributes": {},
+      "elements": [],
+      "translationType": "unfinished"
     }
   },
   "catalogs": {
@@ -8729,7 +8741,9 @@
             "e5dde52418815642",
             "e53777f6aba1d40d",
             "27cf099b474e20a1",
-            "99d6bab26327f954"
+            "99d6bab26327f954",
+            "389a1646675e21ae",
+            "70dc6cb8bdb561ba"
           ]
         },
         {
@@ -10122,7 +10136,9 @@
             "e5dde52418815642",
             "e53777f6aba1d40d",
             "27cf099b474e20a1",
-            "99d6bab26327f954"
+            "99d6bab26327f954",
+            "389a1646675e21ae",
+            "70dc6cb8bdb561ba"
           ]
         },
         {
@@ -11505,7 +11521,9 @@
             "e5dde52418815642",
             "e53777f6aba1d40d",
             "27cf099b474e20a1",
-            "99d6bab26327f954"
+            "99d6bab26327f954",
+            "389a1646675e21ae",
+            "70dc6cb8bdb561ba"
           ]
         },
         {
@@ -14003,7 +14021,9 @@
             "e5dde52418815642",
             "e53777f6aba1d40d",
             "27cf099b474e20a1",
-            "99d6bab26327f954"
+            "99d6bab26327f954",
+            "389a1646675e21ae",
+            "70dc6cb8bdb561ba"
           ]
         },
         {
@@ -15026,7 +15046,9 @@
             "e5dde52418815642",
             "e53777f6aba1d40d",
             "27cf099b474e20a1",
-            "99d6bab26327f954"
+            "99d6bab26327f954",
+            "389a1646675e21ae",
+            "70dc6cb8bdb561ba"
           ]
         },
         {
@@ -20556,7 +20578,9 @@
             "e5dde52418815642",
             "e53777f6aba1d40d",
             "27cf099b474e20a1",
-            "99d6bab26327f954"
+            "99d6bab26327f954",
+            "389a1646675e21ae",
+            "70dc6cb8bdb561ba"
           ]
         },
         {
@@ -21634,7 +21658,9 @@
             "e5dde52418815642",
             "e53777f6aba1d40d",
             "27cf099b474e20a1",
-            "99d6bab26327f954"
+            "99d6bab26327f954",
+            "389a1646675e21ae",
+            "70dc6cb8bdb561ba"
           ]
         },
         {
