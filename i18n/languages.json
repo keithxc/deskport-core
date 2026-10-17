@@ -1,0 +1,13 @@
+[
+  {"code":"en", "name":"English", "qt":"en", "android":"", "direction":"ltr"},
+  {"code":"zh-Hans", "name":"简体中文", "qt":"zh_CN", "android":"-b+zh+Hans", "direction":"ltr"},
+  {"code":"zh-Hant", "name":"繁體中文", "qt":"zh_TW", "android":"-b+zh+Hant", "direction":"ltr"},
+  {"code":"ja", "name":"日本語", "qt":"ja", "android":"-ja", "direction":"ltr"},
+  {"code":"fr", "name":"Français", "qt":"fr", "android":"-fr", "direction":"ltr"},
+  {"code":"de", "name":"Deutsch", "qt":"de", "android":"-de", "direction":"ltr"},
+  {"code":"ar", "name":"العربية", "qt":"ar", "android":"-ar", "direction":"rtl"},
+  {"code":"ko", "name":"한국어", "qt":"ko", "android":"-ko", "direction":"ltr"},
+  {"code":"pt", "name":"Português", "qt":"pt", "android":"-pt", "direction":"ltr"},
+  {"code":"es", "name":"Español", "qt":"es", "android":"-es", "direction":"ltr"},
+  {"code":"bo", "name":"བོད་ཡིག", "qt":"bo", "android":"-bo", "direction":"ltr"}
+]

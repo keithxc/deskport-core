@@ -4,6 +4,11 @@ Small, platform-independent contracts and workspace policy shared by DeskPort's
 desktop and native clients. Legacy modules are GPL-3.0-or-later; the standalone
 `portable/` catalog is MIT. See LICENSE, portable/LICENSE and NOTICE.md.
 
+`i18n/` owns the English-keyed UI translation table, platform usage, locale
+registry and offline manual text. Native UI adapters generate their resources
+from this table; wire identifiers never pass through localization. See
+[the localization contract](i18n/README.md).
+
 The initial implementation is header-only C11, also consumable by C++ and
 Objective-C. Keeping this small arithmetic policy inline avoids adding a library
 link step to pinned upstream projects. There is one implementation, not generated

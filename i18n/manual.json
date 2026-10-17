@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "chapters": [
+    {
+      "id": "about",
+      "title": "What DeskPort is",
+      "steps": [
+        {
+          "text": "DeskPort shares one computer and lets your other devices use its desktop."
+        },
+        {
+          "text": "The computer being used is the host; the device you sit at is the client. A computer can be both."
+        },
+        {
+          "text": "Devices are bound to each other once. Access is approved on the host and can be withdrawn there."
+        }
+      ]
+    },
+    {
+      "id": "share",
+      "title": "Share this computer",
+      "steps": [
+        {
+          "text": "Open Sharing in the top bar and choose Start sharing."
+        },
+        {
+          "text": "Grant screen recording and accessibility access when asked. Sharing runs without them, but the picture or input will not work."
+        },
+        {
+          "text": "A dot under the sharing icon means this computer is currently shared."
+        }
+      ]
+    },
+    {
+      "id": "connect",
+      "title": "Connect to a computer",
+      "steps": [
+        {
+          "text": "Devices on the same network appear on the device list by themselves."
+        },
+        {
+          "text": "Use Add device on the add card for a computer on another network, and enter its address."
+        },
+        {
+          "text": "Selecting a device the first time asks the host for access; approve the request there."
+        },
+        {
+          "text": "If another device is already connected, you are asked whether to take over. Taking over disconnects that device."
+        }
+      ]
+    },
+    {
+      "id": "organize",
+      "title": "Organize the device list",
+      "steps": [
+        {
+          "text": "Edit in the top bar starts edit mode; drag cards to reorder them."
+        },
+        {
+          "text": "Drop one device onto another to group them, like folders on a phone home screen."
+        },
+        {
+          "text": "Set alias in the card's menu renames a device for this device only."
+        },
+        {
+          "text": "Refresh checks saved devices again and looks for new ones."
+        }
+      ]
+    },
+    {
+      "id": "fullscreen",
+      "title": "Full screen",
+      "steps": [
+        {
+          "text": "On a computer, Full screen in the device's settings decides how a connection to that device opens."
+        },
+        {
+          "text": "On a computer, Ctrl+Alt+Shift+X switches full screen on and off during a connection; on a phone or tablet it brings back the floating button."
+        },
+        {
+          "text": "Phones and tablets always show the remote desktop on the whole screen. Tap the floating button for the keyboard; hold it for the menu."
+        },
+        {
+          "text": "The host can ask a connected device to leave full screen; it never forces it into full screen."
+        }
+      ]
+    },
+    {
+      "id": "picture",
+      "title": "Picture and virtual screen",
+      "steps": [
+        {
+          "text": "The remote desktop follows your window size, so resizing the window resizes the remote desktop."
+        },
+        {
+          "text": "Virtual screen decides what happens to the host's own screens while you are connected."
+        },
+        {
+          "text": "Desktop fine tuning makes everything on the remote desktop larger or smaller."
+        },
+        {
+          "text": "These settings are saved per device."
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "title": "When something goes wrong",
+      "steps": [
+        {
+          "text": "A device shown as offline is usually asleep, on another network, or not sharing."
+        },
+        {
+          "text": "Refresh in the top bar re-checks every saved device."
+        },
+        {
+          "text": "Report a problem in Settings collects a log archive you can attach to an issue. Review it before sharing it."
+        }
+      ]
+    }
+  ]
+}
