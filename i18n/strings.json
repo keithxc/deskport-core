@@ -6207,15 +6207,15 @@
     "ar": "مظهر",
     "bo": "ཕྱི་ཚུལ",
     "it": "Aspetto",
-    "ru": "Появление",
+    "ru": "Внешний вид",
     "id": "Penampilan",
     "tr": "Dış görünüş",
     "vi": "Vẻ bề ngoài",
-    "th": "รูปร่าง",
-    "nl": "Verschijning",
+    "th": "รูปลักษณ์",
+    "nl": "Uiterlijk",
     "pl": "Wygląd",
     "uk": "Зовнішній вигляд",
-    "hi": "उपस्थिति",
+    "hi": "दिखावट",
     "ms": "Penampilan"
   },
   "Theme": {
@@ -6244,9 +6244,9 @@
     "vi": "chủ đề",
     "th": "ธีม",
     "nl": "Thema",
-    "pl": "Temat",
+    "pl": "Motyw",
     "uk": "Тема",
-    "hi": "विषय",
+    "hi": "थीम",
     "ms": "Tema"
   },
   "Accent color": {
@@ -6277,7 +6277,7 @@
     "nl": "Accentkleur",
     "pl": "Kolor akcentujący",
     "uk": "Акцентний колір",
-    "hi": "उच्चारण रंग",
+    "hi": "एक्सेंट रंग",
     "ms": "Warna aksen"
   },
   "Light": {
@@ -9253,7 +9253,7 @@
     "vi": "Kích thước nút nổi",
     "th": "ขนาดปุ่มลอย",
     "nl": "Zwevende knopgrootte",
-    "pl": "Pływający rozmiar przycisku",
+    "pl": "Rozmiar pływającego przycisku",
     "uk": "Розмір плаваючої кнопки",
     "hi": "फ़्लोटिंग बटन का आकार",
     "ms": "Saiz butang terapung"
