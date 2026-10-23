@@ -44,6 +44,13 @@ regional system-locale fallback. Tibetan uses `bo`; Arabic uses `ar` and RTL.
 Run `python3 i18n/catalog.py` and `python3 tests/test_i18n.py` before advancing
 consumer pins. Locale choice never changes any wire or stored protocol value.
 
+## Desktop shortcut and manual expansion — 2026-10-24
+
+The desktop window-shortcut controls have draft translations in all 22 primary
+locales. Expanded manual sections are authored in English, Simplified Chinese
+and Traditional Chinese; other locales retain their existing translations and
+use the documented English fallback for new paragraphs.
+
 ## Browser view — 2026-10-17
 
 `_web: ["Browser"]` explicitly scopes Web UI usage without changing the native

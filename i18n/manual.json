@@ -13,6 +13,9 @@
         },
         {
           "text": "Devices are bound to each other once. Access is approved on the host and can be withdrawn there."
+        },
+        {
+          "text": "DeskPort keeps saved devices and settings on this device. It does not require a DeskPort account."
         }
       ]
     },
@@ -28,6 +31,12 @@
         },
         {
           "text": "A dot under the sharing icon means this computer is currently shared."
+        },
+        {
+          "text": "On macOS, check Screen Recording and Accessibility in System Settings if the picture is blank or remote control does not work. Sharing shows permission and readiness checks."
+        },
+        {
+          "text": "Hide the DeskPort window to keep sharing in the background. Use Stop sharing when this computer should no longer accept desktop connections."
         }
       ]
     },
@@ -46,6 +55,15 @@
         },
         {
           "text": "If another device is already connected, you are asked whether to take over. Taking over disconnects that device."
+        },
+        {
+          "text": "For another network, both devices still need a reachable route, such as your own VPN or Tailscale network. Adding an address does not create that route."
+        },
+        {
+          "text": "Sunshine and hosts without DeskPort binding use Add a legacy host and PIN pairing. Keep the host open to approve the PIN."
+        },
+        {
+          "text": "Remove saved access on the Sharing computer to revoke control. Removing a card from Devices and revoking access are separate actions; remove both directions when unbinding two computers."
         }
       ]
     },
@@ -64,6 +82,51 @@
         },
         {
           "text": "Refresh checks saved devices again and looks for new ones."
+        },
+        {
+          "text": "Open a device card's menu for its status, address and connection actions. Change address updates the saved connection entry; an alias does not rename the remote computer."
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "title": "Windows and background sessions",
+      "steps": [
+        {
+          "text": "On desktop, closing or hiding a viewer keeps its session connected in the background. Disconnect ends that connection; Quit exits DeskPort."
+        },
+        {
+          "text": "Recall the active desktop from the tray menu or device list. With several sessions, select the one you want from the session menu."
+        },
+        {
+          "text": "Hiding a viewer or moving focus away releases held remote keys and buttons. The local computer remains usable while the remote session stays connected."
+        },
+        {
+          "text": "Use Reconnect in the device menu if a session needs a fresh connection or to apply saved streaming settings."
+        }
+      ]
+    },
+    {
+      "id": "shortcuts",
+      "title": "Keyboard shortcuts on desktop",
+      "steps": [
+        {
+          "text": "Meta + ' shows or hides DeskPort: use Command + ' on macOS, Windows + ' on Windows, or Super + ' on Linux. Release the keys to trigger it. It recalls the selected session, or Devices when no session is connected."
+        },
+        {
+          "text": "Settings → Keyboard shortcuts → Global window shortcut is on by default. Turning it off releases the system binding and disables the viewer fallback immediately. This choice is saved on this computer."
+        },
+        {
+          "text": "On Wayland, the desktop may ask permission and let you choose the binding. The desktop's chosen shortcut takes precedence. If registration is denied, unsupported or already in use, use the tray or device list; DeskPort does not replace another app's binding."
+        },
+        {
+          "text": "During a desktop connection, Ctrl+Alt+Shift+Z releases or recaptures remote input; X toggles full screen; N switches to the next connected desktop. Hold Ctrl+Alt+Shift for each letter."
+        },
+        {
+          "text": "Ctrl+Alt+Shift+S toggles streaming statistics; D minimizes the viewer; M switches pointer mode; C toggles the local pointer in desktop mode; L toggles pointer confinement."
+        },
+        {
+          "text": "Ctrl+Alt+Shift+V sends local clipboard text as typed text. Q leaves full screen first; pressing Ctrl+Alt+Shift+Q again from the window disconnects."
         }
       ]
     },
@@ -72,7 +135,7 @@
       "title": "Full screen",
       "steps": [
         {
-          "text": "On a computer, Full screen in the device's settings decides how a connection to that device opens."
+          "text": "On desktop, Device settings → Advanced streaming settings → Connection window chooses Window, Full screen or Borderless full screen for the next connection."
         },
         {
           "text": "On a computer, Ctrl+Alt+Shift+X switches full screen on and off during a connection; on a phone or tablet it brings back the floating button."
@@ -100,6 +163,93 @@
         },
         {
           "text": "These settings are saved per device."
+        },
+        {
+          "text": "Fit to window uses the viewer's drawable pixels. Turn it off to use the saved resolution instead; available desktop sizes and scaling still depend on the host."
+        },
+        {
+          "text": "Desktop fine tuning: 1.5 makes controls larger; 0.5 fits more content. It takes effect during a connection. A host minimum size can limit further enlargement; try a larger window or full screen."
+        },
+        {
+          "text": "Main + mirror mirrors the remote workspace, Main only turns off other host screens, and Extended adds a workspace. Support varies by host; the previous screen layout is restored when the session ends."
+        }
+      ]
+    },
+    {
+      "id": "input",
+      "title": "Keyboard, pointer and clipboard",
+      "steps": [
+        {
+          "text": "Device settings → Input controls whether keyboard, pointer and controller events are sent. Turn it off for viewing only; Sound separately controls received audio."
+        },
+        {
+          "text": "Advanced streaming settings → Keyboard & pointer contains pointer mode, scrolling direction, system shortcut forwarding and session clipboard sharing."
+        },
+        {
+          "text": "On a Mac host, Super / Windows maps to Command and Alt maps to Option. The operating system may reserve some shortcuts; use Ctrl+Alt+Shift+Z to return input to the local computer."
+        },
+        {
+          "text": "Use the local input method is off by default. Enable it per device and reconnect to compose with this computer's IME. Candidates appear near the top left, not at the remote caret; use the remote IME or physical keys for games when needed."
+        },
+        {
+          "text": "Session clipboard sharing supports text, images and files when both peers support them. Keep the session connected and check this option on both ends if copy and paste fails."
+        },
+        {
+          "text": "Most device streaming changes apply after reconnecting. Desktop fine tuning applies during the session; appearance and the global window shortcut apply immediately."
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Picture quality, sound and data usage",
+      "steps": [
+        {
+          "text": "Advanced streaming settings offers Automatic, Clear, Smooth, Save data and Custom picture modes. Automatic chooses bandwidth from the resolution and adapts to the network."
+        },
+        {
+          "text": "Save data uses 30 fps and a 5 Mbps video limit. The data saver switch in the top bar applies to every device; audio and protocol traffic are additional."
+        },
+        {
+          "text": "Higher frame rates and bandwidth need more network and processing capacity. If motion stutters or input feels delayed, lower them and check streaming statistics before increasing quality."
+        },
+        {
+          "text": "Sound options include muting when DeskPort loses focus and also playing audio on the host. If sound is missing, check the device's Sound switch, focus mute and both computers' audio outputs."
+        }
+      ]
+    },
+    {
+      "id": "browser",
+      "title": "Connect from a browser",
+      "steps": [
+        {
+          "text": "On the desktop host, open Sharing → Browser access, then scan or open the displayed URL on the other device. Start sharing before connecting."
+        },
+        {
+          "text": "Enter the six-digit code shown on the host or in your authenticator app; it changes every 30 seconds. Devices recognized as signed in to the same Tailscale account can connect without the code."
+        },
+        {
+          "text": "The connecting device must trust the host's local HTTPS certificate. Check the URL and certificate against your own host before trusting it."
+        },
+        {
+          "text": "Remember this browser for 7 days skips later code prompts on that browser. Remove a paired browser from Sharing to revoke it. Keep the authenticator QR private; resetting its secret invalidates existing authenticators."
+        }
+      ]
+    },
+    {
+      "id": "diagnostics",
+      "title": "Settings, privacy and feedback",
+      "steps": [
+        {
+          "text": "Settings controls this computer's theme, accent color, language, top-bar data usage and global window shortcut. Device settings controls each saved connection separately."
+        },
+        {
+          "text": "Diagnostic logs are off by default. Enable them in Settings → Diagnostics and feedback before reproducing a problem. They stay on this computer until you choose to share them."
+        },
+        {
+          "text": "Report a problem creates a ZIP and opens a draft GitHub issue. Nothing is uploaded or submitted automatically. Review the archive and describe the steps, systems and expected behavior before attaching it to a public issue."
+        },
+        {
+          "text": "Turning diagnostics off stops new recording. Clear saved diagnostics removes existing logs and the generated ZIP. Privacy and Licenses in Settings explain recorded data and bundled software."
         }
       ]
     },
@@ -115,6 +265,15 @@
         },
         {
           "text": "Report a problem in Settings collects a log archive you can attach to an issue. Review it before sharing it."
+        },
+        {
+          "text": "If a device stays offline, confirm it is awake, sharing is on and its saved address is reachable. Check the host's readiness and firewall before retrying; Refresh cannot wake every host or repair a network route."
+        },
+        {
+          "text": "For a black picture, check screen recording permission and the selected host display. For missing control, check Accessibility, the device's Input switch and whether the viewer has focus."
+        },
+        {
+          "text": "If the global window shortcut stops working, check its Settings switch, the desktop's shortcut permission and conflicts with other apps. Turn it off and on to request registration again; the tray and Devices remain available."
         }
       ]
     }

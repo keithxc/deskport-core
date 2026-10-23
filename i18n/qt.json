@@ -7053,6 +7053,24 @@
       "attributes": {},
       "elements": [],
       "translationType": "unfinished"
+    },
+    "e01f1416405ff5b9": {
+      "source": "Keyboard shortcuts",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "4130cf46e9a73de0": {
+      "source": "Global window shortcut",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "12e77c42fe8ba7e2": {
+      "source": "%1 shows or hides DeskPort. Enabled by default; changes apply immediately.",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
     }
   },
   "catalogs": {
@@ -7756,7 +7774,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -8370,7 +8391,10 @@
             "6c220de5ff633044",
             "c60d082cd41af35f",
             "5b4d76d9216c7ea3",
-            "9924fa0e342d2888"
+            "9924fa0e342d2888",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -9157,7 +9181,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -9765,7 +9792,10 @@
             "6c220de5ff633044",
             "c60d082cd41af35f",
             "5b4d76d9216c7ea3",
-            "9924fa0e342d2888"
+            "9924fa0e342d2888",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -11150,7 +11180,10 @@
             "6c220de5ff633044",
             "c60d082cd41af35f",
             "5b4d76d9216c7ea3",
-            "9924fa0e342d2888"
+            "9924fa0e342d2888",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -12653,7 +12686,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -13030,7 +13066,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -13646,7 +13685,10 @@
             "6c220de5ff633044",
             "c60d082cd41af35f",
             "5b4d76d9216c7ea3",
-            "9924fa0e342d2888"
+            "9924fa0e342d2888",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -14675,7 +14717,10 @@
             "6c220de5ff633044",
             "c60d082cd41af35f",
             "5b4d76d9216c7ea3",
-            "9924fa0e342d2888"
+            "9924fa0e342d2888",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -15829,7 +15874,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -16200,7 +16248,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -16577,7 +16628,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -16954,7 +17008,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -17692,7 +17749,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -18069,7 +18129,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -18444,7 +18507,10 @@
         {
           "name": "SettingsHome",
           "messages": [
-            "19525922d8db9bb6"
+            "19525922d8db9bb6",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -18821,7 +18887,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -19566,7 +19635,10 @@
           "name": "SettingsHome",
           "messages": [
             "19525922d8db9bb6",
-            "39c87d64157fc6af"
+            "39c87d64157fc6af",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -20191,7 +20263,10 @@
             "6c220de5ff633044",
             "c60d082cd41af35f",
             "5b4d76d9216c7ea3",
-            "9924fa0e342d2888"
+            "9924fa0e342d2888",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {
@@ -21271,7 +21346,10 @@
             "6c220de5ff633044",
             "c60d082cd41af35f",
             "5b4d76d9216c7ea3",
-            "9924fa0e342d2888"
+            "9924fa0e342d2888",
+            "e01f1416405ff5b9",
+            "4130cf46e9a73de0",
+            "12e77c42fe8ba7e2"
           ]
         },
         {

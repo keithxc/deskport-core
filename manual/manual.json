@@ -105,6 +105,13 @@
             "hi": "डिवाइस एक बार एक दूसरे से बंधे होते हैं। होस्ट पर पहुंच स्वीकृत है और इसे वहां वापस लिया जा सकता है।",
             "ms": "Peranti terikat satu sama lain sekali. Akses diluluskan pada hos dan boleh ditarik balik di sana."
           }
+        },
+        {
+          "text": {
+            "en": "DeskPort keeps saved devices and settings on this device. It does not require a DeskPort account.",
+            "zh-Hans": "DeskPort 将已保存的设备和设置保存在本机，无需注册 DeskPort 账号。",
+            "zh-Hant": "DeskPort 將已儲存的裝置和設定保存在本機，無需註冊 DeskPort 帳號。"
+          }
         }
       ]
     },
@@ -211,6 +218,20 @@
             "uk": "Крапка під піктограмою спільного доступу означає, що цей комп’ютер наразі спільний.",
             "hi": "साझाकरण आइकन के नीचे एक बिंदु का अर्थ है कि यह कंप्यूटर वर्तमान में साझा किया गया है।",
             "ms": "Titik di bawah ikon perkongsian bermakna komputer ini sedang dikongsi."
+          }
+        },
+        {
+          "text": {
+            "en": "On macOS, check Screen Recording and Accessibility in System Settings if the picture is blank or remote control does not work. Sharing shows permission and readiness checks.",
+            "zh-Hans": "在 macOS 上，如果画面空白或无法远程控制，请检查系统设置中的屏幕录制和辅助功能权限。“共享”页面会显示权限与连接就绪检查。",
+            "zh-Hant": "在 macOS 上，如果畫面空白或無法遠端控制，請檢查系統設定中的螢幕錄製和輔助使用權限。「共享」頁面會顯示權限與連線就緒檢查。"
+          }
+        },
+        {
+          "text": {
+            "en": "Hide the DeskPort window to keep sharing in the background. Use Stop sharing when this computer should no longer accept desktop connections.",
+            "zh-Hans": "隐藏 DeskPort 窗口后仍可在后台共享。如果不希望这台电脑继续接受桌面连接，请选择“停止共享”。",
+            "zh-Hant": "隱藏 DeskPort 視窗後仍可在背景共享。如果不希望這台電腦繼續接受桌面連線，請選擇「停止共享」。"
           }
         }
       ]
@@ -345,6 +366,27 @@
             "hi": "यदि कोई अन्य डिवाइस पहले से ही कनेक्ट है, तो आपसे पूछा जाएगा कि क्या इसे संभालना है। कार्यभार संभालने से वह उपकरण डिस्कनेक्ट हो जाता है.",
             "ms": "Jika peranti lain sudah disambungkan, anda akan ditanya sama ada untuk mengambil alih. Mengambil alih memutuskan sambungan peranti itu."
           }
+        },
+        {
+          "text": {
+            "en": "For another network, both devices still need a reachable route, such as your own VPN or Tailscale network. Adding an address does not create that route.",
+            "zh-Hans": "跨网络连接时，两台设备仍须通过自己的 VPN 或 Tailscale 等网络互相访问。添加地址本身不会建立网络通道。",
+            "zh-Hant": "跨網路連線時，兩台裝置仍須透過自己的 VPN 或 Tailscale 等網路互相存取。新增位址本身不會建立網路通道。"
+          }
+        },
+        {
+          "text": {
+            "en": "Sunshine and hosts without DeskPort binding use Add a legacy host and PIN pairing. Keep the host open to approve the PIN.",
+            "zh-Hans": "Sunshine 等不支持 DeskPort 绑定的主机可以使用“添加旧版主机”和 PIN 配对。请保持主机程序打开，以便确认 PIN。",
+            "zh-Hant": "Sunshine 等不支援 DeskPort 綁定的主機可以使用「新增舊版主機」和 PIN 配對。請保持主機程式開啟，以便確認 PIN。"
+          }
+        },
+        {
+          "text": {
+            "en": "Remove saved access on the Sharing computer to revoke control. Removing a card from Devices and revoking access are separate actions; remove both directions when unbinding two computers.",
+            "zh-Hans": "要撤销控制权限，请在提供共享的电脑上移除已保存的访问授权。移除设备卡片与撤销授权是两项操作；解除两台电脑的双向绑定时，请分别移除两端授权。",
+            "zh-Hant": "要撤銷控制權限，請在提供共享的電腦上移除已儲存的存取授權。移除裝置卡片與撤銷授權是兩項操作；解除兩台電腦的雙向綁定時，請分別移除兩端授權。"
+          }
         }
       ]
     },
@@ -478,6 +520,103 @@
             "hi": "रिफ्रेश सहेजे गए डिवाइसों की दोबारा जांच करता है और नए की तलाश करता है।",
             "ms": "Muat semula semak semula peranti yang disimpan dan cari yang baharu."
           }
+        },
+        {
+          "text": {
+            "en": "Open a device card's menu for its status, address and connection actions. Change address updates the saved connection entry; an alias does not rename the remote computer.",
+            "zh-Hans": "打开设备卡片菜单可查看状态、地址和连接操作。“更改地址”会更新保存的连接入口；设置别名不会改变远程电脑的名称。",
+            "zh-Hant": "開啟裝置卡片選單可查看狀態、位址和連線操作。「變更位址」會更新儲存的連線入口；設定別名不會改變遠端電腦的名稱。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "title": {
+        "en": "Windows and background sessions",
+        "zh-Hans": "窗口与后台连接",
+        "zh-Hant": "視窗與背景連線"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "On desktop, closing or hiding a viewer keeps its session connected in the background. Disconnect ends that connection; Quit exits DeskPort.",
+            "zh-Hans": "在电脑端，关闭或隐藏远程窗口后，连接仍保留在后台。“断开连接”会结束该连接；“退出”会关闭 DeskPort。",
+            "zh-Hant": "在電腦端，關閉或隱藏遠端視窗後，連線仍保留在背景。「中斷連線」會結束該連線；「結束」會關閉 DeskPort。"
+          }
+        },
+        {
+          "text": {
+            "en": "Recall the active desktop from the tray menu or device list. With several sessions, select the one you want from the session menu.",
+            "zh-Hans": "可以从托盘菜单或设备列表唤回已连接的桌面。有多个连接时，从会话菜单选择要使用的桌面。",
+            "zh-Hant": "可以從系統匣選單或裝置列表喚回已連線的桌面。有多個連線時，從工作階段選單選擇要使用的桌面。"
+          }
+        },
+        {
+          "text": {
+            "en": "Hiding a viewer or moving focus away releases held remote keys and buttons. The local computer remains usable while the remote session stays connected.",
+            "zh-Hans": "隐藏远程窗口或切换焦点时，会释放远端按住的按键和鼠标按钮。远程连接保留期间，本机仍可正常使用。",
+            "zh-Hant": "隱藏遠端視窗或切換焦點時，會釋放遠端按住的按鍵和滑鼠按鈕。遠端連線保留期間，本機仍可正常使用。"
+          }
+        },
+        {
+          "text": {
+            "en": "Use Reconnect in the device menu if a session needs a fresh connection or to apply saved streaming settings.",
+            "zh-Hans": "如果会话需要重新建立连接，或要应用已保存的串流设置，请在设备菜单中使用“重新连接”。",
+            "zh-Hant": "如果工作階段需要重新建立連線，或要套用已儲存的串流設定，請在裝置選單中使用「重新連線」。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shortcuts",
+      "title": {
+        "en": "Keyboard shortcuts on desktop",
+        "zh-Hans": "电脑端键盘快捷键",
+        "zh-Hant": "電腦端鍵盤快捷鍵"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "Meta + ' shows or hides DeskPort: use Command + ' on macOS, Windows + ' on Windows, or Super + ' on Linux. Release the keys to trigger it. It recalls the selected session, or Devices when no session is connected.",
+            "zh-Hans": "Meta + ' 可显示或隐藏 DeskPort：macOS 使用 Command + '，Windows 使用 Windows + '，Linux 使用 Super + '。松开组合键后触发；有连接时唤回所选会话，没有连接时显示设备列表。",
+            "zh-Hant": "Meta + ' 可顯示或隱藏 DeskPort：macOS 使用 Command + '，Windows 使用 Windows + '，Linux 使用 Super + '。放開組合鍵後觸發；有連線時喚回所選工作階段，沒有連線時顯示裝置列表。"
+          }
+        },
+        {
+          "text": {
+            "en": "Settings → Keyboard shortcuts → Global window shortcut is on by default. Turning it off releases the system binding and disables the viewer fallback immediately. This choice is saved on this computer.",
+            "zh-Hans": "“设置 → 键盘快捷键 → 全局窗口快捷键”默认开启。关闭后立即释放系统快捷键，并停用远程窗口内的备用处理。此选项保存在本机。",
+            "zh-Hant": "「設定 → 鍵盤快速鍵 → 全域視窗快速鍵」預設開啟。關閉後立即釋放系統快速鍵，並停用遠端視窗內的備用處理。此選項保存在本機。"
+          }
+        },
+        {
+          "text": {
+            "en": "On Wayland, the desktop may ask permission and let you choose the binding. The desktop's chosen shortcut takes precedence. If registration is denied, unsupported or already in use, use the tray or device list; DeskPort does not replace another app's binding.",
+            "zh-Hans": "在 Wayland 上，桌面环境可能请求授权并让你选择快捷键，以桌面分配的组合键为准。如果授权被拒绝、不受支持或快捷键已被占用，可使用托盘或设备列表；DeskPort 不会替换其他应用的快捷键。",
+            "zh-Hant": "在 Wayland 上，桌面環境可能請求授權並讓你選擇快速鍵，以桌面指派的組合鍵為準。如果授權被拒絕、不受支援或快速鍵已被占用，可使用系統匣或裝置列表；DeskPort 不會替換其他應用程式的快速鍵。"
+          }
+        },
+        {
+          "text": {
+            "en": "During a desktop connection, Ctrl+Alt+Shift+Z releases or recaptures remote input; X toggles full screen; N switches to the next connected desktop. Hold Ctrl+Alt+Shift for each letter.",
+            "zh-Hans": "电脑端连接期间，Ctrl+Alt+Shift+Z 释放或重新捕获远程输入，X 切换全屏，N 切换到下一个已连接桌面。每个字母都需同时按住 Ctrl+Alt+Shift。",
+            "zh-Hant": "電腦端連線期間，Ctrl+Alt+Shift+Z 釋放或重新擷取遠端輸入，X 切換全螢幕，N 切換到下一個已連線桌面。每個字母都需同時按住 Ctrl+Alt+Shift。"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+Alt+Shift+S toggles streaming statistics; D minimizes the viewer; M switches pointer mode; C toggles the local pointer in desktop mode; L toggles pointer confinement.",
+            "zh-Hans": "Ctrl+Alt+Shift+S 显示或隐藏串流统计；D 最小化远程窗口；M 切换指针模式；C 在桌面指针模式下切换本地指针显示；L 切换指针范围锁定。",
+            "zh-Hant": "Ctrl+Alt+Shift+S 顯示或隱藏串流統計；D 最小化遠端視窗；M 切換指標模式；C 在桌面指標模式下切換本機指標顯示；L 切換指標範圍鎖定。"
+          }
+        },
+        {
+          "text": {
+            "en": "Ctrl+Alt+Shift+V sends local clipboard text as typed text. Q leaves full screen first; pressing Ctrl+Alt+Shift+Q again from the window disconnects.",
+            "zh-Hans": "Ctrl+Alt+Shift+V 将本地剪贴板文本作为输入文字发送。Q 会先退出全屏；在窗口模式下再按 Ctrl+Alt+Shift+Q 则断开连接。",
+            "zh-Hant": "Ctrl+Alt+Shift+V 將本機剪貼簿文字作為輸入文字傳送。Q 會先離開全螢幕；在視窗模式下再按 Ctrl+Alt+Shift+Q 則中斷連線。"
+          }
         }
       ]
     },
@@ -510,28 +649,9 @@
       "steps": [
         {
           "text": {
-            "en": "On a computer, Full screen in the device's settings decides how a connection to that device opens.",
-            "zh-Hans": "在电脑上，设备设置里的全屏决定连接这台设备时以什么方式打开。",
-            "zh-Hant": "在電腦上，裝置設定裡的全螢幕決定連線這台裝置時以什麼方式開啟。",
-            "ja": "コンピュータでは、デバイス設定の「全画面」で、そのデバイスに接続したときの表示方法を決めます。",
-            "fr": "Sur un ordinateur, Plein écran, dans les réglages de l'appareil, détermine comment s'ouvre une connexion à cet appareil.",
-            "de": "Auf einem Computer legt „Vollbild“ in den Geräteeinstellungen fest, wie eine Verbindung zu diesem Gerät geöffnet wird.",
-            "ar": "على جهاز الكمبيوتر، تحدد الشاشة الكاملة في إعدادات الجهاز كيفية فتح الاتصال بهذا الجهاز.",
-            "ko": "컴퓨터에서는 기기 설정의 전체 화면이 그 기기에 연결할 때 어떻게 열지 정합니다.",
-            "pt": "Em um computador, a tela cheia nas configurações do dispositivo decide como uma conexão com esse dispositivo é aberta.",
-            "es": "En un ordenador, Pantalla completa, en los ajustes del dispositivo, decide cómo se abre una conexión con él.",
-            "bo": "གློག་ཀླད་སྟེང་ལ་ཐབས་འཕྲུལ་གྱི་སྒྲིག་སྟངས་ནང་དུ་ཡོད་པའི་གསལ་གཞི་ཆ་ཚང་གིས་ཐབས་འཕྲུལ་དེ་ལ་མཐུད་ཁ་ཇི་ལྟར་ཁ་ཕྱེ་མིན་ཐག་གཅོད་བྱེད།",
-            "it": "Su un computer, la modalità Schermo intero nelle impostazioni del dispositivo determina la modalità di apertura della connessione a quel dispositivo.",
-            "ru": "На компьютере Полноэкранный режим в настройках устройства определяет, как будет открываться соединение с этим устройством.",
-            "id": "Di komputer, Layar penuh di pengaturan perangkat menentukan cara membuka koneksi ke perangkat tersebut.",
-            "tr": "Bilgisayarda, cihazın ayarlarındaki Tam ekran, o cihazla bağlantının nasıl açılacağını belirler.",
-            "vi": "Trên máy tính, Toàn màn hình trong cài đặt của thiết bị quyết định cách mở kết nối với thiết bị đó.",
-            "th": "บนคอมพิวเตอร์ การตั้งค่าแบบเต็มหน้าจอในการตั้งค่าของอุปกรณ์จะกำหนดวิธีเปิดการเชื่อมต่อกับอุปกรณ์นั้น",
-            "nl": "Op een computer bepaalt Volledig scherm in de apparaatinstellingen hoe een verbinding met dat apparaat wordt geopend.",
-            "pl": "Na komputerze opcja Pełny ekran w ustawieniach urządzenia decyduje o sposobie otwierania połączenia z tym urządzeniem.",
-            "uk": "На комп’ютері параметр «На весь екран» у налаштуваннях пристрою визначає, як відкривається з’єднання з цим пристроєм.",
-            "hi": "कंप्यूटर पर, डिवाइस की सेटिंग में पूर्ण स्क्रीन यह तय करती है कि उस डिवाइस से कनेक्शन कैसे खुलेगा।",
-            "ms": "Pada komputer, Skrin penuh dalam tetapan peranti menentukan cara sambungan ke peranti itu dibuka."
+            "en": "On desktop, Device settings → Advanced streaming settings → Connection window chooses Window, Full screen or Borderless full screen for the next connection.",
+            "zh-Hans": "在电脑端，“设备设置 → 高级串流设置 → 连接窗口”可选择下次连接时使用窗口、全屏或无边框全屏。",
+            "zh-Hant": "在電腦端，「裝置設定 → 進階串流設定 → 連線視窗」可選擇下次連線時使用視窗、全螢幕或無邊框全螢幕。"
           }
         },
         {
@@ -744,6 +864,193 @@
             "hi": "ये सेटिंग्स प्रति डिवाइस सहेजी जाती हैं।",
             "ms": "Tetapan ini disimpan setiap peranti."
           }
+        },
+        {
+          "text": {
+            "en": "Fit to window uses the viewer's drawable pixels. Turn it off to use the saved resolution instead; available desktop sizes and scaling still depend on the host.",
+            "zh-Hans": "“适应窗口”按远程窗口的实际绘制像素匹配桌面尺寸。关闭后使用保存的分辨率；可用桌面尺寸和缩放仍取决于主机能力。",
+            "zh-Hant": "「符合視窗」按遠端視窗的實際繪製像素匹配桌面尺寸。關閉後使用儲存的解析度；可用桌面尺寸和縮放仍取決於主機能力。"
+          }
+        },
+        {
+          "text": {
+            "en": "Desktop fine tuning: 1.5 makes controls larger; 0.5 fits more content. It takes effect during a connection. A host minimum size can limit further enlargement; try a larger window or full screen.",
+            "zh-Hans": "桌面微调：1.5 让控件更大，0.5 容纳更多内容，连接期间可立即生效。主机的最小桌面尺寸可能限制进一步放大，可尝试增大窗口或全屏。",
+            "zh-Hant": "桌面微調：1.5 讓控制項更大，0.5 容納更多內容，連線期間可立即生效。主機的最小桌面尺寸可能限制進一步放大，可嘗試增大視窗或全螢幕。"
+          }
+        },
+        {
+          "text": {
+            "en": "Main + mirror mirrors the remote workspace, Main only turns off other host screens, and Extended adds a workspace. Support varies by host; the previous screen layout is restored when the session ends.",
+            "zh-Hans": "“主屏幕 + 镜像”镜像远程工作区，“仅主屏幕”关闭主机的其他屏幕，“扩展”增加工作区。具体支持取决于主机；会话结束后恢复原屏幕布局。",
+            "zh-Hant": "「主螢幕 + 鏡像」鏡像遠端工作區，「僅主螢幕」關閉主機的其他螢幕，「延伸」增加工作區。具體支援取決於主機；工作階段結束後恢復原螢幕配置。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "input",
+      "title": {
+        "en": "Keyboard, pointer and clipboard",
+        "zh-Hans": "键盘、指针与剪贴板",
+        "zh-Hant": "鍵盤、指標與剪貼簿"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "Device settings → Input controls whether keyboard, pointer and controller events are sent. Turn it off for viewing only; Sound separately controls received audio.",
+            "zh-Hans": "“设备设置 → 输入”控制是否发送键盘、指针和手柄操作。仅观看时可关闭；“声音”单独控制是否接收音频。",
+            "zh-Hant": "「裝置設定 → 輸入」控制是否傳送鍵盤、指標和控制器操作。僅觀看時可關閉；「聲音」單獨控制是否接收音訊。"
+          }
+        },
+        {
+          "text": {
+            "en": "Advanced streaming settings → Keyboard & pointer contains pointer mode, scrolling direction, system shortcut forwarding and session clipboard sharing.",
+            "zh-Hans": "“高级串流设置 → 键盘与指针”包含指针模式、滚动方向、系统快捷键转发和会话剪贴板共享。",
+            "zh-Hant": "「進階串流設定 → 鍵盤與指標」包含指標模式、捲動方向、系統快速鍵轉送和工作階段剪貼簿共享。"
+          }
+        },
+        {
+          "text": {
+            "en": "On a Mac host, Super / Windows maps to Command and Alt maps to Option. The operating system may reserve some shortcuts; use Ctrl+Alt+Shift+Z to return input to the local computer.",
+            "zh-Hans": "连接 Mac 主机时，Super / Windows 对应 Command，Alt 对应 Option。操作系统可能保留部分快捷键；可用 Ctrl+Alt+Shift+Z 将输入交还本机。",
+            "zh-Hant": "連線 Mac 主機時，Super / Windows 對應 Command，Alt 對應 Option。作業系統可能保留部分快速鍵；可用 Ctrl+Alt+Shift+Z 將輸入交還本機。"
+          }
+        },
+        {
+          "text": {
+            "en": "Use the local input method is off by default. Enable it per device and reconnect to compose with this computer's IME. Candidates appear near the top left, not at the remote caret; use the remote IME or physical keys for games when needed.",
+            "zh-Hans": "“使用本地输入法”默认关闭。可按设备开启并重新连接，使用本机输入法组字。候选窗口靠近左上角，而非远程光标位置；游戏等场景可改用远程输入法或物理按键模式。",
+            "zh-Hant": "「使用本機輸入法」預設關閉。可按裝置開啟並重新連線，使用本機輸入法組字。候選視窗靠近左上角，而非遠端游標位置；遊戲等情境可改用遠端輸入法或實體按鍵模式。"
+          }
+        },
+        {
+          "text": {
+            "en": "Session clipboard sharing supports text, images and files when both peers support them. Keep the session connected and check this option on both ends if copy and paste fails.",
+            "zh-Hans": "双方都支持时，会话剪贴板可共享文本、图片和文件。如果复制粘贴失败，请保持连接，并检查两端的共享选项。",
+            "zh-Hant": "雙方都支援時，工作階段剪貼簿可共享文字、圖片和檔案。如果複製貼上失敗，請保持連線，並檢查兩端的共享選項。"
+          }
+        },
+        {
+          "text": {
+            "en": "Most device streaming changes apply after reconnecting. Desktop fine tuning applies during the session; appearance and the global window shortcut apply immediately.",
+            "zh-Hans": "多数设备串流设置需重新连接后生效；桌面微调可在会话期间生效，外观和全局窗口快捷键则立即生效。",
+            "zh-Hant": "多數裝置串流設定需重新連線後生效；桌面微調可在工作階段期間生效，外觀和全域視窗快速鍵則立即生效。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": {
+        "en": "Picture quality, sound and data usage",
+        "zh-Hans": "画质、声音与流量",
+        "zh-Hant": "畫質、聲音與流量"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "Advanced streaming settings offers Automatic, Clear, Smooth, Save data and Custom picture modes. Automatic chooses bandwidth from the resolution and adapts to the network.",
+            "zh-Hans": "“高级串流设置”提供自动、清晰、流畅、省流量和自定义画面模式。自动模式根据分辨率选择带宽，并随网络状况调整。",
+            "zh-Hant": "「進階串流設定」提供自動、清晰、流暢、節省流量和自訂畫面模式。自動模式根據解析度選擇頻寬，並隨網路狀況調整。"
+          }
+        },
+        {
+          "text": {
+            "en": "Save data uses 30 fps and a 5 Mbps video limit. The data saver switch in the top bar applies to every device; audio and protocol traffic are additional.",
+            "zh-Hans": "省流量模式使用 30 fps，并将视频限制为 5 Mbps。顶栏的省流量开关作用于所有设备；音频和协议流量另计。",
+            "zh-Hant": "節省流量模式使用 30 fps，並將視訊限制為 5 Mbps。頂端列的節省流量開關作用於所有裝置；音訊和協定流量另計。"
+          }
+        },
+        {
+          "text": {
+            "en": "Higher frame rates and bandwidth need more network and processing capacity. If motion stutters or input feels delayed, lower them and check streaming statistics before increasing quality.",
+            "zh-Hans": "更高的帧率和带宽需要更多网络与处理能力。如果画面卡顿或操作延迟，请先降低这些设置并查看串流统计，再逐步提高画质。",
+            "zh-Hant": "更高的影格率和頻寬需要更多網路與處理能力。如果畫面卡頓或操作延遲，請先降低這些設定並查看串流統計，再逐步提高畫質。"
+          }
+        },
+        {
+          "text": {
+            "en": "Sound options include muting when DeskPort loses focus and also playing audio on the host. If sound is missing, check the device's Sound switch, focus mute and both computers' audio outputs.",
+            "zh-Hans": "声音选项包括 DeskPort 失去焦点时静音，以及同时在主机播放。如果没有声音，请检查设备的声音开关、失焦静音和两台电脑的音频输出。",
+            "zh-Hant": "聲音選項包括 DeskPort 失去焦點時靜音，以及同時在主機播放。如果沒有聲音，請檢查裝置的聲音開關、失焦靜音和兩台電腦的音訊輸出。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "browser",
+      "title": {
+        "en": "Connect from a browser",
+        "zh-Hans": "从浏览器连接",
+        "zh-Hant": "從瀏覽器連線"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "On the desktop host, open Sharing → Browser access, then scan or open the displayed URL on the other device. Start sharing before connecting.",
+            "zh-Hans": "在电脑主机打开“共享 → 浏览器访问”，然后在另一台设备扫描或打开显示的网址。连接前请先启动共享。",
+            "zh-Hant": "在電腦主機開啟「共享 → 瀏覽器存取」，然後在另一台裝置掃描或開啟顯示的網址。連線前請先啟動共享。"
+          }
+        },
+        {
+          "text": {
+            "en": "Enter the six-digit code shown on the host or in your authenticator app; it changes every 30 seconds. Devices recognized as signed in to the same Tailscale account can connect without the code.",
+            "zh-Hans": "输入主机或身份验证器应用显示的六位验证码，验证码每 30 秒更新一次。被识别为登录同一 Tailscale 账号的设备可以免验证码连接。",
+            "zh-Hant": "輸入主機或驗證器應用程式顯示的六位驗證碼，驗證碼每 30 秒更新一次。被識別為登入同一 Tailscale 帳號的裝置可以免驗證碼連線。"
+          }
+        },
+        {
+          "text": {
+            "en": "The connecting device must trust the host's local HTTPS certificate. Check the URL and certificate against your own host before trusting it.",
+            "zh-Hans": "连接设备需要信任主机的本地 HTTPS 证书。信任前，请核对网址与证书确实属于自己的主机。",
+            "zh-Hant": "連線裝置需要信任主機的本機 HTTPS 憑證。信任前，請核對網址與憑證確實屬於自己的主機。"
+          }
+        },
+        {
+          "text": {
+            "en": "Remember this browser for 7 days skips later code prompts on that browser. Remove a paired browser from Sharing to revoke it. Keep the authenticator QR private; resetting its secret invalidates existing authenticators.",
+            "zh-Hans": "选择“记住此浏览器 7 天”可在该浏览器后续访问时免输验证码。可在“共享”中移除已配对浏览器来撤销授权。请勿公开身份验证器二维码；重置密钥会使原有身份验证器失效。",
+            "zh-Hant": "選擇「記住此瀏覽器 7 天」可在該瀏覽器後續存取時免輸驗證碼。可在「共享」中移除已配對瀏覽器來撤銷授權。請勿公開驗證器 QR 碼；重設密鑰會使原有驗證器失效。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "diagnostics",
+      "title": {
+        "en": "Settings, privacy and feedback",
+        "zh-Hans": "设置、隐私与反馈",
+        "zh-Hant": "設定、隱私與意見回饋"
+      },
+      "steps": [
+        {
+          "text": {
+            "en": "Settings controls this computer's theme, accent color, language, top-bar data usage and global window shortcut. Device settings controls each saved connection separately.",
+            "zh-Hans": "“设置”控制本机主题、强调色、语言、顶栏流量显示和全局窗口快捷键；“设备设置”则分别控制各个已保存的连接。",
+            "zh-Hant": "「設定」控制本機主題、強調色、語言、頂端列流量顯示和全域視窗快速鍵；「裝置設定」則分別控制各個已儲存的連線。"
+          }
+        },
+        {
+          "text": {
+            "en": "Diagnostic logs are off by default. Enable them in Settings → Diagnostics and feedback before reproducing a problem. They stay on this computer until you choose to share them.",
+            "zh-Hans": "诊断日志默认关闭。复现问题前，可在“设置 → 诊断与反馈”中开启。日志保存在本机，由你决定是否分享。",
+            "zh-Hant": "診斷記錄預設關閉。重現問題前，可在「設定 → 診斷與意見回饋」中開啟。記錄保存在本機，由你決定是否分享。"
+          }
+        },
+        {
+          "text": {
+            "en": "Report a problem creates a ZIP and opens a draft GitHub issue. Nothing is uploaded or submitted automatically. Review the archive and describe the steps, systems and expected behavior before attaching it to a public issue.",
+            "zh-Hans": "“报告问题”会生成 ZIP 并打开 GitHub 问题草稿，不会自动上传或提交。请先检查压缩包，再描述复现步骤、操作系统和预期行为，然后自行附到公开问题中。",
+            "zh-Hant": "「回報問題」會產生 ZIP 並開啟 GitHub 問題草稿，不會自動上傳或提交。請先檢查壓縮檔，再描述重現步驟、作業系統和預期行為，然後自行附到公開問題中。"
+          }
+        },
+        {
+          "text": {
+            "en": "Turning diagnostics off stops new recording. Clear saved diagnostics removes existing logs and the generated ZIP. Privacy and Licenses in Settings explain recorded data and bundled software.",
+            "zh-Hans": "关闭诊断只会停止新增记录。“清除已保存的诊断”会删除现有日志和生成的 ZIP。设置中的“隐私”和“许可证”说明了记录内容与内含软件。",
+            "zh-Hant": "關閉診斷只會停止新增記錄。「清除已儲存的診斷」會刪除現有記錄和產生的 ZIP。設定中的「隱私」和「授權條款」說明了記錄內容與內含軟體。"
+          }
         }
       ]
     },
@@ -850,6 +1157,27 @@
             "uk": "Повідомити про проблему в налаштуваннях збирає архів журналу, який можна приєднати до проблеми. Перегляньте його, перш ніж ділитися ним.",
             "hi": "सेटिंग्स में किसी समस्या की रिपोर्ट करें एक लॉग संग्रह एकत्र करता है जिसे आप किसी समस्या के साथ संलग्न कर सकते हैं। इसे साझा करने से पहले इसकी समीक्षा करें.",
             "ms": "Laporkan masalah dalam Tetapan mengumpulkan arkib log yang boleh anda lampirkan pada isu. Semak ia sebelum berkongsinya."
+          }
+        },
+        {
+          "text": {
+            "en": "If a device stays offline, confirm it is awake, sharing is on and its saved address is reachable. Check the host's readiness and firewall before retrying; Refresh cannot wake every host or repair a network route.",
+            "zh-Hans": "设备持续离线时，请确认其已唤醒、共享已开启且保存的地址可访问。重试前检查主机就绪状态和防火墙；刷新不能唤醒所有主机，也不能修复网络路由。",
+            "zh-Hant": "裝置持續離線時，請確認其已喚醒、共享已開啟且儲存的位址可存取。重試前檢查主機就緒狀態和防火牆；重新整理不能喚醒所有主機，也不能修復網路路由。"
+          }
+        },
+        {
+          "text": {
+            "en": "For a black picture, check screen recording permission and the selected host display. For missing control, check Accessibility, the device's Input switch and whether the viewer has focus.",
+            "zh-Hans": "黑屏时请检查屏幕录制权限和主机所选显示器。无法控制时，请检查辅助功能权限、设备的输入开关以及远程窗口是否获得焦点。",
+            "zh-Hant": "黑畫面時請檢查螢幕錄製權限和主機所選顯示器。無法控制時，請檢查輔助使用權限、裝置的輸入開關以及遠端視窗是否取得焦點。"
+          }
+        },
+        {
+          "text": {
+            "en": "If the global window shortcut stops working, check its Settings switch, the desktop's shortcut permission and conflicts with other apps. Turn it off and on to request registration again; the tray and Devices remain available.",
+            "zh-Hans": "全局窗口快捷键无效时，请检查设置开关、桌面快捷键授权及其他应用的冲突。可关闭再开启以重新注册；仍可使用托盘和设备列表。",
+            "zh-Hant": "全域視窗快速鍵無效時，請檢查設定開關、桌面快速鍵授權及其他應用程式的衝突。可關閉再開啟以重新註冊；仍可使用系統匣和裝置列表。"
           }
         }
       ]

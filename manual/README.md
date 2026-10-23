@@ -4,6 +4,11 @@
 desktop app and the mobile clients read this one file; nothing is fetched at
 runtime, so the manual always matches the installed version.
 
+Edit the chapter structure in `i18n/manual.json` and the English-keyed text in
+`i18n/strings.json`, then run `python3 i18n/generate_manual.py`. The file in
+this directory is generated. Desktop-only sections explicitly name their
+platform so the same manual remains useful to mobile readers.
+
 ## Format
 
 ```json
