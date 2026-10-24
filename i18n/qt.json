@@ -7119,6 +7119,36 @@
       "attributes": {},
       "elements": [],
       "translationType": ""
+    },
+    "26ea1e22704cd497": {
+      "source": "Press a shortcut, or choose its keys below.",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "5bfc9833a0eb36f9": {
+      "source": "Choose keys",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "cff71a52d9ff0a96": {
+      "source": "Record shortcut",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "7aee7fd477f24735": {
+      "source": "Some shortcuts are reserved by the desktop. If recording does not respond, choose the keys below. The desktop may ask you to resolve a conflict when you save.",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "b5fe768591974d9f": {
+      "source": "A shortcut needs Control, Alt/Option or Meta/Command.",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
     }
   },
   "catalogs": {
@@ -7489,7 +7519,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -7882,7 +7917,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -8923,7 +8963,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -9309,7 +9354,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -10350,7 +10400,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -10729,7 +10784,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -11769,7 +11829,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -12141,7 +12206,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -12520,7 +12590,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -12913,7 +12988,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -13306,7 +13386,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -14353,7 +14438,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -15394,7 +15484,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -15779,7 +15874,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -16165,7 +16265,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -16558,7 +16663,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -16951,7 +17061,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -17338,7 +17453,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -17723,7 +17843,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -18116,7 +18241,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -18509,7 +18639,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -18900,7 +19035,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -19293,7 +19433,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -19679,7 +19824,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -20072,7 +20222,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -21172,7 +21327,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]
@@ -22268,7 +22428,12 @@
             "1974b21b9a10f483",
             "9d6aaa6c938b0b98",
             "a18d4674ccfb65a9",
-            "847c2b95aac4cd17"
+            "847c2b95aac4cd17",
+            "26ea1e22704cd497",
+            "5bfc9833a0eb36f9",
+            "cff71a52d9ff0a96",
+            "7aee7fd477f24735",
+            "b5fe768591974d9f"
           ]
         }
       ]

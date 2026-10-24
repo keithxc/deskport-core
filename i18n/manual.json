@@ -117,7 +117,10 @@
           "text": "Settings → Keyboard shortcuts → Global window shortcut is on by default. Turning it off releases the system binding and disables the viewer fallback immediately. This choice is saved on this computer."
         },
         {
-          "text": "Choose Settings → Keyboard shortcuts → Change shortcut, then press a combination and save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused."
+          "text": "In Settings → Keyboard shortcuts, click the current key combination on the Global window shortcut row. Press a combination or use Choose keys, then save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused."
+        },
+        {
+          "text": "KDE Plasma commonly assigns Meta+1–9 to task-manager entries. If recording does not respond, use Choose keys to enter the combination. The desktop may ask you to resolve a conflict when saving; you can also choose another combination."
         },
         {
           "text": "On Wayland, the desktop may ask permission and let you choose the binding. The desktop's chosen shortcut takes precedence. If registration is denied, unsupported or already in use, use the tray or device list; DeskPort does not replace another app's binding."

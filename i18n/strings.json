@@ -37034,5 +37034,182 @@
       "apple": false,
       "android": false
     }
+  },
+  "Press a shortcut, or choose its keys below.": {
+    "en": "Press a shortcut, or choose its keys below.",
+    "zh-Hans": "按下组合键，或在下方选择按键。",
+    "zh-Hant": "按下組合鍵，或在下方選擇按鍵。",
+    "ja": "ショートカットを押すか、下でキーを選択してください。",
+    "fr": "Appuyez sur un raccourci ou choisissez ses touches ci-dessous.",
+    "de": "Drücken Sie ein Tastenkürzel oder wählen Sie unten seine Tasten aus.",
+    "ar": "اضغط اختصارًا أو اختر مفاتيحه أدناه.",
+    "ko": "단축키를 누르거나 아래에서 키를 선택하세요.",
+    "pt": "Pressione um atalho ou escolha suas teclas abaixo.",
+    "es": "Pulsa un atajo o elige sus teclas a continuación.",
+    "bo": "མྱུར་མཐེབ་གནོན་པའམ། གཤམ་ནས་དེའི་མཐེབ་འདེམས།",
+    "it": "Premi una scorciatoia o scegli i suoi tasti qui sotto.",
+    "ru": "Нажмите сочетание клавиш или выберите его клавиши ниже.",
+    "id": "Tekan pintasan atau pilih tombolnya di bawah.",
+    "tr": "Bir kısayola basın veya aşağıdan tuşlarını seçin.",
+    "vi": "Nhấn tổ hợp phím hoặc chọn các phím bên dưới.",
+    "th": "กดปุ่มลัดหรือเลือกปุ่มด้านล่าง",
+    "nl": "Druk een sneltoets in of kies hieronder de toetsen.",
+    "pl": "Naciśnij skrót lub wybierz jego klawisze poniżej.",
+    "uk": "Натисніть сполучення або виберіть його клавіші нижче.",
+    "hi": "शॉर्टकट दबाएँ या नीचे उसकी कुंजियाँ चुनें।",
+    "ms": "Tekan pintasan atau pilih kekuncinya di bawah.",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "Choose keys": {
+    "en": "Choose keys",
+    "zh-Hans": "选择按键",
+    "zh-Hant": "選擇按鍵",
+    "ja": "キーを選択",
+    "fr": "Choisir les touches",
+    "de": "Tasten auswählen",
+    "ar": "اختيار المفاتيح",
+    "ko": "키 선택",
+    "pt": "Escolher teclas",
+    "es": "Elegir teclas",
+    "bo": "མཐེབ་འདེམས་པ།",
+    "it": "Scegli i tasti",
+    "ru": "Выбрать клавиши",
+    "id": "Pilih tombol",
+    "tr": "Tuşları seç",
+    "vi": "Chọn phím",
+    "th": "เลือกปุ่ม",
+    "nl": "Toetsen kiezen",
+    "pl": "Wybierz klawisze",
+    "uk": "Вибрати клавіші",
+    "hi": "कुंजियाँ चुनें",
+    "ms": "Pilih kekunci",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "Record shortcut": {
+    "en": "Record shortcut",
+    "zh-Hans": "录入快捷键",
+    "zh-Hant": "錄入快速鍵",
+    "ja": "ショートカットを記録",
+    "fr": "Enregistrer la combinaison",
+    "de": "Tastenkürzel aufnehmen",
+    "ar": "تسجيل الاختصار",
+    "ko": "단축키 기록",
+    "pt": "Gravar atalho",
+    "es": "Registrar atajo",
+    "bo": "མྱུར་མཐེབ་ཟིན་ཐོ་འགོད་པ།",
+    "it": "Registra scorciatoia",
+    "ru": "Записать сочетание",
+    "id": "Rekam pintasan",
+    "tr": "Kısayolu kaydet",
+    "vi": "Ghi tổ hợp phím",
+    "th": "บันทึกชุดปุ่มลัด",
+    "nl": "Sneltoets opnemen",
+    "pl": "Nagraj skrót",
+    "uk": "Записати сполучення",
+    "hi": "शॉर्टकट रिकॉर्ड करें",
+    "ms": "Rakam pintasan",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "Some shortcuts are reserved by the desktop. If recording does not respond, choose the keys below. The desktop may ask you to resolve a conflict when you save.": {
+    "en": "Some shortcuts are reserved by the desktop. If recording does not respond, choose the keys below. The desktop may ask you to resolve a conflict when you save.",
+    "zh-Hans": "部分组合键由桌面环境保留。如果录入没有反应，请在下方选择按键。保存时，桌面环境可能要求你解决快捷键冲突。",
+    "zh-Hant": "部分組合鍵由桌面環境保留。如果錄入沒有反應，請在下方選擇按鍵。儲存時，桌面環境可能要求你解決快速鍵衝突。",
+    "ja": "一部のショートカットはデスクトップで予約されています。記録が反応しない場合は、下でキーを選択してください。保存時にデスクトップから競合の解決を求められることがあります。",
+    "fr": "Certains raccourcis sont réservés par le bureau. Si la saisie ne réagit pas, choisissez les touches ci-dessous. Le bureau peut vous demander de résoudre un conflit lors de la sauvegarde.",
+    "de": "Einige Tastenkürzel sind vom Desktop reserviert. Wenn die Aufnahme nicht reagiert, wählen Sie die Tasten unten aus. Beim Speichern fordert der Desktop Sie möglicherweise auf, einen Konflikt zu lösen.",
+    "ar": "بعض الاختصارات محجوزة لسطح المكتب. إذا لم يستجب التسجيل، فاختر المفاتيح أدناه. قد يطلب منك سطح المكتب حل تعارض عند الحفظ.",
+    "ko": "일부 단축키는 데스크톱에서 예약되어 있습니다. 기록에 반응이 없으면 아래에서 키를 선택하세요. 저장할 때 데스크톱에서 충돌 해결을 요청할 수 있습니다.",
+    "pt": "Alguns atalhos são reservados pelo ambiente de trabalho. Se a gravação não responder, escolha as teclas abaixo. Ao salvar, o ambiente de trabalho pode pedir que você resolva um conflito.",
+    "es": "Algunos atajos están reservados por el escritorio. Si la grabación no responde, elige las teclas a continuación. Al guardar, el escritorio puede pedirte que resuelvas un conflicto.",
+    "bo": "མྱུར་མཐེབ་ཁ་ཤས་ཅོག་ངོས་ཀྱིས་ཟུར་བཅད་ཡོད། ཟིན་ཐོ་འགོད་སྐབས་ལན་མེད་ན། གཤམ་ནས་མཐེབ་འདེམས། ཉར་ཚགས་སྐབས་ཅོག་ངོས་ཀྱིས་འགལ་ཟླ་སེལ་དགོས་པའི་རེ་འདུན་སྟོན་སྲིད།",
+    "it": "Alcune scorciatoie sono riservate dal desktop. Se la registrazione non risponde, scegli i tasti qui sotto. Durante il salvataggio, il desktop potrebbe chiederti di risolvere un conflitto.",
+    "ru": "Некоторые сочетания зарезервированы рабочим столом. Если запись не реагирует, выберите клавиши ниже. При сохранении рабочий стол может предложить разрешить конфликт.",
+    "id": "Beberapa pintasan dicadangkan oleh desktop. Jika perekaman tidak merespons, pilih tombol di bawah. Saat menyimpan, desktop mungkin meminta Anda menyelesaikan konflik.",
+    "tr": "Bazı kısayollar masaüstü tarafından ayrılmıştır. Kayıt yanıt vermiyorsa aşağıdan tuşları seçin. Kaydederken masaüstü bir çakışmayı çözmenizi isteyebilir.",
+    "vi": "Một số phím tắt được môi trường màn hình dành riêng. Nếu việc ghi không phản hồi, hãy chọn các phím bên dưới. Khi lưu, môi trường màn hình có thể yêu cầu bạn giải quyết xung đột.",
+    "th": "ปุ่มลัดบางชุดสงวนไว้สำหรับเดสก์ท็อป หากการบันทึกไม่ตอบสนอง ให้เลือกปุ่มด้านล่าง เมื่อบันทึก เดสก์ท็อปอาจขอให้คุณแก้ไขปุ่มลัดที่ขัดแย้งกัน",
+    "nl": "Sommige sneltoetsen zijn gereserveerd door het bureaublad. Als het opnemen niet reageert, kies dan hieronder de toetsen. Bij het opslaan kan het bureaublad vragen om een conflict op te lossen.",
+    "pl": "Niektóre skróty są zarezerwowane przez pulpit. Jeśli nagrywanie nie reaguje, wybierz klawisze poniżej. Podczas zapisywania pulpit może poprosić o rozwiązanie konfliktu.",
+    "uk": "Деякі сполучення зарезервовано стільницею. Якщо запис не реагує, виберіть клавіші нижче. Під час збереження стільниця може запропонувати розв’язати конфлікт.",
+    "hi": "कुछ शॉर्टकट डेस्कटॉप के लिए आरक्षित हैं। यदि रिकॉर्डिंग प्रतिक्रिया नहीं देती, तो नीचे कुंजियाँ चुनें। सहेजते समय डेस्कटॉप आपसे किसी टकराव को सुलझाने के लिए कह सकता है।",
+    "ms": "Sesetengah pintasan dikhaskan oleh desktop. Jika rakaman tidak bertindak balas, pilih kekunci di bawah. Semasa menyimpan, desktop mungkin meminta anda menyelesaikan konflik.",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "A shortcut needs Control, Alt/Option or Meta/Command.": {
+    "en": "A shortcut needs Control, Alt/Option or Meta/Command.",
+    "zh-Hans": "快捷键必须包含 Control、Alt/Option 或 Meta/Command。",
+    "zh-Hant": "快速鍵必須包含 Control、Alt/Option 或 Meta/Command。",
+    "ja": "ショートカットには Control、Alt/Option、Meta/Command のいずれかが必要です。",
+    "fr": "Un raccourci doit inclure Control, Alt/Option ou Meta/Command.",
+    "de": "Ein Tastenkürzel benötigt Control, Alt/Option oder Meta/Command.",
+    "ar": "يجب أن يتضمن الاختصار Control أو Alt/Option أو Meta/Command.",
+    "ko": "단축키에는 Control, Alt/Option 또는 Meta/Command가 필요합니다.",
+    "pt": "Um atalho precisa de Control, Alt/Option ou Meta/Command.",
+    "es": "Un atajo necesita Control, Alt/Option o Meta/Command.",
+    "bo": "མྱུར་མཐེབ་ལ་ Control དང་ Alt/Option ཡང་ན་ Meta/Command དགོས།",
+    "it": "Una scorciatoia richiede Control, Alt/Option o Meta/Command.",
+    "ru": "Сочетание должно включать Control, Alt/Option или Meta/Command.",
+    "id": "Pintasan memerlukan Control, Alt/Option atau Meta/Command.",
+    "tr": "Bir kısayol Control, Alt/Option veya Meta/Command içermelidir.",
+    "vi": "Phím tắt cần có Control, Alt/Option hoặc Meta/Command.",
+    "th": "ปุ่มลัดต้องมี Control, Alt/Option หรือ Meta/Command",
+    "nl": "Een sneltoets vereist Control, Alt/Option of Meta/Command.",
+    "pl": "Skrót musi zawierać Control, Alt/Option lub Meta/Command.",
+    "uk": "Сполучення має містити Control, Alt/Option або Meta/Command.",
+    "hi": "शॉर्टकट में Control, Alt/Option या Meta/Command होना चाहिए।",
+    "ms": "Pintasan memerlukan Control, Alt/Option atau Meta/Command.",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "In Settings → Keyboard shortcuts, click the current key combination on the Global window shortcut row. Press a combination or use Choose keys, then save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused.": {
+    "en": "In Settings → Keyboard shortcuts, click the current key combination on the Global window shortcut row. Press a combination or use Choose keys, then save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused.",
+    "zh-Hans": "在设置 → 键盘快捷键中，点击“全局窗口快捷键”同一行的当前组合键。按下组合键或使用“选择按键”，然后保存。新绑定立即在当前电脑生效。恢复默认会回到 Meta + 单引号（macOS 为 Command + 单引号）。取消会保留原绑定。录入期间全局快捷键暂停。",
+    "zh-Hant": "在設定 → 鍵盤快速鍵中，點選「全域視窗快速鍵」同一行的目前組合鍵。按下組合鍵或使用「選擇按鍵」，然後儲存。新綁定立即在目前電腦生效。回復預設會回到 Meta + 單引號（macOS 為 Command + 單引號）。取消會保留原綁定。錄入期間全域快速鍵暫停。",
+    "_manual": true,
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    }
+  },
+  "KDE Plasma commonly assigns Meta+1–9 to task-manager entries. If recording does not respond, use Choose keys to enter the combination. The desktop may ask you to resolve a conflict when saving; you can also choose another combination.": {
+    "en": "KDE Plasma commonly assigns Meta+1–9 to task-manager entries. If recording does not respond, use Choose keys to enter the combination. The desktop may ask you to resolve a conflict when saving; you can also choose another combination.",
+    "zh-Hans": "KDE Plasma 通常将 Meta+1–9 分配给任务管理器条目。如果录入没有反应，可用“选择按键”输入组合键。保存时，桌面环境可能要求你解决快捷键冲突；也可以选择其他组合键。",
+    "zh-Hant": "KDE Plasma 通常將 Meta+1–9 指派給工作管理員項目。如果錄入沒有反應，可用「選擇按鍵」輸入組合鍵。儲存時，桌面環境可能要求你解決快速鍵衝突；也可以選擇其他組合鍵。",
+    "_manual": true,
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    }
   }
 }

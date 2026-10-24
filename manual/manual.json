@@ -592,9 +592,16 @@
         },
         {
           "text": {
-            "en": "Choose Settings → Keyboard shortcuts → Change shortcut, then press a combination and save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused.",
-            "zh-Hans": "打开设置 → 键盘快捷键 → 更改快捷键，按下组合键并保存。新绑定立即在当前电脑生效。恢复默认会回到 Meta + 单引号（macOS 为 Command + 单引号）。取消会保留原绑定。录入期间全局快捷键暂停。",
-            "zh-Hant": "開啟設定 → 鍵盤快速鍵 → 更改快速鍵，按下組合鍵並儲存。新綁定立即在目前電腦生效。回復預設會回到 Meta + 單引號（macOS 為 Command + 單引號）。取消會保留原綁定。錄入期間全域快速鍵暫停。"
+            "en": "In Settings → Keyboard shortcuts, click the current key combination on the Global window shortcut row. Press a combination or use Choose keys, then save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused.",
+            "zh-Hans": "在设置 → 键盘快捷键中，点击“全局窗口快捷键”同一行的当前组合键。按下组合键或使用“选择按键”，然后保存。新绑定立即在当前电脑生效。恢复默认会回到 Meta + 单引号（macOS 为 Command + 单引号）。取消会保留原绑定。录入期间全局快捷键暂停。",
+            "zh-Hant": "在設定 → 鍵盤快速鍵中，點選「全域視窗快速鍵」同一行的目前組合鍵。按下組合鍵或使用「選擇按鍵」，然後儲存。新綁定立即在目前電腦生效。回復預設會回到 Meta + 單引號（macOS 為 Command + 單引號）。取消會保留原綁定。錄入期間全域快速鍵暫停。"
+          }
+        },
+        {
+          "text": {
+            "en": "KDE Plasma commonly assigns Meta+1–9 to task-manager entries. If recording does not respond, use Choose keys to enter the combination. The desktop may ask you to resolve a conflict when saving; you can also choose another combination.",
+            "zh-Hans": "KDE Plasma 通常将 Meta+1–9 分配给任务管理器条目。如果录入没有反应，可用“选择按键”输入组合键。保存时，桌面环境可能要求你解决快捷键冲突；也可以选择其他组合键。",
+            "zh-Hant": "KDE Plasma 通常將 Meta+1–9 指派給工作管理員項目。如果錄入沒有反應，可用「選擇按鍵」輸入組合鍵。儲存時，桌面環境可能要求你解決快速鍵衝突；也可以選擇其他組合鍵。"
           }
         },
         {

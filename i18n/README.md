@@ -52,6 +52,12 @@ explains recording, saving, cancellation and restoring the default binding in
 English and both Chinese scripts, with English fallback elsewhere. Binding
 validation, storage and native registration stay in the desktop adapter.
 
+The key chooser also has 22 locale drafts and complements recording when the
+desktop reserves a combination. The manual identifies the current-binding
+button on the single settings row and explains KDE Plasma's Meta+1–9 task-manager
+shortcuts and desktop conflict confirmation. Historical catalog entries remain
+available to consumers on older pins.
+
 ## Desktop shortcut and manual expansion — 2026-10-24
 
 The desktop window-shortcut controls have draft translations in all 22 primary
