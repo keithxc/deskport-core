@@ -592,6 +592,13 @@
         },
         {
           "text": {
+            "en": "Choose Settings → Keyboard shortcuts → Change shortcut, then press a combination and save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused.",
+            "zh-Hans": "打开设置 → 键盘快捷键 → 更改快捷键，按下组合键并保存。新绑定立即在当前电脑生效。恢复默认会回到 Meta + 单引号（macOS 为 Command + 单引号）。取消会保留原绑定。录入期间全局快捷键暂停。",
+            "zh-Hant": "開啟設定 → 鍵盤快速鍵 → 更改快速鍵，按下組合鍵並儲存。新綁定立即在目前電腦生效。回復預設會回到 Meta + 單引號（macOS 為 Command + 單引號）。取消會保留原綁定。錄入期間全域快速鍵暫停。"
+          }
+        },
+        {
+          "text": {
             "en": "On Wayland, the desktop may ask permission and let you choose the binding. The desktop's chosen shortcut takes precedence. If registration is denied, unsupported or already in use, use the tray or device list; DeskPort does not replace another app's binding.",
             "zh-Hans": "在 Wayland 上，桌面环境可能请求授权并让你选择快捷键，以桌面分配的组合键为准。如果授权被拒绝、不受支持或快捷键已被占用，可使用托盘或设备列表；DeskPort 不会替换其他应用的快捷键。",
             "zh-Hant": "在 Wayland 上，桌面環境可能請求授權並讓你選擇快速鍵，以桌面指派的組合鍵為準。如果授權被拒絕、不受支援或快速鍵已被占用，可使用系統匣或裝置列表；DeskPort 不會替換其他應用程式的快速鍵。"

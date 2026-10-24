@@ -7071,6 +7071,54 @@
       "attributes": {},
       "elements": [],
       "translationType": ""
+    },
+    "e27948de4dce3957": {
+      "source": "Change shortcut",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "3a69e8cdf42fe197": {
+      "source": "Change shortcut",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "82d5422b3eb36974": {
+      "source": "Shortcut unavailable: %1",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "4b3a561de7d66c63": {
+      "source": "Desktop shortcut: %1. Manage its binding in your desktop settings.",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "1974b21b9a10f483": {
+      "source": "Restore default",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "9d6aaa6c938b0b98": {
+      "source": "Save shortcut",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "a18d4674ccfb65a9": {
+      "source": "Choose a supported key combination.",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
+    },
+    "847c2b95aac4cd17": {
+      "source": "Press a shortcut. Use Control, Alt/Option or Meta/Command with a letter, number, F1–F12, Space or apostrophe. Shift is optional.",
+      "attributes": {},
+      "elements": [],
+      "translationType": ""
     }
   },
   "catalogs": {
@@ -7425,6 +7473,24 @@
           "messages": [
             "881bc273ad29e93f"
           ]
+        },
+        {
+          "name": "SettingsHome",
+          "messages": [
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -7777,7 +7843,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -7804,6 +7873,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -8394,7 +8473,10 @@
             "9924fa0e342d2888",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -8833,6 +8915,16 @@
           "messages": [
             "2d12ddab87e4ea15"
           ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -9184,7 +9276,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -9205,6 +9300,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -9795,7 +9900,10 @@
             "9924fa0e342d2888",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -10234,6 +10342,16 @@
           "messages": [
             "2d12ddab87e4ea15"
           ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -10594,6 +10712,24 @@
           "name": "HostManager",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "SettingsHome",
+          "messages": [
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -11183,7 +11319,10 @@
             "9924fa0e342d2888",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -11622,6 +11761,16 @@
           "messages": [
             "2d12ddab87e4ea15"
           ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -11975,6 +12124,24 @@
           "name": "HostManager",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "SettingsHome",
+          "messages": [
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -12337,6 +12504,24 @@
           "messages": [
             "881bc273ad29e93f"
           ]
+        },
+        {
+          "name": "SettingsHome",
+          "messages": [
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -12689,7 +12874,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -12716,6 +12904,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -13069,7 +13267,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -13096,6 +13297,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -13688,7 +13899,10 @@
             "9924fa0e342d2888",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -14130,6 +14344,16 @@
           "name": "MainWindow",
           "messages": [
             "2d12ddab87e4ea15"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -14720,7 +14944,10 @@
             "9924fa0e342d2888",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -15159,6 +15386,16 @@
           "messages": [
             "2d12ddab87e4ea15"
           ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -15526,6 +15763,24 @@
           "messages": [
             "881bc273ad29e93f"
           ]
+        },
+        {
+          "name": "SettingsHome",
+          "messages": [
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -15877,7 +16132,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -15898,6 +16156,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -16251,7 +16519,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -16278,6 +16549,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -16631,7 +16912,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -16658,6 +16942,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -17011,7 +17305,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -17032,6 +17329,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -17400,6 +17707,24 @@
           "messages": [
             "881bc273ad29e93f"
           ]
+        },
+        {
+          "name": "SettingsHome",
+          "messages": [
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -17752,7 +18077,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -17779,6 +18107,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -18132,7 +18470,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -18159,6 +18500,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -18510,7 +18861,10 @@
             "19525922d8db9bb6",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -18537,6 +18891,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -18890,7 +19254,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -18917,6 +19284,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -19286,6 +19663,24 @@
           "messages": [
             "881bc273ad29e93f"
           ]
+        },
+        {
+          "name": "SettingsHome",
+          "messages": [
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
+          ]
         }
       ]
     },
@@ -19638,7 +20033,10 @@
             "39c87d64157fc6af",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -19665,6 +20063,16 @@
           "name": "DeviceSettings",
           "messages": [
             "881bc273ad29e93f"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -20266,7 +20674,10 @@
             "9924fa0e342d2888",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -20752,6 +21163,16 @@
             "3e8bdcd5265aae12",
             "875a6fac7cb3b70e",
             "91588038b35ec867"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]
@@ -21349,7 +21770,10 @@
             "9924fa0e342d2888",
             "e01f1416405ff5b9",
             "4130cf46e9a73de0",
-            "12e77c42fe8ba7e2"
+            "12e77c42fe8ba7e2",
+            "e27948de4dce3957",
+            "82d5422b3eb36974",
+            "4b3a561de7d66c63"
           ]
         },
         {
@@ -21835,6 +22259,16 @@
             "3e8bdcd5265aae12",
             "875a6fac7cb3b70e",
             "91588038b35ec867"
+          ]
+        },
+        {
+          "name": "ShortcutDialog",
+          "messages": [
+            "3a69e8cdf42fe197",
+            "1974b21b9a10f483",
+            "9d6aaa6c938b0b98",
+            "a18d4674ccfb65a9",
+            "847c2b95aac4cd17"
           ]
         }
       ]

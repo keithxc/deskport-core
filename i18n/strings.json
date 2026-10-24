@@ -36805,5 +36805,234 @@
       "android": false
     },
     "_manual": true
+  },
+  "Change shortcut": {
+    "en": "Change shortcut",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome",
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "更改快捷键",
+    "zh-Hant": "更改快速鍵",
+    "ja": "ショートカットを変更",
+    "fr": "Modifier le raccourci",
+    "de": "Tastenkürzel ändern",
+    "ar": "تغيير الاختصار",
+    "ko": "단축키 변경",
+    "pt": "Alterar atalho",
+    "es": "Cambiar atajo",
+    "bo": "མྱུར་མཐེབ་བརྗེ་བ།",
+    "it": "Cambia scorciatoia",
+    "ru": "Изменить сочетание",
+    "id": "Ubah pintasan",
+    "tr": "Kısayolu değiştir",
+    "vi": "Đổi phím tắt",
+    "th": "เปลี่ยนปุ่มลัด",
+    "nl": "Sneltoets wijzigen",
+    "pl": "Zmień skrót",
+    "uk": "Змінити сполучення",
+    "hi": "शॉर्टकट बदलें",
+    "ms": "Tukar pintasan"
+  },
+  "Shortcut unavailable: %1": {
+    "en": "Shortcut unavailable: %1",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "快捷键不可用：%1",
+    "zh-Hant": "快速鍵無法使用：%1",
+    "ja": "ショートカットを使用できません：%1",
+    "fr": "Raccourci indisponible : %1",
+    "de": "Tastenkürzel nicht verfügbar: %1",
+    "ar": "الاختصار غير متاح: %1",
+    "ko": "단축키를 사용할 수 없음: %1",
+    "pt": "Atalho indisponível: %1",
+    "es": "Atajo no disponible: %1",
+    "bo": "མྱུར་མཐེབ་སྤྱོད་མི་ཐུབ། %1",
+    "it": "Scorciatoia non disponibile: %1",
+    "ru": "Сочетание недоступно: %1",
+    "id": "Pintasan tidak tersedia: %1",
+    "tr": "Kısayol kullanılamıyor: %1",
+    "vi": "Không dùng được phím tắt: %1",
+    "th": "ใช้ปุ่มลัดไม่ได้: %1",
+    "nl": "Sneltoets niet beschikbaar: %1",
+    "pl": "Skrót niedostępny: %1",
+    "uk": "Сполучення недоступне: %1",
+    "hi": "शॉर्टकट उपलब्ध नहीं: %1",
+    "ms": "Pintasan tidak tersedia: %1"
+  },
+  "Desktop shortcut: %1. Manage its binding in your desktop settings.": {
+    "en": "Desktop shortcut: %1. Manage its binding in your desktop settings.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "桌面快捷键：%1。可在桌面环境设置中管理绑定。",
+    "zh-Hant": "桌面快速鍵：%1。可在桌面環境設定中管理綁定。",
+    "ja": "デスクトップのショートカット：%1。割り当てはデスクトップ設定で管理できます。",
+    "fr": "Raccourci du bureau : %1. Gérez son affectation dans les paramètres du bureau.",
+    "de": "Desktop-Tastenkürzel: %1. Die Belegung lässt sich in den Desktop-Einstellungen verwalten.",
+    "ar": "اختصار سطح المكتب: %1. أدر تعيينه في إعدادات سطح المكتب.",
+    "ko": "데스크톱 단축키: %1. 데스크톱 설정에서 할당을 관리하세요.",
+    "pt": "Atalho do ambiente de trabalho: %1. Gerencie a associação nas configurações do ambiente.",
+    "es": "Atajo del escritorio: %1. Administra su asignación en los ajustes del escritorio.",
+    "bo": "ཅོག་ངོས་མྱུར་མཐེབ། %1 ཅོག་ངོས་སྒྲིག་འགོད་ནང་སྦྲེལ་བ་དོ་དམ་བྱེད།",
+    "it": "Scorciatoia del desktop: %1. Gestisci l'associazione nelle impostazioni del desktop.",
+    "ru": "Сочетание рабочего стола: %1. Настройте его в параметрах рабочего стола.",
+    "id": "Pintasan desktop: %1. Kelola penetapannya di pengaturan desktop.",
+    "tr": "Masaüstü kısayolu: %1. Atamasını masaüstü ayarlarından yönetin.",
+    "vi": "Phím tắt của môi trường màn hình: %1. Quản lý tổ hợp trong cài đặt môi trường màn hình.",
+    "th": "ปุ่มลัดเดสก์ท็อป: %1 จัดการการกำหนดปุ่มในการตั้งค่าเดสก์ท็อป",
+    "nl": "Bureaubladsneltoets: %1. Beheer de toewijzing in de bureaubladinstellingen.",
+    "pl": "Skrót pulpitu: %1. Zarządzaj przypisaniem w ustawieniach pulpitu.",
+    "uk": "Сполучення стільниці: %1. Змініть призначення в параметрах стільниці.",
+    "hi": "डेस्कटॉप शॉर्टकट: %1। इसका संयोजन डेस्कटॉप सेटिंग में बदलें।",
+    "ms": "Pintasan desktop: %1. Urus penetapannya dalam tetapan desktop."
+  },
+  "Restore default": {
+    "en": "Restore default",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "恢复默认",
+    "zh-Hant": "回復預設",
+    "ja": "既定に戻す",
+    "fr": "Rétablir la valeur par défaut",
+    "de": "Standard wiederherstellen",
+    "ar": "استعادة الافتراضي",
+    "ko": "기본값 복원",
+    "pt": "Restaurar padrão",
+    "es": "Restaurar valor predeterminado",
+    "bo": "སོར་བཞག་སླར་གསོ།",
+    "it": "Ripristina predefinito",
+    "ru": "Восстановить по умолчанию",
+    "id": "Pulihkan bawaan",
+    "tr": "Varsayılana dön",
+    "vi": "Khôi phục mặc định",
+    "th": "คืนค่าเริ่มต้น",
+    "nl": "Standaard herstellen",
+    "pl": "Przywróć domyślne",
+    "uk": "Відновити типове",
+    "hi": "डिफ़ॉल्ट बहाल करें",
+    "ms": "Pulihkan lalai"
+  },
+  "Save shortcut": {
+    "en": "Save shortcut",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "保存快捷键",
+    "zh-Hant": "儲存快速鍵",
+    "ja": "ショートカットを保存",
+    "fr": "Enregistrer le raccourci",
+    "de": "Tastenkürzel speichern",
+    "ar": "حفظ الاختصار",
+    "ko": "단축키 저장",
+    "pt": "Salvar atalho",
+    "es": "Guardar atajo",
+    "bo": "མྱུར་མཐེབ་ཉར་ཚགས།",
+    "it": "Salva scorciatoia",
+    "ru": "Сохранить сочетание",
+    "id": "Simpan pintasan",
+    "tr": "Kısayolu kaydet",
+    "vi": "Lưu phím tắt",
+    "th": "บันทึกปุ่มลัด",
+    "nl": "Sneltoets opslaan",
+    "pl": "Zapisz skrót",
+    "uk": "Зберегти сполучення",
+    "hi": "शॉर्टकट सहेजें",
+    "ms": "Simpan pintasan"
+  },
+  "Choose a supported key combination.": {
+    "en": "Choose a supported key combination.",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "请选择支持的组合键。",
+    "zh-Hant": "請選擇支援的組合鍵。",
+    "ja": "対応するキーの組み合わせを選んでください。",
+    "fr": "Choisissez une combinaison de touches prise en charge.",
+    "de": "Wählen Sie eine unterstützte Tastenkombination.",
+    "ar": "اختر مجموعة مفاتيح مدعومة.",
+    "ko": "지원되는 키 조합을 선택하세요.",
+    "pt": "Escolha uma combinação de teclas compatível.",
+    "es": "Elige una combinación de teclas compatible.",
+    "bo": "རྒྱབ་སྐྱོར་ཡོད་པའི་མཐེབ་སྦྱོར་ཞིག་འདེམས།",
+    "it": "Scegli una combinazione di tasti supportata.",
+    "ru": "Выберите поддерживаемое сочетание клавиш.",
+    "id": "Pilih kombinasi tombol yang didukung.",
+    "tr": "Desteklenen bir tuş birleşimi seçin.",
+    "vi": "Chọn tổ hợp phím được hỗ trợ.",
+    "th": "เลือกชุดปุ่มที่รองรับ",
+    "nl": "Kies een ondersteunde toetsencombinatie.",
+    "pl": "Wybierz obsługiwaną kombinację klawiszy.",
+    "uk": "Виберіть підтримуване сполучення клавіш.",
+    "hi": "समर्थित कुंजी संयोजन चुनें।",
+    "ms": "Pilih gabungan kekunci yang disokong."
+  },
+  "Press a shortcut. Use Control, Alt/Option or Meta/Command with a letter, number, F1–F12, Space or apostrophe. Shift is optional.": {
+    "en": "Press a shortcut. Use Control, Alt/Option or Meta/Command with a letter, number, F1–F12, Space or apostrophe. Shift is optional.",
+    "_platforms": {
+      "desktop": [
+        "ShortcutDialog"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "按下组合键。使用 Control、Alt/Option 或 Meta/Command 搭配字母、数字、F1–F12、空格或单引号，也可加上 Shift。",
+    "zh-Hant": "按下組合鍵。使用 Control、Alt/Option 或 Meta/Command 搭配字母、數字、F1–F12、空白或單引號，也可加上 Shift。",
+    "ja": "キーを押してください。Control、Alt/Option、Meta/Command と英字、数字、F1–F12、スペース、アポストロフィを組み合わせます。Shift も追加できます。",
+    "fr": "Appuyez sur un raccourci. Associez Control, Alt/Option ou Meta/Command à une lettre, un chiffre, F1–F12, Espace ou une apostrophe. Shift est facultatif.",
+    "de": "Drücken Sie ein Tastenkürzel. Kombinieren Sie Control, Alt/Option oder Meta/Command mit einem Buchstaben, einer Ziffer, F1–F12, Leerzeichen oder Apostroph. Shift ist optional.",
+    "ar": "اضغط اختصارًا. استخدم Control أو Alt/Option أو Meta/Command مع حرف أو رقم أو F1–F12 أو مسافة أو فاصلة عليا. Shift اختياري.",
+    "ko": "단축키를 누르세요. Control, Alt/Option 또는 Meta/Command와 문자, 숫자, F1–F12, 스페이스 또는 작은따옴표를 조합하세요. Shift도 추가할 수 있습니다.",
+    "pt": "Pressione um atalho. Combine Control, Alt/Option ou Meta/Command com uma letra, número, F1–F12, espaço ou apóstrofo. Shift é opcional.",
+    "es": "Pulsa un atajo. Combina Control, Alt/Option o Meta/Command con una letra, número, F1–F12, espacio o apóstrofo. Shift es opcional.",
+    "bo": "མྱུར་མཐེབ་ཞིག་གནོན། Control དང་ Alt/Option ཡང་ན་ Meta/Command དང་ལྷན་དུ་ཡི་གེ་དང་ཨང་ཀི་ F1–F12 སྟོང་ཆ་ཡང་ན་འབྲེལ་རྟགས་སྤྱོད། Shift འདེམས་ཆོག",
+    "it": "Premi una scorciatoia. Usa Control, Alt/Option o Meta/Command con una lettera, numero, F1–F12, spazio o apostrofo. Shift è facoltativo.",
+    "ru": "Нажмите сочетание. Используйте Control, Alt/Option или Meta/Command с буквой, цифрой, F1–F12, пробелом или апострофом. Shift можно добавить.",
+    "id": "Tekan pintasan. Gunakan Control, Alt/Option atau Meta/Command dengan huruf, angka, F1–F12, spasi atau apostrof. Shift opsional.",
+    "tr": "Bir kısayola basın. Control, Alt/Option veya Meta/Command ile harf, sayı, F1–F12, boşluk veya kesme işareti kullanın. Shift isteğe bağlıdır.",
+    "vi": "Nhấn tổ hợp phím. Dùng Control, Alt/Option hoặc Meta/Command cùng chữ cái, chữ số, F1–F12, dấu cách hoặc dấu nháy đơn. Có thể thêm Shift.",
+    "th": "กดปุ่มลัด ใช้ Control, Alt/Option หรือ Meta/Command ร่วมกับตัวอักษร ตัวเลข F1–F12 เว้นวรรค หรืออัญประกาศเดี่ยว จะเพิ่ม Shift ก็ได้",
+    "nl": "Druk een sneltoets in. Gebruik Control, Alt/Option of Meta/Command met een letter, cijfer, F1–F12, spatie of apostrof. Shift is optioneel.",
+    "pl": "Naciśnij skrót. Użyj Control, Alt/Option lub Meta/Command z literą, cyfrą, F1–F12, spacją lub apostrofem. Shift jest opcjonalny.",
+    "uk": "Натисніть сполучення. Використовуйте Control, Alt/Option або Meta/Command з літерою, цифрою, F1–F12, пробілом чи апострофом. Shift можна додати.",
+    "hi": "शॉर्टकट दबाएँ। Control, Alt/Option या Meta/Command के साथ अक्षर, अंक, F1–F12, स्पेस या अपॉस्ट्रॉफ़ चुनें। Shift वैकल्पिक है।",
+    "ms": "Tekan pintasan. Gunakan Control, Alt/Option atau Meta/Command bersama huruf, nombor, F1–F12, ruang atau apostrof. Shift adalah pilihan."
+  },
+  "Choose Settings → Keyboard shortcuts → Change shortcut, then press a combination and save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused.": {
+    "en": "Choose Settings → Keyboard shortcuts → Change shortcut, then press a combination and save it. The new binding applies immediately on this computer. Restore default returns to Meta + apostrophe (Command + apostrophe on macOS). Cancel keeps the previous binding. While recording, the global shortcut is paused.",
+    "zh-Hans": "打开设置 → 键盘快捷键 → 更改快捷键，按下组合键并保存。新绑定立即在当前电脑生效。恢复默认会回到 Meta + 单引号（macOS 为 Command + 单引号）。取消会保留原绑定。录入期间全局快捷键暂停。",
+    "zh-Hant": "開啟設定 → 鍵盤快速鍵 → 更改快速鍵，按下組合鍵並儲存。新綁定立即在目前電腦生效。回復預設會回到 Meta + 單引號（macOS 為 Command + 單引號）。取消會保留原綁定。錄入期間全域快速鍵暫停。",
+    "_manual": true,
+    "_platforms": {
+      "desktop": [],
+      "apple": false,
+      "android": false
+    }
   }
 }

@@ -44,6 +44,14 @@ regional system-locale fallback. Tibetan uses `bo`; Arabic uses `ar` and RTL.
 Run `python3 i18n/catalog.py` and `python3 tests/test_i18n.py` before advancing
 consumer pins. Locale choice never changes any wire or stored protocol value.
 
+## Custom desktop recall binding — 2026-10-24
+
+The desktop shortcut recorder, validation hints and compositor-assigned binding
+status have draft translations in all 22 primary locales. The offline manual
+explains recording, saving, cancellation and restoring the default binding in
+English and both Chinese scripts, with English fallback elsewhere. Binding
+validation, storage and native registration stay in the desktop adapter.
+
 ## Desktop shortcut and manual expansion — 2026-10-24
 
 The desktop window-shortcut controls have draft translations in all 22 primary
