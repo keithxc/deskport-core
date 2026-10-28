@@ -37553,5 +37553,36 @@
       "apple": false,
       "android": false
     }
+  },
+  "Hold Control+Command: drag inside the picture to move the window, or drag its edges or corners to resize it.": {
+    "en": "Hold Control+Command: drag inside the picture to move the window, or drag its edges or corners to resize it.",
+    "zh-Hans": "按住 Control+Command：拖动画面内部可移动窗口，拖动窗口边缘或四角可调整大小。",
+    "zh-Hant": "按住 Control+Command：拖曳畫面內部可移動視窗，拖曳視窗邊緣或四角可調整大小。",
+    "ja": "Control+Command を押しながら、画面の内側をドラッグするとウィンドウが移動し、端や角をドラッグするとサイズが変わります。",
+    "fr": "Maintenez Control+Command : faites glisser l’intérieur de l’image pour déplacer la fenêtre, ou ses bords ou coins pour la redimensionner.",
+    "de": "Control+Command gedrückt halten: Im Bild ziehen, um das Fenster zu verschieben, oder an seinen Rändern oder Ecken ziehen, um die Größe zu ändern.",
+    "ar": "اضغط باستمرار على Control+Command: اسحب داخل الصورة لنقل النافذة، أو اسحب حوافها أو زواياها لتغيير حجمها.",
+    "ko": "Control+Command를 누른 채 화면 안쪽을 드래그하면 창이 이동하고, 가장자리나 모서리를 드래그하면 크기가 조절됩니다.",
+    "pt": "Mantenha Control+Command pressionados: arraste dentro da imagem para mover a janela, ou pelas bordas ou cantos para redimensioná-la.",
+    "es": "Mantén pulsado Control+Command: arrastra dentro de la imagen para mover la ventana, o sus bordes o esquinas para cambiar su tamaño.",
+    "bo": "Control+Command མནན་བཞིན་དུ་པར་རིས་ཀྱི་ནང་དུ་འདྲུད་ན་སྒེའུ་ཁུང་སྤོ་ཐུབ། མཐའ་འམ་ཟུར་འདྲུད་ན་ཆེ་ཆུང་སྒྱུར་ཐུབ།",
+    "it": "Tieni premuto Control+Command: trascina all’interno dell’immagine per spostare la finestra, oppure dai bordi o dagli angoli per ridimensionarla.",
+    "ru": "Удерживайте Control+Command: перетаскивайте внутри изображения, чтобы переместить окно, или за его края и углы, чтобы изменить размер.",
+    "id": "Tahan Control+Command: seret di dalam gambar untuk memindahkan jendela, atau seret tepi atau sudutnya untuk mengubah ukuran.",
+    "tr": "Control+Command tuşlarını basılı tutun: pencereyi taşımak için görüntünün içini, boyutunu değiştirmek için kenarlarını veya köşelerini sürükleyin.",
+    "vi": "Giữ Control+Command: kéo bên trong hình ảnh để di chuyển cửa sổ, hoặc kéo cạnh hay góc để đổi kích thước.",
+    "th": "กด Control+Command ค้างไว้: ลากภายในภาพเพื่อย้ายหน้าต่าง หรือลากขอบหรือมุมเพื่อปรับขนาด",
+    "nl": "Houd Control+Command ingedrukt: sleep binnen het beeld om het venster te verplaatsen, of aan de randen of hoeken om de grootte te wijzigen.",
+    "pl": "Przytrzymaj Control+Command: przeciągnij wewnątrz obrazu, aby przesunąć okno, albo jego krawędzie lub rogi, aby zmienić rozmiar.",
+    "uk": "Утримуйте Control+Command: перетягуйте всередині зображення, щоб перемістити вікно, або за його краї чи кути, щоб змінити розмір.",
+    "hi": "Control+Command दबाए रखें: विंडो खिसकाने के लिए चित्र के अंदर खींचें, या उसका आकार बदलने के लिए किनारों या कोनों को खींचें।",
+    "ms": "Tahan Control+Command: seret di dalam gambar untuk mengalihkan tetingkap, atau seret tepi atau bucunya untuk mengubah saiz.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    }
   }
 }
