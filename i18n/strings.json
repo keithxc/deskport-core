@@ -37211,5 +37211,192 @@
       "apple": false,
       "android": false
     }
+  },
+  "Hide title bar while viewing a remote desktop": {
+    "en": "Hide title bar while viewing a remote desktop",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome",
+        "HostManager"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "查看远程桌面时隐藏标题栏",
+    "zh-Hant": "檢視遠端桌面時隱藏標題列",
+    "ja": "リモートデスクトップ表示中はタイトルバーを隠す",
+    "ko": "원격 데스크톱을 볼 때 제목 표시줄 숨기기",
+    "fr": "Masquer la barre de titre pendant l'affichage d'un bureau distant",
+    "de": "Titelleiste beim Anzeigen eines entfernten Desktops ausblenden",
+    "es": "Ocultar la barra de título al ver un escritorio remoto",
+    "pt": "Ocultar a barra de título ao ver uma área de trabalho remota",
+    "it": "Nascondi la barra del titolo durante la visualizzazione di un desktop remoto",
+    "nl": "Titelbalk verbergen bij het bekijken van een extern bureaublad",
+    "ru": "Скрывать заголовок окна при просмотре удалённого рабочего стола",
+    "uk": "Приховувати заголовок вікна під час перегляду віддаленого робочого столу",
+    "pl": "Ukryj pasek tytułu podczas oglądania zdalnego pulpitu",
+    "tr": "Uzak masaüstü görüntülenirken başlık çubuğunu gizle",
+    "ar": "إخفاء شريط العنوان أثناء عرض سطح مكتب بعيد",
+    "hi": "रिमोट डेस्कटॉप देखते समय टाइटल बार छिपाएं",
+    "id": "Sembunyikan bilah judul saat melihat desktop jarak jauh",
+    "ms": "Sembunyikan bar tajuk semasa melihat desktop jauh",
+    "vi": "Ẩn thanh tiêu đề khi xem màn hình từ xa",
+    "th": "ซ่อนแถบชื่อเรื่องขณะดูเดสก์ท็อประยะไกล",
+    "bo": "རྒྱང་ཐག་ཅོག་ངོས་ལྟ་སྐབས་ཁ་བྱང་ཕྲ་རིང་སྦས།"
+  },
+  "About hiding the title bar": {
+    "en": "About hiding the title bar",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "关于隐藏标题栏",
+    "zh-Hant": "關於隱藏標題列",
+    "ja": "タイトルバーを隠す設定について",
+    "ko": "제목 표시줄 숨기기 정보",
+    "fr": "À propos du masquage de la barre de titre",
+    "de": "Über das Ausblenden der Titelleiste",
+    "es": "Acerca de ocultar la barra de título",
+    "pt": "Sobre ocultar a barra de título",
+    "it": "Informazioni su come nascondere la barra del titolo",
+    "nl": "Over het verbergen van de titelbalk",
+    "ru": "О скрытии заголовка окна",
+    "uk": "Про приховування заголовка вікна",
+    "pl": "Informacje o ukrywaniu paska tytułu",
+    "tr": "Başlık çubuğunu gizleme hakkında",
+    "ar": "حول إخفاء شريط العنوان",
+    "hi": "टाइटल बार छिपाने के बारे में",
+    "id": "Tentang menyembunyikan bilah judul",
+    "ms": "Tentang menyembunyikan bar tajuk",
+    "vi": "Giới thiệu về việc ẩn thanh tiêu đề",
+    "th": "เกี่ยวกับการซ่อนแถบชื่อเรื่อง",
+    "bo": "ཁ་བྱང་ཕྲ་རིང་སྦས་པའི་སྐོར།"
+  },
+  "Off by default. When on, the remote desktop window has no title bar or window buttons, and the remote picture uses that space. The Devices page keeps its title bar. Use the tray icon or the global window shortcut to show, hide or disconnect. Changes apply immediately.": {
+    "en": "Off by default. When on, the remote desktop window has no title bar or window buttons, and the remote picture uses that space. The Devices page keeps its title bar. Use the tray icon or the global window shortcut to show, hide or disconnect. Changes apply immediately.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "默认关闭。开启后，远程桌面窗口不显示标题栏和窗口按钮，这部分空间留给远端画面。设备页仍保留标题栏。显示、隐藏或断开请使用托盘图标或全局窗口快捷键。更改立即生效。",
+    "zh-Hant": "預設關閉。開啟後，遠端桌面視窗不顯示標題列和視窗按鈕，這部分空間留給遠端畫面。裝置頁仍保留標題列。顯示、隱藏或中斷連線請使用系統匣圖示或全域視窗快速鍵。變更會立即生效。",
+    "ja": "既定ではオフです。オンにすると、リモートデスクトップのウィンドウにタイトルバーとウィンドウボタンが表示されず、その領域もリモート画面に使われます。デバイス画面のタイトルバーはそのままです。表示、非表示、切断にはトレイアイコンまたはグローバルウィンドウショートカットを使います。変更はすぐに適用されます。",
+    "ko": "기본적으로 꺼져 있습니다. 켜면 원격 데스크톱 창에 제목 표시줄과 창 버튼이 표시되지 않고 그 공간을 원격 화면이 사용합니다. 기기 페이지의 제목 표시줄은 유지됩니다. 표시, 숨기기, 연결 끊기는 트레이 아이콘이나 전역 창 단축키를 사용하세요. 변경 사항은 즉시 적용됩니다.",
+    "fr": "Désactivé par défaut. Une fois activé, la fenêtre du bureau distant n'a ni barre de titre ni boutons de fenêtre, et l'image distante occupe cet espace. La page Appareils conserve sa barre de titre. Utilisez l'icône de la zone de notification ou le raccourci global de la fenêtre pour afficher, masquer ou déconnecter. Les modifications s'appliquent immédiatement.",
+    "de": "Standardmäßig aus. Wenn aktiviert, hat das Fenster des entfernten Desktops keine Titelleiste und keine Fensterschaltflächen, und das entfernte Bild nutzt diesen Platz. Die Geräteseite behält ihre Titelleiste. Zum Anzeigen, Ausblenden oder Trennen das Tray-Symbol oder das globale Fensterkürzel verwenden. Änderungen gelten sofort.",
+    "es": "Desactivado de forma predeterminada. Al activarlo, la ventana del escritorio remoto no tiene barra de título ni botones de ventana, y la imagen remota ocupa ese espacio. La página Dispositivos conserva su barra de título. Usa el icono de la bandeja o el atajo global de la ventana para mostrar, ocultar o desconectar. Los cambios se aplican de inmediato.",
+    "pt": "Desativado por padrão. Quando ativado, a janela da área de trabalho remota não tem barra de título nem botões de janela, e a imagem remota usa esse espaço. A página Dispositivos mantém a barra de título. Use o ícone da bandeja ou o atalho global da janela para mostrar, ocultar ou desconectar. As alterações são aplicadas imediatamente.",
+    "it": "Disattivato per impostazione predefinita. Se attivato, la finestra del desktop remoto non ha barra del titolo né pulsanti della finestra e l'immagine remota usa quello spazio. La pagina Dispositivi mantiene la barra del titolo. Usa l'icona nell'area di notifica o la scorciatoia globale della finestra per mostrare, nascondere o disconnettere. Le modifiche si applicano subito.",
+    "nl": "Standaard uit. Indien aan heeft het venster van het externe bureaublad geen titelbalk of vensterknoppen en gebruikt het externe beeld die ruimte. De pagina Apparaten behoudt de titelbalk. Gebruik het systeemvakpictogram of de globale venstersnelkoppeling om te tonen, te verbergen of de verbinding te verbreken. Wijzigingen worden direct toegepast.",
+    "ru": "По умолчанию выключено. Если включено, у окна удалённого рабочего стола нет заголовка и кнопок окна, и это место занимает удалённое изображение. На странице устройств заголовок остаётся. Чтобы показать, скрыть или отключиться, используйте значок в трее или глобальное сочетание клавиш окна. Изменения применяются сразу.",
+    "uk": "Типово вимкнено. Якщо ввімкнено, вікно віддаленого робочого столу не має заголовка та кнопок вікна, і цей простір займає віддалене зображення. Сторінка пристроїв зберігає заголовок. Щоб показати, приховати або від'єднатися, використовуйте значок у треї або глобальне сполучення клавіш вікна. Зміни застосовуються одразу.",
+    "pl": "Domyślnie wyłączone. Po włączeniu okno zdalnego pulpitu nie ma paska tytułu ani przycisków okna, a zdalny obraz zajmuje to miejsce. Strona Urządzenia zachowuje pasek tytułu. Aby pokazać, ukryć lub rozłączyć, użyj ikony w zasobniku lub globalnego skrótu okna. Zmiany są stosowane od razu.",
+    "tr": "Varsayılan olarak kapalıdır. Açıldığında uzak masaüstü penceresinde başlık çubuğu ve pencere düğmeleri olmaz, bu alanı uzak görüntü kullanır. Cihazlar sayfası başlık çubuğunu korur. Göstermek, gizlemek veya bağlantıyı kesmek için tepsi simgesini ya da genel pencere kısayolunu kullanın. Değişiklikler hemen uygulanır.",
+    "ar": "متوقف افتراضيًا. عند تشغيله، لا تحتوي نافذة سطح المكتب البعيد على شريط عنوان أو أزرار نافذة، وتستخدم الصورة البعيدة تلك المساحة. تحتفظ صفحة الأجهزة بشريط العنوان. استخدم أيقونة شريط النظام أو اختصار النافذة العام للإظهار أو الإخفاء أو قطع الاتصال. تُطبَّق التغييرات فورًا.",
+    "hi": "डिफ़ॉल्ट रूप से बंद। चालू होने पर रिमोट डेस्कटॉप विंडो में टाइटल बार या विंडो बटन नहीं होते, और वह जगह रिमोट चित्र को मिलती है। डिवाइस पेज का टाइटल बार बना रहता है। दिखाने, छिपाने या डिस्कनेक्ट करने के लिए ट्रे आइकन या ग्लोबल विंडो शॉर्टकट का उपयोग करें। बदलाव तुरंत लागू होते हैं।",
+    "id": "Mati secara default. Jika aktif, jendela desktop jarak jauh tidak memiliki bilah judul atau tombol jendela, dan gambar jarak jauh memakai ruang itu. Halaman Perangkat tetap memiliki bilah judul. Gunakan ikon baki atau pintasan jendela global untuk menampilkan, menyembunyikan, atau memutus koneksi. Perubahan langsung diterapkan.",
+    "ms": "Dimatikan secara lalai. Apabila dihidupkan, tetingkap desktop jauh tiada bar tajuk atau butang tetingkap, dan gambar jauh menggunakan ruang itu. Halaman Peranti mengekalkan bar tajuknya. Gunakan ikon dulang atau pintasan tetingkap global untuk menunjukkan, menyembunyikan atau memutuskan sambungan. Perubahan berkuat kuasa serta-merta.",
+    "vi": "Tắt theo mặc định. Khi bật, cửa sổ màn hình từ xa không có thanh tiêu đề hay nút cửa sổ, và hình ảnh từ xa dùng phần không gian đó. Trang Thiết bị vẫn giữ thanh tiêu đề. Dùng biểu tượng khay hoặc phím tắt cửa sổ toàn cục để hiện, ẩn hoặc ngắt kết nối. Thay đổi có hiệu lực ngay.",
+    "th": "ปิดไว้โดยค่าเริ่มต้น เมื่อเปิด หน้าต่างเดสก์ท็อประยะไกลจะไม่มีแถบชื่อเรื่องหรือปุ่มหน้าต่าง และภาพระยะไกลจะใช้พื้นที่นั้น หน้าอุปกรณ์ยังคงมีแถบชื่อเรื่อง ใช้ไอคอนในถาดระบบหรือทางลัดหน้าต่างส่วนกลางเพื่อแสดง ซ่อน หรือตัดการเชื่อมต่อ การเปลี่ยนแปลงมีผลทันที",
+    "bo": "སྔོན་སྒྲིག་ཐོག་ཁ་རྒྱབ་ཡོད། ཁ་ཕྱེ་ན། རྒྱང་ཐག་ཅོག་ངོས་ཀྱི་སྒེའུ་ཁུང་ལ་ཁ་བྱང་ཕྲ་རིང་དང་སྒེའུ་ཁུང་གི་མཐེབ་མི་སྟོན། ས་སྟོང་དེ་རྒྱང་ཐག་གི་པར་རིས་ལ་སྤྱོད། སྒྲིག་ཆས་ཤོག་ངོས་ལ་ཁ་བྱང་ཕྲ་རིང་ཉར། སྟོན་པ་དང་སྦས་པ། འབྲེལ་མཐུད་གཅོད་པར་སྡེར་མའི་རྟགས་རིས་སམ་ཡོངས་ཁྱབ་སྒེའུ་ཁུང་མྱུར་མཐེབ་བེད་སྤྱོད་གནང་། བཟོ་བཅོས་འཕྲལ་དུ་ནུས་པ་ཐོན།"
+  },
+  "Linux: move or resize the window with your desktop's shortcuts, such as Meta+drag on KDE Plasma. Tiled windows are unaffected. On some older Wayland desktops, the title bar returns only after the window is reopened.": {
+    "en": "Linux: move or resize the window with your desktop's shortcuts, such as Meta+drag on KDE Plasma. Tiled windows are unaffected. On some older Wayland desktops, the title bar returns only after the window is reopened.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "Linux：用桌面环境的快捷操作移动或调整窗口，例如 KDE Plasma 上按住 Meta 拖动。平铺窗口不受影响。在部分较旧的 Wayland 桌面上，关闭此选项后需重新打开窗口才会恢复标题栏。",
+    "zh-Hant": "Linux：以桌面環境的快速操作移動或調整視窗，例如 KDE Plasma 上按住 Meta 拖曳。並排視窗不受影響。在部分較舊的 Wayland 桌面上，關閉此選項後需重新開啟視窗才會恢復標題列。",
+    "ja": "Linux：ウィンドウの移動やサイズ変更は、KDE Plasma の Meta+ドラッグなど、デスクトップのショートカットで行います。タイル配置のウィンドウには影響しません。一部の古い Wayland デスクトップでは、ウィンドウを開き直すまでタイトルバーが戻りません。",
+    "ko": "Linux: KDE Plasma의 Meta+드래그처럼 데스크톱 단축키로 창을 이동하거나 크기를 조절하세요. 타일 배치된 창은 영향을 받지 않습니다. 일부 오래된 Wayland 데스크톱에서는 창을 다시 열어야 제목 표시줄이 돌아옵니다.",
+    "fr": "Linux : déplacez ou redimensionnez la fenêtre avec les raccourcis de votre bureau, par exemple Meta+glisser sous KDE Plasma. Les fenêtres en mosaïque ne sont pas concernées. Sur certains bureaux Wayland plus anciens, la barre de titre ne revient qu'après la réouverture de la fenêtre.",
+    "de": "Linux: Fenster mit den Kürzeln des Desktops verschieben oder skalieren, etwa Meta+Ziehen unter KDE Plasma. Gekachelte Fenster sind nicht betroffen. Auf einigen älteren Wayland-Desktops erscheint die Titelleiste erst wieder, nachdem das Fenster neu geöffnet wurde.",
+    "es": "Linux: mueve o redimensiona la ventana con los atajos de tu escritorio, como Meta+arrastrar en KDE Plasma. Las ventanas en mosaico no se ven afectadas. En algunos escritorios Wayland antiguos, la barra de título solo vuelve después de reabrir la ventana.",
+    "pt": "Linux: mova ou redimensione a janela com os atalhos da sua área de trabalho, como Meta+arrastar no KDE Plasma. Janelas lado a lado não são afetadas. Em alguns ambientes Wayland mais antigos, a barra de título só volta depois de reabrir a janela.",
+    "it": "Linux: sposta o ridimensiona la finestra con le scorciatoie del desktop, ad esempio Meta+trascina in KDE Plasma. Le finestre affiancate non cambiano. Su alcuni desktop Wayland meno recenti, la barra del titolo ricompare solo dopo aver riaperto la finestra.",
+    "nl": "Linux: verplaats of wijzig de grootte van het venster met de sneltoetsen van je bureaublad, zoals Meta+slepen in KDE Plasma. Getegelde vensters veranderen niet. Op sommige oudere Wayland-bureaubladen komt de titelbalk pas terug nadat het venster opnieuw is geopend.",
+    "ru": "Linux: перемещайте окно и меняйте его размер сочетаниями рабочего стола, например Meta+перетаскивание в KDE Plasma. Мозаичные окна это не затрагивает. В некоторых старых окружениях Wayland заголовок возвращается только после повторного открытия окна.",
+    "uk": "Linux: переміщуйте вікно та змінюйте його розмір сполученнями робочого столу, наприклад Meta+перетягування в KDE Plasma. Мозаїчних вікон це не стосується. У деяких старіших середовищах Wayland заголовок повертається лише після повторного відкриття вікна.",
+    "pl": "Linux: przenoś okno lub zmieniaj jego rozmiar skrótami pulpitu, np. Meta+przeciągnij w KDE Plasma. Okna kafelkowe nie są zmieniane. Na niektórych starszych pulpitach Wayland pasek tytułu wraca dopiero po ponownym otwarciu okna.",
+    "tr": "Linux: pencereyi masaüstünüzün kısayollarıyla taşıyın veya yeniden boyutlandırın; örneğin KDE Plasma'da Meta+sürükle. Döşenmiş pencereler etkilenmez. Bazı eski Wayland masaüstlerinde başlık çubuğu ancak pencere yeniden açıldıktan sonra geri gelir.",
+    "ar": "Linux: انقل النافذة أو غيّر حجمها باختصارات سطح المكتب، مثل Meta+السحب في KDE Plasma. لا تتأثر النوافذ المتجانبة. في بعض أسطح مكتب Wayland الأقدم، لا يعود شريط العنوان إلا بعد إعادة فتح النافذة.",
+    "hi": "Linux: विंडो को अपने डेस्कटॉप के शॉर्टकट से हिलाएं या उसका आकार बदलें, जैसे KDE Plasma पर Meta+ड्रैग। टाइल की गई विंडो पर असर नहीं पड़ता। कुछ पुराने Wayland डेस्कटॉप पर टाइटल बार विंडो दोबारा खोलने के बाद ही लौटता है।",
+    "id": "Linux: pindahkan atau ubah ukuran jendela dengan pintasan desktop Anda, misalnya Meta+seret di KDE Plasma. Jendela bertata ubin tidak terpengaruh. Pada beberapa desktop Wayland lama, bilah judul baru kembali setelah jendela dibuka ulang.",
+    "ms": "Linux: alih atau ubah saiz tetingkap dengan pintasan desktop anda, seperti Meta+seret pada KDE Plasma. Tetingkap berjubin tidak terjejas. Pada sesetengah desktop Wayland lama, bar tajuk hanya kembali selepas tetingkap dibuka semula.",
+    "vi": "Linux: di chuyển hoặc đổi kích thước cửa sổ bằng phím tắt của môi trường desktop, ví dụ Meta+kéo trên KDE Plasma. Cửa sổ xếp lát không bị ảnh hưởng. Trên một số desktop Wayland cũ, thanh tiêu đề chỉ hiện lại sau khi mở lại cửa sổ.",
+    "th": "Linux: ย้ายหรือปรับขนาดหน้าต่างด้วยทางลัดของเดสก์ท็อป เช่น Meta+ลากใน KDE Plasma หน้าต่างแบบเรียงต่อไม่ได้รับผลกระทบ บนเดสก์ท็อป Wayland รุ่นเก่าบางตัว แถบชื่อเรื่องจะกลับมาหลังจากเปิดหน้าต่างใหม่เท่านั้น",
+    "bo": "Linux: ཅོག་ངོས་ཀྱི་མྱུར་མཐེབ་ཀྱིས་སྒེའུ་ཁུང་སྤོ་བའམ་ཆེ་ཆུང་སྒྱུར། དཔེར་ན་ KDE Plasma ཐོག་ Meta+འདྲུད། ཆ་སྒྲིག་སྒེའུ་ཁུང་ལ་ཤུགས་རྐྱེན་མེད། Wayland ཅོག་ངོས་རྙིང་པ་ཁ་ཤས་ཐོག་སྒེའུ་ཁུང་བསྐྱར་དུ་ཕྱེ་རྗེས་ཁོ་ནར་ཁ་བྱང་ཕྲ་རིང་ཕྱིར་ཡོང་།"
+  },
+  "Windows: the window cannot be moved or resized with the mouse. Turn this off or use full screen to change its size.": {
+    "en": "Windows: the window cannot be moved or resized with the mouse. Turn this off or use full screen to change its size.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "Windows：窗口无法用鼠标移动或调整大小。如需改变大小，请关闭此选项或使用全屏。",
+    "zh-Hant": "Windows：視窗無法用滑鼠移動或調整大小。如需變更大小，請關閉此選項或使用全螢幕。",
+    "ja": "Windows：マウスでウィンドウを移動したりサイズを変更したりできません。サイズを変えるには、この設定をオフにするか全画面表示を使います。",
+    "ko": "Windows: 마우스로 창을 이동하거나 크기를 조절할 수 없습니다. 크기를 바꾸려면 이 옵션을 끄거나 전체 화면을 사용하세요.",
+    "fr": "Windows : la fenêtre ne peut pas être déplacée ni redimensionnée à la souris. Désactivez cette option ou passez en plein écran pour changer sa taille.",
+    "de": "Windows: Das Fenster lässt sich nicht mit der Maus verschieben oder skalieren. Zum Ändern der Größe diese Option ausschalten oder den Vollbildmodus verwenden.",
+    "es": "Windows: la ventana no se puede mover ni redimensionar con el ratón. Desactiva esta opción o usa pantalla completa para cambiar su tamaño.",
+    "pt": "Windows: a janela não pode ser movida nem redimensionada com o mouse. Desative esta opção ou use a tela cheia para mudar o tamanho.",
+    "it": "Windows: la finestra non può essere spostata o ridimensionata con il mouse. Disattiva questa opzione o usa lo schermo intero per cambiarne le dimensioni.",
+    "nl": "Windows: het venster kan niet met de muis worden verplaatst of van grootte veranderd. Schakel deze optie uit of gebruik volledig scherm om de grootte te wijzigen.",
+    "ru": "Windows: окно нельзя перемещать или менять его размер мышью. Чтобы изменить размер, выключите этот параметр или используйте полноэкранный режим.",
+    "uk": "Windows: вікно не можна переміщати чи змінювати його розмір мишею. Щоб змінити розмір, вимкніть цей параметр або скористайтеся повноекранним режимом.",
+    "pl": "Windows: okna nie można przenosić ani zmieniać jego rozmiaru myszą. Aby zmienić rozmiar, wyłącz tę opcję lub użyj pełnego ekranu.",
+    "tr": "Windows: pencere fareyle taşınamaz veya yeniden boyutlandırılamaz. Boyutunu değiştirmek için bu seçeneği kapatın veya tam ekranı kullanın.",
+    "ar": "Windows: لا يمكن نقل النافذة أو تغيير حجمها بالفأرة. لتغيير حجمها، أوقف هذا الخيار أو استخدم ملء الشاشة.",
+    "hi": "Windows: विंडो को माउस से हिलाया या उसका आकार बदला नहीं जा सकता। आकार बदलने के लिए यह विकल्प बंद करें या फ़ुल स्क्रीन का उपयोग करें।",
+    "id": "Windows: jendela tidak dapat dipindahkan atau diubah ukurannya dengan mouse. Matikan opsi ini atau gunakan layar penuh untuk mengubah ukurannya.",
+    "ms": "Windows: tetingkap tidak boleh dialihkan atau diubah saiz dengan tetikus. Matikan pilihan ini atau gunakan skrin penuh untuk menukar saiznya.",
+    "vi": "Windows: không thể di chuyển hay đổi kích thước cửa sổ bằng chuột. Hãy tắt tùy chọn này hoặc dùng toàn màn hình để đổi kích thước.",
+    "th": "Windows: ไม่สามารถย้ายหรือปรับขนาดหน้าต่างด้วยเมาส์ได้ หากต้องการเปลี่ยนขนาด ให้ปิดตัวเลือกนี้หรือใช้โหมดเต็มหน้าจอ",
+    "bo": "Windows: ཙི་གུས་སྒེའུ་ཁུང་སྤོ་བའམ་ཆེ་ཆུང་སྒྱུར་མི་ཐུབ། ཆེ་ཆུང་སྒྱུར་དགོས་ན་འདེམས་ཚན་འདི་ཁ་རྒྱག་པའམ་བརྙན་ཡོལ་ཧྲིལ་པོ་བེད་སྤྱོད་གནང་།"
+  },
+  "macOS: the close, minimize and zoom buttons are hidden and the picture reaches the top edge. Resize the window from its edges; use Fn+Control+arrow keys to tile it, or use full screen.": {
+    "en": "macOS: the close, minimize and zoom buttons are hidden and the picture reaches the top edge. Resize the window from its edges; use Fn+Control+arrow keys to tile it, or use full screen.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "zh-Hans": "macOS：关闭、最小化和缩放按钮会隐藏，画面延伸到窗口顶端。可从窗口边缘调整大小；用 Fn+Control+方向键平铺窗口，或使用全屏。",
+    "zh-Hant": "macOS：關閉、最小化和縮放按鈕會隱藏，畫面延伸到視窗頂端。可從視窗邊緣調整大小；以 Fn+Control+方向鍵並排視窗，或使用全螢幕。",
+    "ja": "macOS：閉じる、しまう、拡大/縮小ボタンが隠れ、画面がウィンドウの上端まで広がります。サイズは端から変更できます。Fn+Control+矢印キーでタイル配置するか、全画面表示を使います。",
+    "ko": "macOS: 닫기, 최소화, 확대/축소 버튼이 숨겨지고 화면이 창 위쪽 끝까지 채워집니다. 창 가장자리로 크기를 조절하고, Fn+Control+화살표 키로 타일 배치하거나 전체 화면을 사용하세요.",
+    "fr": "macOS : les boutons de fermeture, de réduction et de zoom sont masqués et l'image atteint le bord supérieur. Redimensionnez la fenêtre par ses bords ; utilisez Fn+Contrôle+flèches pour la disposer en mosaïque, ou le plein écran.",
+    "de": "macOS: Die Tasten zum Schließen, Minimieren und Zoomen sind ausgeblendet, und das Bild reicht bis zum oberen Rand. Fenstergröße an den Rändern ändern; mit Fn+Control+Pfeiltasten kacheln oder den Vollbildmodus verwenden.",
+    "es": "macOS: los botones de cerrar, minimizar y zoom se ocultan y la imagen llega al borde superior. Redimensiona la ventana desde sus bordes; usa Fn+Control+flechas para colocarla en mosaico o usa pantalla completa.",
+    "pt": "macOS: os botões de fechar, minimizar e zoom ficam ocultos e a imagem chega à borda superior. Redimensione a janela pelas bordas; use Fn+Control+setas para organizá-la lado a lado ou use a tela cheia.",
+    "it": "macOS: i pulsanti di chiusura, riduzione a icona e zoom sono nascosti e l'immagine arriva al bordo superiore. Ridimensiona la finestra dai bordi; usa Fn+Ctrl+frecce per affiancarla oppure lo schermo intero.",
+    "nl": "macOS: de knoppen voor sluiten, minimaliseren en zoomen zijn verborgen en het beeld loopt tot de bovenrand. Wijzig de grootte via de randen; gebruik Fn+Control+pijltoetsen om te tegelen, of volledig scherm.",
+    "ru": "macOS: кнопки закрытия, сворачивания и масштабирования скрыты, изображение доходит до верхнего края. Меняйте размер окна за края; используйте Fn+Control+стрелки для мозаичного размещения или полноэкранный режим.",
+    "uk": "macOS: кнопки закриття, згортання та масштабування приховано, зображення сягає верхнього краю. Змінюйте розмір вікна за краї; використовуйте Fn+Control+стрілки для мозаїчного розміщення або повноекранний режим.",
+    "pl": "macOS: przyciski zamykania, minimalizowania i powiększania są ukryte, a obraz sięga górnej krawędzi. Zmieniaj rozmiar okna za krawędzie; użyj Fn+Control+strzałek, aby je ułożyć, albo pełnego ekranu.",
+    "tr": "macOS: kapatma, küçültme ve yakınlaştırma düğmeleri gizlenir ve görüntü üst kenara kadar uzanır. Pencereyi kenarlarından yeniden boyutlandırın; döşemek için Fn+Control+ok tuşlarını veya tam ekranı kullanın.",
+    "ar": "macOS: تُخفى أزرار الإغلاق والتصغير والتكبير وتمتد الصورة إلى الحافة العلوية. غيّر حجم النافذة من حوافها، واستخدم Fn+Control+مفاتيح الأسهم لترتيبها متجانبة، أو استخدم ملء الشاشة.",
+    "hi": "macOS: बंद करें, छोटा करें और ज़ूम बटन छिप जाते हैं और चित्र ऊपरी किनारे तक पहुंचता है। विंडो का आकार उसके किनारों से बदलें; टाइल करने के लिए Fn+Control+तीर कुंजियां या फ़ुल स्क्रीन का उपयोग करें।",
+    "id": "macOS: tombol tutup, perkecil, dan perbesar disembunyikan dan gambar mencapai tepi atas. Ubah ukuran jendela dari tepinya; gunakan Fn+Control+tombol panah untuk menata ubin, atau gunakan layar penuh.",
+    "ms": "macOS: butang tutup, kecilkan dan zum disembunyikan dan gambar mencapai tepi atas. Ubah saiz tetingkap dari tepinya; gunakan Fn+Control+kekunci anak panah untuk menjubin, atau gunakan skrin penuh.",
+    "vi": "macOS: các nút đóng, thu nhỏ và phóng to bị ẩn và hình ảnh kéo tới mép trên. Đổi kích thước cửa sổ từ các cạnh; dùng Fn+Control+phím mũi tên để xếp lát, hoặc dùng toàn màn hình.",
+    "th": "macOS: ปุ่มปิด ย่อ และซูมจะถูกซ่อน และภาพจะขยายถึงขอบบน ปรับขนาดหน้าต่างจากขอบ ใช้ Fn+Control+ปุ่มลูกศรเพื่อจัดเรียง หรือใช้โหมดเต็มหน้าจอ",
+    "bo": "macOS: ཁ་རྒྱག་པ་དང་ཆུང་དུ་གཏོང་བ། ཆེ་རུ་གཏོང་བའི་མཐེབ་རྣམས་སྦས་ནས་པར་རིས་སྟེང་མཐའ་བར་སླེབས། སྒེའུ་ཁུང་གི་མཐའ་ནས་ཆེ་ཆུང་སྒྱུར། Fn+Control+མདའ་རྟགས་ཀྱིས་ཆ་སྒྲིག་བྱེད་པའམ་བརྙན་ཡོལ་ཧྲིལ་པོ་བེད་སྤྱོད་གནང་།"
   }
 }

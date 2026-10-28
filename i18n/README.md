@@ -82,3 +82,10 @@ explicit English fallback for absent cells and unsupported browser languages.
 Error codes, settings IDs, user names, server messages and transmitted text are
 not translation keys. Numbered placeholders must be preserved; consumers insert
 values once as text and isolate bidirectional arguments.
+
+## Hidden stream title bar — 2026-10-28
+
+The optional desktop setting that hides the window title bar while a remote
+desktop is shown, its information panel and the matching tray item have draft
+translations in all 22 primary locales. The window behavior stays in the desktop
+adapter.

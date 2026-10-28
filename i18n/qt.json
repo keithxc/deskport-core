@@ -7149,6 +7149,42 @@
       "attributes": {},
       "elements": [],
       "translationType": ""
+    },
+    "46161f850f311e70": {
+      "source": "Hide title bar while viewing a remote desktop",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "2ec7d0c30f484ff6": {
+      "source": "About hiding the title bar",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "98b0e93e248829dd": {
+      "source": "Off by default. When on, the remote desktop window has no title bar or window buttons, and the remote picture uses that space. The Devices page keeps its title bar. Use the tray icon or the global window shortcut to show, hide or disconnect. Changes apply immediately.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "c063ee995e389834": {
+      "source": "Linux: move or resize the window with your desktop's shortcuts, such as Meta+drag on KDE Plasma. Tiled windows are unaffected. On some older Wayland desktops, the title bar returns only after the window is reopened.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "3328b87955166384": {
+      "source": "Windows: the window cannot be moved or resized with the mouse. Turn this off or use full screen to change its size.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "4f1999251e30489e": {
+      "source": "macOS: the close, minimize and zoom buttons are hidden and the picture reaches the top edge. Resize the window from its edges; use Fn+Control+arrow keys to tile it, or use full screen.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
     }
   },
   "catalogs": {
@@ -11382,7 +11418,13 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "46161f850f311e70",
+            "2ec7d0c30f484ff6",
+            "98b0e93e248829dd",
+            "c063ee995e389834",
+            "3328b87955166384",
+            "4f1999251e30489e"
           ]
         },
         {
@@ -11626,7 +11668,8 @@
             "e1e8387e50a8d67e",
             "1a986010d6c801d9",
             "ebbb448d30664e6f",
-            "881bc273ad29e93f"
+            "881bc273ad29e93f",
+            "46161f850f311e70"
           ]
         },
         {
