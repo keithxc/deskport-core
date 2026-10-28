@@ -7185,6 +7185,36 @@
       "attributes": {},
       "elements": [],
       "translationType": null
+    },
+    "80c8d224503ef4de": {
+      "source": "Off by default. Hides the title bar and window buttons so the remote picture has more room. Use the tray icon or global shortcut for window controls. Changes apply immediately.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "a2b6d67317e22b95": {
+      "source": "On Linux Wayland, the Devices page also stays without a title bar. Other platforms keep its title bar.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "2ae3535163dacf5e": {
+      "source": "Move the window: hold Control+Command and drag the picture. Resize from the edges.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "7d4b9eb747ed0e01": {
+      "source": "Move the window with your desktop shortcut, such as Meta+drag on KDE Plasma.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
+    },
+    "6e840d837091608d": {
+      "source": "To move or resize the window, turn this option off.",
+      "attributes": {},
+      "elements": [],
+      "translationType": null
     }
   },
   "catalogs": {
@@ -7545,7 +7575,12 @@
           "messages": [
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -7917,7 +7952,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -8552,7 +8592,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -9360,7 +9405,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -9989,7 +10039,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -10810,7 +10865,12 @@
           "messages": [
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -11424,7 +11484,12 @@
             "98b0e93e248829dd",
             "c063ee995e389834",
             "3328b87955166384",
-            "4f1999251e30489e"
+            "4f1999251e30489e",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -12239,7 +12304,12 @@
           "messages": [
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -12623,7 +12693,12 @@
           "messages": [
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -12995,7 +13070,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -13393,7 +13473,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -14030,7 +14115,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -15080,7 +15170,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -15907,7 +16002,12 @@
           "messages": [
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -16278,7 +16378,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -16670,7 +16775,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -17068,7 +17178,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -17466,7 +17581,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -17876,7 +17996,12 @@
           "messages": [
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -18248,7 +18373,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -18646,7 +18776,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -19042,7 +19177,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -19440,7 +19580,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -19857,7 +20002,12 @@
           "messages": [
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -20229,7 +20379,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -20875,7 +21030,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {
@@ -21976,7 +22136,12 @@
             "12e77c42fe8ba7e2",
             "e27948de4dce3957",
             "82d5422b3eb36974",
-            "4b3a561de7d66c63"
+            "4b3a561de7d66c63",
+            "80c8d224503ef4de",
+            "a2b6d67317e22b95",
+            "2ae3535163dacf5e",
+            "7d4b9eb747ed0e01",
+            "6e840d837091608d"
           ]
         },
         {

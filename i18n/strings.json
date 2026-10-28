@@ -37398,5 +37398,160 @@
     "vi": "macOS: các nút đóng, thu nhỏ và phóng to bị ẩn và hình ảnh kéo tới mép trên. Đổi kích thước cửa sổ từ các cạnh; dùng Fn+Control+phím mũi tên để xếp lát, hoặc dùng toàn màn hình.",
     "th": "macOS: ปุ่มปิด ย่อ และซูมจะถูกซ่อน และภาพจะขยายถึงขอบบน ปรับขนาดหน้าต่างจากขอบ ใช้ Fn+Control+ปุ่มลูกศรเพื่อจัดเรียง หรือใช้โหมดเต็มหน้าจอ",
     "bo": "macOS: ཁ་རྒྱག་པ་དང་ཆུང་དུ་གཏོང་བ། ཆེ་རུ་གཏོང་བའི་མཐེབ་རྣམས་སྦས་ནས་པར་རིས་སྟེང་མཐའ་བར་སླེབས། སྒེའུ་ཁུང་གི་མཐའ་ནས་ཆེ་ཆུང་སྒྱུར། Fn+Control+མདའ་རྟགས་ཀྱིས་ཆ་སྒྲིག་བྱེད་པའམ་བརྙན་ཡོལ་ཧྲིལ་པོ་བེད་སྤྱོད་གནང་།"
+  },
+  "Off by default. Hides the title bar and window buttons so the remote picture has more room. Use the tray icon or global shortcut for window controls. Changes apply immediately.": {
+    "en": "Off by default. Hides the title bar and window buttons so the remote picture has more room. Use the tray icon or global shortcut for window controls. Changes apply immediately.",
+    "zh-Hans": "默认关闭。隐藏标题栏和窗口按钮，为远端画面腾出更多空间。请使用托盘图标或全局快捷键控制窗口。更改立即生效。",
+    "zh-Hant": "預設關閉。隱藏標題列和視窗按鈕，讓遠端畫面有更多空間。請使用系統匣圖示或全域快速鍵控制視窗。變更會立即生效。",
+    "ja": "既定ではオフです。タイトルバーとウィンドウボタンを隠して、リモート画面を広く表示します。ウィンドウの操作にはトレイアイコンまたはグローバルショートカットを使います。変更はすぐに適用されます。",
+    "fr": "Désactivé par défaut. Masque la barre de titre et les boutons de la fenêtre pour laisser plus de place à l’image distante. Utilisez l’icône de la zone de notification ou le raccourci global pour contrôler la fenêtre. Les modifications s’appliquent immédiatement.",
+    "de": "Standardmäßig aus. Blendet die Titelleiste und Fensterschaltflächen aus, damit das entfernte Bild mehr Platz hat. Verwenden Sie das Tray-Symbol oder das globale Tastenkürzel zur Fenstersteuerung. Änderungen gelten sofort.",
+    "ar": "متوقف افتراضيًا. يُخفي شريط العنوان وأزرار النافذة لتوفير مساحة أكبر للصورة البعيدة. استخدم أيقونة شريط النظام أو الاختصار العام للتحكم في النافذة. تُطبَّق التغييرات فورًا.",
+    "ko": "기본적으로 꺼져 있습니다. 제목 표시줄과 창 버튼을 숨겨 원격 화면에 더 넓은 공간을 제공합니다. 트레이 아이콘이나 전역 단축키로 창을 제어하세요. 변경 사항은 즉시 적용됩니다.",
+    "pt": "Desativado por padrão. Oculta a barra de título e os botões da janela para dar mais espaço à imagem remota. Use o ícone da bandeja ou o atalho global para controlar a janela. As alterações são aplicadas imediatamente.",
+    "es": "Desactivado de forma predeterminada. Oculta la barra de título y los botones de la ventana para dar más espacio a la imagen remota. Usa el icono de la bandeja o el atajo global para controlar la ventana. Los cambios se aplican de inmediato.",
+    "bo": "སྔོན་སྒྲིག་ཐོག་ཁ་རྒྱབ་ཡོད། རྒྱང་ཐག་གི་པར་རིས་ལ་ས་སྟོང་མང་བ་ཡོང་ཆེད་ཁ་བྱང་ཕྲ་རིང་དང་སྒེའུ་ཁུང་གི་མཐེབ་རྣམས་སྦས། སྒེའུ་ཁུང་ཚོད་འཛིན་བྱེད་པར་སྡེར་མའི་རྟགས་རིས་སམ་ཡོངས་ཁྱབ་མྱུར་མཐེབ་བེད་སྤྱོད་གནང་། བཟོ་བཅོས་འཕྲལ་དུ་ནུས་པ་ཐོན།",
+    "it": "Disattivato per impostazione predefinita. Nasconde la barra del titolo e i pulsanti della finestra per dare più spazio all’immagine remota. Usa l’icona nell’area di notifica o la scorciatoia globale per controllare la finestra. Le modifiche si applicano subito.",
+    "ru": "По умолчанию выключено. Скрывает заголовок и кнопки окна, освобождая больше места для удалённого изображения. Для управления окном используйте значок в трее или глобальное сочетание клавиш. Изменения применяются сразу.",
+    "id": "Mati secara default. Menyembunyikan bilah judul dan tombol jendela agar gambar jarak jauh mendapat lebih banyak ruang. Gunakan ikon baki atau pintasan global untuk mengontrol jendela. Perubahan langsung diterapkan.",
+    "tr": "Varsayılan olarak kapalıdır. Uzak görüntüye daha fazla alan sağlamak için başlık çubuğunu ve pencere düğmelerini gizler. Pencereyi kontrol etmek için tepsi simgesini veya genel kısayolu kullanın. Değişiklikler hemen uygulanır.",
+    "vi": "Tắt theo mặc định. Ẩn thanh tiêu đề và các nút cửa sổ để hình ảnh từ xa có thêm không gian. Dùng biểu tượng khay hoặc phím tắt toàn cục để điều khiển cửa sổ. Thay đổi có hiệu lực ngay.",
+    "th": "ปิดไว้โดยค่าเริ่มต้น ซ่อนแถบชื่อเรื่องและปุ่มหน้าต่างเพื่อเพิ่มพื้นที่ให้ภาพระยะไกล ใช้ไอคอนในถาดระบบหรือปุ่มลัดส่วนกลางเพื่อควบคุมหน้าต่าง การเปลี่ยนแปลงมีผลทันที",
+    "nl": "Standaard uit. Verbergt de titelbalk en vensterknoppen om het externe beeld meer ruimte te geven. Gebruik het systeemvakpictogram of de globale sneltoets om het venster te bedienen. Wijzigingen worden direct toegepast.",
+    "pl": "Domyślnie wyłączone. Ukrywa pasek tytułu i przyciski okna, aby dać więcej miejsca zdalnemu obrazowi. Do sterowania oknem użyj ikony w zasobniku lub globalnego skrótu. Zmiany są stosowane od razu.",
+    "uk": "Типово вимкнено. Приховує заголовок і кнопки вікна, щоб надати більше місця віддаленому зображенню. Для керування вікном використовуйте значок у треї або глобальне сполучення клавіш. Зміни застосовуються одразу.",
+    "hi": "डिफ़ॉल्ट रूप से बंद। रिमोट चित्र को अधिक जगह देने के लिए टाइटल बार और विंडो बटन छिपाता है। विंडो को नियंत्रित करने के लिए ट्रे आइकन या ग्लोबल शॉर्टकट का उपयोग करें। बदलाव तुरंत लागू होते हैं।",
+    "ms": "Dimatikan secara lalai. Menyembunyikan bar tajuk dan butang tetingkap supaya gambar jauh mendapat lebih banyak ruang. Gunakan ikon dulang atau pintasan global untuk mengawal tetingkap. Perubahan berkuat kuasa serta-merta.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "On Linux Wayland, the Devices page also stays without a title bar. Other platforms keep its title bar.": {
+    "en": "On Linux Wayland, the Devices page also stays without a title bar. Other platforms keep its title bar.",
+    "zh-Hans": "在 Linux Wayland 上，设备页也会保持无标题栏。其他平台的设备页保留标题栏。",
+    "zh-Hant": "在 Linux Wayland 上，裝置頁也會維持無標題列。其他平台的裝置頁保留標題列。",
+    "ja": "Linux Wayland では、デバイス画面にもタイトルバーが表示されません。他のプラットフォームではデバイス画面のタイトルバーは残ります。",
+    "fr": "Sous Linux Wayland, la page Appareils reste également sans barre de titre. Sur les autres plateformes, elle conserve sa barre de titre.",
+    "de": "Unter Linux Wayland bleibt auch die Geräteseite ohne Titelleiste. Auf anderen Plattformen behält sie ihre Titelleiste.",
+    "ar": "على Linux Wayland، تبقى صفحة الأجهزة أيضًا بلا شريط عنوان. وتحتفظ بشريط عنوانها على المنصات الأخرى.",
+    "ko": "Linux Wayland에서는 기기 페이지에도 제목 표시줄이 표시되지 않습니다. 다른 플랫폼에서는 기기 페이지의 제목 표시줄이 유지됩니다.",
+    "pt": "No Linux Wayland, a página Dispositivos também fica sem barra de título. Nas outras plataformas, ela mantém a barra de título.",
+    "es": "En Linux Wayland, la página Dispositivos también permanece sin barra de título. En otras plataformas, conserva su barra de título.",
+    "bo": "Linux Wayland ཐོག་སྒྲིག་ཆས་ཤོག་ངོས་ལའང་ཁ་བྱང་ཕྲ་རིང་མེད་པར་གནས། སྟེགས་བུ་གཞན་ཐོག་དེའི་ཁ་བྱང་ཕྲ་རིང་ཉར།",
+    "it": "Su Linux Wayland, anche la pagina Dispositivi rimane senza barra del titolo. Sulle altre piattaforme la mantiene.",
+    "ru": "В Linux Wayland страница устройств также остаётся без заголовка окна. На других платформах её заголовок сохраняется.",
+    "id": "Di Linux Wayland, halaman Perangkat juga tetap tanpa bilah judul. Pada platform lain, halaman tersebut tetap memiliki bilah judul.",
+    "tr": "Linux Wayland üzerinde Cihazlar sayfası da başlık çubuğu olmadan kalır. Diğer platformlarda başlık çubuğu korunur.",
+    "vi": "Trên Linux Wayland, trang Thiết bị cũng luôn không có thanh tiêu đề. Trên các nền tảng khác, trang này vẫn giữ thanh tiêu đề.",
+    "th": "บน Linux Wayland หน้าอุปกรณ์จะไม่มีแถบชื่อเรื่องด้วย ส่วนแพลตฟอร์มอื่นยังคงมีแถบชื่อเรื่องในหน้าอุปกรณ์",
+    "nl": "Onder Linux Wayland blijft ook de pagina Apparaten zonder titelbalk. Op andere platforms behoudt deze pagina de titelbalk.",
+    "pl": "W Linux Wayland strona Urządzenia również pozostaje bez paska tytułu. Na innych platformach zachowuje pasek tytułu.",
+    "uk": "У Linux Wayland сторінка пристроїв також залишається без заголовка вікна. На інших платформах її заголовок зберігається.",
+    "hi": "Linux Wayland पर डिवाइस पेज भी बिना टाइटल बार के रहता है। अन्य प्लेटफ़ॉर्म पर उसका टाइटल बार बना रहता है।",
+    "ms": "Pada Linux Wayland, halaman Peranti juga kekal tanpa bar tajuk. Pada platform lain, halaman itu mengekalkan bar tajuknya.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "Move the window: hold Control+Command and drag the picture. Resize from the edges.": {
+    "en": "Move the window: hold Control+Command and drag the picture. Resize from the edges.",
+    "zh-Hans": "移动窗口：按住 Control+Command 并拖动画面。从窗口边缘调整大小。",
+    "zh-Hant": "移動視窗：按住 Control+Command 並拖曳畫面。從視窗邊緣調整大小。",
+    "ja": "ウィンドウの移動：Control+Command を押しながら画面をドラッグします。サイズは端から変更できます。",
+    "fr": "Déplacer la fenêtre : maintenez Control+Command et faites glisser l’image. Redimensionnez-la par les bords.",
+    "de": "Fenster verschieben: Control+Command gedrückt halten und das Bild ziehen. Die Größe lässt sich an den Rändern ändern.",
+    "ar": "لنقل النافذة: اضغط باستمرار على Control+Command واسحب الصورة. غيّر الحجم من الحواف.",
+    "ko": "창 이동: Control+Command를 누른 채 화면을 드래그하세요. 가장자리에서 크기를 조절할 수 있습니다.",
+    "pt": "Mover a janela: mantenha Control+Command pressionados e arraste a imagem. Redimensione pelas bordas.",
+    "es": "Mover la ventana: mantén pulsado Control+Command y arrastra la imagen. Cambia el tamaño desde los bordes.",
+    "bo": "སྒེའུ་ཁུང་སྤོ་བ། Control+Command མནན་ནས་པར་རིས་འདྲུད། མཐའ་ནས་ཆེ་ཆུང་སྒྱུར།",
+    "it": "Spostare la finestra: tieni premuto Control+Command e trascina l’immagine. Ridimensiona dai bordi.",
+    "ru": "Перемещение окна: удерживайте Control+Command и перетаскивайте изображение. Меняйте размер за края.",
+    "id": "Pindahkan jendela: tahan Control+Command dan seret gambar. Ubah ukuran dari tepinya.",
+    "tr": "Pencereyi taşıma: Control+Command tuşlarını basılı tutup görüntüyü sürükleyin. Kenarlardan yeniden boyutlandırın.",
+    "vi": "Di chuyển cửa sổ: giữ Control+Command rồi kéo hình ảnh. Đổi kích thước từ các cạnh.",
+    "th": "ย้ายหน้าต่าง: กด Control+Command ค้างไว้แล้วลากภาพ ปรับขนาดจากขอบหน้าต่าง",
+    "nl": "Venster verplaatsen: houd Control+Command ingedrukt en sleep het beeld. Wijzig de grootte via de randen.",
+    "pl": "Przenoszenie okna: przytrzymaj Control+Command i przeciągnij obraz. Zmieniaj rozmiar za krawędzie.",
+    "uk": "Переміщення вікна: утримуйте Control+Command і перетягуйте зображення. Змінюйте розмір за краї.",
+    "hi": "विंडो खिसकाएं: Control+Command दबाए रखें और चित्र को खींचें। किनारों से आकार बदलें।",
+    "ms": "Alihkan tetingkap: tahan Control+Command dan seret gambar. Ubah saiz dari tepinya.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "Move the window with your desktop shortcut, such as Meta+drag on KDE Plasma.": {
+    "en": "Move the window with your desktop shortcut, such as Meta+drag on KDE Plasma.",
+    "zh-Hans": "使用桌面环境的快捷操作移动窗口，例如在 KDE Plasma 上按住 Meta 拖动。",
+    "zh-Hant": "使用桌面環境的快速操作移動視窗，例如在 KDE Plasma 上按住 Meta 拖曳。",
+    "ja": "KDE Plasma の Meta+ドラッグなど、デスクトップのショートカットでウィンドウを移動します。",
+    "fr": "Déplacez la fenêtre avec un raccourci de votre bureau, comme Meta+glisser sous KDE Plasma.",
+    "de": "Verschieben Sie das Fenster mit dem Tastenkürzel Ihrer Desktop-Umgebung, etwa Meta+Ziehen unter KDE Plasma.",
+    "ar": "انقل النافذة باستخدام اختصار سطح المكتب، مثل السحب مع الضغط على Meta في KDE Plasma.",
+    "ko": "KDE Plasma의 Meta+드래그와 같은 데스크톱 단축키로 창을 이동하세요.",
+    "pt": "Mova a janela com o atalho do seu ambiente de trabalho, como Meta+arrastar no KDE Plasma.",
+    "es": "Mueve la ventana con el atajo de tu escritorio, como Meta+arrastrar en KDE Plasma.",
+    "bo": "ཅོག་ངོས་ཀྱི་མྱུར་མཐེབ་ཀྱིས་སྒེའུ་ཁུང་སྤོ། དཔེར་ན་ KDE Plasma ཐོག་ Meta མནན་ནས་འདྲུད།",
+    "it": "Sposta la finestra con la scorciatoia del tuo ambiente desktop, ad esempio Meta+trascinamento su KDE Plasma.",
+    "ru": "Перемещайте окно с помощью сочетания клавиш вашей среды рабочего стола, например перетаскиванием с Meta в KDE Plasma.",
+    "id": "Pindahkan jendela dengan pintasan desktop Anda, seperti Meta+seret di KDE Plasma.",
+    "tr": "Pencereyi masaüstünüzün kısayoluyla taşıyın; örneğin KDE Plasma üzerinde Meta+sürükle.",
+    "vi": "Di chuyển cửa sổ bằng phím tắt của môi trường desktop, chẳng hạn Meta+kéo trên KDE Plasma.",
+    "th": "ย้ายหน้าต่างด้วยปุ่มลัดของเดสก์ท็อป เช่น กด Meta ค้างไว้แล้วลากบน KDE Plasma",
+    "nl": "Verplaats het venster met de sneltoets van uw desktopomgeving, zoals Meta+slepen onder KDE Plasma.",
+    "pl": "Przenieś okno za pomocą skrótu swojego środowiska graficznego, np. Meta+przeciągnięcie w KDE Plasma.",
+    "uk": "Переміщуйте вікно за допомогою сполучення клавіш вашого середовища стільниці, наприклад перетягування з Meta в KDE Plasma.",
+    "hi": "विंडो को अपने डेस्कटॉप के शॉर्टकट से खिसकाएं, जैसे KDE Plasma पर Meta दबाकर खींचना।",
+    "ms": "Alihkan tetingkap dengan pintasan desktop anda, seperti Meta+seret pada KDE Plasma.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    }
+  },
+  "To move or resize the window, turn this option off.": {
+    "en": "To move or resize the window, turn this option off.",
+    "zh-Hans": "如需移动窗口或调整大小，请关闭此选项。",
+    "zh-Hant": "若要移動視窗或調整大小，請關閉此選項。",
+    "ja": "ウィンドウを移動したりサイズを変更したりするには、この設定をオフにしてください。",
+    "fr": "Pour déplacer ou redimensionner la fenêtre, désactivez cette option.",
+    "de": "Schalten Sie diese Option aus, um das Fenster zu verschieben oder seine Größe zu ändern.",
+    "ar": "لنقل النافذة أو تغيير حجمها، أوقف هذا الخيار.",
+    "ko": "창을 이동하거나 크기를 조절하려면 이 옵션을 끄세요.",
+    "pt": "Para mover ou redimensionar a janela, desative esta opção.",
+    "es": "Para mover la ventana o cambiar su tamaño, desactiva esta opción.",
+    "bo": "སྒེའུ་ཁུང་སྤོ་བའམ་ཆེ་ཆུང་སྒྱུར་དགོས་ན། འདེམས་ཚན་འདི་ཁ་རྒྱག་གནང་།",
+    "it": "Per spostare o ridimensionare la finestra, disattiva questa opzione.",
+    "ru": "Чтобы переместить окно или изменить его размер, выключите этот параметр.",
+    "id": "Untuk memindahkan atau mengubah ukuran jendela, matikan opsi ini.",
+    "tr": "Pencereyi taşımak veya yeniden boyutlandırmak için bu seçeneği kapatın.",
+    "vi": "Để di chuyển hoặc đổi kích thước cửa sổ, hãy tắt tùy chọn này.",
+    "th": "หากต้องการย้ายหรือปรับขนาดหน้าต่าง ให้ปิดตัวเลือกนี้",
+    "nl": "Schakel deze optie uit om het venster te verplaatsen of de grootte te wijzigen.",
+    "pl": "Aby przenieść okno lub zmienić jego rozmiar, wyłącz tę opcję.",
+    "uk": "Щоб перемістити вікно або змінити його розмір, вимкніть цей параметр.",
+    "hi": "विंडो खिसकाने या उसका आकार बदलने के लिए यह विकल्प बंद करें।",
+    "ms": "Untuk mengalih atau mengubah saiz tetingkap, matikan pilihan ini.",
+    "_platforms": {
+      "desktop": [
+        "SettingsHome"
+      ],
+      "apple": false,
+      "android": false
+    }
   }
 }
