@@ -27830,6 +27830,37 @@
     "hi": "एक डोमेन नाम दर्ज के रूप में सहेजा जाता है और कनेक्ट होने पर फिर से हल किया जाता है।",
     "ms": "Nama domain disimpan seperti yang dimasukkan dan diselesaikan semula apabila menyambung."
   },
+  "Enter one address per line. They are tried in order; put a LAN address first to prefer it.": {
+    "en": "Enter one address per line. They are tried in order; put a LAN address first to prefer it.",
+    "_platforms": {
+      "desktop": [
+        "BindView"
+      ],
+      "apple": false,
+      "android": false
+    },
+    "de": "Eine Adresse pro Zeile. Sie werden der Reihe nach versucht; setzen Sie eine LAN-Adresse an den Anfang, um sie zu bevorzugen.",
+    "es": "Una dirección por línea. Se prueban en orden; ponga primero una dirección de la red local para darle preferencia.",
+    "fr": "Une adresse par ligne. Elles sont essayées dans l’ordre ; placez une adresse du réseau local en premier pour la privilégier.",
+    "ja": "1 行に 1 つのアドレスを入力します。上から順に試行されるため、LAN のアドレスを優先するには先頭に置いてください。",
+    "ko": "한 줄에 주소 하나씩 입력하세요. 순서대로 시도하므로 LAN 주소를 우선하려면 맨 앞에 두세요.",
+    "zh-Hans": "每行一个地址，按顺序尝试；把局域网地址放在最前面即可优先使用。",
+    "zh-Hant": "每行一個位址，依序嘗試；把區域網路位址放在最前面即可優先使用。",
+    "pt": "Um endereço por linha. Eles são tentados em ordem; coloque primeiro um endereço da rede local para priorizá-lo.",
+    "ar": "أدخل عنوانًا واحدًا في كل سطر. تتم تجربتها بالترتيب؛ ضع عنوان الشبكة المحلية أولًا لتفضيله.",
+    "bo": "ཐིག་ཕྲེང་རེར་ཁ་བྱང་གཅིག་འབྲི། གོ་རིམ་ལྟར་ཚོད་ལྟ་བྱེད། ས་གནས་དྲ་བའི་ཁ་བྱང་སྔོན་ལ་བཞག་ན་དེ་སྔོན་ལ་བེད་སྤྱོད་བྱེད།",
+    "it": "Un indirizzo per riga. Vengono provati in ordine; metti per primo un indirizzo della rete locale per preferirlo.",
+    "ru": "По одному адресу в строке. Они проверяются по порядку; поставьте адрес локальной сети первым, чтобы он был в приоритете.",
+    "id": "Satu alamat per baris. Alamat dicoba secara berurutan; letakkan alamat LAN di urutan pertama agar diutamakan.",
+    "tr": "Her satıra bir adres girin. Sırayla denenir; öncelik vermek için yerel ağ adresini en başa koyun.",
+    "vi": "Mỗi dòng một địa chỉ. Các địa chỉ được thử theo thứ tự; đặt địa chỉ mạng LAN lên đầu để ưu tiên.",
+    "th": "ใส่ที่อยู่บรรทัดละหนึ่งรายการ ระบบจะลองตามลำดับ ให้วางที่อยู่ LAN ไว้แรกสุดเพื่อใช้ก่อน",
+    "nl": "Eén adres per regel. Ze worden op volgorde geprobeerd; zet een LAN-adres bovenaan om het voorrang te geven.",
+    "pl": "Jeden adres w wierszu. Adresy są próbowane po kolei; umieść adres sieci lokalnej na początku, aby miał pierwszeństwo.",
+    "uk": "По одній адресі в рядку. Вони перевіряються по черзі; поставте адресу локальної мережі першою, щоб надати їй перевагу.",
+    "hi": "प्रति पंक्ति एक पता दर्ज करें। इन्हें क्रम से आज़माया जाता है; LAN पते को प्राथमिकता देने के लिए उसे सबसे ऊपर रखें।",
+    "ms": "Satu alamat bagi setiap baris. Alamat dicuba mengikut urutan; letakkan alamat LAN di hadapan untuk mengutamakannya."
+  },
   "Host port": {
     "en": "Host port",
     "_platforms": {
