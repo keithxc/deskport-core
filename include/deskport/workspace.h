@@ -99,13 +99,15 @@ static inline DPWorkspace dp_workspace_minimum(DPWorkspace base, double logicalW
                                (int)(ceil(base.height*factor/4)*4),base.scale};
     return result;
 }
-static inline DPWorkspace dp_workspace_for_macos(DPWorkspace base) {
+// One post-tuning desktop floor for every host OS: 800x600 logical, with the
+// axes swapped for portrait workspaces. Plasma and GNOME have no OS-enforced
+// floor, so a 2x phone viewport would otherwise leave a ~390-point desktop.
+// Windows clamps UI DPI below an unswapped 800x600, so its native adapter must
+// still verify the actual DPI and may report 1x for portrait workspaces.
+static inline DPWorkspace dp_workspace_for_host(DPWorkspace base) {
     return base.height>base.width ? dp_workspace_minimum(base,600.0,800.0) : dp_workspace_minimum(base,800.0,600.0);
 }
-// Windows clamps per-monitor UI DPI when the effective desktop falls below
-// 800x600. Unlike the macOS floor, these axes do not swap for portrait modes.
-// Apply after tuning; the native adapter must still verify the actual DPI.
-static inline DPWorkspace dp_workspace_for_windows(DPWorkspace base) {
-    return dp_workspace_minimum(base,800.0,600.0);
-}
+// Compatibility names for adapters pinned before the shared host floor.
+static inline DPWorkspace dp_workspace_for_macos(DPWorkspace base) { return dp_workspace_for_host(base); }
+static inline DPWorkspace dp_workspace_for_windows(DPWorkspace base) { return dp_workspace_for_host(base); }
 #endif

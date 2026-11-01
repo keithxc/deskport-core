@@ -86,20 +86,22 @@ def main():
         ]:
             checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
             lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_adjust(b,{factor}); if (!({checks})) return 4; }}')
+    # One host floor for macOS, Windows and Linux; portrait swaps the axes.
     for base,expected in [((824,1616,2),(1200,2356,2)),((1616,824,2),(2356,1200,2)),
-                          ((960,540,2),(2136,1200,2)),((2548,1380,2),(2548,1380,2)),
+                          ((780,1688,2),(1200,2600,2)),((1080,1920,2),(1200,2136,2)),
+                          ((960,540,2),(2136,1200,2)),((1920,1080,2),(2136,1200,2)),
+                          ((2548,1380,2),(2548,1380,2)),((2560,1440,2),(2560,1440,2)),
                           ((640,360,1),(1068,600,1)),((0,0,0),(0,0,0)),
                           ((640,4320,2),(0,0,0))]:
         checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
-        lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_macos(b); if (!({checks})) return 5; }}')
-    for base,expected in [((1920,1080,2),(2136,1200,2)),((1080,1920,2),(1600,2848,2)),
-                          ((2560,1440,2),(2560,1440,2)),((640,360,1),(1068,600,1)),
-                          ((0,0,0),(0,0,0)),((640,4320,2),(0,0,0))]:
-        checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
-        lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_windows(b); if (!({checks})) return 6; }}')
+        lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_host(b); if (!({checks})) return 5; }}')
+        for alias in ('dp_workspace_for_macos','dp_workspace_for_windows'):
+            lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s={alias}(b); if (!({checks})) return 6; }}')
     if adapter == 'qt':
-        lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1920,1080),2},1.0,QStringLiteral("Windows 11")); if(s.pixels!=QSize(2136,1200)||s.scale!=2) return 7; }')
-        lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1080,1920),2},1.0,QStringLiteral("Windows 11")); if(s.pixels!=QSize(1600,2848)||s.scale!=2) return 8; }')
+        lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1920,1080),2},1.0); if(s.pixels!=QSize(2136,1200)||s.scale!=2) return 7; }')
+        lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1080,1920),2},1.0); if(s.pixels!=QSize(1200,2136)||s.scale!=2) return 8; }')
+        lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(780,1688),2},1.0); if(s.pixels!=QSize(1200,2600)||s.scale!=2||s.limited) return 9; }')
+        lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1920,1080),2},1.5); if(s.pixels!=QSize(2136,1200)||!s.limited) return 10; }')
     lines += ['return 0;', '}']
     with tempfile.TemporaryDirectory(prefix='deskport-core-') as tmp:
         work = Path(tmp)
