@@ -85,6 +85,19 @@ static inline DPWorkspace dp_workspace_adjust(DPWorkspace base, double factor) {
                          (int)(ceil(base.height*factor/4)*4),base.scale};
     return result;
 }
+// Data saver keeps the logical desktop but renders it at 1x: a 2x backing store
+// quadruples the encoded pixels for detail a constrained link cannot carry, and
+// a lower bitrate at 2x only turns that detail into blocks. Apply before tuning
+// and the host floor; 1x workspaces are unchanged.
+static inline DPWorkspace dp_workspace_for_saver(DPWorkspace base) {
+    const DPWorkspace empty = {0, 0, 0};
+    if (!dp_workspace_valid(base)) return empty;
+    if (base.scale == 1) return base;
+    const double factor = fmax(0.5, fmax(640.0/base.width, 360.0/base.height));
+    const DPWorkspace result = {(int)(ceil(base.width*factor/4)*4),
+                               (int)(ceil(base.height*factor/4)*4),1};
+    return result;
+}
 // Shared post-tuning desktop floor. Preserve backing scale and aspect ratio.
 static inline DPWorkspace dp_workspace_minimum(DPWorkspace base, double logicalWidth, double logicalHeight) {
     const DPWorkspace empty = {0, 0, 0};

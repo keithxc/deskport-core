@@ -97,7 +97,17 @@ def main():
         lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_host(b); if (!({checks})) return 5; }}')
         for alias in ('dp_workspace_for_macos','dp_workspace_for_windows'):
             lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s={alias}(b); if (!({checks})) return 6; }}')
+    # Data saver: the same logical desktop at 1x, within protocol minimums.
+    if adapter != 'apple':
+        for base,expected in [((4080,2456,2),(2040,1228,1)),((2560,1440,1),(2560,1440,1)),
+                              ((1300,748,2),(652,376,1)),((1280,720,2),(640,360,1)),
+                              ((1000,720,2),(640,464,1)),((640,360,2),(640,360,1)),
+                              ((0,0,0),(0,0,0)),((1920,1080,3),(0,0,0))]:
+            checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
+            lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_saver(b); if (!({checks})) return 11; }}')
     if adapter == 'qt':
+        lines.append('{ const auto s=DeskPortDisplay::forDataSaver({QSize(4080,2456),2}); if(s.pixels!=QSize(2040,1228)||s.scale!=1) return 12; }')
+        lines.append('{ const auto s=DeskPortDisplay::adjusted(DeskPortDisplay::forDataSaver({QSize(1920,1080),2}),1.0); if(s.pixels!=QSize(1068,600)||s.scale!=1) return 13; }')
         lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1920,1080),2},1.0); if(s.pixels!=QSize(2136,1200)||s.scale!=2) return 7; }')
         lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(1080,1920),2},1.0); if(s.pixels!=QSize(1200,2136)||s.scale!=2) return 8; }')
         lines.append('{ const auto s=DeskPortDisplay::adjusted({QSize(780,1688),2},1.0); if(s.pixels!=QSize(1200,2600)||s.scale!=2||s.limited) return 9; }')
