@@ -60,6 +60,9 @@
           "text": "For another network, both devices still need a reachable route, such as your own VPN or Tailscale network. Adding an address does not create that route."
         },
         {
+          "text": "Change address in a device card's menu accepts several addresses, one per line, all on the paired port. DeskPort tries them together and uses the first one in the list that answers, so put a LAN address first and a domain or VPN address after it. You can change them while connected: open sessions keep their current address and the next connection uses the new list."
+        },
+        {
           "text": "Sunshine and hosts without DeskPort binding use Add a legacy host and PIN pairing. Keep the host open to approve the PIN."
         },
         {

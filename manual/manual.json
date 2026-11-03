@@ -376,6 +376,13 @@
         },
         {
           "text": {
+            "en": "Change address in a device card's menu accepts several addresses, one per line, all on the paired port. DeskPort tries them together and uses the first one in the list that answers, so put a LAN address first and a domain or VPN address after it. You can change them while connected: open sessions keep their current address and the next connection uses the new list.",
+            "zh-Hans": "设备卡片菜单中的“更改地址”可填写多个地址，每行一个，都使用配对时的端口。DeskPort 会同时尝试这些地址，并使用列表中最靠前且能连通的那个，因此可把局域网地址放在第一行，域名或 VPN 地址放在后面。连接期间也可以修改：已打开的连接继续使用当前地址，下次连接时使用新的列表。",
+            "zh-Hant": "裝置卡片選單中的「變更位址」可填寫多個位址，每行一個，皆使用配對時的連接埠。DeskPort 會同時嘗試這些位址，並使用清單中最前面且能連通的那個，因此可將區域網路位址放在第一行，網域名稱或 VPN 位址放在後面。連線期間也可以修改：已開啟的連線繼續使用目前位址，下次連線時使用新的清單。"
+          }
+        },
+        {
+          "text": {
             "en": "Sunshine and hosts without DeskPort binding use Add a legacy host and PIN pairing. Keep the host open to approve the PIN.",
             "zh-Hans": "Sunshine 等不支持 DeskPort 绑定的主机可以使用“添加旧版主机”和 PIN 配对。请保持主机程序打开，以便确认 PIN。",
             "zh-Hant": "Sunshine 等不支援 DeskPort 綁定的主機可以使用「新增舊版主機」和 PIN 配對。請保持主機程式開啟，以便確認 PIN。"
