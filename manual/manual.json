@@ -48,7 +48,7 @@
             "vi": "DeskPort chia sẻ một máy tính và cho phép các thiết bị khác của bạn sử dụng máy tính để bàn của nó.",
             "th": "DeskPort แชร์คอมพิวเตอร์เครื่องหนึ่งและอนุญาตให้อุปกรณ์อื่นๆ ของคุณใช้เดสก์ท็อปได้",
             "nl": "DeskPort deelt één computer en laat uw andere apparaten het bureaublad gebruiken.",
-            "pl": "DeskPort udostępnia jeden komputer i pozwala innym urządzeniom korzystać ze swojego pulpitu.",
+            "pl": "DeskPort udostępnia komputer i pozwala innym urządzeniom korzystać z jego pulpitu.",
             "uk": "DeskPort спільно використовує один комп’ютер і дозволяє іншим вашим пристроям використовувати його робочий стіл.",
             "hi": "DeskPort एक कंप्यूटर साझा करता है और आपके अन्य उपकरणों को इसके डेस्कटॉप का उपयोग करने देता है।",
             "ms": "DeskPort berkongsi satu komputer dan membenarkan peranti anda yang lain menggunakan desktopnya."
@@ -74,7 +74,7 @@
             "vi": "Máy tính đang được sử dụng là máy chủ; thiết bị bạn đang sử dụng là máy khách. Một máy tính có thể là cả hai.",
             "th": "คอมพิวเตอร์ที่ใช้คือโฮสต์ อุปกรณ์ที่คุณนั่งคือลูกค้า คอมพิวเตอร์สามารถเป็นได้ทั้งสองอย่าง",
             "nl": "De gebruikte computer is de host; het apparaat waarop u zit, is de cliënt. Een computer kan beide zijn.",
-            "pl": "Używany komputer jest hostem; urządzenie, przy którym siedzisz, jest klientem. Komputer może być jednym i drugim.",
+            "pl": "Komputer udostępniający pulpit to host, a urządzenie, z którego korzystasz — klient. Komputer może pełnić obie role.",
             "uk": "Комп’ютер, який використовується, є хостом; пристрій, за яким ви сидите, є клієнтом. Комп’ютер може бути і тим і іншим.",
             "hi": "उपयोग किया जा रहा कंप्यूटर होस्ट है; आप जिस डिवाइस पर बैठते हैं वह क्लाइंट है। एक कंप्यूटर दोनों हो सकता है.",
             "ms": "Komputer yang digunakan ialah hos; peranti yang anda duduki ialah pelanggan. Komputer boleh menjadi kedua-duanya."
@@ -100,7 +100,7 @@
             "vi": "Các thiết bị được liên kết với nhau một lần. Quyền truy cập được phê duyệt trên máy chủ và có thể được rút ở đó.",
             "th": "อุปกรณ์จะผูกกันหนึ่งครั้ง การเข้าถึงได้รับการอนุมัติบนโฮสต์และสามารถเพิกถอนได้ที่นั่น",
             "nl": "Apparaten zijn één keer aan elkaar gekoppeld. De toegang wordt op de host goedgekeurd en kan daar worden ingetrokken.",
-            "pl": "Urządzenia są ze sobą powiązane raz. Dostęp jest zatwierdzany na hoście i można go tam wycofać.",
+            "pl": "Urządzenia wystarczy powiązać ze sobą raz. Dostęp zatwierdza się na hoście i można go tam cofnąć.",
             "uk": "Пристрої прив’язані один до одного один раз. Доступ схвалено на хості, і його можна скасувати там.",
             "hi": "डिवाइस एक बार एक दूसरे से बाइंड किए जाते हैं। होस्ट पर पहुंच स्वीकृत है और इसे वहां वापस लिया जा सकता है।",
             "ms": "Peranti terikat satu sama lain sekali. Akses diluluskan pada hos dan boleh ditarik balik di sana."
@@ -181,7 +181,7 @@
             "vi": "Mở Chia sẻ ở thanh trên cùng và chọn Bắt đầu chia sẻ.",
             "th": "เปิดการแชร์ในแถบด้านบนแล้วเลือกเริ่มการแชร์",
             "nl": "Open Delen in de bovenste balk en kies Beginnen met delen.",
-            "pl": "Otwórz Udostępnianie na górnym pasku i wybierz Rozpocznij udostępnianie.",
+            "pl": "Otwórz „Udostępnianie” na górnym pasku i wybierz „Rozpocznij udostępnianie”.",
             "uk": "Відкрийте «Спільний доступ» на верхній панелі та виберіть «Почати спільний доступ».",
             "hi": "शीर्ष बार में शेयरिंग खोलें और स्टार्ट शेयरिंग चुनें।",
             "ms": "Buka Perkongsian di bar atas dan pilih Mulakan perkongsian."
@@ -207,7 +207,7 @@
             "vi": "Cấp quyền truy cập vào tính năng ghi màn hình và khả năng truy cập khi được yêu cầu. Quá trình chia sẻ diễn ra mà không có chúng nhưng hình ảnh hoặc dữ liệu đầu vào sẽ không hoạt động.",
             "th": "ให้สิทธิ์การบันทึกหน้าจอและการเข้าถึงการเข้าถึงเมื่อถูกถาม การแชร์ดำเนินไปโดยไม่มีสิ่งเหล่านั้น แต่รูปภาพหรืออินพุตจะไม่ทำงาน",
             "nl": "Verleen schermopname en toegankelijkheidstoegang wanneer daarom wordt gevraagd. Het delen verloopt zonder hen, maar de afbeelding of invoer werkt niet.",
-            "pl": "Gdy zostaniesz o to poproszony, przyznaj dostęp do nagrywania ekranu i ułatwień dostępu. Udostępnianie działa bez nich, ale obraz lub dane wejściowe nie będą działać.",
+            "pl": "Gdy pojawi się prośba, przyznaj uprawnienia „Nagrywanie ekranu” i „Dostępność”. Udostępnianie działa bez nich, ale obraz lub sterowanie nie będą działać.",
             "uk": "Надайте доступ до запису екрана та спеціальних можливостей за запитом. Спільний доступ працює без них, але зображення чи введення не працюватимуть.",
             "hi": "पूछे जाने पर स्क्रीन रिकॉर्डिंग और एक्सेसिबिलिटी एक्सेस प्रदान करें। साझाकरण उनके बिना चलता है, लेकिन चित्र या इनपुट काम नहीं करेगा।",
             "ms": "Berikan rakaman skrin dan akses kebolehaksesan apabila diminta. Perkongsian berjalan tanpa mereka, tetapi gambar atau input tidak akan berfungsi."
@@ -233,7 +233,7 @@
             "vi": "Dấu chấm bên dưới biểu tượng chia sẻ có nghĩa là máy tính này hiện đang được chia sẻ.",
             "th": "จุดใต้ไอคอนการแชร์หมายความว่าคอมพิวเตอร์เครื่องนี้ถูกแชร์อยู่ในปัจจุบัน",
             "nl": "Een punt onder het deelpictogram betekent dat deze computer momenteel wordt gedeeld.",
-            "pl": "Kropka pod ikoną udostępniania oznacza, że ​​ten komputer jest obecnie udostępniany.",
+            "pl": "Kropka pod ikoną udostępniania oznacza, że ten komputer jest obecnie udostępniany.",
             "uk": "Крапка під піктограмою спільного доступу означає, що цей комп’ютер наразі спільний.",
             "hi": "साझाकरण आइकन के नीचे एक बिंदु का अर्थ है कि यह कंप्यूटर वर्तमान में साझा किया गया है।",
             "ms": "Titik di bawah ikon perkongsian bermakna komputer ini sedang dikongsi."
@@ -259,7 +259,7 @@
             "vi": "Trên macOS, hãy kiểm tra Ghi màn hình và Trợ năng trong Cài đặt hệ thống nếu hình ảnh trống hoặc điều khiển từ xa không hoạt động. «Chia sẻ» hiển thị kết quả kiểm tra quyền và mức độ sẵn sàng.",
             "th": "บน macOS หากภาพว่างเปล่าหรือควบคุมระยะไกลไม่ได้ ให้ตรวจสอบการบันทึกหน้าจอและการช่วยการเข้าถึงในการตั้งค่าระบบ «การแบ่งปัน» จะแสดงผลการตรวจสอบสิทธิ์และความพร้อม",
             "nl": "Controleer op macOS Schermopname en Toegankelijkheid in Systeeminstellingen als het beeld zwart blijft of bediening op afstand niet werkt. Delen toont controles voor rechten en gereedheid.",
-            "pl": "Jeśli w macOS nie ma obrazu lub nie działa zdalne sterowanie, sprawdź uprawnienia Nagrywanie ekranu i Dostępność w Ustawieniach systemowych. Sekcja „Partycypujący” pokazuje wyniki sprawdzania uprawnień i gotowości.",
+            "pl": "Jeśli w macOS nie ma obrazu lub nie działa zdalne sterowanie, sprawdź uprawnienia „Nagrywanie ekranu” i „Dostępność” w Ustawieniach systemowych. Sekcja „Udostępnianie” pokazuje wyniki sprawdzania uprawnień i gotowości.",
             "uk": "Якщо на macOS немає зображення або не працює віддалене керування, перевірте дозволи «Запис екрана» й «Доступність» у Системних параметрах. У розділі «Обмін» показано результати перевірки дозволів і готовності до роботи.",
             "hi": "macOS पर, यदि चित्र खाली है या रिमोट कंट्रोल काम नहीं करता, तो सिस्टम सेटिंग्स में स्क्रीन रिकॉर्डिंग और एक्सेसिबिलिटी जाँचें। «शेयरिंग» में अनुमतियों और तैयारी की जाँच दिखाई जाती है।",
             "ms": "Pada macOS, semak Rakaman Skrin dan Kebolehcapaian dalam Tetapan Sistem jika gambar kosong atau kawalan jauh tidak berfungsi. «Berkongsi» memaparkan semakan kebenaran dan kesediaan."
@@ -285,7 +285,7 @@
             "vi": "Ẩn cửa sổ DeskPort để tiếp tục chia sẻ trong nền. Dùng «Dừng chia sẻ» khi bạn không muốn máy tính này tiếp nhận kết nối màn hình từ xa nữa.",
             "th": "ซ่อนหน้าต่าง DeskPort เพื่อแชร์ต่อในเบื้องหลัง ใช้ «หยุดแชร์» เมื่อไม่ต้องการให้คอมพิวเตอร์เครื่องนี้รับการเชื่อมต่อเดสก์ท็อปอีก",
             "nl": "Verberg het DeskPort-venster om op de achtergrond te blijven delen. Gebruik Stop met delen wanneer deze computer geen bureaubladverbindingen meer mag accepteren.",
-            "pl": "Ukryj okno DeskPort, aby kontynuować udostępnianie w tle. Wybierz „Przestań się dzielić”, gdy ten komputer ma przestać przyjmować połączenia z pulpitem.",
+            "pl": "Ukryj okno DeskPort, aby kontynuować udostępnianie w tle. Wybierz „Zatrzymaj udostępnianie”, gdy ten komputer ma przestać przyjmować połączenia z pulpitem.",
             "uk": "Сховайте вікно DeskPort, щоб продовжити надавати спільний доступ у фоновому режимі. Виберіть «Припинити ділитися», коли цей комп’ютер більше не має приймати підключення до робочого столу.",
             "hi": "पृष्ठभूमि में साझाकरण जारी रखने के लिए DeskPort विंडो छिपाएँ। जब इस कंप्यूटर को डेस्कटॉप कनेक्शन स्वीकार नहीं करने देना हो, तो «साझा करना बंद» का उपयोग करें।",
             "ms": "Sembunyikan tetingkap DeskPort untuk terus berkongsi di latar belakang. Gunakan «Berhenti berkongsi» apabila komputer ini tidak sepatutnya menerima sambungan desktop lagi."
@@ -340,7 +340,7 @@
             "vi": "Các thiết bị trên cùng một mạng sẽ tự xuất hiện trong danh sách thiết bị.",
             "th": "อุปกรณ์บนเครือข่ายเดียวกันจะปรากฏในรายการอุปกรณ์ด้วยตัวเอง",
             "nl": "Apparaten op hetzelfde netwerk verschijnen vanzelf in de apparatenlijst.",
-            "pl": "Urządzenia w tej samej sieci pojawiają się na liście urządzeń samodzielnie.",
+            "pl": "Urządzenia w tej samej sieci automatycznie pojawiają się na liście urządzeń.",
             "uk": "Пристрої в одній мережі відображаються в списку пристроїв окремо.",
             "hi": "समान नेटवर्क पर मौजूद डिवाइस अपने आप डिवाइस सूची में दिखाई देते हैं।",
             "ms": "Peranti pada rangkaian yang sama muncul pada senarai peranti dengan sendirinya."
@@ -366,7 +366,7 @@
             "vi": "Sử dụng Thêm thiết bị trên thẻ thêm cho máy tính trên mạng khác và nhập địa chỉ của máy tính đó.",
             "th": "ใช้ เพิ่มอุปกรณ์ บนการ์ดเพิ่มสำหรับคอมพิวเตอร์บนเครือข่ายอื่น และป้อนที่อยู่ของมัน",
             "nl": "Gebruik Apparaat toevoegen op de kaart voor een computer op een ander netwerk en voer het adres ervan in.",
-            "pl": "Użyj opcji Dodaj urządzenie na karcie dodawania komputera w innej sieci i wprowadź jego adres.",
+            "pl": "Aby dodać komputer w innej sieci, wybierz „Dodaj urządzenie” na kafelku dodawania i wpisz jego adres.",
             "uk": "Використовуйте Додати пристрій на картці додавання для комп’ютера в іншій мережі та введіть його адресу.",
             "hi": "किसी अन्य नेटवर्क पर कंप्यूटर के लिए ऐड कार्ड पर डिवाइस जोड़ें का उपयोग करें और उसका पता दर्ज करें।",
             "ms": "Gunakan Tambah peranti pada kad tambah untuk komputer pada rangkaian lain dan masukkan alamatnya."
@@ -392,7 +392,7 @@
             "vi": "Việc chọn thiết bị lần đầu tiên sẽ yêu cầu máy chủ truy cập; phê duyệt yêu cầu ở đó.",
             "th": "การเลือกอุปกรณ์ในครั้งแรกจะขอให้โฮสต์เข้าถึง อนุมัติคำขอที่นั่น",
             "nl": "Als u voor de eerste keer een apparaat selecteert, wordt de host om toegang gevraagd; keurt daar het verzoek goed.",
-            "pl": "Wybierając urządzenie po raz pierwszy, host prosi o dostęp; zatwierdź tam żądanie.",
+            "pl": "Pierwsze wybranie urządzenia wysyła do hosta żądanie dostępu. Zatwierdź je na hoście.",
             "uk": "Вибір пристрою вперше запитує доступ до хоста; схвалити запит там.",
             "hi": "किसी डिवाइस का चयन पहली बार होस्ट से एक्सेस मांगता है; वहां अनुरोध को मंजूरी दें.",
             "ms": "Memilih peranti pada kali pertama meminta hos untuk akses; meluluskan permintaan di sana."
@@ -418,7 +418,7 @@
             "vi": "Nếu một thiết bị khác đã được kết nối, bạn sẽ được hỏi có tiếp quản hay không. Tiếp quản sẽ ngắt kết nối thiết bị đó.",
             "th": "หากมีอุปกรณ์อื่นเชื่อมต่ออยู่แล้ว ระบบจะถามว่าจะรับช่วงต่อหรือไม่ การรับช่วงต่อจะยกเลิกการเชื่อมต่ออุปกรณ์นั้น",
             "nl": "Als er al een ander apparaat is aangesloten, wordt u gevraagd of u het wilt overnemen. Als u het overneemt, wordt de verbinding met dat apparaat verbroken.",
-            "pl": "Jeśli inne urządzenie jest już podłączone, zostaniesz zapytany, czy chcesz je przejąć. Przejęcie powoduje rozłączenie tego urządzenia.",
+            "pl": "Jeśli inne urządzenie jest już połączone, pojawi się pytanie o przejęcie połączenia. Przejęcie spowoduje rozłączenie tamtego urządzenia.",
             "uk": "Якщо інший пристрій уже підключено, вас запитають, чи приймати його. Переймання від’єднує цей пристрій.",
             "hi": "यदि कोई अन्य डिवाइस पहले से ही कनेक्ट है, तो आपसे पूछा जाएगा कि क्या इसे संभालना है। कार्यभार संभालने से वह उपकरण डिस्कनेक्ट हो जाता है.",
             "ms": "Jika peranti lain sudah disambungkan, anda akan ditanya sama ada untuk mengambil alih. Mengambil alih memutuskan sambungan peranti itu."
@@ -470,7 +470,7 @@
             "vi": "Thay đổi địa chỉ trong menu của thẻ thiết bị chấp nhận nhiều địa chỉ, mỗi dòng một địa chỉ, tất cả dùng cổng đã ghép nối. DeskPort thử đồng thời các địa chỉ này và dùng địa chỉ đầu tiên trong danh sách có phản hồi, vì vậy hãy đặt địa chỉ LAN lên đầu, sau đó là tên miền hoặc địa chỉ VPN. Bạn có thể thay đổi khi đang kết nối: các phiên đang mở giữ địa chỉ hiện tại và lần kết nối tiếp theo dùng danh sách mới.",
             "th": "เปลี่ยนที่อยู่ในเมนูของการ์ดอุปกรณ์รับที่อยู่ได้หลายรายการ บรรทัดละหนึ่งรายการ และทั้งหมดใช้พอร์ตที่จับคู่ไว้ DeskPort จะลองทุกที่อยู่พร้อมกันและใช้ที่อยู่แรกในรายการที่ตอบกลับ จึงควรใส่ที่อยู่ LAN ไว้ก่อน แล้วตามด้วยโดเมนหรือที่อยู่ VPN คุณแก้ไขได้ระหว่างเชื่อมต่อ เซสชันที่เปิดอยู่จะใช้ที่อยู่ปัจจุบันต่อไป และการเชื่อมต่อครั้งถัดไปจะใช้รายการใหม่",
             "nl": "Adres wijzigen in het menu van een apparaatkaart accepteert meerdere adressen, één per regel, allemaal op de gekoppelde poort. DeskPort probeert ze tegelijk en gebruikt het eerste adres in de lijst dat antwoordt; zet dus eerst een LAN-adres en daarna een domein of VPN-adres. U kunt ze tijdens een verbinding wijzigen: open sessies houden hun huidige adres en de volgende verbinding gebruikt de nieuwe lijst.",
-            "pl": "Opcja Zmień adres w menu karty urządzenia przyjmuje kilka adresów, po jednym w wierszu, wszystkie na porcie parowania. DeskPort próbuje ich jednocześnie i używa pierwszego adresu z listy, który odpowie, więc wpisz najpierw adres sieci lokalnej, a po nim domenę lub adres VPN. Możesz je zmieniać w trakcie połączenia: otwarte sesje zachowują bieżący adres, a następne połączenie używa nowej listy.",
+            "pl": "Opcja „Zmień adres” w menu karty urządzenia przyjmuje kilka adresów, po jednym w wierszu, wszystkie na porcie ustalonym podczas wiązania. DeskPort próbuje ich jednocześnie i używa pierwszego adresu z listy, który odpowie, więc wpisz najpierw adres sieci lokalnej, a po nim domenę lub adres VPN. Adresy można zmieniać w trakcie połączenia: otwarte sesje zachowują bieżący adres, a następne połączenie używa nowej listy.",
             "uk": "«Змінити адресу» в меню картки пристрою приймає кілька адрес, по одній у рядку, усі на порту сполучення. DeskPort пробує їх одночасно й використовує першу адресу зі списку, що відповіла, тож поставте першою адресу локальної мережі, а після неї домен або адресу VPN. Їх можна змінювати під час з’єднання: відкриті сеанси зберігають поточну адресу, а наступне з’єднання використовує новий список.",
             "hi": "डिवाइस कार्ड के मेनू में पता बदलाव कई पते स्वीकार करता है, हर पंक्ति में एक, और सभी पेयर किए गए पोर्ट का उपयोग करते हैं। DeskPort इन्हें एक साथ आज़माता है और सूची में सबसे ऊपर वाला वह पता उपयोग करता है जो जवाब देता है, इसलिए पहले LAN पता और उसके बाद डोमेन या VPN पता रखें। कनेक्ट रहते हुए भी इन्हें बदला जा सकता है: खुले सत्र अपना मौजूदा पता रखते हैं और अगला कनेक्शन नई सूची का उपयोग करता है।",
             "ms": "Tukar alamat dalam menu kad peranti menerima beberapa alamat, satu bagi setiap baris, semuanya pada port gandingan. DeskPort mencuba semuanya serentak dan menggunakan alamat pertama dalam senarai yang menjawab, jadi letakkan alamat LAN dahulu, diikuti domain atau alamat VPN. Anda boleh mengubahnya semasa bersambung: sesi yang terbuka kekal pada alamat semasa dan sambungan seterusnya menggunakan senarai baharu."
@@ -496,7 +496,7 @@
             "vi": "Với Sunshine và các máy chủ không hỗ trợ liên kết DeskPort, hãy dùng «Thêm máy chủ kế thừa» và ghép nối bằng PIN. Giữ ứng dụng máy chủ mở để phê duyệt PIN.",
             "th": "Sunshine และโฮสต์ที่ไม่รองรับการผูก DeskPort ใช้ «เพิ่มโฮสต์แบบเดิม» และการจับคู่ด้วย PIN เปิดแอปโฮสต์ค้างไว้เพื่ออนุมัติ PIN",
             "nl": "Sunshine en hosts zonder DeskPort-koppeling gebruiken Voeg een oude host toe en pincode-koppeling. Houd de host geopend om de PIN goed te keuren.",
-            "pl": "W przypadku Sunshine i hostów bez powiązania DeskPort użyj opcji „Dodaj starszego hosta” i parowania za pomocą PIN. Pozostaw okno hosta otwarte, aby zatwierdzić PIN.",
+            "pl": "W przypadku Sunshine i hostów bez powiązania DeskPort użyj opcji „Dodaj starszego hosta” i wiązania przez PIN. Pozostaw okno hosta otwarte, aby zatwierdzić PIN.",
             "uk": "Для Sunshine і хостів без прив’язки DeskPort використовуйте «Додайте застарілий хост» і сполучення за допомогою PIN. Залиште вікно хоста відкритим, щоб схвалити PIN.",
             "hi": "Sunshine और DeskPort बाइंडिंग का समर्थन न करने वाले होस्ट के लिए «एक लीगेसी होस्ट जोड़ें» और PIN पेयरिंग का उपयोग करें। PIN को मंज़ूरी देने के लिए होस्ट ऐप खुला रखें।",
             "ms": "Untuk Sunshine dan hos tanpa pengikatan DeskPort, gunakan «Tambahkan hos lama» dan gandingan PIN. Biarkan aplikasi hos terbuka untuk meluluskan PIN."
@@ -522,7 +522,7 @@
             "vi": "Xóa quyền truy cập đã lưu trong «Chia sẻ» trên máy tính đang chia sẻ để thu hồi quyền điều khiển. Xóa thẻ khỏi «Thiết bị» và thu hồi quyền truy cập là hai thao tác riêng; hãy xóa quyền theo cả hai chiều khi hủy liên kết hai máy tính.",
             "th": "หากต้องการเพิกถอนการควบคุม ให้ลบสิทธิ์การเข้าถึงที่บันทึกไว้ใน «การแบ่งปัน» บนคอมพิวเตอร์ที่แชร์ การลบการ์ดจาก «อุปกรณ์» กับการเพิกถอนสิทธิ์เป็นคนละขั้นตอน เมื่อต้องการยกเลิกการผูกคอมพิวเตอร์สองเครื่อง ให้ลบสิทธิ์ทั้งสองทิศทาง",
             "nl": "Verwijder opgeslagen toegang op de delende computer om de bediening in te trekken. Een kaart verwijderen uit Apparaten en toegang intrekken zijn afzonderlijke acties; verwijder beide richtingen wanneer u twee computers ontkoppelt.",
-            "pl": "Aby odebrać możliwość sterowania, usuń zapisane uprawnienie dostępu w sekcji „Partycypujący” na komputerze udostępniającym. Usunięcie karty z sekcji „Urządzenia” i odebranie dostępu to oddzielne czynności. Przy usuwaniu powiązania dwóch komputerów usuń uprawnienia w obu kierunkach.",
+            "pl": "Aby odebrać możliwość sterowania, usuń zapisany dostęp w sekcji „Udostępnianie” na komputerze udostępniającym. Usunięcie karty z sekcji „Urządzenia” i cofnięcie dostępu to oddzielne czynności. Przy usuwaniu powiązania dwóch komputerów cofnij dostęp w obu kierunkach.",
             "uk": "Щоб відкликати право керування, видаліть збережений дозвіл на доступ у розділі «Обмін» на комп’ютері, що надає спільний доступ. Видалення картки з розділу «Пристрої» і відкликання доступу — окремі дії. Скасовуючи прив’язку двох комп’ютерів, видаліть дозволи в обох напрямках.",
             "hi": "नियंत्रण की अनुमति वापस लेने के लिए डेस्कटॉप साझा करने वाले कंप्यूटर पर «शेयरिंग» से सहेजा गया एक्सेस हटाएँ। «डिवाइस» से कार्ड हटाना और एक्सेस वापस लेना अलग कार्य हैं; दो कंप्यूटरों का बंधन हटाते समय दोनों दिशाओं का एक्सेस हटाएँ।",
             "ms": "Padam akses yang disimpan dalam «Berkongsi» pada komputer yang berkongsi untuk membatalkan kawalan. Mengalih keluar kad daripada «Peranti» dan membatalkan akses ialah tindakan berasingan; padam akses dalam kedua-dua arah apabila menyahikat dua komputer."
@@ -577,7 +577,7 @@
             "vi": "Chỉnh sửa ở thanh trên cùng bắt đầu chế độ chỉnh sửa; kéo thẻ để sắp xếp lại chúng.",
             "th": "แก้ไขในแถบด้านบนเริ่มโหมดแก้ไข ลากการ์ดเพื่อเรียงลำดับใหม่",
             "nl": "Bewerken in de bovenste balk start de bewerkingsmodus; versleep kaarten om ze opnieuw te ordenen.",
-            "pl": "Edycja na górnym pasku uruchamia tryb edycji; przeciągnij karty, aby zmienić ich kolejność.",
+            "pl": "Opcja „Edytuj” na górnym pasku włącza tryb edycji. Przeciągnij karty, aby zmienić ich kolejność.",
             "uk": "Редагувати на верхній панелі запускає режим редагування; перетягуйте картки, щоб змінити їх порядок.",
             "hi": "शीर्ष बार में संपादित करें संपादन मोड प्रारंभ होता है; कार्डों को पुनः व्यवस्थित करने के लिए उन्हें खींचें।",
             "ms": "Edit di bar atas memulakan mod edit; seret kad untuk menyusun semula kad itu."
@@ -629,7 +629,7 @@
             "vi": "Đặt bí danh trong menu của thẻ chỉ đổi tên thiết bị cho thiết bị này.",
             "th": "ตั้งชื่อแทนในเมนูของการ์ดจะเปลี่ยนชื่ออุปกรณ์สำหรับอุปกรณ์นี้เท่านั้น",
             "nl": "Als u een alias in het kaartmenu instelt, wordt de naam van een apparaat alleen voor dit apparaat gewijzigd.",
-            "pl": "Ustawienie aliasu w menu karty zmienia nazwę urządzenia tylko dla tego urządzenia.",
+            "pl": "Opcja „Ustaw alias” w menu karty zmienia wyświetlaną nazwę urządzenia tylko na tym urządzeniu.",
             "uk": "Встановити псевдонім у меню карти перейменовує пристрій лише для цього пристрою.",
             "hi": "कार्ड के मेनू में उपनाम सेट करने से डिवाइस का नाम केवल इस डिवाइस के लिए बदल जाता है।",
             "ms": "Tetapkan alias dalam menu kad menamakan semula peranti untuk peranti ini sahaja."
@@ -655,7 +655,7 @@
             "vi": "Làm mới kiểm tra lại các thiết bị đã lưu và tìm kiếm những thiết bị mới.",
             "th": "รีเฟรชจะตรวจสอบอุปกรณ์ที่บันทึกไว้อีกครั้งและค้นหาอุปกรณ์ใหม่",
             "nl": "Vernieuwen controleert opgeslagen apparaten opnieuw en zoekt naar nieuwe.",
-            "pl": "Odśwież ponownie sprawdza zapisane urządzenia i szuka nowych.",
+            "pl": "Opcja „Odśwież” ponownie sprawdza zapisane urządzenia i wyszukuje nowe.",
             "uk": "Оновлення знову перевіряє збережені пристрої та шукає нові.",
             "hi": "रिफ्रेश सहेजे गए डिवाइसों की दोबारा जांच करता है और नए की तलाश करता है।",
             "ms": "Muat semula semak semula peranti yang disimpan dan cari yang baharu."
@@ -736,7 +736,7 @@
             "vi": "Trên máy tính, đóng hoặc ẩn cửa sổ xem vẫn giữ phiên kết nối trong nền. «Ngắt kết nối» kết thúc kết nối đó; «Từ bỏ» thoát DeskPort.",
             "th": "บนคอมพิวเตอร์ การปิดหรือซ่อนหน้าต่างแสดงผลจะยังคงเชื่อมต่อเซสชันไว้ในเบื้องหลัง «ตัดการเชื่อมต่อ» จะสิ้นสุดการเชื่อมต่อนั้น ส่วน «ล้มเลิก» จะออกจาก DeskPort",
             "nl": "Op de computer houdt het sluiten of verbergen van een weergavevenster de sessie op de achtergrond verbonden. Verbinding verbreken beëindigt die verbinding; Ontslag nemen sluit DeskPort af.",
-            "pl": "W wersji komputerowej zamknięcie lub ukrycie okna podglądu utrzymuje połączenie sesji w tle. Opcja „Rozłącz” kończy to połączenie, a „Zrezygnować” zamyka DeskPort.",
+            "pl": "W wersji komputerowej zamknięcie lub ukrycie okna podglądu pozostawia sesję połączoną w tle. Opcja „Rozłącz” kończy to połączenie, a „Zakończ” zamyka DeskPort.",
             "uk": "У настільній версії після закриття або приховування вікна перегляду сеанс залишається підключеним у фоновому режимі. Пункт «Відключитися» завершує це підключення, а «Вийти» закриває DeskPort.",
             "hi": "डेस्कटॉप पर व्यूअर बंद करने या छिपाने पर उसका सत्र पृष्ठभूमि में जुड़ा रहता है। «डिस्कनेक्ट करें» उस कनेक्शन को समाप्त करता है; «छोड़ना» से DeskPort बंद होता है।",
             "ms": "Pada komputer, menutup atau menyembunyikan pemapar mengekalkan sambungan sesinya di latar belakang. «Putuskan sambungan» menamatkan sambungan itu; «Berhenti» keluar daripada DeskPort."
@@ -788,7 +788,7 @@
             "vi": "Ẩn cửa sổ xem hoặc chuyển tiêu điểm sang nơi khác sẽ nhả các phím và nút đang được giữ trên máy từ xa. Bạn vẫn có thể dùng máy tính cục bộ trong khi phiên từ xa còn kết nối.",
             "th": "การซ่อนหน้าต่างแสดงผลหรือย้ายโฟกัสออกจะปล่อยปุ่มและแป้นที่กดค้างไว้บนเครื่องระยะไกล คุณยังใช้คอมพิวเตอร์เครื่องนี้ได้ขณะที่เซสชันระยะไกลยังเชื่อมต่ออยู่",
             "nl": "Wanneer u een weergavevenster verbergt of de focus verplaatst, worden ingedrukte externe toetsen en muisknoppen losgelaten. De lokale computer blijft bruikbaar terwijl de externe sessie verbonden blijft.",
-            "pl": "Ukrycie okna podglądu lub przeniesienie fokusu w inne miejsce zwalnia przytrzymywane zdalne klawisze i przyciski. Możesz korzystać z lokalnego komputera, gdy zdalna sesja pozostaje połączona.",
+            "pl": "Ukrycie lub dezaktywacja okna podglądu zwalnia przytrzymane zdalne klawisze i przyciski. Można korzystać z lokalnego komputera, gdy sesja zdalna pozostaje połączona.",
             "uk": "Коли ви приховуєте вікно перегляду або переводите фокус в інше місце, на віддаленому боці відпускаються утримувані клавіші й кнопки. Локальним комп’ютером можна користуватися, поки віддалений сеанс залишається підключеним.",
             "hi": "व्यूअर छिपाने या उससे फ़ोकस हटाने पर रिमोट पर दबे हुए कुंजी और बटन छोड़ दिए जाते हैं। रिमोट सत्र जुड़ा रहने के दौरान भी स्थानीय कंप्यूटर इस्तेमाल किया जा सकता है।",
             "ms": "Menyembunyikan pemapar atau mengalihkan fokus melepaskan kekunci dan butang jauh yang ditahan. Komputer setempat masih boleh digunakan semasa sesi jauh kekal bersambung."
@@ -814,7 +814,7 @@
             "vi": "Dùng «Kết nối lại» trong menu thiết bị nếu phiên cần kết nối mới hoặc để áp dụng các cài đặt phát trực tuyến đã lưu.",
             "th": "ใช้ «เชื่อมต่อใหม่» ในเมนูอุปกรณ์หากเซสชันต้องการเชื่อมต่อใหม่ หรือเมื่อต้องการใช้การตั้งค่าสตรีมที่บันทึกไว้",
             "nl": "Gebruik Maak opnieuw verbinding in het apparaatmenu als een sessie een nieuwe verbinding nodig heeft of om opgeslagen streaming-instellingen toe te passen.",
-            "pl": "Użyj opcji „Na nowo połączyć” w menu urządzenia, aby nawiązać nowe połączenie sesji lub zastosować zapisane ustawienia przesyłania strumieniowego.",
+            "pl": "Użyj opcji „Połącz ponownie” w menu urządzenia, aby nawiązać nowe połączenie sesji lub zastosować zapisane ustawienia transmisji strumieniowej.",
             "uk": "Виберіть «Повторне підключення» у меню пристрою, якщо потрібно встановити нове з’єднання або застосувати збережені параметри потокового передавання.",
             "hi": "यदि सत्र को नया कनेक्शन चाहिए या सहेजी गई स्ट्रीमिंग सेटिंग्स लागू करनी हों, तो डिवाइस मेनू में «रिकनेक्ट» का उपयोग करें।",
             "ms": "Gunakan «Sambung semula» dalam menu peranti jika sesi memerlukan sambungan baharu atau untuk menggunakan tetapan penstriman yang disimpan."
@@ -869,7 +869,7 @@
             "vi": "Meta + ' hiển thị hoặc ẩn DeskPort: dùng Command + ' trên macOS, Windows + ' trên Windows hoặc Super + ' trên Linux. Nhả các phím để kích hoạt. Phím tắt đưa phiên đã chọn trở lại, hoặc mở «Thiết bị» khi không có phiên nào kết nối.",
             "th": "Meta + ' ใช้แสดงหรือซ่อน DeskPort: ใช้ Command + ' บน macOS, Windows + ' บน Windows หรือ Super + ' บน Linux ปล่อยปุ่มเพื่อเรียกใช้งาน ปุ่มลัดนี้จะเรียกเซสชันที่เลือกกลับมา หรือเปิด «อุปกรณ์» หากไม่มีเซสชันที่เชื่อมต่ออยู่",
             "nl": "Meta + ' toont of verbergt DeskPort: gebruik Command + ' op macOS, Windows + ' op Windows of Super + ' op Linux. Laat de toetsen los om de actie te activeren. Hiermee haalt u de geselecteerde sessie terug, of Apparaten wanneer er geen sessie verbonden is.",
-            "pl": "Meta + ' pokazuje lub ukrywa DeskPort: użyj Command + ' w macOS, Windows + ' w Windows lub Super + ' w Linux. Skrót działa po zwolnieniu klawiszy. Przywraca wybraną sesję, a gdy żadna sesja nie jest połączona — sekcję „Urządzenia”.",
+            "pl": "Meta + ' pokazuje lub ukrywa DeskPort: użyj Command + ' w macOS, Windows + ' w systemie Windows lub Super + ' w systemie Linux. Skrót działa po zwolnieniu klawiszy. Przywraca wybraną sesję, a gdy żadna sesja nie jest połączona — sekcję „Urządzenia”.",
             "uk": "Meta + ' показує або приховує DeskPort: використовуйте Command + ' на macOS, Windows + ' на Windows або Super + ' на Linux. Дія спрацьовує після відпускання клавіш. Відкривається вибраний сеанс, а якщо підключених сеансів немає — розділ «Пристрої».",
             "hi": "Meta + ' से DeskPort दिखता या छिपता है: macOS पर Command + ', Windows पर Windows + ' और Linux पर Super + ' का उपयोग करें। इसे चलाने के लिए कुंजियाँ छोड़ें। यह चुना हुआ सत्र सामने लाता है, या कोई सत्र जुड़ा न होने पर «डिवाइस» दिखाता है।",
             "ms": "Meta + ' memaparkan atau menyembunyikan DeskPort: gunakan Command + ' pada macOS, Windows + ' pada Windows atau Super + ' pada Linux. Lepaskan kekunci untuk mencetuskannya. Pintasan ini memaparkan semula sesi yang dipilih, atau «Peranti» jika tiada sesi bersambung."
@@ -973,7 +973,7 @@
             "vi": "Trên Wayland, môi trường màn hình có thể xin quyền và cho bạn chọn liên kết phím. Phím tắt do môi trường màn hình chọn được ưu tiên. Nếu việc đăng ký bị từ chối, không được hỗ trợ hoặc phím đã được dùng, hãy dùng khay hệ thống hoặc danh sách thiết bị; DeskPort không thay thế liên kết của ứng dụng khác.",
             "th": "บน Wayland เดสก์ท็อปอาจขออนุญาตและให้คุณเลือกการผูกปุ่ม โดยจะใช้ปุ่มลัดที่เดสก์ท็อปเลือกเป็นหลัก หากการลงทะเบียนถูกปฏิเสธ ไม่รองรับ หรือมีการใช้ปุ่มลัดนั้นอยู่แล้ว ให้ใช้ถาดระบบหรือรายการอุปกรณ์ DeskPort จะไม่แทนที่การผูกปุ่มของแอปอื่น",
             "nl": "Op Wayland kan het bureaublad om toestemming vragen en u zelf de sneltoets laten kiezen. De door het bureaublad gekozen sneltoets heeft voorrang. Als registratie wordt geweigerd, niet wordt ondersteund of al in gebruik is, gebruik dan het systeemvak of de apparatenlijst; DeskPort vervangt geen sneltoets van een andere app.",
-            "pl": "W Wayland środowisko pulpitu może poprosić o uprawnienia i pozwolić wybrać przypisanie. Skrót wybrany przez środowisko ma pierwszeństwo. Jeśli rejestracja zostanie odrzucona, nie jest obsługiwana lub skrót jest już zajęty, użyj zasobnika systemowego lub listy urządzeń. DeskPort nie zastępuje przypisań innych aplikacji.",
+            "pl": "W sesji Wayland środowisko graficzne może poprosić o uprawnienia i pozwolić wybrać przypisanie skrótu. Skrót wybrany przez środowisko ma pierwszeństwo. Jeśli rejestracja zostanie odrzucona, nie jest obsługiwana lub skrót jest już zajęty, użyj zasobnika systemowego lub listy urządzeń. DeskPort nie zastępuje przypisań innych aplikacji.",
             "uk": "На Wayland середовище стільниці може запитати дозвіл і запропонувати вибрати сполучення. Вибране середовищем сполучення має пріоритет. Якщо реєстрацію відхилено, вона не підтримується або сполучення вже зайняте, використовуйте трей чи список пристроїв. DeskPort не замінює сполучення інших програм.",
             "hi": "Wayland पर डेस्कटॉप अनुमति माँग सकता है और कुंजी संयोजन चुनने दे सकता है। डेस्कटॉप का चुना शॉर्टकट प्राथमिकता लेता है। यदि पंजीकरण अस्वीकृत हो, समर्थित न हो या शॉर्टकट पहले से उपयोग में हो, तो ट्रे या डिवाइस सूची का उपयोग करें; DeskPort दूसरे ऐप का कुंजी संयोजन नहीं बदलता।",
             "ms": "Pada Wayland, persekitaran desktop mungkin meminta kebenaran dan membenarkan anda memilih pengikatan. Pintasan yang dipilih oleh persekitaran desktop diberi keutamaan. Jika pendaftaran ditolak, tidak disokong atau pintasan sedang digunakan, gunakan dulang sistem atau senarai peranti; DeskPort tidak menggantikan pengikatan aplikasi lain."
@@ -1158,7 +1158,7 @@
             "vi": "Điện thoại và máy tính bảng luôn hiển thị màn hình từ xa trên toàn màn hình. Nhấn vào nút nổi cho bàn phím; giữ nó cho menu.",
             "th": "โทรศัพท์และแท็บเล็ตจะแสดงเดสก์ท็อประยะไกลเต็มหน้าจอเสมอ แตะปุ่มลอยสำหรับคีย์บอร์ด กดค้างไว้ที่เมนู",
             "nl": "Telefoons en tablets tonen altijd het externe bureaublad op het hele scherm. Tik op de zwevende knop voor het toetsenbord; houd het vast voor het menu.",
-            "pl": "Telefony i tablety zawsze pokazują pulpit zdalny na całym ekranie. Stuknij pływający przycisk klawiatury; przytrzymaj go, aby wyświetlić menu.",
+            "pl": "Na telefonach i tabletach zdalny pulpit zawsze zajmuje cały ekran. Stuknij pływający przycisk, aby wyświetlić klawiaturę. Przytrzymaj go, aby otworzyć menu.",
             "uk": "Телефони та планшети завжди показують віддалений робочий стіл на весь екран. Торкніться плаваючої кнопки клавіатури; тримайте його для меню.",
             "hi": "फ़ोन और टैबलेट हमेशा रिमोट डेस्कटॉप को पूरी स्क्रीन पर दिखाते हैं। कीबोर्ड के लिए फ़्लोटिंग बटन टैप करें; इसे मेनू के लिए दबाए रखें.",
             "ms": "Telefon dan tablet sentiasa menunjukkan desktop jauh pada keseluruhan skrin. Ketik butang terapung untuk papan kekunci; tahan untuk menu."
@@ -1184,7 +1184,7 @@
             "vi": "Máy chủ có thể yêu cầu thiết bị được kết nối rời khỏi chế độ toàn màn hình; nó không bao giờ buộc nó vào toàn màn hình.",
             "th": "โฮสต์สามารถขอให้อุปกรณ์ที่เชื่อมต่อออกจากโหมดเต็มหน้าจอได้ มันไม่เคยบังคับให้แสดงแบบเต็มหน้าจอ",
             "nl": "De host kan een aangesloten apparaat vragen het volledige scherm te verlaten; het dwingt het nooit naar volledig scherm.",
-            "pl": "Host może poprosić podłączone urządzenie o opuszczenie trybu pełnoekranowego; nigdy nie wymusza przejścia na pełny ekran.",
+            "pl": "Host może poprosić połączone urządzenie o opuszczenie trybu pełnoekranowego. Nigdy nie wymusza przejścia na pełny ekran.",
             "uk": "Організатор може попросити підключений пристрій залишити повноекранний режим; він ніколи не переводить його на весь екран.",
             "hi": "होस्ट किसी कनेक्टेड डिवाइस को पूर्ण स्क्रीन छोड़ने के लिए कह सकता है; यह इसे कभी भी पूर्ण स्क्रीन पर बाध्य नहीं करता है।",
             "ms": "Hos boleh meminta peranti yang disambungkan untuk meninggalkan skrin penuh; ia tidak pernah memaksanya ke skrin penuh."
@@ -1213,7 +1213,7 @@
         "vi": "Hình ảnh và màn hình ảo",
         "th": "รูปภาพและหน้าจอเสมือน",
         "nl": "Beeld en virtueel scherm",
-        "pl": "Obraz i wirtualny ekran",
+        "pl": "Obraz i ekran wirtualny",
         "uk": "Зображення та віртуальний екран",
         "hi": "चित्र और आभासी स्क्रीन",
         "ms": "Gambar dan skrin maya"
@@ -1265,7 +1265,7 @@
             "vi": "Màn hình ảo quyết định điều gì xảy ra với màn hình của chính máy chủ khi bạn kết nối.",
             "th": "หน้าจอเสมือนจะตัดสินใจว่าจะเกิดอะไรขึ้นกับหน้าจอของโฮสต์ในขณะที่คุณเชื่อมต่อ",
             "nl": "Het virtuele scherm bepaalt wat er met de eigen schermen van de host gebeurt terwijl u verbonden bent.",
-            "pl": "Wirtualny ekran decyduje o tym, co dzieje się z ekranami hosta, gdy jesteś podłączony.",
+            "pl": "Opcja „Ekran wirtualny” określa, co dzieje się z ekranami hosta podczas połączenia.",
             "uk": "Віртуальний екран вирішує, що відбувається з власними екранами хоста, коли ви підключені.",
             "hi": "वर्चुअल स्क्रीन यह तय करती है कि आपके कनेक्ट होने के दौरान होस्ट की अपनी स्क्रीन का क्या होगा।",
             "ms": "Skrin maya menentukan perkara yang berlaku pada skrin hos sendiri semasa anda disambungkan."
@@ -1291,7 +1291,7 @@
             "vi": "Tinh chỉnh màn hình làm cho mọi thứ trên màn hình từ xa lớn hơn hoặc nhỏ hơn.",
             "th": "การปรับแต่งเดสก์ท็อปอย่างละเอียดทำให้ทุกอย่างบนเดสก์ท็อประยะไกลใหญ่ขึ้นหรือเล็กลง",
             "nl": "Desktopfijnafstemming maakt alles op het externe bureaublad groter of kleiner.",
-            "pl": "Dostrajanie pulpitu sprawia, że ​​wszystko na zdalnym pulpicie jest większe lub mniejsze.",
+            "pl": "Opcja „Dostrajanie pulpitu” powiększa lub pomniejsza wszystkie elementy zdalnego pulpitu.",
             "uk": "Тонке налаштування робочого столу збільшує або зменшує все на віддаленому робочому столі.",
             "hi": "डेस्कटॉप फ़ाइन ट्यूनिंग दूरस्थ डेस्कटॉप पर मौजूद सभी चीज़ों को बड़ा या छोटा कर देती है।",
             "ms": "Penalaan halus desktop menjadikan segala-galanya pada desktop jauh lebih besar atau lebih kecil."
@@ -1317,7 +1317,7 @@
             "vi": "Các cài đặt này được lưu trên mỗi thiết bị.",
             "th": "การตั้งค่าเหล่านี้จะถูกบันทึกไว้ในแต่ละอุปกรณ์",
             "nl": "Deze instellingen worden per apparaat opgeslagen.",
-            "pl": "Te ustawienia są zapisywane na każdym urządzeniu.",
+            "pl": "Te ustawienia są zapisywane osobno dla każdego urządzenia.",
             "uk": "Ці налаштування зберігаються для кожного пристрою.",
             "hi": "ये सेटिंग्स प्रति डिवाइस सहेजी जाती हैं।",
             "ms": "Tetapan ini disimpan setiap peranti."
@@ -1369,7 +1369,7 @@
             "vi": "«Tinh chỉnh máy tính để bàn»: 1.5 làm các thành phần điều khiển lớn hơn; 0.5 hiển thị được nhiều nội dung hơn. Thay đổi có hiệu lực trong khi kết nối. Kích thước tối thiểu của máy chủ có thể hạn chế việc phóng to thêm; hãy thử cửa sổ lớn hơn hoặc toàn màn hình.",
             "th": "«การปรับแต่งเดสก์ท็อปอย่างละเอียด»: 1.5 ทำให้ส่วนควบคุมใหญ่ขึ้น ส่วน 0.5 แสดงเนื้อหาได้มากขึ้น การเปลี่ยนแปลงมีผลระหว่างเชื่อมต่อ ขนาดขั้นต่ำของโฮสต์อาจจำกัดการขยายเพิ่มเติม ให้ลองขยายหน้าต่างหรือใช้เต็มหน้าจอ",
             "nl": "Fijnafstemming van het bureaublad: 1.5 maakt bedieningselementen groter; 0.5 toont meer inhoud. Dit werkt direct tijdens een verbinding. Een minimumformaat van de host kan verdere vergroting beperken; probeer een groter venster of volledig scherm.",
-            "pl": "„Dostrajanie pulpitu”: wartość 1.5 powiększa elementy sterujące, a 0.5 pozwala zmieścić więcej treści. Zmiana działa w trakcie połączenia. Minimalny rozmiar wymagany przez hosta może ograniczyć dalsze powiększanie; spróbuj większego okna lub pełnego ekranu.",
+            "pl": "„Dostrajanie pulpitu”: wartość 1,5 powiększa elementy sterujące, a 0,5 pozwala zmieścić więcej treści. Zmiana działa w trakcie połączenia. Minimalny rozmiar wymagany przez hosta może ograniczyć dalsze powiększanie; spróbuj większego okna lub pełnego ekranu.",
             "uk": "«Тонка настройка робочого столу»: значення 1.5 збільшує елементи керування, а 0.5 дає змогу вмістити більше вмісту. Зміна діє під час підключення. Мінімальний розмір, заданий хостом, може обмежувати подальше збільшення; спробуйте збільшити вікно або перейти в повноекранний режим.",
             "hi": "«डेस्कटॉप फाइन ट्यूनिंग»: 1.5 से नियंत्रण बड़े होते हैं; 0.5 से अधिक सामग्री समाती है। यह कनेक्शन के दौरान लागू होता है। होस्ट का न्यूनतम आकार आगे बढ़ाने की सीमा तय कर सकता है; बड़ी विंडो या पूर्ण स्क्रीन आज़माएँ।",
             "ms": "«Penalaan halus desktop»: 1.5 membesarkan kawalan; 0.5 memuatkan lebih banyak kandungan. Perubahan berkuat kuasa semasa sambungan. Saiz minimum hos boleh mengehadkan pembesaran selanjutnya; cuba tetingkap yang lebih besar atau skrin penuh."
@@ -1395,7 +1395,7 @@
             "vi": "«Chính + gương» phản chiếu không gian làm việc từ xa, «Chỉ chính» tắt các màn hình khác của máy chủ, còn «Mở rộng» thêm một không gian làm việc. Khả năng hỗ trợ tùy máy chủ; bố cục màn hình trước đó được khôi phục khi phiên kết thúc.",
             "th": "«หลัก+กระจก» จะสะท้อนพื้นที่ทำงานระยะไกล «หลักเท่านั้น» จะปิดหน้าจออื่นของโฮสต์ และ «ขยาย» จะเพิ่มพื้นที่ทำงาน การรองรับขึ้นอยู่กับโฮสต์ เมื่อเซสชันสิ้นสุดจะคืนรูปแบบหน้าจอเดิม",
             "nl": "Hoofd + spiegel spiegelt de externe werkruimte, Alleen hoofdgerecht schakelt andere schermen van de host uit en Verlengd voegt een werkruimte toe. De ondersteuning verschilt per host; de vorige schermindeling wordt hersteld wanneer de sessie eindigt.",
-            "pl": "Tryb „Główny + lustro” powiela zdalny obszar roboczy, „Tylko główne” wyłącza pozostałe ekrany hosta, a „Rozszerzony” dodaje obszar roboczy. Obsługa zależy od hosta; po zakończeniu sesji przywracany jest poprzedni układ ekranów.",
+            "pl": "Tryb „Główny + powielanie” powiela zdalny obszar roboczy, „Tylko główny” wyłącza pozostałe ekrany hosta, a „Rozszerzony” dodaje obszar roboczy. Obsługa zależy od hosta; po zakończeniu sesji przywracany jest poprzedni układ ekranów.",
             "uk": "Режим «Основна + дзеркало» дублює віддалений робочий простір, «Тільки головне» вимикає інші екрани хоста, а «Розширений» додає робочий простір. Підтримка залежить від хоста; після завершення сеансу відновлюється попередня конфігурація екранів.",
             "hi": "«मुख्य + दर्पण» रिमोट कार्यक्षेत्र की प्रतिलिपि दिखाता है, «केवल मुख्य» होस्ट की अन्य स्क्रीन बंद करता है और «विस्तारित» एक कार्यक्षेत्र जोड़ता है। समर्थन होस्ट पर निर्भर करता है; सत्र समाप्त होने पर पिछला स्क्रीन विन्यास बहाल होता है।",
             "ms": "«Utama + cermin» mencerminkan ruang kerja jauh, «Utama sahaja» mematikan skrin hos yang lain dan «Dipanjangkan» menambah ruang kerja. Sokongan berbeza mengikut hos; susun atur skrin sebelumnya dipulihkan apabila sesi tamat."
@@ -1450,7 +1450,7 @@
             "vi": "Cài đặt thiết bị → đầu vào quyết định có gửi các sự kiện bàn phím, con trỏ và tay cầm hay không. Tắt để chỉ xem; «Âm thanh» điều khiển riêng âm thanh nhận được.",
             "th": "การตั้งค่าอุปกรณ์ → ป้อนข้อมูล ควบคุมว่าจะส่งเหตุการณ์จากแป้นพิมพ์ ตัวชี้ และตัวควบคุมเกมหรือไม่ ปิดเพื่อดูอย่างเดียว ส่วน «เสียง» ควบคุมเสียงที่รับมาแยกต่างหาก",
             "nl": "Apparaatinstellingen → Invoer bepaalt of gebeurtenissen van toetsenbord, aanwijzer en controller worden verzonden. Schakel dit uit om alleen mee te kijken; Geluid regelt afzonderlijk de ontvangen audio.",
-            "pl": "Opcja Ustawienia urządzenia → Wejście określa, czy wysyłane są zdarzenia klawiatury, wskaźnika i kontrolera. Wyłącz ją, aby tylko oglądać. Odbieranym dźwiękiem steruje oddzielnie opcja „Dźwięk”.",
+            "pl": "Opcja Ustawienia urządzenia → Sterowanie określa, czy wysyłane są zdarzenia klawiatury, wskaźnika i kontrolera. Wyłącz ją, aby korzystać tylko z podglądu. Odbieranym dźwiękiem steruje oddzielnie opcja „Dźwięk”.",
             "uk": "Параметр Налаштування пристрою → Введення визначає, чи надсилаються події клавіатури, вказівника й контролера. Вимкніть його для перегляду без керування. Отримання звуку окремо регулюється параметром «Звук».",
             "hi": "डिवाइस सेटिंग्स → इनपुट तय करता है कि कीबोर्ड, पॉइंटर और कंट्रोलर की घटनाएँ भेजी जाएँ या नहीं। केवल देखने के लिए इसे बंद करें; «आवाज़» प्राप्त होने वाले ऑडियो को अलग से नियंत्रित करता है।",
             "ms": "Tetapan peranti → Input mengawal sama ada peristiwa papan kekunci, penunjuk dan pengawal dihantar. Matikannya untuk paparan sahaja; «Bunyi» mengawal audio yang diterima secara berasingan."
@@ -1635,7 +1635,7 @@
             "vi": "«Cài đặt phát trực tuyến nâng cao» có các chế độ hình ảnh «Tự động», «Thông thoáng», «Trơn tru», «Lưu dữ liệu» và «Phong tục». «Tự động» chọn băng thông dựa trên độ phân giải và thích ứng với mạng.",
             "th": "«การตั้งค่าการสตรีมขั้นสูง» มีโหมดภาพ «อัตโนมัติ», «ชัดเจน», «เรียบ», «ประหยัดข้อมูล» และ «กำหนดเอง» โดย «อัตโนมัติ» จะเลือกแบนด์วิดท์ตามความละเอียดและปรับตามเครือข่าย",
             "nl": "Geavanceerde streaming-instellingen biedt de beeldmodi Automatisch, Duidelijk, Zacht, Gegevens opslaan en Aangepast. Automatisch kiest de bandbreedte op basis van de resolutie en past zich aan het netwerk aan.",
-            "pl": "Sekcja „Zaawansowane ustawienia przesyłania strumieniowego” oferuje tryby obrazu „Wybierz automatycznie”, „Jasne”, „Gładki”, „Zapisz dane” i „Własne”. Tryb „Wybierz automatycznie” dobiera przepustowość na podstawie rozdzielczości i dostosowuje się do sieci.",
+            "pl": "Sekcja „Zaawansowane ustawienia przesyłania strumieniowego” oferuje tryby obrazu „Automatycznie”, „Wyraźny”, „Płynny”, „Oszczędzaj dane” i „Niestandardowe”. Tryb „Automatycznie” dobiera przepustowość na podstawie rozdzielczości i dostosowuje ją do sieci.",
             "uk": "У розділі «Розширені параметри потокового передавання» доступні режими зображення «Автоматичний», «ясно», «Гладкий», «Зберегти дані» і «Custom». Режим «Автоматичний» вибирає пропускну здатність за роздільною здатністю та пристосовується до мережі.",
             "hi": "«उन्नत स्ट्रीमिंग सेटिंग्स» में «स्वचालित», «स्पष्ट», «चिकना», «डेटा सहेजें» और «रिवाज़» चित्र मोड मिलते हैं। «स्वचालित» रिज़ॉल्यूशन के आधार पर बैंडविड्थ चुनता है और नेटवर्क के अनुसार समायोजित होता है।",
             "ms": "«Tetapan penstriman lanjutan» menawarkan mod gambar «Automatik», «Jelas», «lancar», «Jimat data» dan «Adat». «Automatik» memilih lebar jalur berdasarkan resolusi dan menyesuaikan diri dengan rangkaian."
@@ -1661,7 +1661,7 @@
             "vi": "«Lưu dữ liệu» dùng 30 fps và giới hạn video ở 5 Mbps. Công tắc tiết kiệm dữ liệu trên thanh trên cùng áp dụng cho mọi thiết bị; lưu lượng âm thanh và giao thức được tính thêm.",
             "th": "«ประหยัดข้อมูล» ใช้ 30 fps และจำกัดวิดีโอที่ 5 Mbps สวิตช์ประหยัดข้อมูลในแถบด้านบนมีผลกับทุกอุปกรณ์ โดยยังมีปริมาณข้อมูลเสียงและโปรโตคอลเพิ่มเติม",
             "nl": "Gegevens opslaan gebruikt 30 fps en een videolimiet van 5 Mbps. De databesparingsknop in de bovenste balk geldt voor elk apparaat; audio- en protocolverkeer komen daar nog bij.",
-            "pl": "Tryb „Zapisz dane” używa 30 fps i limitu wideo 5 Mbps. Przełącznik „Oszczędzanie danych” na górnym pasku działa dla wszystkich urządzeń; dźwięk i ruch protokołów są doliczane osobno.",
+            "pl": "Tryb „Oszczędzaj dane” używa 30 kl./s i limitu przepływności wideo 5 Mb/s. Przełącznik „Oszczędzanie danych” na górnym pasku działa dla wszystkich urządzeń; dźwięk i ruch protokołów są doliczane osobno.",
             "uk": "Режим «Зберегти дані» використовує 30 fps і обмежує відеопотік до 5 Mbps. Перемикач «Економія трафіку» на верхній панелі діє для всіх пристроїв; звук і службовий трафік протоколів додаються окремо.",
             "hi": "«डेटा सहेजें» में 30 fps और वीडियो की 5 Mbps सीमा होती है। शीर्ष बार का डेटा सेवर स्विच हर डिवाइस पर लागू होता है; ऑडियो और प्रोटोकॉल का ट्रैफ़िक इसके अतिरिक्त है।",
             "ms": "«Jimat data» menggunakan 30 fps dan had video 5 Mbps. Suis penjimat data pada bar atas digunakan untuk setiap peranti; trafik audio dan protokol adalah tambahan."
@@ -1713,7 +1713,7 @@
             "vi": "Các tùy chọn âm thanh gồm tắt tiếng khi DeskPort mất tiêu điểm và phát âm thanh cả trên máy chủ. Nếu không có tiếng, hãy kiểm tra công tắc «Âm thanh» của thiết bị, tùy chọn tắt tiếng khi mất tiêu điểm và đầu ra âm thanh của cả hai máy tính.",
             "th": "ตัวเลือกเสียงมีทั้งปิดเสียงเมื่อ DeskPort เสียโฟกัสและเล่นเสียงบนโฮสต์ด้วย หากไม่มีเสียง ให้ตรวจสอบสวิตช์ «เสียง» ของอุปกรณ์ การปิดเสียงเมื่อเสียโฟกัส และเอาต์พุตเสียงของคอมพิวเตอร์ทั้งสองเครื่อง",
             "nl": "Tot de geluidsopties behoren dempen wanneer DeskPort de focus verliest en het geluid ook op de host afspelen. Als er geen geluid is, controleer dan de schakelaar Geluid van het apparaat, het dempen bij focusverlies en de audio-uitgangen van beide computers.",
-            "pl": "Opcje dźwięku obejmują wyciszanie, gdy DeskPort traci fokus, oraz odtwarzanie dźwięku także na hoście. Jeśli nie ma dźwięku, sprawdź przełącznik „Dźwięk” urządzenia, wyciszanie po utracie fokusu i wyjścia audio obu komputerów.",
+            "pl": "Opcje dźwięku obejmują wyciszanie po dezaktywacji okna i odtwarzanie dźwięku także na hoście. Jeśli nie ma dźwięku, sprawdź przełącznik „Dźwięk” urządzenia, opcję „Wycisz, gdy okno DeskPort jest nieaktywne” i wyjścia audio obu komputerów.",
             "uk": "Параметри звуку дають змогу вимикати звук, коли DeskPort втрачає фокус, а також відтворювати його на хості. Якщо звуку немає, перевірте перемикач «Звук» пристрою, вимкнення звуку при втраті фокуса й аудіовиходи обох комп’ютерів.",
             "hi": "आवाज़ के विकल्पों में DeskPort से फ़ोकस हटने पर म्यूट करना और होस्ट पर भी ऑडियो बजाना शामिल है। आवाज़ न आने पर डिवाइस का «आवाज़» स्विच, फ़ोकस हटने पर म्यूट करने की सेटिंग और दोनों कंप्यूटरों के ऑडियो आउटपुट जाँचें।",
             "ms": "Pilihan bunyi termasuk membisukan apabila DeskPort kehilangan fokus dan turut memainkan audio pada hos. Jika tiada bunyi, semak suis «Bunyi» peranti, tetapan bisu apabila kehilangan fokus dan output audio kedua-dua komputer."
@@ -1742,7 +1742,7 @@
         "vi": "Kết nối từ trình duyệt",
         "th": "เชื่อมต่อจากเบราว์เซอร์",
         "nl": "Verbinden vanuit een browser",
-        "pl": "Połączenie z przeglądarki",
+        "pl": "Połącz przez przeglądarkę",
         "uk": "Підключення з браузера",
         "hi": "ब्राउज़र से कनेक्ट करें",
         "ms": "Sambung daripada pelayar"
@@ -1768,7 +1768,7 @@
             "vi": "Trên máy tính chủ, mở Chia sẻ → Truy cập trình duyệt, rồi quét hoặc mở URL được hiển thị trên thiết bị kia. Bắt đầu chia sẻ trước khi kết nối.",
             "th": "บนคอมพิวเตอร์โฮสต์ ให้เปิด การแบ่งปัน → การเข้าถึงเบราว์เซอร์ แล้วสแกนหรือเปิด URL ที่แสดงบนอุปกรณ์อีกเครื่อง เริ่มแชร์ก่อนเชื่อมต่อ",
             "nl": "Open op de desktop-host Delen → Browsertoegang en scan of open vervolgens de weergegeven URL op het andere apparaat. Start het delen voordat u verbinding maakt.",
-            "pl": "Na hoście komputerowym otwórz Partycypujący → Dostęp przez przeglądarkę, a następnie zeskanuj lub otwórz wyświetlony URL na drugim urządzeniu. Rozpocznij udostępnianie przed połączeniem.",
+            "pl": "Na hoście otwórz Udostępnianie → Dostęp przez przeglądarkę, a następnie zeskanuj lub otwórz wyświetlony adres URL na drugim urządzeniu. Rozpocznij udostępnianie przed połączeniem.",
             "uk": "На настільному хості відкрийте Обмін → Доступ через браузер, а потім відскануйте або відкрийте показану URL-адресу на іншому пристрої. Перед підключенням почніть надавати спільний доступ.",
             "hi": "डेस्कटॉप होस्ट पर शेयरिंग → ब्राउज़र पहुंच खोलें, फिर दूसरे डिवाइस पर दिखाया गया URL स्कैन करें या खोलें। कनेक्ट करने से पहले साझाकरण शुरू करें।",
             "ms": "Pada komputer hos, buka Berkongsi → Akses pelayar, kemudian imbas atau buka URL yang dipaparkan pada peranti lain. Mulakan perkongsian sebelum menyambung."
@@ -1846,7 +1846,7 @@
             "vi": "«Ghi nhớ trình duyệt này trong 7 ngày» bỏ qua các lần hỏi mã tiếp theo trên trình duyệt đó. Xóa trình duyệt đã ghép nối khỏi «Chia sẻ» để thu hồi quyền truy cập. Giữ kín mã QR xác thực; đặt lại khóa bí mật sẽ vô hiệu hóa các trình xác thực hiện có.",
             "th": "«จำเบราว์เซอร์นี้เป็นเวลา 7 วัน» จะข้ามการขอรหัสครั้งถัดไปในเบราว์เซอร์นั้น หากต้องการเพิกถอนสิทธิ์ ให้ลบเบราว์เซอร์ที่จับคู่ไว้จาก «การแบ่งปัน» เก็บ QR ยืนยันตัวตนเป็นความลับ การรีเซ็ตคีย์ลับจะทำให้ตัวสร้างรหัสยืนยันเดิมใช้ไม่ได้",
             "nl": "Onthoud deze browser 7 dagen slaat latere codevragen in die browser over. Verwijder een gekoppelde browser bij Delen om de toegang in te trekken. Houd de QR-code van de authenticator privé; het opnieuw instellen van de geheime sleutel maakt bestaande authenticators ongeldig.",
-            "pl": "Opcja „Zapamiętaj tę przeglądarkę przez 7 dni” pomija kolejne prośby o kod w tej przeglądarce. Aby odebrać dostęp, usuń sparowaną przeglądarkę z sekcji „Partycypujący”. Zachowaj kod QR uwierzytelniania w tajemnicy; zresetowanie tajnego klucza unieważnia istniejące konfiguracje aplikacji uwierzytelniających.",
+            "pl": "Opcja „Zapamiętaj tę przeglądarkę przez 7 dni” pozwala pomijać kolejne prośby o kod w tej przeglądarce. Aby cofnąć dostęp, usuń powiązaną przeglądarkę z sekcji „Udostępnianie”. Zachowaj kod QR uwierzytelniania w tajemnicy; zresetowanie tajnego klucza unieważnia istniejące konfiguracje aplikacji uwierzytelniających.",
             "uk": "Параметр «Запам'ятайте цей браузер на 7 днів» дає змогу пропускати подальші запити коду в цьому браузері. Щоб відкликати доступ, видаліть сполучений браузер із розділу «Обмін». Тримайте QR-код для автентифікації в таємниці; скидання секретного ключа робить наявні налаштування програм автентифікації недійсними.",
             "hi": "«इस ब्राउज़र को 7 दिनों तक याद रखें» से उस ब्राउज़र में बाद में कोड नहीं माँगा जाता। पहुँच वापस लेने के लिए «शेयरिंग» से पेयर किया ब्राउज़र हटाएँ। ऑथेंटिकेटर का QR कोड निजी रखें; उसकी गुप्त कुंजी रीसेट करने से मौजूदा ऑथेंटिकेटर अमान्य हो जाते हैं।",
             "ms": "«Ingat pelayar ini selama 7 hari» melangkau permintaan kod seterusnya pada pelayar itu. Alih keluar pelayar yang digandingkan daripada «Berkongsi» untuk membatalkan aksesnya. Rahsiakan QR pengesah; menetapkan semula kunci rahsianya membatalkan pengesah sedia ada."
@@ -1927,7 +1927,7 @@
             "vi": "Nhật ký chẩn đoán tắt theo mặc định. Bật trong Cài đặt → Chẩn đoán và phản hồi trước khi tái hiện sự cố. Nhật ký ở lại trên máy tính này cho đến khi bạn chọn chia sẻ.",
             "th": "บันทึกการวินิจฉัยปิดอยู่ตามค่าเริ่มต้น เปิดใน การตั้งค่า → การวินิจฉัยและข้อเสนอแนะ ก่อนทำให้ปัญหาเกิดซ้ำ บันทึกจะอยู่บนคอมพิวเตอร์เครื่องนี้จนกว่าคุณจะเลือกแชร์",
             "nl": "Diagnostische logboeken staan standaard uit. Schakel ze in via Instellingen → Diagnostiek en feedback voordat u een probleem reproduceert. Ze blijven op deze computer totdat u ervoor kiest ze te delen.",
-            "pl": "Dzienniki diagnostyczne są domyślnie wyłączone. Włącz je w sekcji Ustawienia → Diagnostyka i informacja zwrotna przed odtworzeniem problemu. Pozostają na tym komputerze, dopóki nie zdecydujesz się ich udostępnić.",
+            "pl": "Dzienniki diagnostyczne są domyślnie wyłączone. Włącz je w sekcji Ustawienia → Diagnostyka i opinie przed odtworzeniem problemu. Pozostają na tym komputerze, dopóki nie zdecydujesz się ich udostępnić.",
             "uk": "Журнали діагностики типово вимкнено. Увімкніть їх у розділі Налаштування → Діагностика та зворотній зв'язок, перш ніж відтворювати проблему. Вони залишаються на цьому комп’ютері, доки ви не вирішите ними поділитися.",
             "hi": "निदान लॉग डिफ़ॉल्ट रूप से बंद हैं। समस्या दोहराने से पहले इन्हें सेटिंग्स → निदान और प्रतिक्रिया में चालू करें। जब तक आप इन्हें साझा करने का चुनाव नहीं करते, ये इसी कंप्यूटर पर रहते हैं।",
             "ms": "Log diagnostik dimatikan secara lalai. Hidupkannya dalam tetapan → Diagnostik dan maklum balas sebelum menghasilkan semula masalah. Log kekal pada komputer ini sehingga anda memilih untuk berkongsinya."
@@ -2034,7 +2034,7 @@
             "vi": "Thiết bị được hiển thị là ngoại tuyến thường ở chế độ ngủ, trên mạng khác hoặc không chia sẻ.",
             "th": "อุปกรณ์ที่แสดงเป็นออฟไลน์มักจะอยู่ในโหมดสลีป บนเครือข่ายอื่น หรือไม่แชร์",
             "nl": "Een apparaat dat als offline wordt weergegeven, is meestal in slaap, bevindt zich op een ander netwerk of deelt niet.",
-            "pl": "Urządzenie wyświetlane jako offline zwykle śpi, jest w innej sieci lub nie udostępnia danych.",
+            "pl": "Urządzenie oznaczone jako offline zwykle jest uśpione, znajduje się w innej sieci lub ma wyłączone udostępnianie.",
             "uk": "Пристрій, який відображається як офлайн, зазвичай перебуває в режимі сну, в іншій мережі або не надає спільний доступ.",
             "hi": "ऑफ़लाइन के रूप में दिखाया गया उपकरण आमतौर पर निष्क्रिय है, किसी अन्य नेटवर्क पर है, या साझा नहीं कर रहा है।",
             "ms": "Peranti yang ditunjukkan sebagai luar talian biasanya tidur, pada rangkaian lain, atau tidak berkongsi."
@@ -2060,7 +2060,7 @@
             "vi": "Làm mới ở thanh trên cùng sẽ kiểm tra lại mọi thiết bị đã lưu.",
             "th": "รีเฟรชในแถบด้านบนจะตรวจสอบอุปกรณ์ที่บันทึกไว้ทุกเครื่องอีกครั้ง",
             "nl": "Vernieuwen in de bovenste balk controleert elk opgeslagen apparaat opnieuw.",
-            "pl": "Odśwież na górnym pasku ponownie sprawdza każde zapisane urządzenie.",
+            "pl": "Opcja „Odśwież” na górnym pasku ponownie sprawdza każde zapisane urządzenie.",
             "uk": "Оновити у верхній панелі повторно перевіряє кожен збережений пристрій.",
             "hi": "शीर्ष बार में रिफ्रेश प्रत्येक सहेजे गए डिवाइस को दोबारा जांचता है।",
             "ms": "Muat semula di bar atas menyemak semula setiap peranti yang disimpan."
@@ -2086,7 +2086,7 @@
             "vi": "Báo cáo sự cố trong Cài đặt sẽ thu thập kho lưu trữ nhật ký mà bạn có thể đính kèm vào sự cố. Hãy xem lại nó trước khi chia sẻ nó.",
             "th": "รายงานปัญหาในการตั้งค่าจะรวบรวมไฟล์บันทึกที่คุณสามารถแนบไปกับปัญหาได้ ตรวจสอบก่อนแชร์",
             "nl": "Een probleem melden in Instellingen verzamelt een logarchief dat u aan een probleem kunt koppelen. Beoordeel het voordat u het deelt.",
-            "pl": "Zgłoś problem w Ustawieniach, gromadząc archiwum dzienników, które możesz dołączyć do problemu. Przejrzyj go, zanim go udostępnisz.",
+            "pl": "Opcja „Zgłoś problem” w sekcji „Ustawienia” tworzy archiwum dzienników, które można dołączyć do zgłoszenia. Przejrzyj je przed udostępnieniem.",
             "uk": "Повідомити про проблему в налаштуваннях збирає архів журналу, який можна приєднати до проблеми. Перегляньте його, перш ніж ділитися ним.",
             "hi": "सेटिंग्स में किसी समस्या की रिपोर्ट करें एक लॉग संग्रह एकत्र करता है जिसे आप किसी समस्या के साथ संलग्न कर सकते हैं। इसे साझा करने से पहले इसकी समीक्षा करें.",
             "ms": "Laporkan masalah dalam Tetapan mengumpulkan arkib log yang boleh anda lampirkan pada isu. Semak ia sebelum berkongsinya."
@@ -2112,7 +2112,7 @@
             "vi": "Nếu thiết bị vẫn ngoại tuyến, hãy xác nhận thiết bị đang thức, chia sẻ đang bật và địa chỉ đã lưu có thể truy cập được. Kiểm tra mức độ sẵn sàng và tường lửa của máy chủ trước khi thử lại; Làm mới không thể đánh thức mọi máy chủ hay sửa đường mạng.",
             "th": "หากอุปกรณ์ยังออฟไลน์อยู่ ให้ยืนยันว่าไม่ได้อยู่ในโหมดสลีป เปิดการแชร์อยู่ และเข้าถึงที่อยู่ที่บันทึกไว้ได้ ตรวจสอบความพร้อมและไฟร์วอลล์ของโฮสต์ก่อนลองอีกครั้ง การรีเฟรชไม่สามารถปลุกโฮสต์ได้ทุกเครื่องหรือแก้เส้นทางเครือข่ายได้",
             "nl": "Als een apparaat offline blijft, controleer dan of het actief is, of delen aanstaat en of het opgeslagen adres bereikbaar is. Controleer de gereedheid en de firewall van de host voordat u het opnieuw probeert; Vernieuwen kan niet elke host wekken of een netwerkroute herstellen.",
-            "pl": "Jeśli urządzenie nadal jest offline, upewnij się, że nie jest uśpione, udostępnianie jest włączone, a zapisany adres jest osiągalny. Przed kolejną próbą sprawdź gotowość hosta i zaporę. Odświeżenie nie może obudzić każdego hosta ani naprawić trasy sieciowej.",
+            "pl": "Jeśli urządzenie nadal jest offline, upewnij się, że nie jest uśpione, udostępnianie jest włączone, a zapisany adres jest osiągalny. Przed kolejną próbą sprawdź gotowość hosta i zaporę. Opcja „Odśwież” nie może wybudzić każdego hosta ani naprawić trasy sieciowej.",
             "uk": "Якщо пристрій залишається поза мережею, переконайтеся, що він не спить, спільний доступ увімкнено, а збережена адреса доступна. Перед повторною спробою перевірте готовність хоста й брандмауер. Оновлення не може розбудити будь-який хост або виправити мережевий маршрут.",
             "hi": "यदि डिवाइस ऑफ़लाइन बना रहे, तो सुनिश्चित करें कि वह स्लीप में नहीं है, साझाकरण चालू है और उसके सहेजे गए पते तक पहुँचा जा सकता है। फिर कोशिश करने से पहले होस्ट की तैयारी और फ़ायरवॉल जाँचें; रिफ्रेश हर होस्ट को जगा नहीं सकता या नेटवर्क मार्ग ठीक नहीं कर सकता।",
             "ms": "Jika peranti kekal luar talian, pastikan ia tidak tidur, perkongsian dihidupkan dan alamat yang disimpan boleh dicapai. Semak kesediaan hos dan tembok api sebelum mencuba semula; Muat semula tidak dapat membangunkan setiap hos atau membaiki laluan rangkaian."
@@ -2138,7 +2138,7 @@
             "vi": "Nếu hình ảnh đen, hãy kiểm tra quyền ghi màn hình và màn hình máy chủ đã chọn. Nếu không điều khiển được, hãy kiểm tra Trợ năng, công tắc «đầu vào» của thiết bị và xem cửa sổ xem có tiêu điểm hay không.",
             "th": "หากภาพเป็นสีดำ ให้ตรวจสอบสิทธิ์บันทึกหน้าจอและจอของโฮสต์ที่เลือก หากควบคุมไม่ได้ ให้ตรวจสอบการช่วยการเข้าถึง สวิตช์ «ป้อนข้อมูล» ของอุปกรณ์ และว่าหน้าต่างแสดงผลมีโฟกัสหรือไม่",
             "nl": "Controleer bij zwart beeld de toestemming voor schermopname en het geselecteerde beeldscherm van de host. Controleer bij ontbrekende bediening Toegankelijkheid, de schakelaar Invoer van het apparaat en of het weergavevenster de focus heeft.",
-            "pl": "Przy czarnym obrazie sprawdź uprawnienie do nagrywania ekranu i wybrany ekran hosta. Jeśli sterowanie nie działa, sprawdź Dostępność, przełącznik „Wejście” urządzenia i to, czy okno podglądu ma fokus.",
+            "pl": "Przy czarnym obrazie sprawdź uprawnienie do nagrywania ekranu i wybrany ekran hosta. Jeśli sterowanie nie działa, sprawdź uprawnienie „Dostępność”, przełącznik „Sterowanie” urządzenia i to, czy okno podglądu jest aktywne.",
             "uk": "Якщо зображення чорне, перевірте дозвіл на запис екрана та вибраний дисплей хоста. Якщо керування не працює, перевірте «Доступність», перемикач «Введення» пристрою та чи має вікно перегляду фокус.",
             "hi": "काली तस्वीर आने पर स्क्रीन रिकॉर्डिंग की अनुमति और चुना गया होस्ट डिस्प्ले जाँचें। नियंत्रण न मिलने पर एक्सेसिबिलिटी, डिवाइस का «इनपुट» स्विच और व्यूअर पर फ़ोकस जाँचें।",
             "ms": "Jika gambar hitam, semak kebenaran rakaman skrin dan paparan hos yang dipilih. Jika kawalan tidak berfungsi, semak Kebolehcapaian, suis «Input» peranti dan sama ada pemapar mempunyai fokus."
