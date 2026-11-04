@@ -8099,34 +8099,34 @@
     "hi": "डेस्कटॉप फाइन ट्यूनिंग",
     "ms": "Penalaan halus desktop"
   },
-  "Smaller values enlarge text and controls. Larger values show more desktop. Applies after automatic sizing; host limits may apply.": {
-    "en": "Smaller values enlarge text and controls. Larger values show more desktop. Applies after automatic sizing; host limits may apply.",
-    "zh-Hans": "数值越小，文字和控件越大；数值越大，桌面内容越多。在自动尺寸计算后应用，受主机尺寸限制。",
-    "zh-Hant": "數值越小，文字和控制項越大；數值越大，桌面內容越多。在自動尺寸計算後套用，受主機尺寸限制。",
-    "ja": "小さい値は文字と操作部を拡大し、大きい値は表示範囲を広げます。自動サイズ計算後に適用され、ホストの制限を受けます。",
+  "Larger values enlarge text and controls. Smaller values show more desktop. Applies after automatic sizing; host limits may apply.": {
+    "en": "Larger values enlarge text and controls. Smaller values show more desktop. Applies after automatic sizing; host limits may apply.",
+    "zh-Hans": "数值越大，文字和控件越大；数值越小，桌面内容越多。在自动尺寸计算后应用，受主机尺寸限制。",
+    "zh-Hant": "數值越大，文字和控制項越大；數值越小，桌面內容越多。在自動尺寸計算後套用，受主機尺寸限制。",
+    "ja": "大きい値は文字と操作部を拡大し、小さい値は表示範囲を広げます。自動サイズ計算後に適用され、ホストの制限を受けます。",
     "_platforms": {
       "desktop": [],
       "apple": true,
       "android": true
     },
-    "fr": "Des valeurs plus petites agrandissent le texte et les contrôles. Des valeurs plus élevées affichent plus de bureau. S'applique après le dimensionnement automatique ; des limites d’hôtes peuvent s’appliquer.",
-    "de": "Kleinere Werte vergrößern Text und Steuerelemente. Größere Werte zeigen mehr Desktop an. Gilt nach automatischer Größenanpassung; Es können Hostbeschränkungen gelten.",
-    "ko": "값이 작을수록 텍스트와 컨트롤이 확대됩니다. 값이 클수록 데스크탑이 더 많이 표시됩니다. 자동 크기 조정 후 적용됩니다. 호스트 제한이 적용될 수 있습니다.",
-    "pt": "Valores menores ampliam o texto e os controles. Valores maiores mostram mais área de trabalho. Aplica-se após dimensionamento automático; limites de host podem ser aplicados.",
-    "es": "Los valores más pequeños amplían el texto y los controles. Los valores más grandes muestran más escritorio. Se aplica después del dimensionamiento automático; Es posible que se apliquen límites de host.",
-    "ar": "تعمل القيم الأصغر على تكبير النص وعناصر التحكم. تُظهر القيم الأكبر حجمًا أكبر لسطح المكتب. ينطبق بعد التحجيم التلقائي؛ قد يتم تطبيق حدود المضيف.",
-    "bo": "རིན་ཐང་ཆུང་བས་ཚིག་ཡིག་དང་ཚོད་འཛིན་ཆེ་རུ་གཏོང་བ། རིན་ཐང་ཆེ་བ་དེས་ཌེཀ་སི་ཊོབ་མང་བ་སྟོན་གྱི་ཡོད། རང་འགུལ་གྱི་ཚད་གཞི་བཟོས་རྗེས་འཇུག་སྤྱོད་བྱེད། མགྲོན་ཁང་གི་ཚད་གཞི་བཀོལ་སྤྱོད་བྱེད་སྲིད།",
-    "it": "Valori più piccoli ingrandiscono il testo e i controlli. Valori più grandi mostrano più desktop. Si applica dopo il dimensionamento automatico; potrebbero essere applicati limiti relativi all'host.",
-    "ru": "Меньшие значения увеличивают текст и элементы управления. Большие значения показывают больше рабочего стола. Применяется после автоматического определения размера; могут применяться ограничения хоста.",
-    "id": "Nilai yang lebih kecil memperbesar teks dan kontrol. Nilai yang lebih besar menunjukkan lebih banyak desktop. Berlaku setelah pengukuran otomatis; batasan host mungkin berlaku.",
-    "tr": "Daha küçük değerler metni ve kontrolleri büyütür. Daha büyük değerler daha fazla masaüstünü gösterir. Otomatik boyutlandırma sonrasında uygulanır; ana bilgisayar sınırları geçerli olabilir.",
-    "vi": "Giá trị nhỏ hơn phóng to văn bản và điều khiển. Giá trị lớn hơn hiển thị nhiều máy tính để bàn hơn. Áp dụng sau khi định cỡ tự động; giới hạn máy chủ có thể được áp dụng.",
-    "th": "ค่าที่น้อยกว่าจะขยายข้อความและตัวควบคุม ค่าที่มากขึ้นจะแสดงเดสก์ท็อปมากขึ้น ใช้หลังจากการปรับขนาดอัตโนมัติ อาจมีการจำกัดโฮสต์",
-    "nl": "Kleinere waarden vergroten tekst en bedieningselementen. Grotere waarden tonen meer bureaublad. Geldt na automatische maatvoering; Er kunnen hostlimieten van toepassing zijn.",
-    "pl": "Mniejsze wartości powiększają tekst i elementy sterujące. Większe pozwalają wyświetlić większą część pulpitu. Korekta jest stosowana po automatycznym doborze rozmiaru. Mogą obowiązywać ograniczenia hosta.",
-    "uk": "Менші значення збільшують текст і елементи керування. Більші значення показують більше робочого столу. Застосовується після автоматичного визначення розміру; можуть застосовуватися обмеження хоста.",
-    "hi": "छोटे मान पाठ और नियंत्रण को बड़ा करते हैं। बड़े मान अधिक डेस्कटॉप दिखाते हैं. स्वचालित आकार देने के बाद लागू होता है; मेज़बान सीमाएँ लागू हो सकती हैं।",
-    "ms": "Nilai yang lebih kecil membesarkan teks dan kawalan. Nilai yang lebih besar menunjukkan lebih banyak desktop. Terpakai selepas saiz automatik; had hos mungkin dikenakan."
+    "fr": "Des valeurs plus élevées agrandissent le texte et les contrôles. Des valeurs plus petites affichent plus de bureau. S'applique après le dimensionnement automatique ; des limites d’hôtes peuvent s’appliquer.",
+    "de": "Größere Werte vergrößern Text und Steuerelemente. Kleinere Werte zeigen mehr Desktop an. Gilt nach automatischer Größenanpassung; es können Hostbeschränkungen gelten.",
+    "ko": "값이 클수록 텍스트와 컨트롤이 확대됩니다. 값이 작을수록 데스크탑이 더 많이 표시됩니다. 자동 크기 조정 후 적용됩니다. 호스트 제한이 적용될 수 있습니다.",
+    "pt": "Valores maiores ampliam o texto e os controles. Valores menores mostram mais área de trabalho. Aplica-se após dimensionamento automático; limites de host podem ser aplicados.",
+    "es": "Los valores más grandes amplían el texto y los controles. Los valores más pequeños muestran más escritorio. Se aplica después del dimensionamiento automático; Es posible que se apliquen límites de host.",
+    "ar": "تعمل القيم الأكبر على تكبير النص وعناصر التحكم. تُظهر القيم الأصغر حجمًا أكبر لسطح المكتب. ينطبق بعد التحجيم التلقائي؛ قد يتم تطبيق حدود المضيف.",
+    "bo": "རིན་ཐང་ཆེ་བས་ཚིག་ཡིག་དང་ཚོད་འཛིན་ཆེ་རུ་གཏོང་བ། རིན་ཐང་ཆུང་བ་དེས་ཌེཀ་སི་ཊོབ་མང་བ་སྟོན་གྱི་ཡོད། རང་འགུལ་གྱི་ཚད་གཞི་བཟོས་རྗེས་འཇུག་སྤྱོད་བྱེད། མགྲོན་ཁང་གི་ཚད་གཞི་བཀོལ་སྤྱོད་བྱེད་སྲིད།",
+    "it": "Valori più grandi ingrandiscono il testo e i controlli. Valori più piccoli mostrano più desktop. Si applica dopo il dimensionamento automatico; potrebbero essere applicati limiti relativi all'host.",
+    "ru": "Большие значения увеличивают текст и элементы управления. Меньшие значения показывают больше рабочего стола. Применяется после автоматического определения размера; могут применяться ограничения хоста.",
+    "id": "Nilai yang lebih besar memperbesar teks dan kontrol. Nilai yang lebih kecil menunjukkan lebih banyak desktop. Berlaku setelah pengukuran otomatis; batasan host mungkin berlaku.",
+    "tr": "Daha büyük değerler metni ve kontrolleri büyütür. Daha küçük değerler daha fazla masaüstünü gösterir. Otomatik boyutlandırma sonrasında uygulanır; ana bilgisayar sınırları geçerli olabilir.",
+    "vi": "Giá trị lớn hơn phóng to văn bản và điều khiển. Giá trị nhỏ hơn hiển thị nhiều máy tính để bàn hơn. Áp dụng sau khi định cỡ tự động; giới hạn máy chủ có thể được áp dụng.",
+    "th": "ค่าที่มากขึ้นจะขยายข้อความและตัวควบคุม ค่าที่น้อยกว่าจะแสดงเดสก์ท็อปมากขึ้น ใช้หลังจากการปรับขนาดอัตโนมัติ อาจมีการจำกัดโฮสต์",
+    "nl": "Grotere waarden vergroten tekst en bedieningselementen. Kleinere waarden tonen meer bureaublad. Geldt na automatische maatvoering; Er kunnen hostlimieten van toepassing zijn.",
+    "pl": "Większe wartości powiększają tekst i elementy sterujące. Mniejsze pozwalają wyświetlić większą część pulpitu. Korekta jest stosowana po automatycznym doborze rozmiaru. Mogą obowiązywać ograniczenia hosta.",
+    "uk": "Більші значення збільшують текст і елементи керування. Менші значення показують більше робочого столу. Застосовується після автоматичного визначення розміру; можуть застосовуватися обмеження хоста.",
+    "hi": "बड़े मान पाठ और नियंत्रण को बड़ा करते हैं। छोटे मान अधिक डेस्कटॉप दिखाते हैं. स्वचालित आकार देने के बाद लागू होता है; मेज़बान सीमाएँ लागू हो सकती हैं।",
+    "ms": "Nilai yang lebih besar membesarkan teks dan kawalan. Nilai yang lebih kecil menunjukkan lebih banyak desktop. Terpakai selepas saiz automatik; had hos mungkin dikenakan."
   },
   "Uses this window and your system display scale. The picture fits without cropping. Host desktop size depends on host support.": {
     "en": "Uses this window and your system display scale. The picture fits without cropping. Host desktop size depends on host support.",
@@ -22832,37 +22832,6 @@
     "hi": "एक सत्र के दौरान पाठ, चित्र और फ़ाइलें साझा करें",
     "ms": "Kongsi teks, imej dan fail semasa sesi"
   },
-  "Enable on both paired devices, then reconnect. New copies only; up to 128 MiB. Images and files are not shared.": {
-    "en": "Enable on both paired devices, then reconnect. New copies only; up to 128 MiB. Images and files are not shared.",
-    "_platforms": {
-      "desktop": [
-        "SettingsHome"
-      ],
-      "apple": false,
-      "android": false
-    },
-    "de": "Auf beiden gekoppelten Geräten aktivieren und neu verbinden. Nur neue Kopien, bis 128 MiB. Bilder und Dateien werden nicht geteilt.",
-    "es": "Actívalo en ambos dispositivos vinculados y vuelve a conectar. Solo copias nuevas, hasta 128 MiB. No se comparten imágenes ni archivos.",
-    "fr": "Activez sur les deux appareils associés, puis reconnectez-vous. Nouvelles copies uniquement, jusqu’à 1 Mio. Images et fichiers exclus.",
-    "ja": "ペアリング済みの両端末で有効にして再接続してください。新しくコピーしたテキストのみ、上限 128 MiB。画像とファイルは共有されません。",
-    "ko": "페어링된 두 기기에서 켠 후 다시 연결하세요. 새로 복사한 텍스트만 최대 128 MiB까지 공유합니다. 이미지와 파일은 공유하지 않습니다.",
-    "zh-Hans": "在已绑定的两台设备上开启后重新连接。仅同步新复制的内容，上限 128 MiB；不共享图片和文件。",
-    "zh-Hant": "在已綁定的兩台裝置上開啟後重新連線。僅同步新複製的內容，上限 128 MiB；不共享圖片和檔案。",
-    "pt": "Ative em ambos os dispositivos emparelhados e reconecte. Apenas novas cópias; até 128 MiB. Imagens e arquivos não são compartilhados.",
-    "ar": "قم بالتمكين على كلا الجهازين المقترنين، ثم أعد الاتصال. النسخ الجديدة فقط؛ ما يصل إلى 128 ميجابايت. لا تتم مشاركة الصور والملفات.",
-    "bo": "ཆ་སྒྲིག་བྱས་པའི་ཐབས་འཕྲུལ་གཉིས་ཀར་ལྕོགས་ཅན་བཟོས་རྗེས་ཡང་བསྐྱར་མཐུད་དགོས། འདྲ་བཤུས་གསར་པ་ཁོ་ན་དང་། 128 MiB བར། པར་རིས་དང་ཡིག་ཆ་མཉམ་སྤྱོད་བྱེད་ཀྱི་མེད།",
-    "it": "Abilita su entrambi i dispositivi associati, quindi riconnettiti. Solo nuove copie; fino a 128 MiB. Immagini e file non vengono condivisi.",
-    "ru": "Включите на обоих сопряженных устройствах, затем повторно подключитесь. Только новые экземпляры; до 128 МБ. Изображения и файлы не передаются.",
-    "id": "Aktifkan di kedua perangkat yang dipasangkan, lalu sambungkan kembali. Hanya salinan baru; hingga 128 MiB. Gambar dan file tidak dibagikan.",
-    "tr": "Her iki eşleştirilmiş cihazda da etkinleştirin, ardından yeniden bağlanın. Yalnızca yeni kopyalar; 128 MiB'a kadar. Resim ve dosyalar paylaşılmaz.",
-    "vi": "Kích hoạt trên cả hai thiết bị được ghép nối, sau đó kết nối lại. Chỉ có bản sao mới; lên tới 128 MiB. Hình ảnh và tập tin không được chia sẻ.",
-    "th": "เปิดใช้งานบนอุปกรณ์ที่จับคู่ทั้งสองเครื่อง จากนั้นเชื่อมต่อใหม่ สำเนาใหม่เท่านั้น สูงสุด 128 MiB รูปภาพและไฟล์จะไม่ถูกแชร์",
-    "nl": "Schakel dit in op beide gekoppelde apparaten en maak vervolgens opnieuw verbinding. Alleen nieuwe exemplaren; tot 128 MiB. Afbeeldingen en bestanden worden niet gedeeld.",
-    "pl": "Włącz na obu powiązanych urządzeniach, a następnie połącz się ponownie. Obejmuje tylko nowo skopiowane dane, do 128 MiB. Obrazy i pliki nie są udostępniane.",
-    "uk": "Увімкніть на обох сполучених пристроях, а потім повторно підключіться. Тільки нові копії; до 128 MiB. Зображення та файли не надаються.",
-    "hi": "दोनों युग्मित डिवाइसों पर सक्षम करें, फिर पुनः कनेक्ट करें। केवल नई प्रतियां; 128 MiB तक. छवियाँ और फ़ाइलें साझा नहीं की जाती हैं.",
-    "ms": "Dayakan pada kedua-dua peranti yang digandingkan, kemudian sambung semula. Salinan baharu sahaja; sehingga 128 MiB. Imej dan fail tidak dikongsi."
-  },
   "Keyboard follows the pointer inside the focused video. Leaving releases held keys and buttons. Click to focus; system-reserved shortcuts may stay local.": {
     "en": "Keyboard follows the pointer inside the focused video. Leaving releases held keys and buttons. Click to focus; system-reserved shortcuts may stay local.",
     "_platforms": {
@@ -23625,38 +23594,6 @@
     "uk": "Вимкніть для підключення лише для перегляду. Локальні ярлики DeskPort залишаються доступними.",
     "hi": "केवल-दृश्य कनेक्शन के लिए बंद करें। स्थानीय DeskPort शॉर्टकट उपलब्ध रहते हैं।",
     "ms": "Matikan untuk sambungan lihat sahaja. Pintasan DeskPort tempatan kekal tersedia."
-  },
-  "Reconnect to share new copies with this bound device. Up to 128 MiB of plain text; images and files are not shared.": {
-    "en": "Reconnect to share new copies with this bound device. Up to 128 MiB of plain text; images and files are not shared.",
-    "_platforms": {
-      "desktop": [
-        "SettingsHome",
-        "DeviceAdvanced"
-      ],
-      "apple": false,
-      "android": false
-    },
-    "de": "Nach erneutem Verbinden neue Kopien mit diesem gekoppelten Gerät teilen. Nur Klartext bis 128 MiB; keine Bilder oder Dateien.",
-    "es": "Vuelve a conectar para compartir nuevas copias con este dispositivo vinculado. Solo texto de hasta 128 MiB; sin imágenes ni archivos.",
-    "fr": "Reconnectez-vous pour partager les nouvelles copies avec cet appareil associé. Texte brut uniquement, jusqu’à 128 MiB ; aucune image ni aucun fichier.",
-    "ja": "再接続後、この連携済みデバイスと新しくコピーした内容を共有します。最大 128 MiB のプレーンテキストのみ。画像やファイルは共有されません。",
-    "ko": "다시 연결하면 새로 복사한 내용을 이 바인딩된 기기와 공유합니다. 일반 텍스트 최대 128 MiB이며 이미지와 파일은 공유하지 않습니다.",
-    "zh-Hans": "重新连接后，与此绑定设备共享新复制的内容。仅限不超过 128 MiB 的纯文本，不共享图片和文件。",
-    "zh-Hant": "重新連線後，與此綁定裝置共享新複製的內容。僅限不超過 128 MiB 的純文字，不共享圖片和檔案。",
-    "pt": "Reconecte-se para compartilhar novas cópias com este dispositivo vinculado. Até 128 MiB de texto simples; imagens e arquivos não são compartilhados.",
-    "ar": "أعد الاتصال لمشاركة نسخ جديدة مع هذا الجهاز المربوط. ما يصل إلى 128 ميجا بايت من النص العادي؛ لا تتم مشاركة الصور والملفات.",
-    "bo": "སྦྲེལ་མཐུད་བྱས་པའི་ཡོ་ཆས་འདི་དང་མཉམ་དུ་འདྲ་བཤུས་གསར་བ་མཉམ་སྤྱོད་བྱེད་པར་བསྐྱར་དུ་མཐུད་དགོས། ཡིག་ཆ་གཙང་མའི་128 MiB བར་དང་། པར་རིས་དང་ཡིག་ཆ་མཉམ་སྤྱོད་བྱེད་ཀྱི་མེད།",
-    "it": "Riconnettiti per condividere nuove copie con questo dispositivo associato. Fino a 128 MiB di testo normale; le immagini e i file non vengono condivisi.",
-    "ru": "Подключитесь повторно, чтобы поделиться новыми копиями с этим привязанным устройством. До 128 МБ обычного текста; изображения и файлы не передаются.",
-    "id": "Hubungkan kembali untuk berbagi salinan baru dengan perangkat terikat ini. Hingga 128 MiB teks biasa; gambar dan file tidak dibagikan.",
-    "tr": "Bu bağlı cihazla yeni kopyaları paylaşmak için yeniden bağlanın. 128 MiB'a kadar düz metin; görseller ve dosyalar paylaşılmaz.",
-    "vi": "Kết nối lại để chia sẻ bản sao mới với thiết bị được liên kết này. Lên tới 128 MiB văn bản thuần túy; hình ảnh và tập tin không được chia sẻ.",
-    "th": "เชื่อมต่อใหม่เพื่อแชร์สำเนาใหม่กับอุปกรณ์ที่ถูกผูกไว้นี้ ข้อความธรรมดาสูงสุด 128 MiB; รูปภาพและไฟล์จะไม่ถูกแชร์",
-    "nl": "Maak opnieuw verbinding om nieuwe exemplaren te delen met dit gekoppelde apparaat. Tot 128 MiB aan platte tekst; afbeeldingen en bestanden worden niet gedeeld.",
-    "pl": "Połącz się ponownie, aby udostępniać nowo kopiowane dane temu powiązanemu urządzeniu. Do 128 MiB zwykłego tekstu; obrazy i pliki nie są udostępniane.",
-    "uk": "Повторно підключіться, щоб поділитися новими копіями з цим прив’язаним пристроєм. До 128 MiB звичайного тексту; зображення та файли не надаються.",
-    "hi": "इस बाइंड किए गए डिवाइस के साथ नई प्रतियां साझा करने के लिए पुनः कनेक्ट करें। सादे पाठ के 128 एमआईबी तक; छवियाँ और फ़ाइलें साझा नहीं की जाती हैं.",
-    "ms": "Sambung semula untuk berkongsi salinan baharu dengan peranti terikat ini. Sehingga 128 MiB teks biasa; imej dan fail tidak dikongsi."
   },
   "Appearance and preferences for this computer only.": {
     "en": "Appearance and preferences for this computer only.",
