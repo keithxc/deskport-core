@@ -14,7 +14,8 @@ assert len(set(languages)) == len(languages), languages
 
 seen = set()
 chapter_ids = [chapter['id'] for chapter in manual['chapters']]
-assert chapter_ids[chapter_ids.index('fullscreen') + 1] == 'keyboard', chapter_ids
+assert chapter_ids[:2] == ['keyboard', 'about'], chapter_ids
+assert 'hold the floating button and choose Portrait + Full Keyboard' in manual['chapters'][0]['steps'][0]['text']['en']
 for chapter in manual['chapters']:
     identifier = chapter['id']
     assert identifier and identifier not in seen, identifier

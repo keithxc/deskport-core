@@ -2,6 +2,30 @@
   "version": 1,
   "chapters": [
     {
+      "id": "keyboard",
+      "title": "Keyboard and zoom",
+      "steps": [
+        {
+          "text": "On iPhone and iPad, hold the floating button and choose Portrait + Full Keyboard to put the full keyboard at the bottom of the screen."
+        },
+        {
+          "text": "On iPhone and iPad, tap the floating button to open the selected keyboard. To use your usual input method, hold the button and choose System Keyboard."
+        },
+        {
+          "text": "On iPhone and iPad, the full keyboard follows a physical keyboard. Q to P spans the width on iPhone and is centered on iPad mini; larger iPads use the standard layout. A and Z keep their usual offsets."
+        },
+        {
+          "text": "On iPhone, use the L-shaped Return key on the right and Backspace at the end of the number row. Each key press gives a light tap."
+        },
+        {
+          "text": "On iPhone and iPad, each connection opens with the whole desktop visible. Pinch to zoom in, then drag with two fingers to move around while zoomed."
+        },
+        {
+          "text": "On a folding iPhone, unfold the phone and choose Portrait + Full Keyboard. The keyboard fills the lower half and the desktop fills the upper half."
+        }
+      ]
+    },
+    {
       "id": "about",
       "title": "What DeskPort is",
       "steps": [
@@ -82,30 +106,6 @@
         },
         {
           "text": "The host can ask a connected device to leave full screen; it never forces it into full screen."
-        }
-      ]
-    },
-    {
-      "id": "keyboard",
-      "title": "Keyboard and zoom",
-      "steps": [
-        {
-          "text": "On iPhone and iPad, tap the floating button to open the selected keyboard. To use your usual input method, hold the button and choose System Keyboard."
-        },
-        {
-          "text": "On iPhone and iPad, hold the floating button and choose Portrait + Full Keyboard to put the full keyboard at the bottom of the screen."
-        },
-        {
-          "text": "On iPhone and iPad, the full keyboard follows a physical keyboard. Q to P spans the width on iPhone and is centered on iPad mini; larger iPads use the standard layout. A and Z keep their usual offsets."
-        },
-        {
-          "text": "On iPhone, use the L-shaped Return key on the right and Backspace at the end of the number row. Each key press gives a light tap."
-        },
-        {
-          "text": "On iPhone and iPad, each connection opens with the whole desktop visible. Pinch to zoom in, then drag with two fingers to move around while zoomed."
-        },
-        {
-          "text": "On a folding iPhone, unfold the phone and choose Portrait + Full Keyboard. The keyboard fills the lower half and the desktop fills the upper half."
         }
       ]
     },
