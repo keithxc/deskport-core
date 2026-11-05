@@ -6,10 +6,10 @@
       "title": "Keyboard and zoom",
       "steps": [
         {
-          "text": "On iPhone and iPad, hold the floating button and choose Portrait + Full Keyboard to put the full keyboard at the bottom of the screen."
+          "text": "On iPhone, iPad and Android, hold the floating button and choose Portrait + Full Keyboard to put the full keyboard at the bottom of the screen."
         },
         {
-          "text": "On iPhone and iPad, tap the floating button to open the selected keyboard. To use your usual input method, hold the button and choose System Keyboard."
+          "text": "On iPhone, iPad and Android, tap the floating button to open the selected keyboard. To use your usual input method, hold the button and choose System Keyboard."
         },
         {
           "text": "On iPhone and iPad, the full keyboard follows a physical keyboard. Q to P spans the width on iPhone and is centered on iPad mini; larger iPads use the standard layout. A and Z keep their usual offsets."
