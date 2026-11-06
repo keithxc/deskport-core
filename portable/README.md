@@ -23,3 +23,8 @@ native adapter, and its acceptance status. A new core pin alone does not impleme
 a feature. Do not add mobile UI, billing, credentials, platform SDKs or upstream
 client code here. Do not infer that a current mobile binary is proprietary merely
 because this directory is MIT; its existing dependencies remain separate blockers.
+
+The portable view-size API accepts a logical rectangle and UI density. It fits a
+backing workspace within the protocol bounds, aligns to four pixels, and returns
+zero for transient or unrepresentable rectangles. The video-only fallback uses
+even pixels and a 1920-pixel long edge.
