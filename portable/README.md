@@ -23,3 +23,12 @@ native adapter, and its acceptance status. A new core pin alone does not impleme
 a feature. Do not add mobile UI, billing, credentials, platform SDKs or upstream
 client code here. Do not infer that a current mobile binary is proprietary merely
 because this directory is MIT; its existing dependencies remain separate blockers.
+
+## Product vocabulary and offline guide
+
+The `content/` tables are covered by this directory's MIT license. They contain
+original DeskPort interface copy and a guide written from product behavior.
+The English interface text is the lookup key. The locale registry orders the
+available languages, and the guide keeps its chapters and steps in reading order.
+Translators can update one language while preserving placeholders, key names,
+and the meaning of connection and permission prompts.
