@@ -28,3 +28,12 @@ The portable view-size API accepts a logical rectangle and UI density. It fits a
 backing workspace within the protocol bounds, aligns to four pixels, and returns
 zero for transient or unrepresentable rectangles. The video-only fallback uses
 even pixels and a 1920-pixel long edge.
+
+## Product vocabulary and offline guide
+
+The `content/` tables are covered by this directory's MIT license. They contain
+original DeskPort interface copy and a guide written from product behavior.
+The English interface text is the lookup key. The locale registry orders the
+available languages, and the guide keeps its chapters and steps in reading order.
+Translators can update one language while preserving placeholders, key names,
+and the meaning of connection and permission prompts.
