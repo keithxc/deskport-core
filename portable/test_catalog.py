@@ -18,8 +18,21 @@ def main():
     args = parser.parse_args()
     subprocess.run([sys.executable, str(ROOT / 'generate.py'), '--check'], check=True)
     cases = json.loads((ROOT / 'cases.json').read_text())
-    c = ['#include "deskport/catalog.h"', '#include <assert.h>', '#include <string.h>', 'int main(void) {']
+    c = ['#include "deskport/tuning.h"', '#include <assert.h>', '#include <string.h>', 'int main(void) {']
     java = ['import com.deskport.core.DPCatalog;', 'public class TestCatalog { public static void main(String[] args) {']
+    c.append('int width, height;')
+    # Two zoom choices hit the same portrait floor. Rounding before the floor
+    # previously selected neighboring display modes for the identical aspect.
+    for base, zoom, expected in [
+        ((824, 1416, 2), 1.0, (1200, 2064)), ((824, 1416, 2), 1.2, (1200, 2064)),
+        ((1416, 824, 2), 1.2, (2064, 1200)), ((1920, 1200, 1), 1.2, (1600, 1000)),
+        ((640, 1200, 1), 1.5, (640, 1200)), ((7680, 4320, 1), 0.5, (7680, 4320)),
+        ((1920, 1200, 1), 0.5, (3840, 2400)), ((1920, 1200, 1), 99.0, (1920, 1200)),
+        ((7680, 360, 2), 1.0, (0, 0)), ((641, 1200, 1), 1.0, (0, 0)),
+        ((1920, 1200, 3), 1.0, (0, 0))]:
+        args_text = ','.join(map(str, (*base, zoom)))
+        c.append(f'assert(dp_tuned_desktop_size({args_text}, &width, &height) == {int(expected != (0, 0))});')
+        c.append(f'assert(width == {expected[0]} && height == {expected[1]});')
     for case in cases['ports']:
         port, control = case['base'], case['control']
         c += [f'assert(dp_catalog_control_port({port}) == {control});',
