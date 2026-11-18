@@ -123,5 +123,68 @@
     "namespace": "catalog.json owns LOCAL_BUTTON_* / LOCAL_INPUT_* with unchanged numeric values; generate.py emits DP_LOCAL_* and default legacy C aliases guarded by DP_DISABLE_LOCAL_INPUT_ALIASES. Java keeps old members and adds canonical members. Predicates use canonical local names; HID/WinVK/modifiers are unconditional.",
     "fixtures": "Original synthetic wire enums with deliberately different values, opt-out before all portable headers, compiled and executed as C11/C++11 and Objective-C on macOS; default legacy aliases and Java members also exercised.",
     "unchanged": "Pre-existing UI entry bytes and values, guide, workspace and stream_budget files and behavior; no private or GPL implementation source consulted."
+  },
+  "workspaceCompatibilityFollowup": {
+    "date": "2026-11-18",
+    "baselineCore": "b7eebe599061563245e7722a90c45e71c01e7642",
+    "scope": "Additive MIT workspace APIs and independently authored standalone boundary tests only. Existing viewport and tuned behavior preserved; no native integration or migration claim.",
+    "sourceReview": [
+      {
+        "path": "portable/LICENSE",
+        "sha256": "d6dfbc3a49569b957ff745b8dbe25e9d41d88b053110e56c0022c2467615cd08",
+        "use": "License boundary review only"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "use": "License boundary review only"
+      },
+      {
+        "path": "portable/include/deskport/view_size.h",
+        "sha256": "6f9b8ee1dccde22498ae507c9d33b54a802c268e0426440f441e80d942675a8c",
+        "use": "Existing independently licensed MIT contracts and arithmetic composition"
+      },
+      {
+        "path": "portable/include/deskport/tuning.h",
+        "sha256": "2b94f1b0b1288392c64e7d6e05ff5822670ab858cd33c27470d3d6e430ca4852",
+        "use": "Existing independently licensed MIT contracts and arithmetic composition"
+      },
+      {
+        "path": "portable/include/deskport/contracts.h",
+        "sha256": "250b76bb2ae5d67f1581fc5a881f759c0583c71962511def79ec223296e6cddf",
+        "use": "Existing independently licensed MIT contracts and arithmetic composition"
+      },
+      {
+        "path": "portable/catalog.json",
+        "sha256": "fb2299baba14dc8f35fdcdbc04651f2374a819c740f860ba093e8db355601441",
+        "use": "Existing independently licensed MIT contracts and arithmetic composition"
+      },
+      {
+        "path": "protocol/SPEC.md",
+        "sha256": "61888094860d26de657705952e043b0a8ca6c58bf70d6fa7f2809df43e89be65",
+        "use": "Public protocol text only"
+      },
+      {
+        "path": "protocol/SESSION_DISPLAY.md",
+        "sha256": "7998ef5f5ecf1dd2aa1c9c5da5cbde1c0f2a1ad65570f35a132876c6963adbc1",
+        "use": "Public protocol text only"
+      },
+      {
+        "path": "fixtures/workspace.json",
+        "sha256": "f1ec8b0b6949b9e28c2e74de6e27a7a7170dc21b6a35129c474db62a90a14bcf",
+        "use": "Public input/output behavior facts only; test harness implementation not reused"
+      },
+      {
+        "path": "tests/test_workspace.py",
+        "sha256": "692ee902d25a71b27e04a7a77ab0e889c1ff881f402e664bc9bc56dc614984ec",
+        "use": "Public input/output behavior facts only; test harness implementation not reused"
+      }
+    ],
+    "method": "Original normalized bounded geometry and rational protocol fit; existing MIT host-floor composition. No legacy GPL header algorithm or native implementation consulted or translated.",
+    "selectionRule": "No advertised-mode ranking found in public protocol text. Original lexicographic portrait agreement, exact rational absolute aspect error, squared pixel distance, then stable advertised order. Scale is validated metadata.",
+    "compatibility": "All 24 public drawable vectors retained, including distinct core/Qt extreme-aspect proposal and logical drawable transient rejection. Protocol adjustment quantizes before explicit host-floor composition; existing tuned continues to quantize once.",
+    "licenseBoundary": "Only these new portable APIs and tests are MIT under portable/LICENSE. Root GPL license and all pre-existing GPL/third-party rights remain unchanged.",
+    "fixtureFile": "portable/fixtures/workspace-compat.json",
+    "fixtureSha256": "af74f6d451b91eed95a797f105514b889bc5c7d8071bf4cd55407e3c44416ad9"
   }
 }

@@ -37,6 +37,94 @@ Logical 824x1416 at density 2 instead produces 1648x2832 before tuning.
 Encoded 1920x1200, scale 1, at tuning 1.2 becomes 1600x1000. Transient geometry,
 NaN/infinity and invalid densities defer sizing; invalid tuning alone uses 1.0.
 
+## Drawable compatibility, explicit adjustment and advertised modes
+
+These additive entry points are in `deskport/workspace.h`:
+
+```c
+DPWorkspace dp_workspace_from_drawable_pixels(double width, double height, double density);
+DPWorkspace dp_workspace_from_drawable_viewport(double width, double height, double density);
+DPWorkspace dp_workspace_adjust(DPWorkspace base, double tuning);
+DPWorkspace dp_workspace_for_host(DPWorkspace base);
+DPWorkspace dp_workspace_for_macos(DPWorkspace base);
+DPWorkspace dp_workspace_for_windows(DPWorkspace base);
+DPWorkspace dp_workspace_for_saver(DPWorkspace base);
+DPWorkspace dp_workspace_select_mode(DPWorkspace request, const DPWorkspace *modes, int count);
+```
+
+Choose the conversion by the rectangle's meaning. The existing
+`dp_workspace_from_viewport` retains its logical UI contract and protocol minimum
+640x360. The **drawable** constructors implement the separate public desktop
+golden contract. From pixels, density in [0.5,8] maps to backing scale 1 for
+<=1, otherwise 2; requested dimensions multiply by `scale / min(density,2)`.
+From a logical drawable viewport, multiply by `max(scale,density)` exactly once.
+Fit the preferred backing size to the fixed-axis 1920x1080 desktop floor, then
+the 7680x4320 ceiling, preserving aspect until four-pixel upward quantization.
+The public portrait golden requires a width floor too (1488x2200 becomes
+1920x2840); this floor is not an orientation-swapped long-edge-only rule.
+
+Nonfinite/nonpositive pixels or density outside [0.5,8] return `{0,0,0}`.
+The pixel proposal deliberately preserves the public core/Qt extreme-aspect
+result `{4,4320,1}` for `(1,100000,1)`: it is **not wire-valid**. Always validate
+before sending. A native value adapter can map the zero proposal to its own
+failure sentinel; it must not reimplement sizing. The logical drawable viewport
+requires both logical edges >=128 and validates the final proposal, returning
+zero for transient/unrepresentable rectangles. Encoded input still goes through
+`dp_workspace_from_encoded` without density conversion.
+
+`dp_workspace_adjust` divides by a supported catalog tuning factor, fits only
+the protocol box and rounds each dimension upward to four pixels; scale is
+unchanged. Factor matching uses the existing MIT tuning tolerance (strictly
+within 0.000001). Unsupported factors, including NaN/infinity, preserve a valid
+base. An invalid base returns zero. For example 1920x1080 scale 2 /1.5 gives
+1280x720 scale 2, and 2316x1152 /1.3 gives 1784x888.
+
+`dp_workspace_for_host` applies the existing orientation-aware 800x600 logical
+floor (portrait 600x800) at the base scale, still within the wire box; impossible
+floors return zero. The macOS/Windows names are identical aliases. For two-step
+semantics, call `for_host(adjust(base,tuning))`: quantize the protocol adjustment
+first, then use that result's aspect for the host floor. This is deliberately
+distinct from the unchanged `dp_workspace_tuned`, which preserves the original
+aspect and quantizes only once. For 824x1416 scale 2 at 1.2, the two-step result
+is 1200x2060; existing tuned remains 1200x2064. Saver divides encoded dimensions
+by their scale, applies the protocol minimum, quantizes and returns scale 1.
+It does not apply a host floor; compose explicitly when required.
+
+Mode selection validates the request, signed count 0..96, and **every** list
+entry before ranking. An empty list preserves the valid request (pointer may
+be null); a nonempty null list, any invalid mode/scale, or illegal count returns
+`{0,0,0}`. The caller supplies readable storage for `count` values throughout the
+call. The wire documentation does not prescribe a ranking. This new MIT API
+uses an original lexicographic rule, in this order:
+
+1. Same portrait classification (`height > width`; square is nonportrait).
+2. Smaller absolute aspect error `abs(mode.width/mode.height - request.width/request.height)`, compared as exact bounded rational values.
+3. Smaller squared backing-pixel distance `(mode.width-request.width)^2 + (mode.height-request.height)^2`.
+4. Earlier advertised entry on a complete tie.
+
+Scale is validated but does not rank dimensions. Return the selected mode's
+own scale, without rotation or synthesis. Thus request 1300x748 scale 2 with
+ordered modes 1920x1080, 1280x720, 1080x1920 (all scale 1) selects 1280x720 scale 1;
+a 1080x1920 scale 2 request selects the portrait mode at scale 1.
+
+```c
+#include "deskport/workspace.h"
+/* logical drawable rectangle; use from_viewport for logical UI geometry */
+DPWorkspace base = dp_workspace_from_drawable_viewport(400, 225, 2);
+DPWorkspace adjusted = dp_workspace_adjust(base, 1.5); /* 1280x720, scale 2 */
+DPWorkspace host = dp_workspace_for_host(adjusted);    /* 2136x1200, scale 2 */
+DPWorkspace modes[] = {{1920,1080,1}, {1280,720,1}, {1080,1920,1}};
+DPWorkspace selected = dp_workspace_select_mode(adjusted, modes, 3);
+/* Check dp_workspace_valid(host/selected) before proposing a display change. */
+```
+
+The ratio/proposal helpers in the header are implementation details, not separate
+adapter policies. `portable/test_workspace_compat.py --work <directory> --json
+<file>` compiles a copy of only MIT headers in C11/C++11 and Objective-C on macOS,
+with address/undefined/float-cast-overflow sanitizers. Its standalone fixtures
+record only public input/output facts; no legacy implementation is included.
+These APIs do not establish a completed native integration or migration.
+
 ## Data vocabulary and parsed-field validation
 
 `catalog.json` generates `contracts.h` and `DPContracts.java`. Existing display
