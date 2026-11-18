@@ -56,9 +56,17 @@ Objective-C (on macOS), Java and content fixtures. Use `--work <directory>` to
 choose the temporary-output parent and `--json <file>` for a result record.
 The test compiles against an isolated copy of the portable headers only.
 
-`content/apple-keys.json` maps 40 product terms to 24 new and 16 existing keys.
+`content/apple-keys.json` maps 42 product terms to 26 new and 16 existing keys, including two
+original OS permission explanations in all 22 locales.
 New consumers must use its `tuningGuidanceKey`: higher tuning values enlarge
 remote controls; lower values provide more desktop space. The previous table
 values are preserved for compatibility. New non-English values are machine
 translations awaiting native-speaker review. [PROVENANCE.json](PROVENANCE.json)
 records original authorship and official factual input sources.
+
+Local event/button constants use `DP_LOCAL_BUTTON_*` / `DP_LOCAL_INPUT_*`.
+Existing C aliases remain enabled unless `DP_DISABLE_LOCAL_INPUT_ALIASES` is
+defined before the first portable include. HID/WinVK and modifier constants remain
+available with aliases disabled. The expansion tests compile an actual synthetic
+wire-enum consumer in C/C++ alongside the default compatibility consumer; see
+[API.md](API.md) for the entry-header pattern and Java compatibility members.

@@ -237,18 +237,33 @@
 #define DP_VK_OEM_6 221
 #define DP_VK_OEM_7 222
 #define DP_VK_OEM_102 226
-#define DP_BUTTON_PRIMARY 1
-#define DP_BUTTON_SECONDARY 2
-#define DP_BUTTON_MIDDLE 3
-#define DP_BUTTON_BACK 4
-#define DP_BUTTON_FORWARD 5
-#define DP_INPUT_KEY_DOWN 1
-#define DP_INPUT_KEY_UP 2
-#define DP_INPUT_POINTER_ABSOLUTE 3
-#define DP_INPUT_POINTER_RELATIVE 4
-#define DP_INPUT_BUTTON_DOWN 5
-#define DP_INPUT_BUTTON_UP 6
-#define DP_INPUT_SCROLL 7
+#define DP_LOCAL_BUTTON_PRIMARY 1
+#define DP_LOCAL_BUTTON_SECONDARY 2
+#define DP_LOCAL_BUTTON_MIDDLE 3
+#define DP_LOCAL_BUTTON_BACK 4
+#define DP_LOCAL_BUTTON_FORWARD 5
+#define DP_LOCAL_INPUT_KEY_DOWN 1
+#define DP_LOCAL_INPUT_KEY_UP 2
+#define DP_LOCAL_INPUT_POINTER_ABSOLUTE 3
+#define DP_LOCAL_INPUT_POINTER_RELATIVE 4
+#define DP_LOCAL_INPUT_BUTTON_DOWN 5
+#define DP_LOCAL_INPUT_BUTTON_UP 6
+#define DP_LOCAL_INPUT_SCROLL 7
+/* Define before the first portable header to keep wire identifiers untouched. */
+#ifndef DP_DISABLE_LOCAL_INPUT_ALIASES
+#define DP_BUTTON_PRIMARY DP_LOCAL_BUTTON_PRIMARY
+#define DP_BUTTON_SECONDARY DP_LOCAL_BUTTON_SECONDARY
+#define DP_BUTTON_MIDDLE DP_LOCAL_BUTTON_MIDDLE
+#define DP_BUTTON_BACK DP_LOCAL_BUTTON_BACK
+#define DP_BUTTON_FORWARD DP_LOCAL_BUTTON_FORWARD
+#define DP_INPUT_KEY_DOWN DP_LOCAL_INPUT_KEY_DOWN
+#define DP_INPUT_KEY_UP DP_LOCAL_INPUT_KEY_UP
+#define DP_INPUT_POINTER_ABSOLUTE DP_LOCAL_INPUT_POINTER_ABSOLUTE
+#define DP_INPUT_POINTER_RELATIVE DP_LOCAL_INPUT_POINTER_RELATIVE
+#define DP_INPUT_BUTTON_DOWN DP_LOCAL_INPUT_BUTTON_DOWN
+#define DP_INPUT_BUTTON_UP DP_LOCAL_INPUT_BUTTON_UP
+#define DP_INPUT_SCROLL DP_LOCAL_INPUT_SCROLL
+#endif /* DP_DISABLE_LOCAL_INPUT_ALIASES */
 static inline int dp_contract_boolean_valid(int64_t value) {
     return value == 0 || value == 1;
 }
@@ -274,9 +289,9 @@ static inline int dp_contract_modifiers_valid(int64_t value) {
     return value >= 0 && value <= 255;
 }
 static inline int dp_contract_button_valid(int64_t value) {
-    return value >= DP_BUTTON_PRIMARY && value <= DP_BUTTON_FORWARD;
+    return value >= DP_LOCAL_BUTTON_PRIMARY && value <= DP_LOCAL_BUTTON_FORWARD;
 }
 static inline int dp_contract_input_kind_valid(int64_t value) {
-    return value >= DP_INPUT_KEY_DOWN && value <= DP_INPUT_SCROLL;
+    return value >= DP_LOCAL_INPUT_KEY_DOWN && value <= DP_LOCAL_INPUT_SCROLL;
 }
 #endif

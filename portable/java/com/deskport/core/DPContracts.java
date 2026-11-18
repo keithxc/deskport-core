@@ -238,18 +238,30 @@ public final class DPContracts {
     public static final int VK_OEM_6 = 221;
     public static final int VK_OEM_7 = 222;
     public static final int VK_OEM_102 = 226;
-    public static final int BUTTON_PRIMARY = 1;
-    public static final int BUTTON_SECONDARY = 2;
-    public static final int BUTTON_MIDDLE = 3;
-    public static final int BUTTON_BACK = 4;
-    public static final int BUTTON_FORWARD = 5;
-    public static final int INPUT_KEY_DOWN = 1;
-    public static final int INPUT_KEY_UP = 2;
-    public static final int INPUT_POINTER_ABSOLUTE = 3;
-    public static final int INPUT_POINTER_RELATIVE = 4;
-    public static final int INPUT_BUTTON_DOWN = 5;
-    public static final int INPUT_BUTTON_UP = 6;
-    public static final int INPUT_SCROLL = 7;
+    public static final int LOCAL_BUTTON_PRIMARY = 1;
+    public static final int LOCAL_BUTTON_SECONDARY = 2;
+    public static final int LOCAL_BUTTON_MIDDLE = 3;
+    public static final int LOCAL_BUTTON_BACK = 4;
+    public static final int LOCAL_BUTTON_FORWARD = 5;
+    public static final int LOCAL_INPUT_KEY_DOWN = 1;
+    public static final int LOCAL_INPUT_KEY_UP = 2;
+    public static final int LOCAL_INPUT_POINTER_ABSOLUTE = 3;
+    public static final int LOCAL_INPUT_POINTER_RELATIVE = 4;
+    public static final int LOCAL_INPUT_BUTTON_DOWN = 5;
+    public static final int LOCAL_INPUT_BUTTON_UP = 6;
+    public static final int LOCAL_INPUT_SCROLL = 7;
+    public static final int BUTTON_PRIMARY = LOCAL_BUTTON_PRIMARY;
+    public static final int BUTTON_SECONDARY = LOCAL_BUTTON_SECONDARY;
+    public static final int BUTTON_MIDDLE = LOCAL_BUTTON_MIDDLE;
+    public static final int BUTTON_BACK = LOCAL_BUTTON_BACK;
+    public static final int BUTTON_FORWARD = LOCAL_BUTTON_FORWARD;
+    public static final int INPUT_KEY_DOWN = LOCAL_INPUT_KEY_DOWN;
+    public static final int INPUT_KEY_UP = LOCAL_INPUT_KEY_UP;
+    public static final int INPUT_POINTER_ABSOLUTE = LOCAL_INPUT_POINTER_ABSOLUTE;
+    public static final int INPUT_POINTER_RELATIVE = LOCAL_INPUT_POINTER_RELATIVE;
+    public static final int INPUT_BUTTON_DOWN = LOCAL_INPUT_BUTTON_DOWN;
+    public static final int INPUT_BUTTON_UP = LOCAL_INPUT_BUTTON_UP;
+    public static final int INPUT_SCROLL = LOCAL_INPUT_SCROLL;
     public static boolean booleanValid(long value) {
         return value == 0 || value == 1;
     }
@@ -275,9 +287,9 @@ public final class DPContracts {
         return value >= 0 && value <= 255;
     }
     public static boolean buttonValid(long value) {
-        return value >= BUTTON_PRIMARY && value <= BUTTON_FORWARD;
+        return value >= LOCAL_BUTTON_PRIMARY && value <= LOCAL_BUTTON_FORWARD;
     }
     public static boolean inputKindValid(long value) {
-        return value >= INPUT_KEY_DOWN && value <= INPUT_SCROLL;
+        return value >= LOCAL_INPUT_KEY_DOWN && value <= LOCAL_INPUT_SCROLL;
     }
 }

@@ -27,7 +27,9 @@
     "Close the current dialog before opening another invitation.",
     "No invitation is available.",
     "Session details",
-    "The client credentials could not be opened."
+    "The client credentials could not be opened.",
+    "DeskPort finds and connects to computers you authorize on your local network.",
+    "DeskPort connects supported Bluetooth pointing devices."
   ],
   "reuse": {
     "Keyboard": "Keyboard",
@@ -51,5 +53,9 @@
   "notes": [
     "Use canonical values from ui.json; reuse entries are lookup guidance, not additional UI rows.",
     "The tuningGuidanceKey supersedes the existing tuning explanation for new consumers. Existing values remain preserved."
-  ]
+  ],
+  "permissionKeys": {
+    "localNetwork": "DeskPort finds and connects to computers you authorize on your local network.",
+    "bluetooth": "DeskPort connects supported Bluetooth pointing devices."
+  }
 }

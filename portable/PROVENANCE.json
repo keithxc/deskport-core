@@ -87,7 +87,7 @@
   ],
   "productArithmetic": "Original arithmetic from public product requirements: 15000 kbps at 2560x1440/60, finite positive fps capped at 120 before scaling, 4:4:4 multiplier 2, automatic 5000..80000, saver quarter 3000..12000, daily thresholds 70/85/100. Integral results truncate; counters saturate. First cumulative byte sample counts current; counter reset counts current.",
   "content": {
-    "newKeys": 24,
+    "newKeys": 26,
     "reusedKeys": 16,
     "locales": 22,
     "method": "Machine translations authored directly from original English public product text. Existing portable entries reused without alteration.",
@@ -106,5 +106,22 @@
     ],
     "parentReviewSha256": "0e74f8a46b117eae01743973d91337af554efbde51220d9e52b5e806ff7beaad",
     "unchanged": "Existing API signatures and constant values; invalid inputs, truncation, clamps, saver/manual/live-rate selection, workspace policy and original content values."
+  },
+  "permissionNamespaceFollowup": {
+    "date": "2026-11-18",
+    "baselineCore": "44f228995f23435d2aa93b661d2f105d3664b338",
+    "authorizedProductInput": {
+      "name": "original public product requirements",
+      "sha256": "76e81dcb1fc630c109cc13e665f748e52f9233f732aba7e5e5db0ba5bcaa7ccf",
+      "use": "Two original English OS permission explanations and local/wire identifier collision requirements only; no private implementation material."
+    },
+    "permissionKeys": {
+      "localNetwork": "DeskPort finds and connects to computers you authorize on your local network.",
+      "bluetooth": "DeskPort connects supported Bluetooth pointing devices."
+    },
+    "translationMethod": "44 values independently authored from the two original English permission explanations for 22 locales; no legacy catalog consulted. Non-English values await native-speaker review.",
+    "namespace": "catalog.json owns LOCAL_BUTTON_* / LOCAL_INPUT_* with unchanged numeric values; generate.py emits DP_LOCAL_* and default legacy C aliases guarded by DP_DISABLE_LOCAL_INPUT_ALIASES. Java keeps old members and adds canonical members. Predicates use canonical local names; HID/WinVK/modifiers are unconditional.",
+    "fixtures": "Original synthetic wire enums with deliberately different values, opt-out before all portable headers, compiled and executed as C11/C++11 and Objective-C on macOS; default legacy aliases and Java members also exercised.",
+    "unchanged": "Pre-existing UI entry bytes and values, guide, workspace and stream_budget files and behavior; no private or GPL implementation source consulted."
   }
 }

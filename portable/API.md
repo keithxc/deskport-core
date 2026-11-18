@@ -140,15 +140,45 @@ by this compact contract, including all unassigned/reserved bytes; it is not a
 complete classification of the Windows namespace. No layout-dependent HID-to-VK
 conversion table is supplied.
 
-`DP_BUTTON_*` (primary, secondary, middle, back, forward) and `DP_INPUT_*`
+`DP_LOCAL_BUTTON_*` (primary, secondary, middle, back, forward) and `DP_LOCAL_INPUT_*`
 (key down/up, pointer absolute/relative, button down/up, scroll) are **local**
 consumer identifiers. They are not new wire packet codes. Native adapters own
 serialization, text input, keyboard layouts, event routing and focus/lifecycle.
+All core predicates use the canonical `DP_LOCAL_*` values independently of wire
+identifiers. Their existing numeric assignments are unchanged.
+
+For source compatibility, C also exposes `DP_BUTTON_*` and `DP_INPUT_*` as aliases
+by default. A native consumer with a separate wire vocabulary must define
+`DP_DISABLE_LOCAL_INPUT_ALIASES` before its **first** portable header include,
+preferably in its common entry header or compiler definitions:
+
+```c
+#define DP_DISABLE_LOCAL_INPUT_ALIASES
+#include "deskport/input.h"
+/* Use DP_LOCAL_BUTTON_MIDDLE for a local button; serialize explicitly. */
+```
+
+The guard is presence-based (even a definition of `0` disables aliases), applies
+only to those legacy button/event aliases, and must be consistent across a
+translation unit. It never disables `DP_HID_*`, `DP_VK_*` or `DP_MOD_*`.
+Do not undefine aliases after inclusion: predicates must never depend on consumer
+wire values. `generate.py` owns both the canonical constants and aliases.
+Java's class namespace already separates these identifiers: `DPContracts` offers
+both `LOCAL_BUTTON_*` / `LOCAL_INPUT_*` and the existing members with equal values;
+its predicates use the canonical members.
+
+`fixtures/local_namespace.c` is an independently authored synthetic consumer with
+different wire enum values, opt-out and every portable header. `test_expansion.py`
+compiles and runs it as C11/C++11 (also Objective-C on macOS), checks wire values,
+local predicates and independent HID/WinVK, and tests default aliases separately.
 
 ## Product content and review
 
-`content/apple-keys.json` provides the exact 24 added keys and maps 16 requirements
-to existing canonical keys. It also selects the corrected tuning explanation.
+`content/apple-keys.json` provides the exact 26 added keys and maps 16 requirements
+to existing canonical keys. Its `permissionKeys` names two original OS permission
+explanations: local network discovery/connection to authorized computers, and
+supported Bluetooth pointing devices. Each has original values in all 22 locales;
+no legacy translation catalog was consulted. It also selects the corrected tuning explanation.
 All 22 locales are complete with placeholder parity. New non-English translations
 are machine-authored and await native-speaker review. Existing UI/guide values
 remain intact; other notices and historical resources retain their own audit.

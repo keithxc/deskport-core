@@ -51,7 +51,22 @@ def main():
     for canonical in manifest['reuse'].values():
         assert canonical in content and set(content[canonical]) == set(locales), canonical
     assert manifest['tuningGuidanceKey'] == 'Higher tuning values enlarge remote controls; lower values provide more desktop space.'
-    assert len(manifest['newKeys']) + len(manifest['reuse']) == 40
+    permission_keys = {
+        'localNetwork': 'DeskPort finds and connects to computers you authorize on your local network.',
+        'bluetooth': 'DeskPort connects supported Bluetooth pointing devices.',
+    }
+    assert manifest['permissionKeys'] == permission_keys
+    assert len(manifest['newKeys']) == len(set(manifest['newKeys'])) == 26
+    assert len(manifest['reuse']) == 16
+    assert set(permission_keys.values()) <= set(manifest['newKeys'])
+    assert not (set(permission_keys.values()) & set(manifest['reuse'].values()))
+    for key in permission_keys.values():
+        assert all(content[key][locale] != key for locale in locales if locale != 'en')
+    provenance = json.loads((ROOT / 'PROVENANCE.json').read_text())
+    assert provenance['content']['newKeys'] == len(manifest['newKeys'])
+    assert provenance['content']['reusedKeys'] == len(manifest['reuse'])
+    assert provenance['content']['locales'] == len(locales)
+    assert provenance['content']['legacyTranslationsConsulted'] is False
 
     native = ['#include "deskport/workspace.h"', '#include "deskport/stream_budget.h"',
               '#include "deskport/session.h"', '#include "deskport/input.h"',
@@ -107,6 +122,13 @@ def main():
              'assert DPContracts.BITRATE_MAX_FPS == 120;',
              'assert DPContracts.HID_KEY_NON_US_BACKSLASH == 0x64 && DPContracts.HID_KEY_INTERNATIONAL_3 == 0x89;',
              'assert DPContracts.VK_OEM_102 == 0xe2;', '}}']
+    # The default consumer keeps every old public alias and its numeric value.
+    constants = json.loads((ROOT / 'catalog.json').read_text())['inputVocabulary']['constants']
+    for name, value in constants.items():
+        if name.startswith(('LOCAL_BUTTON_', 'LOCAL_INPUT_')):
+            legacy = name.removeprefix('LOCAL_')
+            native.insert(-1, f'assert(DP_{legacy} == {value} && DP_{name} == {value});')
+            java.insert(-1, f'assert DPContracts.{legacy} == {value} && DPContracts.{name} == {value};')
     sdk = ['-isysroot', subprocess.check_output(['xcrun', '--sdk', 'macosx', '--show-sdk-path'], text=True).strip()] if sys.platform == 'darwin' else []
     languages = [('c', 'c11', 'CC', 'clang' if sys.platform == 'darwin' else 'cc'),
                  ('cpp', 'c++11', 'CXX', 'clang++' if sys.platform == 'darwin' else 'c++')]
@@ -130,12 +152,22 @@ def main():
                             '-fsanitize=undefined,address,float-cast-overflow', *sdk, '-I' + str(include),
                             str(source), '-lm', '-o', str(binary)], check=True)
             subprocess.run([str(binary)], check=True, timeout=20)
+            # Fake wire enums come first, followed by opt-out and ALL core headers.
+            namespace_source = work / ('namespace.' + extension)
+            namespace_source.write_bytes((ROOT / 'fixtures/local_namespace.c').read_bytes())
+            namespace_binary = work / ('namespace-' + extension)
+            subprocess.run([compiler, '-std=' + standard, '-Wall', '-Wextra', '-Werror', '-pedantic',
+                            '-fsanitize=undefined,address,float-cast-overflow', *sdk, '-I' + str(include),
+                            str(namespace_source), '-lm', '-o', str(namespace_binary)], check=True)
+            subprocess.run([str(namespace_binary)], check=True, timeout=20)
         if args.java:
             source = work / 'TestExpansion.java'
             source.write_text('\n'.join(java) + '\n')
             subprocess.run(['javac', '-d', str(work), str(ROOT / 'java/com/deskport/core/DPContracts.java'), str(source)], check=True)
             subprocess.run(['java', '-ea', '-cp', str(work), 'TestExpansion'], check=True, timeout=20)
     report = {'schema': 1, 'status': 'passed', 'nativeLanguages': [x[1] + (' Objective-C' if x[0] == 'm' else '') for x in languages],
+              'localNamespace': {'fakeWireEnums': True, 'allHeaders': True, 'optOut': True, 'legacyAliases': True,
+                                 'independentHidWinVK': True},
               'sanitizers': ['address', 'undefined', 'float-cast-overflow'], 'java': args.java,
               'fixtures': {key: len(cases[key]) for key in ('workspace', 'arithmeticAndSession', 'typedPredicates', 'displayResults')},
               'content': {'newKeys': len(manifest['newKeys']), 'reusedKeys': len(manifest['reuse']), 'locales': len(locales),
@@ -143,7 +175,7 @@ def main():
               'acceptance': 'standalone portable contracts only'}
     if args.json:
         args.json.write_text(json.dumps(report, indent=2) + '\n')
-    print('PASS: portable expansion native boundary fixtures' + (' and Java' if args.java else '') + ', 40 product keys / 22 locales')
+    print('PASS: portable expansion native boundary fixtures' + (' and Java' if args.java else '') + ', 42 product keys / 22 locales; local namespace and legacy aliases')
 
 
 if __name__ == '__main__':

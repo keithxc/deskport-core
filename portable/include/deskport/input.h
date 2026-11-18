@@ -6,7 +6,7 @@
 
 /* HID_KEY_* are usage IDs on HID_PAGE_KEYBOARD, not text or scan codes.
  * MOD_* bits retain left/right location in HID modifier-byte order.
- * BUTTON_* are local primary/secondary/etc. usages; INPUT_* are local event
+ * LOCAL_BUTTON_* are local primary/secondary/etc. usages; LOCAL_INPUT_* are local event
  * kinds only. Neither defines serialization for a media input protocol.
  * VK_* is a deliberately small official WinVK vocabulary; the whitelist also
  * accepts digits, letters, numpad and F1..F24. Unsupported values fail closed.
