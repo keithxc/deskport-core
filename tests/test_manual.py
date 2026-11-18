@@ -13,6 +13,9 @@ assert languages and languages[0] == 'en', languages
 assert len(set(languages)) == len(languages), languages
 
 seen = set()
+chapter_ids = [chapter['id'] for chapter in manual['chapters']]
+assert chapter_ids[:2] == ['keyboard', 'about'], chapter_ids
+assert 'hold the floating button and choose Portrait + Full Keyboard' in manual['chapters'][0]['steps'][0]['text']['en']
 for chapter in manual['chapters']:
     identifier = chapter['id']
     assert identifier and identifier not in seen, identifier
@@ -23,6 +26,8 @@ for chapter in manual['chapters']:
     for entry in entries:
         # Every string is translatable and falls back to English, so English is required.
         assert entry.get('en'), (identifier, entry)
+        if identifier == 'keyboard':
+            assert set(entry) == set(languages), (identifier, set(entry))
         for language, text in entry.items():
             assert language in languages, (identifier, language)
             assert text.strip() == text and text, (identifier, language)
