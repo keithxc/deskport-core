@@ -36478,6 +36478,134 @@
     "hi": "नेटवर्क ऑफ़लाइन. नेटवर्क ठीक होने के बाद पुनः कनेक्ट करें.",
     "ms": "Rangkaian luar talian. Sambung semula selepas rangkaian pulih."
   },
+  "No Opus audio decoder is available. Turn off audio in Connection options or update your browser.": {
+    "_platforms": {
+      "desktop": false,
+      "apple": false,
+      "android": false
+    },
+    "_web": [
+      "Browser"
+    ],
+    "en": "No Opus audio decoder is available. Turn off audio in Connection options or update your browser.",
+    "zh-Hans": "没有可用的 Opus 音频解码器。请在连接选项中关闭声音，或更新浏览器。",
+    "zh-Hant": "沒有可用的 Opus 音訊解碼器。請在連線選項中關閉聲音，或更新瀏覽器。",
+    "ja": "Opus 音声デコーダが利用できません。接続オプションで音声をオフにするか、ブラウザを更新してください。",
+    "fr": "Aucun décodeur audio Opus disponible. Désactivez le son dans les options de connexion ou mettez à jour votre navigateur.",
+    "de": "Kein Opus-Audiodecoder verfügbar. Ton in den Verbindungsoptionen ausschalten oder Browser aktualisieren.",
+    "ar": "لا يتوفر مفكك ترميز صوت Opus. أوقف الصوت في خيارات الاتصال أو حدّث المتصفح.",
+    "ko": "Opus 오디오 디코더를 사용할 수 없습니다. 연결 옵션에서 오디오를 끄거나 브라우저를 업데이트하세요.",
+    "pt": "Nenhum decodificador de áudio Opus está disponível. Desative o áudio nas opções de conexão ou atualize o navegador.",
+    "es": "No hay ningún decodificador de audio Opus disponible. Desactiva el audio en Opciones de conexión o actualiza el navegador.",
+    "bo": "Opus སྒྲའི་བརྡ་སྒྱུར་ཆས་མེད། མཐུད་སྣེའི་གདམ་ཁའི་ནང་སྒྲ་ཁ་རྒྱོབ། ཡང་ན་དྲ་ལྗོངས་གསར་བཅོས་བྱོས།",
+    "it": "Nessun decodificatore audio Opus disponibile. Disattiva l'audio nelle Opzioni di connessione o aggiorna il browser.",
+    "ru": "Декодер звука Opus недоступен. Выключите звук в разделе «Варианты подключения» или обновите браузер.",
+    "id": "Dekoder audio Opus tidak tersedia. Nonaktifkan audio di Opsi koneksi atau perbarui browser.",
+    "tr": "Opus ses çözücüsü kullanılamıyor. Bağlantı seçeneklerinde sesi kapatın veya tarayıcınızı güncelleyin.",
+    "vi": "Không có bộ giải mã âm thanh Opus. Tắt âm thanh trong Tùy chọn kết nối hoặc cập nhật trình duyệt.",
+    "th": "ไม่มีตัวถอดรหัสเสียง Opus ปิดเสียงในตัวเลือกการเชื่อมต่อหรืออัปเดตเบราว์เซอร์",
+    "nl": "Er is geen Opus-audiodecoder beschikbaar. Schakel audio uit bij Verbindingsmogelijkheden of werk uw browser bij.",
+    "pl": "Brak dostępnego dekodera dźwięku Opus. Wyłącz dźwięk w sekcji „Opcje połączenia” lub zaktualizuj przeglądarkę.",
+    "uk": "Декодер аудіо Opus недоступний. Вимкніть аудіо в розділі «Варіанти підключення» або оновіть браузер.",
+    "hi": "कोई Opus ऑडियो डिकोडर उपलब्ध नहीं है। कनेक्शन विकल्प में ऑडियो बंद करें या अपना ब्राउज़र अपडेट करें।",
+    "ms": "Tiada penyahkod audio Opus tersedia. Matikan audio dalam Pilihan sambungan atau kemas kini penyemak imbas anda."
+  },
+  "Playback stopped. Check the network and reconnect.": {
+    "_platforms": {
+      "desktop": false,
+      "apple": false,
+      "android": false
+    },
+    "_web": [
+      "Browser"
+    ],
+    "en": "Playback stopped. Check the network and reconnect.",
+    "zh-Hans": "播放已停止。请检查网络并重新连接。",
+    "zh-Hant": "播放已停止。請檢查網路並重新連線。",
+    "ja": "再生が停止しました。ネットワークを確認し、再接続してください。",
+    "fr": "Lecture arrêtée. Vérifiez le réseau et reconnectez-vous.",
+    "de": "Wiedergabe gestoppt. Netzwerk prüfen und erneut verbinden.",
+    "ar": "توقف التشغيل. تحقق من الشبكة وأعد الاتصال.",
+    "ko": "재생이 중지되었습니다. 네트워크를 확인하고 다시 연결하세요.",
+    "pt": "A reprodução parou. Verifique a rede e reconecte.",
+    "es": "La reproducción se detuvo. Comprueba la red y vuelve a conectarte.",
+    "bo": "གཏོང་མཚམས་ཆད་སོང་། དྲ་རྒྱ་ལ་ཞིབ་བཤེར་བྱས་ནས་བསྐྱར་དུ་མཐུད་དགོས།",
+    "it": "Riproduzione interrotta. Controlla la rete e riconnettiti.",
+    "ru": "Воспроизведение остановлено. Проверьте сеть и подключитесь повторно.",
+    "id": "Pemutaran berhenti. Periksa jaringan dan hubungkan kembali.",
+    "tr": "Oynatma durdu. Ağı kontrol edin ve yeniden bağlanın.",
+    "vi": "Đã dừng phát. Kiểm tra mạng và kết nối lại.",
+    "th": "การเล่นหยุดลง ตรวจสอบเครือข่ายและเชื่อมต่อใหม่",
+    "nl": "Afspelen gestopt. Controleer het netwerk en maak opnieuw verbinding.",
+    "pl": "Odtwarzanie zatrzymane. Sprawdź sieć i połącz się ponownie.",
+    "uk": "Відтворення зупинено. Перевірте мережу та підключіться повторно.",
+    "hi": "प्लेबैक रुक गया। नेटवर्क की जाँच करें और पुनः कनेक्ट करें।",
+    "ms": "Main balik terhenti. Semak rangkaian dan sambung semula."
+  },
+  "Tap to play video": {
+    "_platforms": {
+      "desktop": false,
+      "apple": false,
+      "android": false
+    },
+    "_web": [
+      "Browser"
+    ],
+    "en": "Tap to play video",
+    "zh-Hans": "点按播放视频",
+    "zh-Hant": "點按播放影片",
+    "ja": "タップして動画を再生",
+    "fr": "Toucher pour lire la vidéo",
+    "de": "Tippen, um Video abzuspielen",
+    "ar": "انقر لتشغيل الفيديو",
+    "ko": "탭하여 비디오 재생",
+    "pt": "Toque para reproduzir o vídeo",
+    "es": "Toca para reproducir el vídeo",
+    "bo": "བརྙན་གཏོང་བར་རྡེབ།",
+    "it": "Tocca per riprodurre il video",
+    "ru": "Нажмите, чтобы воспроизвести видео",
+    "id": "Ketuk untuk memutar video",
+    "tr": "Videoyu oynatmak için dokunun",
+    "vi": "Nhấn để phát video",
+    "th": "แตะเพื่อเล่นวิดีโอ",
+    "nl": "Tik om video af te spelen",
+    "pl": "Stuknij, aby odtworzyć wideo",
+    "uk": "Торкніться, щоб відтворити відео",
+    "hi": "वीडियो चलाने के लिए टैप करें",
+    "ms": "Ketik untuk memainkan video"
+  },
+  "This browser cannot decode the required H.264 video. Update it, use another browser, or try a smaller window.": {
+    "_platforms": {
+      "desktop": false,
+      "apple": false,
+      "android": false
+    },
+    "_web": [
+      "Browser"
+    ],
+    "en": "This browser cannot decode the required H.264 video. Update it, use another browser, or try a smaller window.",
+    "zh-Hans": "此浏览器无法解码所需的 H.264 视频。请更新浏览器、更换浏览器，或尝试缩小窗口。",
+    "zh-Hant": "此瀏覽器無法解碼所需的 H.264 影片。請更新瀏覽器、更換瀏覽器，或嘗試縮小視窗。",
+    "ja": "このブラウザは必要な H.264 動画をデコードできません。ブラウザを更新するか、別のブラウザを使用するか、ウィンドウを小さくして試してください。",
+    "fr": "Ce navigateur ne peut pas décoder la vidéo H.264 requise. Mettez-le à jour, utilisez un autre navigateur ou essayez une fenêtre plus petite.",
+    "de": "Dieser Browser kann das benötigte H.264-Video nicht dekodieren. Browser aktualisieren, anderen Browser verwenden oder kleineres Fenster versuchen.",
+    "ar": "لا يستطيع هذا المتصفح فك ترميز فيديو H.264 المطلوب. حدّثه أو استخدم متصفحًا آخر أو جرّب نافذة أصغر.",
+    "ko": "이 브라우저는 필요한 H.264 비디오를 디코딩할 수 없습니다. 브라우저를 업데이트하거나 다른 브라우저를 사용하거나 창을 줄여 보세요.",
+    "pt": "Este navegador não consegue decodificar o vídeo H.264 necessário. Atualize-o, use outro navegador ou tente uma janela menor.",
+    "es": "Este navegador no puede decodificar el vídeo H.264 requerido. Actualízalo, usa otro navegador o prueba con una ventana más pequeña.",
+    "bo": "དྲ་ལྗོངས་འདིས་དགོས་པའི་H.264 བརྙན་གྱི་བརྡ་སྒྱུར་བྱེད་མི་ཐུབ། དྲ་ལྗོངས་གསར་བཅོས་བྱོས། ཡང་ན་དྲ་ལྗོངས་གཞན་ཞིག་བེད་སྤྱོད་བྱོས། ཡང་ན་སྒེའུ་ཁུང་ཆུང་བ་ཞིག་ཚོད་ལྟ་བྱོས།",
+    "it": "Questo browser non può decodificare il video H.264 richiesto. Aggiornalo, usa un altro browser o prova una finestra più piccola.",
+    "ru": "Этот браузер не может декодировать требуемое видео H.264. Обновите его, используйте другой браузер или попробуйте уменьшить окно.",
+    "id": "Browser ini tidak dapat mendekode video H.264 yang diperlukan. Perbarui browser, gunakan browser lain, atau coba perkecil jendela.",
+    "tr": "Bu tarayıcı gerekli H.264 videonun kodunu çözemiyor. Tarayıcıyı güncelleyin, başka bir tarayıcı kullanın veya daha küçük bir pencere deneyin.",
+    "vi": "Trình duyệt này không thể giải mã video H.264 cần thiết. Hãy cập nhật trình duyệt, dùng trình duyệt khác hoặc thử thu nhỏ cửa sổ.",
+    "th": "เบราว์เซอร์นี้ไม่สามารถถอดรหัสวิดีโอ H.264 ที่จำเป็นได้ อัปเดตเบราว์เซอร์ ใช้เบราว์เซอร์อื่น หรือลองลดขนาดหน้าต่าง",
+    "nl": "Deze browser kan de vereiste H.264-video niet decoderen. Werk de browser bij, gebruik een andere browser of probeer een kleiner venster.",
+    "pl": "Ta przeglądarka nie może dekodować wymaganego wideo H.264. Zaktualizuj ją, użyj innej przeglądarki lub spróbuj zmniejszyć okno.",
+    "uk": "Цей браузер не може декодувати потрібне відео H.264. Оновіть його, скористайтеся іншим браузером або спробуйте зменшити вікно.",
+    "hi": "यह ब्राउज़र आवश्यक H.264 वीडियो डिकोड नहीं कर सकता। इसे अपडेट करें, कोई दूसरा ब्राउज़र इस्तेमाल करें या छोटी विंडो आज़माएँ।",
+    "ms": "Penyemak imbas ini tidak dapat menyahkod video H.264 yang diperlukan. Kemas kini, gunakan penyemak imbas lain atau cuba tetingkap yang lebih kecil."
+  },
   "Use the HTTPS address shown on the computer and trust its certificate in your browser.": {
     "_platforms": {
       "desktop": [],
