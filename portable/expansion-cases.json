@@ -1,0 +1,3045 @@
+{
+  "license": "MIT",
+  "schemaVersion": 1,
+  "workspace": [
+    {
+      "id": "encoded-no-density",
+      "entry": "encoded",
+      "args": [
+        824,
+        1416,
+        2
+      ],
+      "expect": [
+        824,
+        1416,
+        2
+      ]
+    },
+    {
+      "id": "portrait-floor",
+      "entry": "tuned",
+      "args": [
+        824,
+        1416,
+        2,
+        1.0
+      ],
+      "expect": [
+        1200,
+        2064,
+        2
+      ]
+    },
+    {
+      "id": "portrait-floor-stable",
+      "entry": "tuned",
+      "args": [
+        824,
+        1416,
+        2,
+        1.2
+      ],
+      "expect": [
+        1200,
+        2064,
+        2
+      ]
+    },
+    {
+      "id": "landscape-floor",
+      "entry": "tuned",
+      "args": [
+        1416,
+        824,
+        2,
+        1.2
+      ],
+      "expect": [
+        2064,
+        1200,
+        2
+      ]
+    },
+    {
+      "id": "landscape-shrink",
+      "entry": "tuned",
+      "args": [
+        1920,
+        1200,
+        1,
+        1.2
+      ],
+      "expect": [
+        1600,
+        1000,
+        1
+      ]
+    },
+    {
+      "id": "logical-converted-once",
+      "entry": "viewport",
+      "args": [
+        824,
+        1416,
+        2
+      ],
+      "expect": [
+        1648,
+        2832,
+        2
+      ]
+    },
+    {
+      "id": "composition",
+      "entry": "combined",
+      "args": [
+        960,
+        600,
+        2,
+        1.2
+      ],
+      "expect": [
+        1920,
+        1200,
+        2
+      ]
+    },
+    {
+      "id": "logical-density-1",
+      "entry": "combined",
+      "args": [
+        1920,
+        1200,
+        1,
+        1.2
+      ],
+      "expect": [
+        1600,
+        1000,
+        1
+      ]
+    },
+    {
+      "id": "logical-small",
+      "entry": "viewport",
+      "args": [
+        150,
+        300,
+        4
+      ],
+      "expect": [
+        640,
+        1280,
+        2
+      ]
+    },
+    {
+      "id": "logical-fit-max",
+      "entry": "viewport",
+      "args": [
+        8000,
+        4500,
+        2
+      ],
+      "expect": [
+        7680,
+        4320,
+        2
+      ]
+    },
+    {
+      "id": "logical-unrepresentable",
+      "entry": "viewport",
+      "args": [
+        128,
+        100000,
+        1
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "transient-width",
+      "entry": "viewport",
+      "args": [
+        127.999,
+        600,
+        2
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "transient-height",
+      "entry": "viewport",
+      "args": [
+        600,
+        0,
+        2
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "nan-width",
+      "entry": "viewport",
+      "args": [
+        "NAN",
+        600,
+        2
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "infinite-height",
+      "entry": "viewport",
+      "args": [
+        800,
+        "INFINITY",
+        2
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "nan-density",
+      "entry": "viewport",
+      "args": [
+        800,
+        600,
+        "NAN"
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "density-low",
+      "entry": "viewport",
+      "args": [
+        800,
+        600,
+        0.499
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "density-high",
+      "entry": "viewport",
+      "args": [
+        800,
+        600,
+        8.001
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "density-lower-bound",
+      "entry": "viewport",
+      "args": [
+        800,
+        600,
+        0.5
+      ],
+      "expect": [
+        800,
+        600,
+        1
+      ]
+    },
+    {
+      "id": "density-upper-bound",
+      "entry": "viewport",
+      "args": [
+        800,
+        600,
+        8
+      ],
+      "expect": [
+        1600,
+        1200,
+        2
+      ]
+    },
+    {
+      "id": "huge-finite",
+      "entry": "viewport",
+      "args": [
+        "DBL_MAX",
+        "DBL_MAX",
+        2
+      ],
+      "expect": [
+        4320,
+        4320,
+        2
+      ]
+    },
+    {
+      "id": "invalid-factor-nan",
+      "entry": "tuned",
+      "args": [
+        1920,
+        1200,
+        1,
+        "NAN"
+      ],
+      "expect": [
+        1920,
+        1200,
+        1
+      ]
+    },
+    {
+      "id": "invalid-factor-infinity",
+      "entry": "tuned",
+      "args": [
+        1920,
+        1200,
+        1,
+        "INFINITY"
+      ],
+      "expect": [
+        1920,
+        1200,
+        1
+      ]
+    },
+    {
+      "id": "invalid-factor-99",
+      "entry": "tuned",
+      "args": [
+        1920,
+        1200,
+        1,
+        99
+      ],
+      "expect": [
+        1920,
+        1200,
+        1
+      ]
+    },
+    {
+      "id": "min-factor",
+      "entry": "tuned",
+      "args": [
+        1920,
+        1200,
+        1,
+        0.5
+      ],
+      "expect": [
+        3840,
+        2400,
+        1
+      ]
+    },
+    {
+      "id": "max-factor",
+      "entry": "tuned",
+      "args": [
+        1920,
+        1200,
+        1,
+        1.5
+      ],
+      "expect": [
+        1280,
+        800,
+        1
+      ]
+    },
+    {
+      "id": "max-bounds",
+      "entry": "tuned",
+      "args": [
+        7680,
+        4320,
+        1,
+        0.5
+      ],
+      "expect": [
+        7680,
+        4320,
+        1
+      ]
+    },
+    {
+      "id": "impossible-host-floor",
+      "entry": "tuned",
+      "args": [
+        7680,
+        360,
+        2,
+        1
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "encoded-min",
+      "entry": "encoded",
+      "args": [
+        640,
+        360,
+        1
+      ],
+      "expect": [
+        640,
+        360,
+        1
+      ]
+    },
+    {
+      "id": "encoded-max",
+      "entry": "encoded",
+      "args": [
+        7680,
+        4320,
+        2
+      ],
+      "expect": [
+        7680,
+        4320,
+        2
+      ]
+    },
+    {
+      "id": "encoded-unaligned",
+      "entry": "encoded",
+      "args": [
+        641,
+        1200,
+        1
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "encoded-scale3",
+      "entry": "encoded",
+      "args": [
+        1920,
+        1200,
+        3
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "encoded-negative",
+      "entry": "encoded",
+      "args": [
+        -2147483648,
+        1200,
+        1
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "encoded-overflow",
+      "entry": "encoded",
+      "args": [
+        2147483647,
+        2147483647,
+        2
+      ],
+      "expect": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "arithmeticAndSession": [
+    {
+      "id": "rate-reference",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        60,
+        0
+      ],
+      "expect": 15000
+    },
+    {
+      "id": "rate-444-double",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        60,
+        1
+      ],
+      "expect": 30000
+    },
+    {
+      "id": "rate-half-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        30,
+        0
+      ],
+      "expect": 7500
+    },
+    {
+      "id": "rate-fractional-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        59.94,
+        0
+      ],
+      "expect": 14985
+    },
+    {
+      "id": "rate-small-floor",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "expect": 5000
+    },
+    {
+      "id": "rate-full-hd",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        1920,
+        1080,
+        60,
+        0
+      ],
+      "expect": 8437
+    },
+    {
+      "id": "rate-ultra-ceiling",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        7680,
+        4320,
+        120,
+        1
+      ],
+      "expect": 80000
+    },
+    {
+      "id": "rate-finite-overflow-safe",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2147483647,
+        2147483647,
+        "DBL_MAX",
+        1
+      ],
+      "expect": 80000
+    },
+    {
+      "id": "rate-zero-width",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        0,
+        1440,
+        60,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "rate-negative-height",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        -1,
+        60,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "rate-nan-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        "NAN",
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "rate-infinite-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        "INFINITY",
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "rate-zero-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "rate-negative-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        -1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "rate-invalid-chroma",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        60,
+        2
+      ],
+      "expect": 0
+    },
+    {
+      "id": "saver-0",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "saver--1",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        -1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "saver-5000",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        5000
+      ],
+      "expect": 3000
+    },
+    {
+      "id": "saver-12000",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        12000
+      ],
+      "expect": 3000
+    },
+    {
+      "id": "saver-15000",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        15000
+      ],
+      "expect": 3750
+    },
+    {
+      "id": "saver-48000",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        48000
+      ],
+      "expect": 12000
+    },
+    {
+      "id": "saver-80000",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        80000
+      ],
+      "expect": 12000
+    },
+    {
+      "id": "saver-2147483647",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        2147483647
+      ],
+      "expect": 12000
+    },
+    {
+      "id": "manual--2147483648",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        15000,
+        -2147483648
+      ],
+      "expect": 15000
+    },
+    {
+      "id": "manual--1",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        15000,
+        -1
+      ],
+      "expect": 15000
+    },
+    {
+      "id": "manual-0",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        15000,
+        0
+      ],
+      "expect": 15000
+    },
+    {
+      "id": "manual-1",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        15000,
+        1
+      ],
+      "expect": 500
+    },
+    {
+      "id": "manual-500",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        15000,
+        500
+      ],
+      "expect": 500
+    },
+    {
+      "id": "manual-40000",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        15000,
+        40000
+      ],
+      "expect": 40000
+    },
+    {
+      "id": "manual-200000",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        15000,
+        200000
+      ],
+      "expect": 200000
+    },
+    {
+      "id": "manual-2147483647",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        15000,
+        2147483647
+      ],
+      "expect": 200000
+    },
+    {
+      "id": "invalid-auto",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "manual-without-auto",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        0,
+        40000
+      ],
+      "expect": 40000
+    },
+    {
+      "id": "bad-auto",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        -1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "effective-off",
+      "fn": "dp_bitrate_effective",
+      "args": [
+        15000,
+        40000,
+        0
+      ],
+      "expect": 40000
+    },
+    {
+      "id": "effective-on",
+      "fn": "dp_bitrate_effective",
+      "args": [
+        15000,
+        40000,
+        1
+      ],
+      "expect": 3750
+    },
+    {
+      "id": "effective-low-manual",
+      "fn": "dp_bitrate_effective",
+      "args": [
+        15000,
+        1000,
+        1
+      ],
+      "expect": 1000
+    },
+    {
+      "id": "effective-invalid-auto",
+      "fn": "dp_bitrate_effective",
+      "args": [
+        0,
+        40000,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "effective-bad-bool",
+      "fn": "dp_bitrate_effective",
+      "args": [
+        15000,
+        0,
+        2
+      ],
+      "expect": 0
+    },
+    {
+      "id": "start-live-on",
+      "fn": "dp_bitrate_start",
+      "args": [
+        15000,
+        40000,
+        1,
+        1
+      ],
+      "expect": 40000
+    },
+    {
+      "id": "start-legacy-on",
+      "fn": "dp_bitrate_start",
+      "args": [
+        15000,
+        40000,
+        1,
+        0
+      ],
+      "expect": 3750
+    },
+    {
+      "id": "start-legacy-off",
+      "fn": "dp_bitrate_start",
+      "args": [
+        15000,
+        40000,
+        0,
+        0
+      ],
+      "expect": 40000
+    },
+    {
+      "id": "start-live-off",
+      "fn": "dp_bitrate_start",
+      "args": [
+        15000,
+        40000,
+        0,
+        1
+      ],
+      "expect": 40000
+    },
+    {
+      "id": "start-bad-live",
+      "fn": "dp_bitrate_start",
+      "args": [
+        15000,
+        0,
+        0,
+        2
+      ],
+      "expect": 0
+    },
+    {
+      "id": "nonnegative--INT64_MAX - 1",
+      "fn": "dp_bytes_nonnegative",
+      "args": [
+        "-INT64_MAX - 1"
+      ],
+      "expect": 0
+    },
+    {
+      "id": "nonnegative--1",
+      "fn": "dp_bytes_nonnegative",
+      "args": [
+        -1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "nonnegative-0",
+      "fn": "dp_bytes_nonnegative",
+      "args": [
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "nonnegative-INT64_MAX",
+      "fn": "dp_bytes_nonnegative",
+      "args": [
+        "INT64_MAX"
+      ],
+      "expect": "INT64_MAX"
+    },
+    {
+      "id": "bytes-zero",
+      "fn": "dp_bytes_add",
+      "args": [
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "bytes-normal",
+      "fn": "dp_bytes_add",
+      "args": [
+        12,
+        30
+      ],
+      "expect": 42
+    },
+    {
+      "id": "bytes-max",
+      "fn": "dp_bytes_add",
+      "args": [
+        "UINT64_MAX",
+        0
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "bytes-overflow",
+      "fn": "dp_bytes_add",
+      "args": [
+        "UINT64_MAX",
+        1
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "bytes-near-overflow",
+      "fn": "dp_bytes_add",
+      "args": [
+        "UINT64_MAX - 4",
+        5
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "delta-first",
+      "fn": "dp_bytes_delta",
+      "args": [
+        0,
+        900,
+        0
+      ],
+      "expect": 900
+    },
+    {
+      "id": "delta-unchanged",
+      "fn": "dp_bytes_delta",
+      "args": [
+        900,
+        900,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "delta-increment",
+      "fn": "dp_bytes_delta",
+      "args": [
+        900,
+        1000,
+        1
+      ],
+      "expect": 100
+    },
+    {
+      "id": "delta-reset",
+      "fn": "dp_bytes_delta",
+      "args": [
+        900,
+        12,
+        1
+      ],
+      "expect": 12
+    },
+    {
+      "id": "delta-max",
+      "fn": "dp_bytes_delta",
+      "args": [
+        0,
+        "UINT64_MAX",
+        1
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "delta-bad-presence",
+      "fn": "dp_bytes_delta",
+      "args": [
+        0,
+        900,
+        2
+      ],
+      "expect": 0
+    },
+    {
+      "id": "budget-0-0",
+      "fn": "dp_budget_level",
+      "args": [
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "budget-UINT64_MAX-0",
+      "fn": "dp_budget_level",
+      "args": [
+        "UINT64_MAX",
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "budget-69-100",
+      "fn": "dp_budget_level",
+      "args": [
+        69,
+        100
+      ],
+      "expect": 0
+    },
+    {
+      "id": "budget-70-100",
+      "fn": "dp_budget_level",
+      "args": [
+        70,
+        100
+      ],
+      "expect": 1
+    },
+    {
+      "id": "budget-84-100",
+      "fn": "dp_budget_level",
+      "args": [
+        84,
+        100
+      ],
+      "expect": 1
+    },
+    {
+      "id": "budget-85-100",
+      "fn": "dp_budget_level",
+      "args": [
+        85,
+        100
+      ],
+      "expect": 2
+    },
+    {
+      "id": "budget-99-100",
+      "fn": "dp_budget_level",
+      "args": [
+        99,
+        100
+      ],
+      "expect": 2
+    },
+    {
+      "id": "budget-100-100",
+      "fn": "dp_budget_level",
+      "args": [
+        100,
+        100
+      ],
+      "expect": 3
+    },
+    {
+      "id": "budget-101-100",
+      "fn": "dp_budget_level",
+      "args": [
+        101,
+        100
+      ],
+      "expect": 3
+    },
+    {
+      "id": "budget-0-1",
+      "fn": "dp_budget_level",
+      "args": [
+        0,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "budget-1-1",
+      "fn": "dp_budget_level",
+      "args": [
+        1,
+        1
+      ],
+      "expect": 3
+    },
+    {
+      "id": "budget-70-101",
+      "fn": "dp_budget_level",
+      "args": [
+        70,
+        101
+      ],
+      "expect": 0
+    },
+    {
+      "id": "budget-71-101",
+      "fn": "dp_budget_level",
+      "args": [
+        71,
+        101
+      ],
+      "expect": 1
+    },
+    {
+      "id": "budget-85-101",
+      "fn": "dp_budget_level",
+      "args": [
+        85,
+        101
+      ],
+      "expect": 1
+    },
+    {
+      "id": "budget-86-101",
+      "fn": "dp_budget_level",
+      "args": [
+        86,
+        101
+      ],
+      "expect": 2
+    },
+    {
+      "id": "budget-UINT64_MAX - 1-UINT64_MAX",
+      "fn": "dp_budget_level",
+      "args": [
+        "UINT64_MAX - 1",
+        "UINT64_MAX"
+      ],
+      "expect": 2
+    },
+    {
+      "id": "budget-UINT64_MAX-UINT64_MAX",
+      "fn": "dp_budget_level",
+      "args": [
+        "UINT64_MAX",
+        "UINT64_MAX"
+      ],
+      "expect": 3
+    },
+    {
+      "id": "budget-12912720851596686130-UINT64_MAX",
+      "fn": "dp_budget_level",
+      "args": [
+        12912720851596686130,
+        "UINT64_MAX"
+      ],
+      "expect": 0
+    },
+    {
+      "id": "budget-12912720851596686131-UINT64_MAX",
+      "fn": "dp_budget_level",
+      "args": [
+        12912720851596686131,
+        "UINT64_MAX"
+      ],
+      "expect": 1
+    },
+    {
+      "id": "budget-15679732462653118872-UINT64_MAX",
+      "fn": "dp_budget_level",
+      "args": [
+        15679732462653118872,
+        "UINT64_MAX"
+      ],
+      "expect": 1
+    },
+    {
+      "id": "budget-15679732462653118873-UINT64_MAX",
+      "fn": "dp_budget_level",
+      "args": [
+        15679732462653118873,
+        "UINT64_MAX"
+      ],
+      "expect": 2
+    },
+    {
+      "id": "threshold-overflow70",
+      "fn": "dp_budget_threshold",
+      "args": [
+        "UINT64_MAX",
+        70
+      ],
+      "expect": 12912720851596686131
+    },
+    {
+      "id": "threshold-overflow85",
+      "fn": "dp_budget_threshold",
+      "args": [
+        "UINT64_MAX",
+        85
+      ],
+      "expect": 15679732462653118873
+    },
+    {
+      "id": "threshold-100",
+      "fn": "dp_budget_threshold",
+      "args": [
+        "UINT64_MAX",
+        100
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "threshold-bad-percent",
+      "fn": "dp_budget_threshold",
+      "args": [
+        100,
+        101
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "admission-0-0",
+      "fn": "dp_session_reply_state",
+      "args": [
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "admission-1-0",
+      "fn": "dp_session_reply_state",
+      "args": [
+        1,
+        0
+      ],
+      "expect": 1
+    },
+    {
+      "id": "admission-0-1",
+      "fn": "dp_session_reply_state",
+      "args": [
+        0,
+        1
+      ],
+      "expect": 2
+    },
+    {
+      "id": "admission-1-1",
+      "fn": "dp_session_reply_state",
+      "args": [
+        1,
+        1
+      ],
+      "expect": -1
+    },
+    {
+      "id": "admission-2-0",
+      "fn": "dp_session_reply_state",
+      "args": [
+        2,
+        0
+      ],
+      "expect": -1
+    },
+    {
+      "id": "admission-0--1",
+      "fn": "dp_session_reply_state",
+      "args": [
+        0,
+        -1
+      ],
+      "expect": -1
+    },
+    {
+      "id": "takeover-[1, 1, 1]",
+      "fn": "dp_session_takeover_allowed",
+      "args": [
+        1,
+        1,
+        1
+      ],
+      "expect": 1
+    },
+    {
+      "id": "takeover-[0, 1, 1]",
+      "fn": "dp_session_takeover_allowed",
+      "args": [
+        0,
+        1,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "takeover-[1, 0, 1]",
+      "fn": "dp_session_takeover_allowed",
+      "args": [
+        1,
+        0,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "takeover-[1, 1, 0]",
+      "fn": "dp_session_takeover_allowed",
+      "args": [
+        1,
+        1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "takeover-[2, 1, 1]",
+      "fn": "dp_session_takeover_allowed",
+      "args": [
+        2,
+        1,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "resume-[1, 1, 1, 1]",
+      "fn": "dp_resume_resize_allowed",
+      "args": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "expect": 1
+    },
+    {
+      "id": "resume-[1, 0, 1, 1]",
+      "fn": "dp_resume_resize_allowed",
+      "args": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "resume-[1, 1, 0, 1]",
+      "fn": "dp_resume_resize_allowed",
+      "args": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "resume-[0, 1, 1, 1]",
+      "fn": "dp_resume_resize_allowed",
+      "args": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "resume-[1, 1, 1, 0]",
+      "fn": "dp_resume_resize_allowed",
+      "args": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "pause-[1, 1, 0, 0, 0]",
+      "fn": "dp_pause_result_valid",
+      "args": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "expect": 1
+    },
+    {
+      "id": "pause-[1, 2, 0, 0, 0]",
+      "fn": "dp_pause_result_valid",
+      "args": [
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "pause-[0, 0, 0, 0, 0]",
+      "fn": "dp_pause_result_valid",
+      "args": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "pause-[1, 1, 0, 1, 0]",
+      "fn": "dp_pause_result_valid",
+      "args": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "pause-[1, 1, 0, 0, 1]",
+      "fn": "dp_pause_result_valid",
+      "args": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "pause-[1, 1, 2, 2, 0]",
+      "fn": "dp_pause_result_valid",
+      "args": [
+        1,
+        1,
+        2,
+        2,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "ack-[1, 1, 40000, 40000, 1, 0]",
+      "fn": "dp_rate_result",
+      "args": [
+        1,
+        1,
+        40000,
+        40000,
+        1,
+        0
+      ],
+      "expect": 1
+    },
+    {
+      "id": "ack-[1, 1, 3750, 3750, 0, 0]",
+      "fn": "dp_rate_result",
+      "args": [
+        1,
+        1,
+        3750,
+        3750,
+        0,
+        0
+      ],
+      "expect": 2
+    },
+    {
+      "id": "ack-[1, 2, 40000, 40000, 1, 0]",
+      "fn": "dp_rate_result",
+      "args": [
+        1,
+        2,
+        40000,
+        40000,
+        1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "ack-[1, 1, 40000, 3750, 1, 0]",
+      "fn": "dp_rate_result",
+      "args": [
+        1,
+        1,
+        40000,
+        3750,
+        1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "ack-[0, 0, 40000, 40000, 1, 0]",
+      "fn": "dp_rate_result",
+      "args": [
+        0,
+        0,
+        40000,
+        40000,
+        1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "ack-[1, 1, 499, 499, 1, 0]",
+      "fn": "dp_rate_result",
+      "args": [
+        1,
+        1,
+        499,
+        499,
+        1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "ack-[1, 1, 40000, 40000, 2, 0]",
+      "fn": "dp_rate_result",
+      "args": [
+        1,
+        1,
+        40000,
+        40000,
+        2,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "ack-[1, 1, 40000, 40000, 1, 1]",
+      "fn": "dp_rate_result",
+      "args": [
+        1,
+        1,
+        40000,
+        40000,
+        1,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "event-[1, 1, 7, 7]",
+      "fn": "dp_event_in_scope",
+      "args": [
+        1,
+        1,
+        7,
+        7
+      ],
+      "expect": 1
+    },
+    {
+      "id": "event-[1, 1, 7, 6]",
+      "fn": "dp_event_in_scope",
+      "args": [
+        1,
+        1,
+        7,
+        6
+      ],
+      "expect": 0
+    },
+    {
+      "id": "event-[1, 0, 7, 7]",
+      "fn": "dp_event_in_scope",
+      "args": [
+        1,
+        0,
+        7,
+        7
+      ],
+      "expect": 0
+    },
+    {
+      "id": "event-[0, 1, 7, 7]",
+      "fn": "dp_event_in_scope",
+      "args": [
+        0,
+        1,
+        7,
+        7
+      ],
+      "expect": 0
+    },
+    {
+      "id": "event-[1, 1, 0, 0]",
+      "fn": "dp_event_in_scope",
+      "args": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "caret-[1, 1, 0, 1]",
+      "fn": "dp_caret_valid",
+      "args": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "expect": 1
+    },
+    {
+      "id": "caret-[1, 1, 0.5, 0.5]",
+      "fn": "dp_caret_valid",
+      "args": [
+        1,
+        1,
+        0.5,
+        0.5
+      ],
+      "expect": 1
+    },
+    {
+      "id": "caret-[0, 1, 0.5, 0.5]",
+      "fn": "dp_caret_valid",
+      "args": [
+        0,
+        1,
+        0.5,
+        0.5
+      ],
+      "expect": 0
+    },
+    {
+      "id": "caret-[1, 0, 0.5, 0.5]",
+      "fn": "dp_caret_valid",
+      "args": [
+        1,
+        0,
+        0.5,
+        0.5
+      ],
+      "expect": 0
+    },
+    {
+      "id": "caret-[1, 1, 'NAN', 0.5]",
+      "fn": "dp_caret_valid",
+      "args": [
+        1,
+        1,
+        "NAN",
+        0.5
+      ],
+      "expect": 0
+    },
+    {
+      "id": "caret-[1, 1, 0.5, 'INFINITY']",
+      "fn": "dp_caret_valid",
+      "args": [
+        1,
+        1,
+        0.5,
+        "INFINITY"
+      ],
+      "expect": 0
+    },
+    {
+      "id": "caret-[1, 1, -0.01, 0]",
+      "fn": "dp_caret_valid",
+      "args": [
+        1,
+        1,
+        -0.01,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "caret-[1, 1, 1.01, 0]",
+      "fn": "dp_caret_valid",
+      "args": [
+        1,
+        1,
+        1.01,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "modifier-224",
+      "fn": "dp_input_modifier_for_hid",
+      "args": [
+        224
+      ],
+      "expect": 1
+    },
+    {
+      "id": "modifier-225",
+      "fn": "dp_input_modifier_for_hid",
+      "args": [
+        225
+      ],
+      "expect": 2
+    },
+    {
+      "id": "modifier-227",
+      "fn": "dp_input_modifier_for_hid",
+      "args": [
+        227
+      ],
+      "expect": 8
+    },
+    {
+      "id": "modifier-228",
+      "fn": "dp_input_modifier_for_hid",
+      "args": [
+        228
+      ],
+      "expect": 16
+    },
+    {
+      "id": "modifier-231",
+      "fn": "dp_input_modifier_for_hid",
+      "args": [
+        231
+      ],
+      "expect": 128
+    },
+    {
+      "id": "modifier-100",
+      "fn": "dp_input_modifier_for_hid",
+      "args": [
+        100
+      ],
+      "expect": 0
+    },
+    {
+      "id": "modifier-2147483647",
+      "fn": "dp_input_modifier_for_hid",
+      "args": [
+        2147483647
+      ],
+      "expect": 0
+    },
+    {
+      "id": "modifier--2147483648",
+      "fn": "dp_input_modifier_for_hid",
+      "args": [
+        -2147483648
+      ],
+      "expect": 0
+    },
+    {
+      "id": "rate-below-fps-cap",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        119.5,
+        0
+      ],
+      "expect": 29875
+    },
+    {
+      "id": "rate-at-fps-cap",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        120,
+        0
+      ],
+      "expect": 30000
+    },
+    {
+      "id": "rate-just-above-fps-cap",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        120.001,
+        0
+      ],
+      "expect": 30000
+    },
+    {
+      "id": "rate-parent-240-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        240,
+        0
+      ],
+      "expect": 30000
+    },
+    {
+      "id": "rate-capped-444",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        240,
+        1
+      ],
+      "expect": 60000
+    },
+    {
+      "id": "rate-capped-finite-max",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        "DBL_MAX",
+        0
+      ],
+      "expect": 30000
+    },
+    {
+      "id": "rate-capped-before-scaling",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        1920,
+        1080,
+        240,
+        0
+      ],
+      "expect": 16875
+    },
+    {
+      "id": "rate-positive-subnormal-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        "DBL_MIN / 2",
+        0
+      ],
+      "expect": 5000
+    },
+    {
+      "id": "rate-below-auto-floor",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        19.99,
+        0
+      ],
+      "expect": 5000
+    },
+    {
+      "id": "rate-at-auto-floor",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        20,
+        0
+      ],
+      "expect": 5000
+    },
+    {
+      "id": "rate-above-auto-floor-truncates",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        20.004,
+        0
+      ],
+      "expect": 5001
+    },
+    {
+      "id": "rate-binary-truncation-below-ceiling",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        5120,
+        2880,
+        79.999,
+        0
+      ],
+      "expect": 79998
+    },
+    {
+      "id": "rate-at-auto-ceiling",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        5120,
+        2880,
+        80,
+        0
+      ],
+      "expect": 80000
+    },
+    {
+      "id": "rate-negative-infinite-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        "-INFINITY",
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "rate-negative-zero-fps",
+      "fn": "dp_bitrate_automatic",
+      "args": [
+        2560,
+        1440,
+        -0.0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "saver-floor-truncation",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        12003
+      ],
+      "expect": 3000
+    },
+    {
+      "id": "saver-above-floor",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        12004
+      ],
+      "expect": 3001
+    },
+    {
+      "id": "saver-below-ceiling",
+      "fn": "dp_bitrate_saver",
+      "args": [
+        47999
+      ],
+      "expect": 11999
+    },
+    {
+      "id": "auto-below-wire-min",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        499,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "auto-at-wire-min",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        500,
+        0
+      ],
+      "expect": 500
+    },
+    {
+      "id": "auto-above-wire-max",
+      "fn": "dp_bitrate_normal",
+      "args": [
+        200001,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "start-invalid-auto-no-manual",
+      "fn": "dp_bitrate_start",
+      "args": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "start-invalid-auto-legacy-saver",
+      "fn": "dp_bitrate_start",
+      "args": [
+        0,
+        40000,
+        1,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "start-invalid-auto-live-manual",
+      "fn": "dp_bitrate_start",
+      "args": [
+        0,
+        40000,
+        1,
+        1
+      ],
+      "expect": 40000
+    },
+    {
+      "id": "bytes-exact-max",
+      "fn": "dp_bytes_add",
+      "args": [
+        "UINT64_MAX - 4",
+        4
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "bytes-two-max",
+      "fn": "dp_bytes_add",
+      "args": [
+        "UINT64_MAX",
+        "UINT64_MAX"
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "delta-parent-first",
+      "fn": "dp_bytes_delta",
+      "args": [
+        0,
+        123,
+        0
+      ],
+      "expect": 123
+    },
+    {
+      "id": "delta-first-ignores-previous",
+      "fn": "dp_bytes_delta",
+      "args": [
+        200,
+        123,
+        0
+      ],
+      "expect": 123
+    },
+    {
+      "id": "delta-first-zero",
+      "fn": "dp_bytes_delta",
+      "args": [
+        "UINT64_MAX",
+        0,
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "delta-first-max",
+      "fn": "dp_bytes_delta",
+      "args": [
+        200,
+        "UINT64_MAX",
+        0
+      ],
+      "expect": "UINT64_MAX"
+    },
+    {
+      "id": "delta-parent-reset",
+      "fn": "dp_bytes_delta",
+      "args": [
+        200,
+        30,
+        1
+      ],
+      "expect": 30
+    },
+    {
+      "id": "delta-reset-zero",
+      "fn": "dp_bytes_delta",
+      "args": [
+        200,
+        0,
+        1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "delta-reset-from-max",
+      "fn": "dp_bytes_delta",
+      "args": [
+        "UINT64_MAX",
+        30,
+        1
+      ],
+      "expect": 30
+    },
+    {
+      "id": "delta-last-byte",
+      "fn": "dp_bytes_delta",
+      "args": [
+        "UINT64_MAX - 1",
+        "UINT64_MAX",
+        1
+      ],
+      "expect": 1
+    },
+    {
+      "id": "delta-negative-presence",
+      "fn": "dp_bytes_delta",
+      "args": [
+        200,
+        123,
+        -1
+      ],
+      "expect": 0
+    },
+    {
+      "id": "threshold-zero-percent",
+      "fn": "dp_budget_threshold",
+      "args": [
+        "UINT64_MAX",
+        0
+      ],
+      "expect": 0
+    },
+    {
+      "id": "threshold-one-percent-small",
+      "fn": "dp_budget_threshold",
+      "args": [
+        1,
+        1
+      ],
+      "expect": 1
+    },
+    {
+      "id": "threshold-small-ceil",
+      "fn": "dp_budget_threshold",
+      "args": [
+        3,
+        70
+      ],
+      "expect": 3
+    },
+    {
+      "id": "threshold-disabled",
+      "fn": "dp_budget_threshold",
+      "args": [
+        0,
+        85
+      ],
+      "expect": 0
+    }
+  ],
+  "typedPredicates": [
+    {
+      "fn": "sequence_valid",
+      "args": [
+        -2147483648
+      ],
+      "expect": false
+    },
+    {
+      "fn": "sequence_valid",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "sequence_valid",
+      "args": [
+        0
+      ],
+      "expect": false
+    },
+    {
+      "fn": "sequence_valid",
+      "args": [
+        1
+      ],
+      "expect": true
+    },
+    {
+      "fn": "sequence_valid",
+      "args": [
+        2147483647
+      ],
+      "expect": true
+    },
+    {
+      "fn": "sequence_valid",
+      "args": [
+        2147483648
+      ],
+      "expect": false
+    },
+    {
+      "fn": "sequence_valid",
+      "args": [
+        9223372036854775807
+      ],
+      "expect": false
+    },
+    {
+      "fn": "rate_valid",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "rate_valid",
+      "args": [
+        0
+      ],
+      "expect": false
+    },
+    {
+      "fn": "rate_valid",
+      "args": [
+        499
+      ],
+      "expect": false
+    },
+    {
+      "fn": "rate_valid",
+      "args": [
+        500
+      ],
+      "expect": true
+    },
+    {
+      "fn": "rate_valid",
+      "args": [
+        200000
+      ],
+      "expect": true
+    },
+    {
+      "fn": "rate_valid",
+      "args": [
+        200001
+      ],
+      "expect": false
+    },
+    {
+      "fn": "rate_valid",
+      "args": [
+        2147483647
+      ],
+      "expect": false
+    },
+    {
+      "fn": "boolean_valid",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "boolean_valid",
+      "args": [
+        0
+      ],
+      "expect": true
+    },
+    {
+      "fn": "boolean_valid",
+      "args": [
+        1
+      ],
+      "expect": true
+    },
+    {
+      "fn": "boolean_valid",
+      "args": [
+        2
+      ],
+      "expect": false
+    },
+    {
+      "fn": "boolean_valid",
+      "args": [
+        255
+      ],
+      "expect": false
+    },
+    {
+      "fn": "version_supported",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "version_supported",
+      "args": [
+        0
+      ],
+      "expect": false
+    },
+    {
+      "fn": "version_supported",
+      "args": [
+        1
+      ],
+      "expect": true
+    },
+    {
+      "fn": "version_supported",
+      "args": [
+        2
+      ],
+      "expect": false
+    },
+    {
+      "fn": "version_supported",
+      "args": [
+        2147483647
+      ],
+      "expect": false
+    },
+    {
+      "fn": "workspace_valid",
+      "args": [
+        640,
+        360,
+        1
+      ],
+      "expect": true
+    },
+    {
+      "fn": "workspace_valid",
+      "args": [
+        7680,
+        4320,
+        2
+      ],
+      "expect": true
+    },
+    {
+      "fn": "workspace_valid",
+      "args": [
+        641,
+        360,
+        1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "workspace_valid",
+      "args": [
+        640,
+        359,
+        1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "workspace_valid",
+      "args": [
+        7684,
+        4320,
+        2
+      ],
+      "expect": false
+    },
+    {
+      "fn": "workspace_valid",
+      "args": [
+        640,
+        360,
+        0
+      ],
+      "expect": false
+    },
+    {
+      "fn": "workspace_valid",
+      "args": [
+        640,
+        360,
+        3
+      ],
+      "expect": false
+    },
+    {
+      "fn": "workspace_valid",
+      "args": [
+        9223372036854775807,
+        360,
+        1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        0
+      ],
+      "expect": false
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        3
+      ],
+      "expect": false
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        4
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        40
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        74
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        80
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        100
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        101
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        102
+      ],
+      "expect": false
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        135
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        136
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        137
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        138
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        139
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        140
+      ],
+      "expect": false
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        224
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        228
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        231
+      ],
+      "expect": true
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        232
+      ],
+      "expect": false
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        256
+      ],
+      "expect": false
+    },
+    {
+      "fn": "hid_key_valid",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        0
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        7
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        8
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        9
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        14
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        15
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        48
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        65
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        94
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        95
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        96
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        112
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        135
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        136
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        145
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        151
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        159
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        160
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        161
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        164
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        165
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        186
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        219
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        226
+      ],
+      "expect": true
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        232
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        255
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        256
+      ],
+      "expect": false
+    },
+    {
+      "fn": "virtual_key_valid",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "modifiers_valid",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "modifiers_valid",
+      "args": [
+        0
+      ],
+      "expect": true
+    },
+    {
+      "fn": "modifiers_valid",
+      "args": [
+        255
+      ],
+      "expect": true
+    },
+    {
+      "fn": "modifiers_valid",
+      "args": [
+        256
+      ],
+      "expect": false
+    },
+    {
+      "fn": "button_valid",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "button_valid",
+      "args": [
+        0
+      ],
+      "expect": false
+    },
+    {
+      "fn": "button_valid",
+      "args": [
+        1
+      ],
+      "expect": true
+    },
+    {
+      "fn": "button_valid",
+      "args": [
+        2
+      ],
+      "expect": true
+    },
+    {
+      "fn": "button_valid",
+      "args": [
+        3
+      ],
+      "expect": true
+    },
+    {
+      "fn": "button_valid",
+      "args": [
+        4
+      ],
+      "expect": true
+    },
+    {
+      "fn": "button_valid",
+      "args": [
+        5
+      ],
+      "expect": true
+    },
+    {
+      "fn": "button_valid",
+      "args": [
+        6
+      ],
+      "expect": false
+    },
+    {
+      "fn": "input_kind_valid",
+      "args": [
+        -1
+      ],
+      "expect": false
+    },
+    {
+      "fn": "input_kind_valid",
+      "args": [
+        0
+      ],
+      "expect": false
+    },
+    {
+      "fn": "input_kind_valid",
+      "args": [
+        1
+      ],
+      "expect": true
+    },
+    {
+      "fn": "input_kind_valid",
+      "args": [
+        7
+      ],
+      "expect": true
+    },
+    {
+      "fn": "input_kind_valid",
+      "args": [
+        8
+      ],
+      "expect": false
+    }
+  ],
+  "displayResults": [
+    {
+      "id": "matching",
+      "pending": 1,
+      "sequence": 1,
+      "requested": [
+        1920,
+        1200,
+        1
+      ],
+      "width": 1920,
+      "height": 1200,
+      "error": 0,
+      "expect": true
+    },
+    {
+      "id": "stale",
+      "pending": 2,
+      "sequence": 1,
+      "requested": [
+        1920,
+        1200,
+        1
+      ],
+      "width": 1920,
+      "height": 1200,
+      "error": 0,
+      "expect": false
+    },
+    {
+      "id": "unsolicited",
+      "pending": 0,
+      "sequence": 0,
+      "requested": [
+        1920,
+        1200,
+        1
+      ],
+      "width": 1920,
+      "height": 1200,
+      "error": 0,
+      "expect": false
+    },
+    {
+      "id": "invalid-size",
+      "pending": 1,
+      "sequence": 1,
+      "requested": [
+        641,
+        1200,
+        1
+      ],
+      "width": 641,
+      "height": 1200,
+      "error": 0,
+      "expect": false
+    },
+    {
+      "id": "changed-size",
+      "pending": 1,
+      "sequence": 1,
+      "requested": [
+        1920,
+        1200,
+        1
+      ],
+      "width": 1920,
+      "height": 1080,
+      "error": 0,
+      "expect": false
+    },
+    {
+      "id": "error",
+      "pending": 1,
+      "sequence": 1,
+      "requested": [
+        1920,
+        1200,
+        1
+      ],
+      "width": 1920,
+      "height": 1200,
+      "error": 1,
+      "expect": false
+    },
+    {
+      "id": "missing-dimensions",
+      "pending": 1,
+      "sequence": 1,
+      "requested": [
+        1920,
+        1200,
+        1
+      ],
+      "width": 0,
+      "height": 0,
+      "error": 0,
+      "expect": false
+    },
+    {
+      "id": "missing-sequence",
+      "pending": 1,
+      "sequence": 0,
+      "requested": [
+        1920,
+        1200,
+        1
+      ],
+      "width": 1920,
+      "height": 1200,
+      "error": 0,
+      "expect": false
+    }
+  ]
+}

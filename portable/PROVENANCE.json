@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "license": "MIT",
+  "authorship": "Original public contract, dependency-free arithmetic, boundary fixtures and product translations authored for this portable module. No native controller or transport implementation copied.",
+  "date": "2026-11-18",
+  "baselineCore": "ad1a62dd48739357e6412f70093d6264a59b4fa0",
+  "localSources": [
+    {
+      "path": "portable/LICENSE",
+      "sha256": "d6dfbc3a49569b957ff745b8dbe25e9d41d88b053110e56c0022c2467615cd08",
+      "use": "MIT public implementation composition"
+    },
+    {
+      "path": "portable/catalog.json",
+      "sha256": "f8e8c500ea36be5b7466660c2a0ec2509877085a9f279e7471723fd9b55ec6dd",
+      "use": "MIT public implementation composition"
+    },
+    {
+      "path": "portable/include/deskport/view_size.h",
+      "sha256": "6f9b8ee1dccde22498ae507c9d33b54a802c268e0426440f441e80d942675a8c",
+      "use": "MIT public implementation composition"
+    },
+    {
+      "path": "portable/include/deskport/tuning.h",
+      "sha256": "2b94f1b0b1288392c64e7d6e05ff5822670ab858cd33c27470d3d6e430ca4852",
+      "use": "MIT public implementation composition"
+    },
+    {
+      "path": "portable/cases.json",
+      "sha256": "b0f16e496ccedd03b4f02817e9f88593d5ab6ca7ce52461c0a768e6aa4bbe2ca",
+      "use": "MIT public implementation composition"
+    },
+    {
+      "path": "portable/test_catalog.py",
+      "sha256": "a0cd0592d51d4a9faafd530daeec65b655a198f2830f12ebb4fec7172edc2fe7",
+      "use": "MIT public implementation composition"
+    },
+    {
+      "path": "portable/content/locales.json",
+      "sha256": "ffdd265cf5f238a945f80f7b151747f63496b48f55ee5dafd138c7deb5e3d095",
+      "use": "MIT public implementation composition"
+    },
+    {
+      "path": "protocol/SPEC.md",
+      "sha256": "61888094860d26de657705952e043b0a8ca6c58bf70d6fa7f2809df43e89be65",
+      "use": "Documented public wire facts only; no implementation copied"
+    },
+    {
+      "path": "protocol/SESSION_DISPLAY.md",
+      "sha256": "7998ef5f5ecf1dd2aa1c9c5da5cbde1c0f2a1ad65570f35a132876c6963adbc1",
+      "use": "Documented public wire facts only; no implementation copied"
+    },
+    {
+      "path": "protocol/SESSION_TAKEOVER.md",
+      "sha256": "bfa73e658e12e9ccf1bfd4fb73f0a300ca83d6d13acca294aeaf6c1cb39b7368",
+      "use": "Documented public wire facts only; no implementation copied"
+    },
+    {
+      "path": "protocol/SESSION_LIFECYCLE.md",
+      "sha256": "5b1dad011210e6bdea16cf26bf6fb5e653ba24f24e9f716622747da877053fdd",
+      "use": "Documented public wire facts only; no implementation copied"
+    },
+    {
+      "path": "protocol/VIDEO_PAUSE.md",
+      "sha256": "437ddafe729590dd0ab176069c59bb57f67007e129d7fdf0eaab2498c121fe42",
+      "use": "Documented public wire facts only; no implementation copied"
+    },
+    {
+      "path": "protocol/VIDEO_RATE.md",
+      "sha256": "cb8330f8bab95c481b1d598d2aed58e32468eba9e68c260d4452addb37a3f0a7",
+      "use": "Documented public wire facts only; no implementation copied"
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://www.usb.org/sites/default/files/hut1_3_0.pdf",
+      "title": "USB-IF HID Usage Tables 1.3",
+      "accessed": "2026-11-18",
+      "use": "Keyboard usage page 0x07, selected physical usage IDs, modifier ordering; factual identifiers only."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes",
+      "title": "Microsoft Win32 Virtual-Key Codes",
+      "accessed": "2026-11-18",
+      "use": "Selected WinVK numeric values and unsupported/reserved byte exclusions; factual identifiers only."
+    }
+  ],
+  "productArithmetic": "Original arithmetic from public product requirements: 15000 kbps at 2560x1440/60, finite positive fps capped at 120 before scaling, 4:4:4 multiplier 2, automatic 5000..80000, saver quarter 3000..12000, daily thresholds 70/85/100. Integral results truncate; counters saturate. First cumulative byte sample counts current; counter reset counts current.",
+  "content": {
+    "newKeys": 24,
+    "reusedKeys": 16,
+    "locales": 22,
+    "method": "Machine translations authored directly from original English public product text. Existing portable entries reused without alteration.",
+    "nativeSpeakerReview": "pending for all new non-English values",
+    "legacyTranslationsConsulted": false
+  },
+  "scope": "Only public portable contracts, arithmetic and content; native adapters retain authentication, TLS, threads, timers, ownership and lifecycle.",
+  "compatibility": "Existing generated DPCatalog, view_size.h, tuning.h, original fixtures and existing UI/guide values preserved.",
+  "compatibilityFollowup": {
+    "date": "2026-11-18",
+    "requirements": "Parent-provided product input/output facts only; independently implemented without consulting private or GPL implementation source.",
+    "facts": [
+      "dp_bytes_delta(0, 123, 0) = 123",
+      "dp_bytes_delta(200, 30, 1) = 30",
+      "dp_bitrate_automatic(2560, 1440, 240, 0) = 30000; automatic fps capped at 120"
+    ],
+    "parentReviewSha256": "0e74f8a46b117eae01743973d91337af554efbde51220d9e52b5e806ff7beaad",
+    "unchanged": "Existing API signatures and constant values; invalid inputs, truncation, clamps, saver/manual/live-rate selection, workspace policy and original content values."
+  }
+}

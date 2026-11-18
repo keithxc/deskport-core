@@ -37,3 +37,28 @@ The English interface text is the lookup key. The locale registry orders the
 available languages, and the guide keeps its chapters and steps in reading order.
 Translators can update one language while preserving placeholders, key names,
 and the meaning of connection and permission prompts.
+
+## Additive consumer contracts
+
+See [API.md](API.md) for the MIT workspace value, session field validators,
+stream bitrate/budget arithmetic and compact input vocabulary. Workspace wrappers
+compose the existing view-size and tuning functions. Encoded dimensions carry
+their scale as metadata; only a logical viewport is converted to backing pixels.
+The native adapter retains TLS, parsing, ownership, timers, threads and lifecycle.
+
+`catalog.json` also generates `include/deskport/contracts.h` and
+`java/com/deskport/core/DPContracts.java`. Existing `DPCatalog` APIs and output
+remain unchanged. Java supplies vocabulary and typed field predicates; native
+workspace and stream arithmetic do not require a Java port.
+
+Run `python3 portable/test_expansion.py --java` for standalone C11/C++11,
+Objective-C (on macOS), Java and content fixtures. Use `--work <directory>` to
+choose the temporary-output parent and `--json <file>` for a result record.
+The test compiles against an isolated copy of the portable headers only.
+
+`content/apple-keys.json` maps 40 product terms to 24 new and 16 existing keys.
+New consumers must use its `tuningGuidanceKey`: higher tuning values enlarge
+remote controls; lower values provide more desktop space. The previous table
+values are preserved for compatibility. New non-English values are machine
+translations awaiting native-speaker review. [PROVENANCE.json](PROVENANCE.json)
+records original authorship and official factual input sources.
