@@ -40,3 +40,13 @@ contains generated C/Java definitions for ports, tuning and display policy. The
 existing workspace implementation and protocol headers remain GPL-3.0-or-later.
 Consumers planning proprietary distribution must use only appropriately licensed
 components; the catalog does not change the licenses of their other dependencies.
+
+## Test output paths
+
+The direct Python test entry points select checked temporary and compiler-cache
+paths through the shared mygit resolver when it is installed. On mm4 the
+verified external build volume is required. Elsewhere the existing host and CI
+temporary storage remains usable, including with older shared resolvers. Raw
+CMake, compiler and GUI invocations bypass this guard and require explicit output
+paths and disk verification. Generated tracked source remains in its maintained
+source location.
