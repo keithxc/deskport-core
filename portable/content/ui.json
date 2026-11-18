@@ -5278,5 +5278,29 @@
     "uk": "DeskPort підключається до підтримуваних вказівних пристроїв Bluetooth.",
     "hi": "DeskPort समर्थित Bluetooth पॉइंटिंग डिवाइस से जुड़ता है।",
     "ms": "DeskPort menyambung kepada peranti penuding Bluetooth yang disokong."
+  },
+  "Direct touch": {
+    "en": "Direct touch",
+    "zh-Hans": "直接触控",
+    "zh-Hant": "直接觸控",
+    "ja": "ダイレクトタッチ",
+    "fr": "Toucher direct",
+    "de": "Direkte Touch-Eingabe",
+    "ar": "اللمس المباشر",
+    "ko": "직접 터치",
+    "pt": "Toque direto",
+    "es": "Toque directo",
+    "bo": "ཐད་ཀར་རེག་པ།",
+    "it": "Tocco diretto",
+    "ru": "Прямое касание",
+    "id": "Sentuhan langsung",
+    "tr": "Doğrudan dokunma",
+    "vi": "Chạm trực tiếp",
+    "th": "สัมผัสโดยตรง",
+    "nl": "Directe aanraking",
+    "pl": "Dotyk bezpośredni",
+    "uk": "Прямий дотик",
+    "hi": "प्रत्यक्ष स्पर्श",
+    "ms": "Sentuhan langsung"
   }
 }

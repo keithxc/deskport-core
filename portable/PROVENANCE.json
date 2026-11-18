@@ -87,7 +87,7 @@
   ],
   "productArithmetic": "Original arithmetic from public product requirements: 15000 kbps at 2560x1440/60, finite positive fps capped at 120 before scaling, 4:4:4 multiplier 2, automatic 5000..80000, saver quarter 3000..12000, daily thresholds 70/85/100. Integral results truncate; counters saturate. First cumulative byte sample counts current; counter reset counts current.",
   "content": {
-    "newKeys": 26,
+    "newKeys": 27,
     "reusedKeys": 16,
     "locales": 22,
     "method": "Machine translations authored directly from original English public product text. Existing portable entries reused without alteration.",
