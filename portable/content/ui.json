@@ -5302,5 +5302,29 @@
     "uk": "Прямий дотик",
     "hi": "प्रत्यक्ष स्पर्श",
     "ms": "Sentuhan langsung"
+  },
+  "Tap for keyboard · Hold for settings": {
+    "en": "Tap for keyboard · Hold for settings",
+    "zh-Hans": "轻点打开键盘 · 长按打开设置",
+    "zh-Hant": "輕點開啟鍵盤 · 長按開啟設定",
+    "ja": "タップでキーボード · 長押しで設定",
+    "fr": "Touchez pour le clavier · Appui long pour les paramètres",
+    "de": "Tippen für Tastatur · Gedrückt halten für Einstellungen",
+    "ar": "انقر للوحة المفاتيح · اضغط مطولًا للإعدادات",
+    "ko": "탭하여 키보드 · 길게 눌러 설정",
+    "pt": "Toque para o teclado · Segure para as configurações",
+    "es": "Toca para el teclado · Mantén pulsado para la configuración",
+    "bo": "རེག་ན་མཐེབ་གཞོང་། ཡུན་རིང་མནན་ན་སྒྲིག་འགོད།",
+    "it": "Tocca per la tastiera · Tieni premuto per le impostazioni",
+    "ru": "Нажмите для клавиатуры · Удерживайте для настроек",
+    "id": "Ketuk untuk keyboard · Tahan untuk pengaturan",
+    "tr": "Klavye için dokunun · Ayarlar için basılı tutun",
+    "vi": "Chạm để mở bàn phím · Nhấn giữ để mở cài đặt",
+    "th": "แตะเพื่อเปิดคีย์บอร์ด · กดค้างเพื่อเปิดการตั้งค่า",
+    "nl": "Tik voor toetsenbord · Houd ingedrukt voor instellingen",
+    "pl": "Dotknij, aby otworzyć klawiaturę · Przytrzymaj, aby otworzyć ustawienia",
+    "uk": "Торкніться для клавіатури · Утримуйте для налаштувань",
+    "hi": "कीबोर्ड के लिए टैप करें · सेटिंग के लिए दबाकर रखें",
+    "ms": "Ketik untuk papan kekunci · Tekan lama untuk tetapan"
   }
 }

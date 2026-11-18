@@ -30,7 +30,8 @@
     "The client credentials could not be opened.",
     "DeskPort finds and connects to computers you authorize on your local network.",
     "DeskPort connects supported Bluetooth pointing devices.",
-    "Direct touch"
+    "Direct touch",
+    "Tap for keyboard · Hold for settings"
   ],
   "reuse": {
     "Keyboard": "Keyboard",

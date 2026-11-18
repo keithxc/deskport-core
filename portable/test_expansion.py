@@ -56,7 +56,8 @@ def main():
         'bluetooth': 'DeskPort connects supported Bluetooth pointing devices.',
     }
     assert manifest['permissionKeys'] == permission_keys
-    assert len(manifest['newKeys']) == len(set(manifest['newKeys'])) == 27
+    assert len(manifest['newKeys']) == len(set(manifest['newKeys'])) == 28
+    assert 'Tap for keyboard · Hold for settings' in manifest['newKeys']
     assert len(manifest['reuse']) == 16
     assert set(permission_keys.values()) <= set(manifest['newKeys'])
     assert not (set(permission_keys.values()) & set(manifest['reuse'].values()))
@@ -175,7 +176,7 @@ def main():
               'acceptance': 'standalone portable contracts only'}
     if args.json:
         args.json.write_text(json.dumps(report, indent=2) + '\n')
-    print('PASS: portable expansion native boundary fixtures' + (' and Java' if args.java else '') + ', 43 product keys / 22 locales; local namespace and legacy aliases')
+    print('PASS: portable expansion native boundary fixtures' + (' and Java' if args.java else '') + ', 44 product keys / 22 locales; local namespace and legacy aliases')
 
 
 if __name__ == '__main__':

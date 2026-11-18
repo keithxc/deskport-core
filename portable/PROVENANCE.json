@@ -87,7 +87,7 @@
   ],
   "productArithmetic": "Original arithmetic from public product requirements: 15000 kbps at 2560x1440/60, finite positive fps capped at 120 before scaling, 4:4:4 multiplier 2, automatic 5000..80000, saver quarter 3000..12000, daily thresholds 70/85/100. Integral results truncate; counters saturate. First cumulative byte sample counts current; counter reset counts current.",
   "content": {
-    "newKeys": 27,
+    "newKeys": 28,
     "reusedKeys": 16,
     "locales": 22,
     "method": "Machine translations authored directly from original English public product text. Existing portable entries reused without alteration.",
@@ -186,5 +186,31 @@
     "licenseBoundary": "Only these new portable APIs and tests are MIT under portable/LICENSE. Root GPL license and all pre-existing GPL/third-party rights remain unchanged.",
     "fixtureFile": "portable/fixtures/workspace-compat.json",
     "fixtureSha256": "af74f6d451b91eed95a797f105514b889bc5c7d8071bf4cd55407e3c44416ad9"
+  },
+  "interactionGuideFollowup": {
+    "date": "2026-11-19",
+    "baselineCore": "77705ff80aea6ac3b15287508a3ea6322d3da87f",
+    "scope": "One additive keyboard control hint and four iPhone/iPad-scoped guide steps; no runtime contract, wire protocol, numeric policy or other platform capability changes.",
+    "requirements": "Original public product requirements: tap the floating control to toggle the keyboard; hold it to open Settings with Disconnect; choose Keyboard in Settings to reach keyboard and clipboard choices; local viewing zoom reaches 10x and pans with three fingers.",
+    "method": "Independently authored English product text and 21 translated values per entry. Existing public product vocabulary reused; no legacy implementation or translation catalog consulted.",
+    "nativeSpeakerReview": "All new non-English wording remains pending native-speaker review.",
+    "files": [
+      {
+        "path": "portable/content/apple-keys.json",
+        "beforeSha256": "e1fdb33d0795b9a682cb38ffef1f67fc853c5d847ce41b385806111fec609980",
+        "afterSha256": "349fca6e3a08577ac636f96668bf6105f1f8c1cda83769a0ba84641e6fa16cda"
+      },
+      {
+        "path": "portable/content/ui.json",
+        "beforeSha256": "0386c8ea5c3752c65b9cdac6605b6187804ac448a9ff4b9458b3eb1a937cd16b",
+        "afterSha256": "0f3ae03c532ff64dce2d475e65cf77156fcfd0e49402b559a57d5c23d5238120"
+      },
+      {
+        "path": "portable/content/guide.json",
+        "beforeSha256": "dba9db9aa085f81a0cb1af56717c5f32cebf6234002c428dfa1ed16a1e71274a",
+        "afterSha256": "4e84ab29c72d1fffad9e615dd642e240978820ec653c10270e8c35cb97ce96a7"
+      }
+    ],
+    "compatibility": "All pre-existing UI keys and values, the reuse map, locale registry and unrelated guide steps preserved. The four explicitly listed guide steps supersede their prior wording."
   }
 }
