@@ -59,5 +59,14 @@
   "permissionKeys": {
     "localNetwork": "DeskPort finds and connects to computers you authorize on your local network.",
     "bluetooth": "DeskPort connects supported Bluetooth pointing devices."
+  },
+  "localeOverrides": {
+    "zh-Hant": {
+      "Main + mirror": "主螢幕 + 鏡像",
+      "Main only": "僅主螢幕",
+      "Extended": "延伸螢幕",
+      "Use the primary screen and mirror the others (default)": "設為主螢幕，其他螢幕鏡像（預設）",
+      "Primary screen and turn off others": "設為主螢幕，關閉其他螢幕"
+    }
   }
 }
