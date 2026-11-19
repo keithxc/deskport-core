@@ -66,7 +66,13 @@
       "Main only": "僅主螢幕",
       "Extended": "延伸螢幕",
       "Use the primary screen and mirror the others (default)": "設為主螢幕，其他螢幕鏡像（預設）",
-      "Primary screen and turn off others": "設為主螢幕，關閉其他螢幕"
+      "Primary screen and turn off others": "設為主螢幕，關閉其他螢幕",
+      "Data saver is on. The video uses fewer bits at the current resolution.": "已開啟省流：維持解析度，降低影片位元率。",
+      "Data saver is off. The session is using its normal video bitrate.": "已關閉省流：恢復正常影片位元率。"
+    },
+    "zh-Hans": {
+      "Data saver is on. The video uses fewer bits at the current resolution.": "已开启省流：保持分辨率，降低视频码率。",
+      "Data saver is off. The session is using its normal video bitrate.": "已关闭省流：恢复正常视频码率。"
     }
   }
 }
