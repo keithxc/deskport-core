@@ -125,6 +125,22 @@ with address/undefined/float-cast-overflow sanitizers. Its standalone fixtures
 record only public input/output facts; no legacy implementation is included.
 These APIs do not establish a completed native integration or migration.
 
+## Desktop compatibility arithmetic
+
+Use `desktop_workspace.h` for the existing desktop path from drawable pixels
+through optional saver scaling, tuning and the host floor. It preserves the
+`960 × 540` initial minimum per unit of backing scale, the original binary
+floating-point rounding at each stage and the relative-size/aspect score for
+advertised modes. The mode list represents scale-one physical modes. Pass
+already validated wire data when adapting a peer's mode advertisement.
+
+`desktop_stream.h` provides the desktop automatic and saver ceilings. Automatic
+bitrate truncates to whole kbps before applying the 4:4:4 multiplier. Saver uses
+the reference rate at 8 fps, with bounds of 500–4000 kbps. Preference defaults,
+saved manual limits, cadence changes, and the reconnect decision belong to the
+desktop adapter. The logical viewport and stream-budget entry points above and
+below remain available to independent consumers.
+
 ## Data vocabulary and parsed-field validation
 
 `catalog.json` generates `contracts.h` and `DPContracts.java`. Existing display

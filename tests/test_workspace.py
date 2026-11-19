@@ -28,6 +28,8 @@ def main():
     cases = json.loads((ROOT / 'fixtures/workspace.json').read_text())
     adapter = 'apple' if args.apple_header else 'qt' if args.qt_header else 'core'
     header = args.apple_header or args.qt_header or ROOT / 'include/deskport/workspace.h'
+    host_floor = 'dp_desktop_workspace_for_host' if adapter == 'qt' else 'dp_workspace_for_host'
+    saver = 'dp_desktop_workspace_for_saver' if adapter == 'qt' else 'dp_workspace_for_saver'
     lines = [f'#include "{header.resolve()}"', '#include <stdio.h>', 'int main(void) {']
     for case in cases:
         def literal(value):
@@ -103,9 +105,10 @@ def main():
                           ((640,360,1),(1068,600,1)),((0,0,0),(0,0,0)),
                           ((640,4320,2),(0,0,0))]:
         checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
-        lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_host(b); if (!({checks})) return 5; }}')
-        for alias in ('dp_workspace_for_macos','dp_workspace_for_windows'):
-            lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s={alias}(b); if (!({checks})) return 6; }}')
+        lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s={host_floor}(b); if (!({checks})) return 5; }}')
+        if adapter != 'qt':
+            for alias in ('dp_workspace_for_macos','dp_workspace_for_windows'):
+                lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s={alias}(b); if (!({checks})) return 6; }}')
     # Data saver: the same logical desktop at 1x, within protocol minimums.
     if adapter != 'apple':
         for base,expected in [((4080,2456,2),(2040,1228,1)),((2560,1440,1),(2560,1440,1)),
@@ -113,7 +116,7 @@ def main():
                               ((1000,720,2),(640,464,1)),((640,360,2),(640,360,1)),
                               ((0,0,0),(0,0,0)),((1920,1080,3),(0,0,0))]:
             checks=' && '.join(f's.{key}=={val}' for key,val in zip(('width','height','scale'),expected))
-            lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s=dp_workspace_for_saver(b); if (!({checks})) return 11; }}')
+            lines.append(f'{{ DPWorkspace b={{{",".join(map(str,base))}}}; DPWorkspace s={saver}(b); if (!({checks})) return 11; }}')
     if adapter == 'qt':
         lines.append('{ const auto s=DeskPortDisplay::forDataSaver({QSize(4080,2456),2}); if(s.pixels!=QSize(2040,1228)||s.scale!=1) return 12; }')
         lines.append('{ const auto s=DeskPortDisplay::adjusted(DeskPortDisplay::forDataSaver({QSize(1920,1080),2}),1.0); if(s.pixels!=QSize(1068,600)||s.scale!=1) return 13; }')
