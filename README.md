@@ -1,18 +1,25 @@
 # DeskPort Core
 
-Small, platform-independent contracts and workspace policy shared by DeskPort's
-desktop and native clients. Legacy modules are GPL-3.0-or-later; the standalone
-`portable/` catalog is MIT. See LICENSE, portable/LICENSE and NOTICE.md.
+Small, platform-independent contracts and workspace policy shared by
+[DeskPort](https://github.com/keithxc/deskport) clients. Legacy modules are
+GPL-3.0-or-later; the standalone `portable/` module is MIT. See LICENSE,
+portable/LICENSE and NOTICE.md.
+
+[DeskPort Desktop 2.9.0](https://github.com/keithxc/deskport/releases/tag/v2.9.0)
+uses the portable workspace and stream arithmetic and reply validators in its
+desktop adapter. The release notes link to the exact core commit in the
+provenance record. For package selection and supported device pairing, see the
+[DeskPort installation guide](https://github.com/keithxc/deskport#install).
 
 `i18n/` owns the English-keyed UI translation table, platform usage, locale
 registry and offline manual text. Native UI adapters generate their resources
 from this table; wire identifiers never pass through localization. See
 [the localization contract](i18n/README.md).
 
-The initial implementation is header-only C11, also consumable by C++ and
-Objective-C. Keeping this small arithmetic policy inline avoids adding a library
-link step to pinned upstream projects. There is one implementation, not generated
-copies. A compiled library can be introduced when there is enough code to need it.
+The legacy workspace and protocol headers use header-only C11, also consumable
+by C++ and Objective-C. The portable module includes
+[header-only policy and typed contracts](portable/API.md) and generated C and
+Java catalog definitions.
 
 - `include/deskport/workspace.h`: drawable-pixel workspace proposal and validation.
 - `include/deskport/protocol.h`: existing control-message names.
